@@ -3,6 +3,11 @@ module.exports = {
   content: ["./dist/*.{php,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        'allura': ['Allura', 'cursive'],
+        'molle': ['Molle', 'cursive'],
+        'sacramento': ['Sacramento', 'cursive']
+      },
       screens: {
         '3xl': '1920px',
         '3k': '2130px',
@@ -13,8 +18,8 @@ module.exports = {
         'dark-bluer': '#010488',
       },
       backgroundImage: {
-        'home-small': "linear-gradient(rgba(2, 5, 161, 0.9), rgba(2, 5, 161, 0.9)), url('images/bgsmall.jpg')",
-        'home-large': "linear-gradient(rgba(2, 5, 161, 0.9), rgba(2, 5, 161, 0.9)), url('images/bglarge.jpg')",
+        'home-small': "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('images/bgsmall.jpg')",
+        'home-large': "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('images/bglarge.jpg')",
       },
       animation: {
         'zoom-in': 'zoom .8s ease-in',
@@ -75,6 +80,11 @@ module.exports = {
     maxWidth: {
       'max-w-8xl': '1320px',
     },
+  },
+  fontSize: {
+    '10xl': ['10rem', {
+        lineHeight: '1',
+      }],
   },
   variants: {
     color: ['hover', 'active'],
