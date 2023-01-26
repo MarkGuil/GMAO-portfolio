@@ -34,7 +34,7 @@
 </head>
 
 <body class="m-0 p-0">
-    <nav class="navbar fixed w-full py-5 px-7 z-50 transition-all duration-500 3k:flex 3k:justify-center 3k:items-center ">
+    <nav class="navbar fixed w-full py-5 px-7 z-50 transition-all duration-500 3k:flex justify-center items-center ">
         <div class="grid grid-cols-2 lg:grid-cols-3 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
             <a class="col" href="#">
                 <span class=" tracking-widest text-3xl md:text-4xl text-zinc-600 font-molle font-black">GMAO</span>
@@ -109,19 +109,31 @@
 
     </nav>
 
-    <section id="s1" class="sect s1 relative h-fit lg:h-screen 3k:h-fit bg-cover bg-home-small md:bg-home-large text-zinc-900 pb-24 md:pb-0 lg:pb-0">
+    <section id="s1" class="sect s1 relative h-fit lg:h-screen 3k:h-fit bg-cover bg-home-small md:bg-home-large text-zinc-900 pb-24 md:pb-0 lg:pb-0 3k:flex justify-center items-center">
 
-        <div class="lg:grid flex justify-center items-center grid-cols-10 gap-8 h-full py-5 3k:py-60 4k:py-40 px-7 3k:px-5 pt-24 lg:pt-0 pb-0 md:pb-24 lg:pb-0 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="lg:grid grid-cols-8 gap-8 h-full py-5 3k:py-60 4k:py-40 px-7 3k:px-5 pt-24 lg:pt-32 pb-0 md:pb-24 lg:pb-0 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="col-start-1 col-span-8 lg:col-start-3 lg:col-span-6 flex justify-center items-center">
+            <div class="col-start-1 col-span-8 md:col-start-3 md:col-span-4 lg:col-start-3 lg:col-span-4">
                 <div class="animate-zoom-in text-zinc-400 text-center">
                     <h1 class="text-2xl lg:text-3xl font-semibold md:font-semibold">Hi there! I'm</h1>
-                    <div class="relative mt-2 lg:mt-9">
+                    <div class="relative mt-2 lg:mt-16">
                         <!-- <h1 class="text-3xl md:text-4xl lg:text-9xl font-extrabold text-zinc-900 font-allura z-10 ">Mark Arjay Guilang</h1> -->
                         <!-- <h1 class="absolute top-0 text-3xl md:text-4xl lg:text-9xl font-black text-white font-allura z-10 ">Mark Arjay Guilang</h1> -->
-                        <h1 class="text-5xl md:text-7xl lg:text-9xl text-zinc-800 font-allura z-0 without-fill ">Mark Arjay Guilang</h1>
+                        <svg class="block w-full stroke-zinc-800 stroke-2 fill-transparent animate-stroke-dashoffset" height="270">
+                            <text x="60" y="80" class="text-5xl md:text-7xl lg:text-9xl font-allura">Mark Arjay</text>
+                            <text x="160" y="210" class="text-5xl md:text-7xl lg:text-9xl font-allura">Guilang</text>
+                        </svg>
+                        <!-- <svg id="svg-name" class="border-2" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="5" y="50" class="text-3xl md:text-3xl lg:text-4xl font-allura">Mark Arjay Guilang</text>
+                            <foreignObject x="20" y="0" width="160" height="80">
+                                <div class="text-lg lg:text-2xl 3k:text-4xl font-normal text-zinc-800 font-allura " xmlns="http://www.w3.org/1999/xhtml">
+                                    Mark Arjay Guilang
+                                </div>
+                            </foreignObject>
+                        </svg> -->
+                        <!-- <h1 id="svg-name" class="text-5xl md:text-7xl lg:text-9xl text-zinc-800 font-allura z-0 ">Mark Arjay Guilang</h1> -->
                     </div>
-                    <h2 class="text-lg lg:text-2xl 3k:text-3xl font-normal mt-5 md:mt-9 lg:mt-9">a Full Stack Web Developer</h2>
+                    <h2 class="text-lg lg:text-2xl 3k:text-3xl font-normal mt-5 md:mt-8 lg:mt-8">a Full Stack Web Developer</h2>
                     <div class="text-lg-start mt-14 mb-10 md:inline-flex">
                         <div class="md:mr-2">
                             <a href="apps/Omnibus.zip" download="filename" class="relative btn-get-started scrollto pb-2 px-12 pt-7 bg-emerald-400 rounded-full ">

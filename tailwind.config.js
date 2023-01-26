@@ -28,6 +28,7 @@ module.exports = {
         'wave1': 'wave1 10s linear -2s infinite',
         'wave2': 'wave2 8s linear -2s infinite',
         'wave3': 'wave2 6s linear -2s infinite',
+        'stroke-dashoffset': 'strokeDashoffset 1.8s ease-out, fill 1.8s',
       },
       keyframes: {
         zoom: {
@@ -75,6 +76,16 @@ module.exports = {
             transform: 'translate(85px, 0%)'
           },
         },
+        strokeDashoffset: {
+          '0%': {
+            'stroke-dasharray': '850',
+            'stroke-dashoffset': '-850'
+          },
+          '100%': {
+            'stroke-dasharray': '850',
+            'stroke-dashoffset': '0'
+          },
+        }
       },
     },
     maxWidth: {
@@ -82,7 +93,7 @@ module.exports = {
     },
   },
   fontSize: {
-    '10xl': ['10rem', {
+    '10xl': '10rem'['10rem', {
         lineHeight: '1',
       }],
   },

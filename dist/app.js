@@ -7,7 +7,6 @@ const mobileNav = document.getElementById("nav-menu");
 const hamburger = document.getElementById("hamburger");
 
 window.onscroll = function(){
-    console.log(window.pageYOffset);
     if(window.pageYOffset <= 70){
         navbar.classList.add("bg-transparent");
         navbar.classList.add("py-5");
@@ -62,7 +61,7 @@ function activatelink(linkPos) {
             linkName.classList.add("text-zinc-600");
             linkName.classList.add("before:visible");
             linkName.classList.add("before:w-6");
-            linkName.classList.remove("text-slate-400");
+            linkName.classList.remove("text-zinc-400");
             linkName.classList.remove("before:invisible");
             linkName.classList.remove("before:w-0")
         }
