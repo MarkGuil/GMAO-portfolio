@@ -3,6 +3,13 @@ module.exports = {
   content: ["./dist/*.{php,js}"],
   theme: {
     extend: {
+      spacing: {
+        '85': '21rem',
+      },
+      scale: {
+        '115': '1.15',
+        '120': '1.20',
+      },
       fontFamily: {
         'allura': ['Allura', 'cursive'],
         'molle': ['Molle', 'cursive'],
@@ -18,8 +25,8 @@ module.exports = {
         'dark-bluer': '#010488',
       },
       backgroundImage: {
-        'home-small': "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('images/bgsmall.jpg')",
-        'home-large': "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('images/bglarge.jpg')",
+        'home-small': "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('images/bglarge/bgsmall.jpg')",
+        'home-large': "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('images/bglarge/bglarge.jpg')",
       },
       animation: {
         'zoom-in': 'zoom .8s ease-in',

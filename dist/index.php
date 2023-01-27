@@ -39,12 +39,12 @@
             <a class="col" href="#">
                 <span class=" tracking-widest text-3xl md:text-4xl text-zinc-600 font-molle font-black">GMAO</span>
             </a>
-            <div class="col text-zinc-900 text-right">
+            <div class="col text-zinc-600 text-right">
                 <button id="nav-btn" class="text-3xl cursor-pointer lg:hidden w-8 h-8">
-                    <div id="hamburger" class="bg-zinc-900 rounded absolute w-8 h-1 top-10 -mt-0.5 transition-all duration-500
-                            before:content-[''] before:bg-zinc-900 before:rounded before:absolute before:w-8 before:h-1 before:-translate-x-4 
+                    <div id="hamburger" class="bg-zinc-600 rounded absolute w-8 h-1 top-10 -mt-0.5 transition-all duration-500
+                            before:content-[''] before:bg-zinc-600 before:rounded before:absolute before:w-8 before:h-1 before:-translate-x-4 
                             before:-translate-y-3 before:transition-all before:duration-500 
-                            after:content-[''] after:bg-zinc-900 after:rounded after:absolute after:w-8 after:h-1 after:-translate-x-4 
+                            after:content-[''] after:bg-zinc-600 after:rounded after:absolute after:w-8 after:h-1 after:-translate-x-4 
                             after:translate-y-3 after:transition-all after:duration-500 ">
                     </div>
                 </button>
@@ -81,16 +81,15 @@
                             </a>
                         </li>
                     </ul>
-                    <!-- <a href="customer/loginCustomer.php" class=" font-semibold border border-zinc-500 shadow text-zinc-500 px-5 py-1 mt-1 3k:mt-3 rounded-md ml-3">Login</a> -->
                 </div>
 
             </div>
             <div class="col hidden lg:block text-right">
-                <div class="social-links text-2xl">
+                <div class="social-links text-3xl">
                     <a href="#" class="facebook"><i class="bx bxs-file-pdf text-zinc-600 px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
                     <a href="#" class="instagram"><i class="bx bxl-github text-zinc-600 px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="google-plus"><i class="bx bxl-google-plus text-zinc-600 px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="linkedin"><i class="bx bxl-linkedin text-zinc-600 px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
+                    <a href="#" class="google-plus"><i class="bx bxs-envelope text-zinc-600 px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin-square text-zinc-600 px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
                 </div>
             </div>
             <div id="nav-menu" class="absolute bg-white text-zinc-900 top-20 left-0 text-4xl w-full flex-col justify-center origin-top animate-nav-bounce hidden lg:hidden transition-all duration-500">
@@ -111,30 +110,21 @@
 
     <section id="s1" class="sect s1 relative h-fit lg:h-screen 3k:h-fit bg-cover bg-home-small md:bg-home-large text-zinc-900 pb-24 md:pb-0 lg:pb-0 3k:flex justify-center items-center">
 
-        <div class="lg:grid grid-cols-8 gap-8 h-full py-5 3k:py-60 4k:py-40 px-7 3k:px-5 pt-24 lg:pt-32 pb-0 md:pb-24 lg:pb-0 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="grid grid-cols-8 gap-8 h-full py-5 3k:py-60 4k:py-40 px-7 3k:px-5 pt-28 lg:pt-36 3xl:pt-48 pb-0 md:pb-24 lg:pb-0 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="col-start-1 col-span-8 md:col-start-3 md:col-span-4 lg:col-start-3 lg:col-span-4">
+            <div class="col-start-2 col-span-6 md:col-start-3 md:col-span-4 lg:col-start-3 lg:col-span-4 ">
                 <div class="animate-zoom-in text-zinc-400 text-center">
-                    <h1 class="text-2xl lg:text-3xl font-semibold md:font-semibold">Hi there! I'm</h1>
-                    <div class="relative mt-2 lg:mt-16">
-                        <!-- <h1 class="text-3xl md:text-4xl lg:text-9xl font-extrabold text-zinc-900 font-allura z-10 ">Mark Arjay Guilang</h1> -->
-                        <!-- <h1 class="absolute top-0 text-3xl md:text-4xl lg:text-9xl font-black text-white font-allura z-10 ">Mark Arjay Guilang</h1> -->
-                        <svg class="block w-full stroke-zinc-800 stroke-2 fill-transparent animate-stroke-dashoffset" height="270">
-                            <text x="60" y="80" class="text-5xl md:text-7xl lg:text-9xl font-allura">Mark Arjay</text>
-                            <text x="160" y="210" class="text-5xl md:text-7xl lg:text-9xl font-allura">Guilang</text>
+                    <h1 class="text-xl lg:text-4xl font-semibold md:font-semibold">Hi there! I'm</h1>
+
+                    <div class="relative mt-1 sm:mt-4 md:mt-7 lg:mt-16 3xl:mt-16 3k:mt-5">
+                        <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-125 3xl:scale-110 h-52 md:h-60 lg:h-85 3xl:h-96 3k:h-80" width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
+                            <text x="0" y="0" class="text-9xl font-allura">Mark Arjay</text>
+                            <text x="80" y="120" class="text-9xl font-allura">Guilang</text>
                         </svg>
-                        <!-- <svg id="svg-name" class="border-2" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
-                            <text x="5" y="50" class="text-3xl md:text-3xl lg:text-4xl font-allura">Mark Arjay Guilang</text>
-                            <foreignObject x="20" y="0" width="160" height="80">
-                                <div class="text-lg lg:text-2xl 3k:text-4xl font-normal text-zinc-800 font-allura " xmlns="http://www.w3.org/1999/xhtml">
-                                    Mark Arjay Guilang
-                                </div>
-                            </foreignObject>
-                        </svg> -->
-                        <!-- <h1 id="svg-name" class="text-5xl md:text-7xl lg:text-9xl text-zinc-800 font-allura z-0 ">Mark Arjay Guilang</h1> -->
                     </div>
-                    <h2 class="text-lg lg:text-2xl 3k:text-3xl font-normal mt-5 md:mt-8 lg:mt-8">a Full Stack Web Developer</h2>
-                    <div class="text-lg-start mt-14 mb-10 md:inline-flex">
+
+                    <h2 class="text-lg md:text-xl lg:text-3xl font-normal mt-1 sm:mt-4 md:mt-8 lg:mt-16 3xl:mt-16 3k:mt-5">a Full Stack Web Developer</h2>
+                    <!-- <div class="text-lg-start mt-14 mb-10 md:inline-flex">
                         <div class="md:mr-2">
                             <a href="apps/Omnibus.zip" download="filename" class="relative btn-get-started scrollto pb-2 px-12 pt-7 bg-emerald-400 rounded-full ">
                                 <span class="absolute -translate-x-1 -translate-y-5 text-sm 3k:text-xl text-zinc-200">For Passenger</span> <span class="text-white text-lg 3k:text-2xl">Download</span>
@@ -145,7 +135,7 @@
                                 <span class="absolute -translate-x-1 -translate-y-5 text-sm 3k:text-xl text-zinc-200">For Conductor</span> <span class="text-white text-lg 3k:text-2xl">Download</span>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -156,13 +146,13 @@
                     <path id="wave-path" class="" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" shape-rendering="auto">
                 </defs>
                 <g class="animate-wave1">
-                    <use xlink:href="#wave-path" x="50" y="3" stroke="black" stroke-opacity="0.2" fill="rgba(0,0,0, .1)" shape-rendering="optimizeQuality">
+                    <use xlink:href="#wave-path" x="50" y="3" stroke="rgb(82 82 91 / var(--tw-text-opacity))" stroke-opacity="0.2" fill="rgba(0,0,0, .1)" shape-rendering="optimizeQuality">
                 </g>
                 <g class="animate-wave2">
-                    <use xlink:href="#wave-path" x="50" y="0" stroke="black" stroke-opacity="0.4" fill="rgba(135,135,135, .2)" shape-rendering="optimizeQuality">
+                    <use xlink:href="#wave-path" x="50" y="0" stroke="rgb(82 82 91 / var(--tw-text-opacity))" stroke-opacity="0.4" fill="rgba(135,135,135, .2)" shape-rendering="optimizeQuality">
                 </g>
                 <g class="animate-wave3">
-                    <use xlink:href="#wave-path" x="50" y="7" stroke="black" stroke-opacity="0.6" fill="#fff" shape-rendering="optimizeQuality">
+                    <use xlink:href="#wave-path" x="50" y="7" stroke="rgb(82 82 91 / var(--tw-text-opacity))" stroke-opacity="0.6" fill="#fff" shape-rendering="optimizeQuality">
                 </g>
             </svg>
         </div>
@@ -222,7 +212,7 @@
         </div>
     </section>
 
-    <section id="s6" class="sect s6 h-fit 3k:flex justify-center items-center">
+    <section id="s6" class="sect s6 h-fit 3k:flex justify-center items-center overflow-x-hidden">
         <div class="px-4 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-10" data-aos="fade-up">
