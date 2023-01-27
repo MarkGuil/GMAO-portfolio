@@ -35,7 +35,7 @@ module.exports = {
         'wave1': 'wave1 10s linear -2s infinite',
         'wave2': 'wave2 8s linear -2s infinite',
         'wave3': 'wave2 6s linear -2s infinite',
-        'stroke-dashoffset': 'strokeDashoffset 1.8s ease-out, fill 1.8s',
+        'stroke-dashoffset': 'strokeDashoffset 1.1s ease-out, fill 1.1s',
       },
       keyframes: {
         zoom: {

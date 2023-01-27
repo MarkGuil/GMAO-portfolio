@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="scroll-smooth">
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -117,7 +117,7 @@
                     <h1 class="text-xl lg:text-4xl font-semibold md:font-semibold">Hi there! I'm</h1>
 
                     <div class="relative mt-1 sm:mt-4 md:mt-7 lg:mt-16 3xl:mt-16 3k:mt-5">
-                        <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-125 3xl:scale-110 h-52 md:h-60 lg:h-85 3xl:h-96 3k:h-80" width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
+                        <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-120 3xl:scale-110 h-52 md:h-60 lg:h-85 3xl:h-96 3k:h-80" width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
                             <text x="0" y="0" class="text-9xl font-allura">Mark Arjay</text>
                             <text x="80" y="120" class="text-9xl font-allura">Guilang</text>
                         </svg>
