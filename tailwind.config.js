@@ -12,7 +12,6 @@ module.exports = {
       },
       fontFamily: {
         'allura': ['Allura', 'cursive'],
-        'molle': ['Molle', 'cursive'],
         'sacramento': ['Sacramento', 'cursive']
       },
       screens: {

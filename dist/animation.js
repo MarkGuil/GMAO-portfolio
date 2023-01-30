@@ -55,14 +55,14 @@ window.addEventListener('scroll',function() {
     oldScrollValue = newScrollValue;
 
     let value = this.window.scrollY;
-    canvas.style.left = value * .2 + 'px';
+    canvas.style.left = value * .8 + 'px';
     canvas.style.animationDuration = '600ms';
     playerState = 'run';
 
     if (scrollTimer != -1)
         clearTimeout(scrollTimer);
 
-      scrollTimer = window.setTimeout("scrollFinished()", 500);
+    scrollTimer = window.setTimeout("scrollFinished()", 200);
 });
 function scrollFinished() {
     playerState = 'idle';
