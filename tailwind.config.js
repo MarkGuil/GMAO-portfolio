@@ -9,10 +9,14 @@ module.exports = {
       scale: {
         '115': '1.15',
         '120': '1.20',
+        '200': '2.00',
+        '250': '2.50',
+        '300': '3.00',
       },
       fontFamily: {
         'allura': ['Allura', 'cursive'],
-        'sacramento': ['Sacramento', 'cursive']
+        'sacramento': ['Sacramento', 'cursive'],
+        'crimson': ['Crimson Text', 'serif'],
       },
       screens: {
         '3xl': '1920px',
@@ -102,6 +106,7 @@ module.exports = {
     '10xl': '10rem'['10rem', {
         lineHeight: '1',
       }],
+      '11xl': '11rem',
   },
   variants: {
     color: ['hover', 'active'],

@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="vendor/aos/dist/aos.css" rel="stylesheet">
     <link href="vendor/remixIcon/fonts/remixicon.css" rel="stylesheet">
@@ -33,13 +34,13 @@
     </style>
 </head>
 
-<body class="m-0 p-0">
+<body class="m-0 p-0 font-crimson overflow-x-hidden">
     <nav class="navbar fixed w-full py-5 px-7 z-50 transition-all duration-500 3k:flex justify-center items-center ">
         <div class="grid grid-cols-2 lg:grid-cols-3 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
-            <a class="col" href="#">
-                <span class=" tracking-widest text-3xl md:text-4xl text-zinc-600 font-molle font-black">GMAO</span>
+            <a class="col lg:flex items-end" href="#">
+                <span class=" tracking-normal md:tracking-widest text-3xl md:text-4xl text-zinc-600 font-molle font-black">GMAO</span>
             </a>
-            <div class="col text-zinc-600 text-right">
+            <div class="col text-zinc-600 text-right lg:flex justify-center items-center">
                 <button id="nav-btn" class="text-3xl cursor-pointer lg:hidden w-8 h-8">
                     <div id="hamburger" class="bg-zinc-600 rounded absolute w-8 h-1 top-10 -mt-0.5 transition-all duration-500
                             before:content-[''] before:bg-zinc-600 before:rounded before:absolute before:w-8 before:h-1 before:-translate-x-4 
@@ -49,7 +50,7 @@
                     </div>
                 </button>
                 <div class="hidden lg:flex justify-center items-center">
-                    <ul class="flex pt-1 3k:pt-3 text-center">
+                    <ul class="flex text-center">
                         <li class="mx-5 relative">
                             <a class="section-links s1 
                             font-extrabold text-lg 3k:text-xl text-zinc-400 transition-all duration-500 pb-1 
@@ -71,7 +72,7 @@
                             </a>
                         </li>
                         <li class="mx-5 relative">
-                            <a class="section-links s6
+                            <a class="section-links s7
                             font-semibold text-lg 3k:text-xl text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
@@ -110,20 +111,25 @@
 
     <section id="s1" class="sect s1 relative h-fit lg:h-screen 3k:h-fit bg-cover bg-home-small md:bg-home-large text-zinc-900 pb-24 md:pb-0 lg:pb-0 3k:flex justify-center items-center">
 
-        <div class="grid grid-cols-8 gap-8 h-full py-5 3k:py-60 4k:py-40 px-7 3k:px-5 pt-28 lg:pt-36 3xl:pt-48 pb-0 md:pb-24 lg:pb-0 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="grid grid-cols-8 gap-8 h-full py-5 3k:py-60 4k:py-40 px-7 3k:px-5 pt-28 lg:pt-36 xl:pt-40 3xl:pt-48 pb-0 md:pb-24 lg:pb-0 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="col-start-2 col-span-6 md:col-start-3 md:col-span-4 lg:col-start-3 lg:col-span-4 ">
-                <div class="animate-zoom-in text-zinc-400 text-center">
-                    <h1 class="text-xl lg:text-4xl font-semibold md:font-semibold">Hi there! I'm</h1>
+                <div class="animate-zoom-in text-zinc-600 text-center">
+                    <h1 class="text-xl lg:text-3xl 3xl:text-4xl font-semibold md:font-normal
+                    before:content-[''] lg:before:w-20 3xl:before:w-40 before:h-px before:bg-zinc-300 before:inline-block before:mt-1 before:ml-2
+                    after:content-[''] lg:after:w-20 3xl:after:w-40 after:h-px after:bg-zinc-300 after:inline-block after:mt-1 after:mr-2
+                    ">
+                        Hello world! I am
+                    </h1>
 
-                    <div class="relative mt-1 sm:mt-4 md:mt-7 lg:mt-16 3xl:mt-16 3k:mt-5">
-                        <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-120 3xl:scale-110 h-52 md:h-60 lg:h-85 3xl:h-96 3k:h-80" width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
+                    <div class="relative mt-1 sm:mt-4 md:mt-7 lg:mt-8 3xl:mt-16 3k:mt-5">
+                        <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-120 lg:scale-100 3xl:scale-110 h-44 sm:h-52 md:h-56 lg:h-72 xl:h-80 3xl:h-96 3k:h-80" width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
                             <text x="0" y="0" class="text-9xl font-allura">Mark Arjay</text>
                             <text x="80" y="120" class="text-9xl font-allura">Guilang</text>
                         </svg>
                     </div>
 
-                    <h2 class="text-lg md:text-xl lg:text-3xl font-normal mt-1 sm:mt-4 md:mt-8 lg:mt-16 3xl:mt-16 3k:mt-5">a Full Stack Web Developer</h2>
+                    <h2 class="text-lg md:text-xl lg:text-3xl 3xl:text-4xl font-normal mt-1 sm:mt-4 md:mt-6 lg:mt-8 3xl:mt-16 3k:mt-5">a Full Stack Web Developer</h2>
                 </div>
             </div>
 
@@ -145,54 +151,21 @@
     </section>
 
     <section id="s2" class="sect s2 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
-        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
-            <div class="col-start-1 col-span-7 lg:col-span-3 flex justify-center lg:justify-start 3k:justify-start items-center " data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true">
-                <img src="images/phone bus.png" class="w-10/12 md:w-6/12 lg:w-full" alt="">
-            </div>
+        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-14 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
-                <div class="pb-24 lg:pb-8 3k:pb-3 3k:text-xl">
-                    <h3 class="text-3xl font-bold text-dark-blue mb-4">For he who is in the pursuit of pleasures should avoid something</h3>
-                    <p class="text-zinc-600">
-                        As a full stack web developer, I specialize in creating dynamic and engaging websites using various technologies
-                        and best practices. My portfolio showcases a range of projects, from simple brochure websites to complex web applications,
-                        that demonstrate my expertise in front-end and back-end technologies. I am passionate about developing robust and responsive
-                        web solutions and staying up-to-date with the latest web development trends.
+            <div class="relative col-start-1 col-span-7 md:col-start-2 md:col-span-5 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
+                <div class="px-7 md:px-10 pb-24 pt-14 lg:pb-8 3k:pb-3 3k:text-xl">
+                    <h3 id="about-me" class="md:absolute text-7xl md:text-9xl md:left-28 font-bold text-zinc-500/30 md:text-zinc-500/20 mb-4 md:scale-250 -translate-y-3 transition-all
+                    before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
+                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 ">
+                        About
+                    </h3>
+                    <p class="text-zinc-700 text-xl md:text-3xl tracking-wider">
+                        I'm a full stack web developer, I specialize in creating dynamic and engaging websites using various technologies
+                        and best practices. My portfolio showcases a range of projects, from simple to complex web applications,
+                        that demonstrate my expertise in front-end and back-end technologies. I am passionate in developing robust and responsive
+                        web solutions and I am excited to bring my skills and experience to new challenges.
                     </p>
-
-                    <div class="mt-10" data-scroll data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
-                        <div class="float-none md:float-left lg:float-left w-full md:w-16 lg:w-16 h-16 text flex md:block lg:block justify-center items-center">
-                            <div class="flex justify-center items-center w-16 h-full border-2 border-emerald-400 text-emerald-400 rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
-                                <i class="bx bx-rocket text-3xl"></i>
-                            </div>
-                        </div>
-                        <h4 class="ml-0 md:ml-20 lg:ml-20 mb-2 mt-3 md:mt-0 lg:mt-0 font-bold text-lg 3k:text-xl"><a href="" class="text-zinc-800 transition duration-75 ease-in-out hover:text-emerald-300">Fast Booking</a></h4>
-                        <p class="px-10 md:px-20 lg:px-0 ml-0 lg:ml-20 text-sm 3k:text-lg leading-6 text-zinc-600">
-                            As a full stack web developer, I possess a diverse set of skills that allows me to handle all aspects of web development,
-                            from the front-end user interface to the back-end logic and database. My portfolio showcases a variety of projects that
-                            demonstrate my expertise in technologies such as HTML, CSS, JavaScript, React, Angular, Vue.js, Node.js, and PHP. My experience
-                            with different frameworks, libraries, and databases gives me the ability to build efficient and scalable web applications,
-                            whether it be a simple brochure website or a complex web application. I am passionate about developing robust and responsive
-                            web solutions that deliver a seamless user experience and meet the needs of my clients. I always strive to stay up-to-date
-                            with the latest web development trends and technologies and I am excited to bring my skills and experience to new challenges.
-                        </p>
-                    </div>
-
-                    <div class="mt-10" data-scroll data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
-                        <div class="float-none md:float-left lg:float-left w-full md:w-16 lg:w-16 h-16 text flex md:block lg:block justify-center items-center">
-                            <div class="flex justify-center items-center w-16 md:w-full lg:w-full h-full border-2 border-emerald-400 text-emerald-400 rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
-                                <i class="bx bx-lock text-3xl"></i>
-                            </div>
-                        </div>
-                        <h4 class="ml-0 md:ml-20 lg:ml-20 mb-2 mt-3 font-bold text-lg 3k:text-xl"><a href="" class="text-zinc-800 transition duration-75 ease-in-out hover:text-emerald-300">Secure Payment</a></h4>
-                        <p class="px-10 md:px-20 lg:px-0 ml-0 lg:ml-20 text-sm 3k:text-lg leading-6 text-zinc-600">
-                            As a web developer, I specialize in creating dynamic and engaging websites using the latest technologies and best practices in the industry. My portfolio showcases a diverse range of projects,
-                            from simple brochure websites to complex web applications. Each project represents my skills in areas such as HTML, CSS, JavaScript, and responsive design. My experience and expertise in web
-                            development have allowed me to deliver high-quality, fully-functional websites that meet the needs of my clients and exceed their expectations. I am passionate about creating beautiful,
-                            user-friendly websites and always strive to stay up-to-date with the latest web development trends and technologies.
-                        </p>
-                    </div>
-
                 </div>
             </div>
 
@@ -205,9 +178,9 @@
     <section id="s3" class="sect s3 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
         <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
             <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
-                <div class="h-screen sticky top-0 " data-aos="fade-right">
-                    <h1 class="absolute top-20 text-5xl ">01</h1>
-                    <div class="absolute text-5xl inset-y-2/4 -mt-24 h-fit">
+                <div class="lg:h-screen lg:sticky top-0 " data-aos="fade-right">
+                    <h1 class="lg:absolute top-20 text-5xl ">01</h1>
+                    <div class="lg:absolute text-5xl inset-y-2/4 -mt-24 h-fit">
                         <h1 class="text-6xl font-extrabold">Omnibus</h1>
                         <h1 class=" text-5xl">Thesis Project/ Programmer/ Developer</h1>
                         <h1 class=" text-5xl">Online P2P bus seat booking</h1>
@@ -229,7 +202,7 @@
             </div>
 
             <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
-                <div class="relative pb-24 lg:pb-8 3k:pb-3 3k:text-xl" data-aos="fade-left">
+                <div class="relative pb-24 lg:pb-8 3k:pb-3 3k:text-xl">
 
                     <div class="grid grid-cols-2 gap-1">
                         <div class="col-span-1 border border-red-800 h-96">
@@ -254,10 +227,10 @@
     <section id="s4" class="sect s4 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
         <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
             <div class="col-start-1 col-span-7 lg:col-span-3 h-full" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true">
-                <div class="h-screen sticky top-0 ">
-                    <h1 class="absolute top-20 text-5xl ">02</h1>
-                    <div class="absolute text-5xl inset-y-2/4 -mt-40 h-fit">
-                        <h1 class="text-6xl font-extrabold">Pangasinan State University Inventory And Planning Of Procurement Plan System</h1>
+                <div class="lg:h-screen lg:sticky top-0 ">
+                    <h1 class="lg:absolute top-20 text-5xl ">02</h1>
+                    <div class="lg:absolute text-5xl inset-y-2/4 -mt-40 h-fit">
+                        <h1 class="lg:text-6xl font-extrabold">Pangasinan State University Inventory And Planning Of Procurement Plan System</h1>
                         <h1 class=" text-5xl">Programmer/ Developer</h1>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="mt-10 md:mt-0">
@@ -276,13 +249,13 @@
 
                     <!-- <div class="grid grid-cols-2 gap-1"> -->
                     <div class="border-2 border-black h-96 mb-5 p-4">
-                        <img src="images/psu/psu3-min.PNG" class="h-full w-full object-cover" alt="" data-aos="fade-left">
+                        <img src="images/psu/psu3-min.PNG" class="h-full w-full object-cover" alt="">
                     </div>
                     <div class="border-2 border-black h-96 mb-5 p-4">
-                        <img src="images/psu/psu-min.PNG" class="h-full w-full object-cover" alt="" data-aos="fade-left">
+                        <img src="images/psu/psu-min.PNG" class="h-full w-full object-cover" alt="">
                     </div>
                     <div class="border-2 border-black h-96 mb-5 p-4">
-                        <img src="images/psu/psu2-min.PNG" class="h-full w-full object-cover" alt="" data-aos="fade-left">
+                        <img src="images/psu/psu2-min.PNG" class="h-full w-full object-cover" alt="">
                     </div>
                     <!-- </div> -->
 
@@ -290,12 +263,12 @@
             </div>
     </section>
 
-    <section id="s4" class="sect s4 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
+    <section id="s5" class="sect s5 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center ">
         <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
             <div class="col-start-1 col-span-7 lg:col-span-3 h-full" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true">
-                <div class="h-screen sticky top-0 ">
-                    <h1 class="absolute top-20 text-5xl ">03</h1>
-                    <div class="absolute text-5xl inset-y-2/4 -mt-28 h-fit">
+                <div class="lg:h-screen lg:sticky top-0 ">
+                    <h1 class="lg:absolute top-20 text-5xl ">03</h1>
+                    <div class="lg:absolute text-5xl inset-y-2/4 -mt-28 h-fit">
                         <h1 class="text-6xl font-extrabold">Reinvented Coaching</h1>
                         <h1 class=" text-5xl">Programmer/ Developer</h1>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
@@ -364,7 +337,81 @@
         </div>
     </section>
 
-    <section id="s6" class="sect s6 h-fit 3k:flex justify-center items-center overflow-x-hidden">
+    <section id="s6" class="sect s6 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center ">
+        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+            <div class="col-start-1 col-span-7 lg:col-span-3 h-full" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true">
+                <div class="lg:h-screen lg:sticky top-0 ">
+                    <h1 class="lg:absolute top-20 text-5xl ">04</h1>
+                    <div class="lg:absolute text-5xl inset-y-2/4 -mt-28 h-fit">
+                        <h1 class="text-6xl font-extrabold">Quizam</h1>
+                        <h1 class=" text-5xl">Programmer/ Developer</h1>
+                        <div class="text-lg-start mt-5 mb-10 md:inline-flex">
+                            <div class="md:mr-2">
+                                <a href="http://reinventedcoach.com/index" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                    Open Live
+                                </a>
+                            </div>
+                            <div class="mt-10 md:mt-0">
+                                <a href="" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full">
+                                    Github
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="absolute text-5xl bottom-3">Web</h1>
+                </div>
+            </div>
+
+            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
+                <div class="pb-24 lg:pb-8 3k:pb-3 3k:text-xl">
+                    <h3 class="text-3xl font-bold text-dark-blue mb-4">For he who is in the pursuit of pleasures should avoid something</h3>
+                    <p class="text-zinc-600">
+                        As a full stack web developer, I specialize in creating dynamic and engaging websites using various technologies
+                        and best practices. My portfolio showcases a range of projects, from simple brochure websites to complex web applications,
+                        that demonstrate my expertise in front-end and back-end technologies. I am passionate about developing robust and responsive
+                        web solutions and staying up-to-date with the latest web development trends.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic repellat blanditiis facilis debitis a placeat natus, quidem fugiat, ea voluptates voluptate veritatis repellendus corrupti rem sit, asperiores assumenda mollitia omnis veniam ad at aliquid. Sunt aliquid repellat a accusamus illum tenetur ducimus perferendis placeat possimus voluptas quam, repudiandae at debitis est expedita assumenda cupiditate voluptates blanditiis. Doloremque vitae sunt tempora odit similique sed molestias sequi. Quos esse ab perspiciatis error deserunt nam perferendis voluptatem maxime earum molestiae quod similique impedit, id voluptatibus vel atque? Laudantium perferendis dolore, saepe facilis quia rerum harum eius, vitae atque amet non veritatis! Ab perferendis labore illo eligendi sed sunt minus vel tempora dolorem neque nisi quia, consequatur cumque, repellendus quasi facilis minima. Beatae, ipsa minima culpa dicta porro nisi? Quo officia quis nisi iure qui voluptatum omnis inventore temporibus velit aliquid natus, officiis dolorum ducimus eveniet fugit maiores eos aliquam veritatis debitis placeat magnam accusamus totam? Placeat consectetur illum molestias, dolore consequatur dicta laboriosam, sed recusandae quidem blanditiis culpa corporis voluptatum nam est autem odio aut possimus similique assumenda? Iusto corporis officiis quas rerum. Rem, repellat tempore? Quisquam itaque eligendi nisi, omnis recusandae doloremque enim delectus placeat corrupti architecto quia rem explicabo provident!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores velit ea repellat maxime obcaecati voluptates odio qui illum pariatur, explicabo itaque laudantium similique nam provident. Eligendi ab perferendis soluta obcaecati enim veritatis nostrum necessitatibus vero error molestias possimus quidem velit, cum tempore sapiente, beatae ut, voluptates nemo. Adipisci expedita deleniti facere rem eaque ipsam quas illum, vero blanditiis totam inventore a vel vitae odio obcaecati doloribus nisi nam. Earum at exercitationem, magni eum qui illum eius soluta mollitia. A, libero voluptate tempore consequatur nulla eaque ex at, commodi rem excepturi eveniet earum, quaerat tempora eligendi nisi exercitationem dolorem dicta enim atque culpa quos quam sunt. Blanditiis, beatae? Ullam doloribus veritatis, dolorem obcaecati fugiat, nam pariatur provident temporibus harum odit dignissimos voluptates! Eum corrupti, at veritatis id nihil, dolores ullam excepturi, provident voluptates earum dolorem velit. Veritatis sed vero laborum consequuntur soluta labore qui quibusdam laudantium sunt placeat laboriosam unde accusamus ipsum exercitationem asperiores, tempore atque hic voluptate magni eius in totam quod, praesentium rem? Vel, dolor at! Fugiat id ut, consequatur ipsa iure dolores? Officiis provident enim ducimus, adipisci quia eligendi reprehenderit mollitia voluptatem veritatis consequuntur? Ducimus dicta deleniti error. Expedita asperiores aliquid iste quisquam modi sequi laudantium hic! Animi voluptate similique a, rerum excepturi inventore eum exercitationem voluptatum praesentium tenetur accusamus enim esse veniam unde aut culpa perferendis quasi omnis eos ipsum. Ea natus hic esse explicabo, nesciunt sunt dicta, quas libero velit asperiores, ab et? Unde tempora modi provident culpa numquam aperiam voluptates voluptatum et eveniet officia a architecto corporis illum hic soluta vel eos repellendus, amet quibusdam nesciunt optio illo? Laborum dignissimos exercitationem voluptate error, fuga nemo minus maxime voluptates, voluptatibus, obcaecati et! Laboriosam eveniet eligendi voluptas repellendus maiores voluptatum, voluptate, voluptatem quis iste est molestias facere rerum quisquam temporibus soluta. Ad commodi ea numquam quo nesciunt inventore deleniti, tempore fugiat modi repudiandae esse suscipit quae natus eligendi vel fuga consectetur qui aspernatur non iure sunt quibusdam cum nemo id. Eligendi eum, quam ratione in corporis velit? Repellat ratione exercitationem natus quam vitae, dolores at unde alias molestias aspernatur et eius voluptas sed ipsum consectetur est quis corrupti sint quidem laboriosam. Illo impedit aut itaque. Incidunt veritatis eaque nemo nam, autem fuga laborum alias, ex est ab natus quisquam amet similique consectetur voluptatibus, facilis exercitationem suscipit repudiandae placeat rem? Explicabo distinctio vero, modi odio dicta magnam voluptate rem earum eum voluptatum, vitae accusamus nam dolor reiciendis placeat.</p>
+                    <div class="mt-10" data-scroll data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
+                        <div class="float-none md:float-left lg:float-left w-full md:w-16 lg:w-16 h-16 text flex md:block lg:block justify-center items-center">
+                            <div class="flex justify-center items-center w-16 h-full border-2 border-emerald-400 text-emerald-400 rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
+                                <i class="bx bx-rocket text-3xl"></i>
+                            </div>
+                        </div>
+                        <h4 class="ml-0 md:ml-20 lg:ml-20 mb-2 mt-3 md:mt-0 lg:mt-0 font-bold text-lg 3k:text-xl"><a href="" class="text-zinc-800 transition duration-75 ease-in-out hover:text-emerald-300">Fast Booking</a></h4>
+                        <p class="px-10 md:px-20 lg:px-0 ml-0 lg:ml-20 text-sm 3k:text-lg leading-6 text-zinc-600">
+                            As a full stack web developer, I possess a diverse set of skills that allows me to handle all aspects of web development,
+                            from the front-end user interface to the back-end logic and database. My portfolio showcases a variety of projects that
+                            demonstrate my expertise in technologies such as HTML, CSS, JavaScript, React, Angular, Vue.js, Node.js, and PHP. My experience
+                            with different frameworks, libraries, and databases gives me the ability to build efficient and scalable web applications,
+                            whether it be a simple brochure website or a complex web application. I am passionate about developing robust and responsive
+                            web solutions that deliver a seamless user experience and meet the needs of my clients. I always strive to stay up-to-date
+                            with the latest web development trends and technologies and I am excited to bring my skills and experience to new challenges.
+                        </p>
+                    </div>
+
+                    <div class="mt-10" data-scroll data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
+                        <div class="float-none md:float-left lg:float-left w-full md:w-16 lg:w-16 h-16 text flex md:block lg:block justify-center items-center">
+                            <div class="flex justify-center items-center w-16 md:w-full lg:w-full h-full border-2 border-emerald-400 text-emerald-400 rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
+                                <i class="bx bx-lock text-3xl"></i>
+                            </div>
+                        </div>
+                        <h4 class="ml-0 md:ml-20 lg:ml-20 mb-2 mt-3 font-bold text-lg 3k:text-xl"><a href="" class="text-zinc-800 transition duration-75 ease-in-out hover:text-emerald-300">Secure Payment</a></h4>
+                        <p class="px-10 md:px-20 lg:px-0 ml-0 lg:ml-20 text-sm 3k:text-lg leading-6 text-zinc-600">
+                            As a web developer, I specialize in creating dynamic and engaging websites using the latest technologies and best practices in the industry. My portfolio showcases a diverse range of projects,
+                            from simple brochure websites to complex web applications. Each project represents my skills in areas such as HTML, CSS, JavaScript, and responsive design. My experience and expertise in web
+                            development have allowed me to deliver high-quality, fully-functional websites that meet the needs of my clients and exceed their expectations. I am passionate about creating beautiful,
+                            user-friendly websites and always strive to stay up-to-date with the latest web development trends and technologies.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="s7" class="sect s7 h-fit 3k:flex justify-center items-center overflow-x-hidden">
         <div class="px-4 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-0 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-10" data-aos="fade-up">
@@ -469,6 +516,7 @@
 
     <script defer src="app.js"></script>
     <script defer src="anav.js"></script>
+    <script defer src="scroll.js"></script>
     <script src="vendor/aos/dist/aos.js"></script>
     <!-- <script src="animation.js"></script> -->
     <script src="vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
