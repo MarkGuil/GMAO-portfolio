@@ -16,7 +16,7 @@
   }
 
   .font-outline-1 {
-    -webkit-text-stroke: 1px rgba(60, 60, 60, 0.501);
+    -webkit-text-stroke: 1px rgba(46, 46, 46, 0.556);
   }
 
   .font-outline-2 {
@@ -25,5 +25,18 @@
 
   .font-outline-4 {
     -webkit-text-stroke: 4px rgba(60, 60, 60, 0.501);
+  }
+
+  .wave-group {
+    outline: 1px solid transparent;
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+    will-change: transform;
+    -webkit-perspective: 1000;
+  }
+
+  .without-fill {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgb(113 113 122 / var(--tw-text-opacity));
   }
 }

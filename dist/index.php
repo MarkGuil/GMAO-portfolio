@@ -19,18 +19,7 @@
     <link href="vendor/remixIcon/fonts/remixicon.css" rel="stylesheet">
     <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <style>
-        .wave-group {
-            outline: 1px solid transparent;
-            -webkit-backface-visibility: hidden;
-            transform: translateZ(0);
-            will-change: transform;
-            -webkit-perspective: 1000;
-        }
 
-        .without-fill {
-            -webkit-text-fill-color: transparent;
-            -webkit-text-stroke: 2px rgb(113 113 122 / var(--tw-text-opacity));
-        }
     </style>
 </head>
 
@@ -57,7 +46,7 @@
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s1">
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s1" onclick="lenis.scrollTo('#s1')">
                                 <small>Home</small>
                             </a>
                         </li>
@@ -67,8 +56,18 @@
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s2">
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s2" onclick="lenis.scrollTo('#s2')">
                                 <small>About</small>
+                            </a>
+                        </li>
+                        <li class="mx-5 relative">
+                            <a class="section-links s3
+                            font-semibold text-lg 3k:text-xl text-zinc-400 transition-all duration-500 pb-1 
+                          hover:text-zinc-600 hover:before:visible hover:before:w-6
+                            active:before:visible active:before:w-6 active:before:text-zinc-400
+                            before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s3" onclick="lenis.scrollTo('#s3')">
+                                <small>Projects</small>
                             </a>
                         </li>
                         <li class="mx-5 relative">
@@ -77,7 +76,7 @@
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s6">
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s6" onclick="lenis.scrollTo('#s6')">
                                 <small>Contact</small>
                             </a>
                         </li>
@@ -109,9 +108,9 @@
 
     </nav>
 
-    <section id="s1" class="sect s1 relative h-fit lg:h-screen 3k:h-fit bg-cover bg-home-small md:bg-home-large text-zinc-900 pb-24 md:pb-0 lg:pb-0 3k:flex justify-center items-center">
+    <section id="s1" class="sect s1 relative h-fit 3k:h-fit bg-cover bg-home-small md:bg-home-large text-zinc-900 3k:flex justify-center items-center">
 
-        <div class="grid grid-cols-8 gap-8 h-full py-5 3k:py-60 4k:py-40 px-7 3k:px-5 pt-28 lg:pt-36 xl:pt-40 3xl:pt-48 pb-0 md:pb-24 lg:pb-0 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="grid grid-cols-8 gap-8 h-full py-28 lg:py-36 xl:py-40 3xl:py-48 3k:py-60 4k:py-40 px-5 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="col-start-2 col-span-6 md:col-start-3 md:col-span-4 lg:col-start-3 lg:col-span-4 ">
                 <div class="animate-zoom-in text-zinc-600 text-center">
@@ -151,21 +150,33 @@
     </section>
 
     <section id="s2" class="sect s2 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
-        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-14 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-14 px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="relative col-start-1 col-span-7 md:col-start-2 md:col-span-5 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
-                <div class="px-7 md:px-10 pb-24 pt-14 lg:pb-8 3k:pb-3 3k:text-xl">
-                    <h3 id="about-me" class="md:absolute text-7xl md:text-9xl md:left-28 font-bold text-zinc-500/30 md:text-zinc-500/20 mb-4 md:scale-250 -translate-y-3 transition-all
+            <div class="relative col-start-1 col-span-7 md:col-span-4 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
+                <div class="pb-24 pt-14 lg:pb-8 3k:pb-3 3k:text-xl">
+                    <h3 id="about-me" class="pointer-events-none z-0 text-7xl md:text-9xl font-bold text-zinc-500/40 mb-4 transition-all
                     before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
-                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 ">
+                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
+                    after:content-[''] after:w-56 after:h-1 after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
                         About
                     </h3>
-                    <p class="text-zinc-700 text-xl md:text-3xl tracking-wider">
+                    <p class="text-zinc-700 text-xl md:text-3xl tracking-wider font-black z-10">
                         I'm a full stack web developer, I specialize in creating dynamic and engaging websites using various technologies
                         and best practices. My portfolio showcases a range of projects, from simple to complex web applications,
                         that demonstrate my expertise in front-end and back-end technologies. I am passionate in developing robust and responsive
                         web solutions and I am excited to bring my skills and experience to new challenges.
                     </p>
+                </div>
+            </div>
+
+            <div class="relative col-start-1 col-span-7 md:col-span-3 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
+                <div class="pb-24 pt-14 lg:pb-8 3k:pb-3 3k:text-xl">
+                    <h3 id="about-me" class="pointer-events-none z-0 text-7xl md:text-9xl font-bold text-zinc-500/40 mb-4 transition-all
+                    before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
+                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
+                    after:content-[''] after:w-56 after:h-1 after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
+                        About
+                    </h3>
                 </div>
             </div>
 
@@ -175,8 +186,27 @@
         </div>
     </section>
 
+    <section id="projects" class="sect projects h-fit 3k:flex justify-center items-center overflow-x-hidden">
+        <div class="px-7 md:px-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
+
+            <div data-aos="fade-right">
+                <h2 class="font-semibold text-sm leading-none mb-1 tracking-widest uppercase text-neutral-400
+                after:content-[''] after:w-32 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
+                    Projects
+                </h2>
+                <h3 id="about-me" class="pointer-events-none z-0 text-7xl md:text-9xl font-bold text-zinc-500/40 mb-4 transition-all
+                    before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
+                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 ">
+                    Projects
+                </h3>
+            </div>
+
+        </div>
+    </section>
+
     <section id="s3" class="sect s3 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
-        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 md:px-20 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+
             <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
                 <div class="lg:h-screen lg:sticky top-0 " data-aos="fade-right">
                     <h1 class="lg:absolute top-20 text-5xl ">01</h1>
@@ -202,31 +232,32 @@
             </div>
 
             <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
-                <div class="relative pb-24 lg:pb-8 3k:pb-3 3k:text-xl">
+                <div class="relative pb-24 lg:pb-8 3k:pb-3 3k:text-xl w-full">
 
-                    <div class="grid grid-cols-2 gap-1">
-                        <div class="col-span-1 border border-red-800 h-96">
-                            <img src="images/phone bus.png" class="w-10/12 md:w-6/12 lg:w-full" alt="">
-                        </div>
-                        <div class="col-span-1 border border-red-800 h-96">
-                            <img src="images/phone bus.png" class="w-10/12 md:w-6/12 lg:w-full" alt="">
-                        </div>
-                        <div class="col-span-1 border border-red-800 h-96">
-                            <img src="images/phone bus.png" class="w-10/12 md:w-6/12 lg:w-full" alt="">
-                        </div>
-                        <div class="col-span-1 border border-red-800 h-96">
-                            <img src="images/phone bus.png" class="w-10/12 md:w-6/12 lg:w-full" alt="">
-                        </div>
+                    <!-- <div class="grid grid-cols-2 gap-1"> -->
+                    <div class="  border border-red-800 h-96">
+                        <img src="images/phone bus.png" class="w-6/12 " alt="">
                     </div>
+                    <div class=" border border-red-800 h-96">
+                        <img src="images/phone bus.png" class="w-6/12" alt="">
+                    </div>
+                    <div class=" border border-red-800 h-96">
+                        <img src="images/phone bus.png" class="w-6/12" alt="">
+                    </div>
+                    <div class=" border border-red-800 h-96">
+                        <img src="images/phone bus.png" class="w-6/12" alt="">
+                    </div>
+                    <!-- </div> -->
 
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="s4" class="sect s4 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
+    <section id="s4" class="sect s3 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
         <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
-            <div class="col-start-1 col-span-7 lg:col-span-3 h-full" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true">
+
+            <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
                 <div class="lg:h-screen lg:sticky top-0 ">
                     <h1 class="lg:absolute top-20 text-5xl ">02</h1>
                     <div class="lg:absolute text-5xl inset-y-2/4 -mt-40 h-fit">
@@ -244,7 +275,7 @@
                 </div>
             </div>
 
-            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
+            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10">
                 <div class="relative pb-24 lg:pb-8 3k:pb-3 3k:text-xl">
 
                     <!-- <div class="grid grid-cols-2 gap-1"> -->
@@ -263,9 +294,9 @@
             </div>
     </section>
 
-    <section id="s5" class="sect s5 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center ">
+    <section id="s5" class="sect s3 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center ">
         <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
-            <div class="col-start-1 col-span-7 lg:col-span-3 h-full" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true">
+            <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
                 <div class="lg:h-screen lg:sticky top-0 ">
                     <h1 class="lg:absolute top-20 text-5xl ">03</h1>
                     <div class="lg:absolute text-5xl inset-y-2/4 -mt-28 h-fit">
@@ -288,7 +319,7 @@
                 </div>
             </div>
 
-            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
+            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10">
                 <div class="pb-24 lg:pb-8 3k:pb-3 3k:text-xl">
                     <h3 class="text-3xl font-bold text-dark-blue mb-4">For he who is in the pursuit of pleasures should avoid something</h3>
                     <p class="text-zinc-600">
@@ -337,9 +368,9 @@
         </div>
     </section>
 
-    <section id="s6" class="sect s6 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center ">
+    <section id="s6" class="sect s3 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center ">
         <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
-            <div class="col-start-1 col-span-7 lg:col-span-3 h-full" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true">
+            <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
                 <div class="lg:h-screen lg:sticky top-0 ">
                     <h1 class="lg:absolute top-20 text-5xl ">04</h1>
                     <div class="lg:absolute text-5xl inset-y-2/4 -mt-28 h-fit">
@@ -362,7 +393,7 @@
                 </div>
             </div>
 
-            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
+            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10">
                 <div class="pb-24 lg:pb-8 3k:pb-3 3k:text-xl">
                     <h3 class="text-3xl font-bold text-dark-blue mb-4">For he who is in the pursuit of pleasures should avoid something</h3>
                     <p class="text-zinc-600">
@@ -373,7 +404,7 @@
                     </p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic repellat blanditiis facilis debitis a placeat natus, quidem fugiat, ea voluptates voluptate veritatis repellendus corrupti rem sit, asperiores assumenda mollitia omnis veniam ad at aliquid. Sunt aliquid repellat a accusamus illum tenetur ducimus perferendis placeat possimus voluptas quam, repudiandae at debitis est expedita assumenda cupiditate voluptates blanditiis. Doloremque vitae sunt tempora odit similique sed molestias sequi. Quos esse ab perspiciatis error deserunt nam perferendis voluptatem maxime earum molestiae quod similique impedit, id voluptatibus vel atque? Laudantium perferendis dolore, saepe facilis quia rerum harum eius, vitae atque amet non veritatis! Ab perferendis labore illo eligendi sed sunt minus vel tempora dolorem neque nisi quia, consequatur cumque, repellendus quasi facilis minima. Beatae, ipsa minima culpa dicta porro nisi? Quo officia quis nisi iure qui voluptatum omnis inventore temporibus velit aliquid natus, officiis dolorum ducimus eveniet fugit maiores eos aliquam veritatis debitis placeat magnam accusamus totam? Placeat consectetur illum molestias, dolore consequatur dicta laboriosam, sed recusandae quidem blanditiis culpa corporis voluptatum nam est autem odio aut possimus similique assumenda? Iusto corporis officiis quas rerum. Rem, repellat tempore? Quisquam itaque eligendi nisi, omnis recusandae doloremque enim delectus placeat corrupti architecto quia rem explicabo provident!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores velit ea repellat maxime obcaecati voluptates odio qui illum pariatur, explicabo itaque laudantium similique nam provident. Eligendi ab perferendis soluta obcaecati enim veritatis nostrum necessitatibus vero error molestias possimus quidem velit, cum tempore sapiente, beatae ut, voluptates nemo. Adipisci expedita deleniti facere rem eaque ipsam quas illum, vero blanditiis totam inventore a vel vitae odio obcaecati doloribus nisi nam. Earum at exercitationem, magni eum qui illum eius soluta mollitia. A, libero voluptate tempore consequatur nulla eaque ex at, commodi rem excepturi eveniet earum, quaerat tempora eligendi nisi exercitationem dolorem dicta enim atque culpa quos quam sunt. Blanditiis, beatae? Ullam doloribus veritatis, dolorem obcaecati fugiat, nam pariatur provident temporibus harum odit dignissimos voluptates! Eum corrupti, at veritatis id nihil, dolores ullam excepturi, provident voluptates earum dolorem velit. Veritatis sed vero laborum consequuntur soluta labore qui quibusdam laudantium sunt placeat laboriosam unde accusamus ipsum exercitationem asperiores, tempore atque hic voluptate magni eius in totam quod, praesentium rem? Vel, dolor at! Fugiat id ut, consequatur ipsa iure dolores? Officiis provident enim ducimus, adipisci quia eligendi reprehenderit mollitia voluptatem veritatis consequuntur? Ducimus dicta deleniti error. Expedita asperiores aliquid iste quisquam modi sequi laudantium hic! Animi voluptate similique a, rerum excepturi inventore eum exercitationem voluptatum praesentium tenetur accusamus enim esse veniam unde aut culpa perferendis quasi omnis eos ipsum. Ea natus hic esse explicabo, nesciunt sunt dicta, quas libero velit asperiores, ab et? Unde tempora modi provident culpa numquam aperiam voluptates voluptatum et eveniet officia a architecto corporis illum hic soluta vel eos repellendus, amet quibusdam nesciunt optio illo? Laborum dignissimos exercitationem voluptate error, fuga nemo minus maxime voluptates, voluptatibus, obcaecati et! Laboriosam eveniet eligendi voluptas repellendus maiores voluptatum, voluptate, voluptatem quis iste est molestias facere rerum quisquam temporibus soluta. Ad commodi ea numquam quo nesciunt inventore deleniti, tempore fugiat modi repudiandae esse suscipit quae natus eligendi vel fuga consectetur qui aspernatur non iure sunt quibusdam cum nemo id. Eligendi eum, quam ratione in corporis velit? Repellat ratione exercitationem natus quam vitae, dolores at unde alias molestias aspernatur et eius voluptas sed ipsum consectetur est quis corrupti sint quidem laboriosam. Illo impedit aut itaque. Incidunt veritatis eaque nemo nam, autem fuga laborum alias, ex est ab natus quisquam amet similique consectetur voluptatibus, facilis exercitationem suscipit repudiandae placeat rem? Explicabo distinctio vero, modi odio dicta magnam voluptate rem earum eum voluptatum, vitae accusamus nam dolor reiciendis placeat.</p>
-                    <div class="mt-10" data-scroll data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
+                    <div class="mt-10">
                         <div class="float-none md:float-left lg:float-left w-full md:w-16 lg:w-16 h-16 text flex md:block lg:block justify-center items-center">
                             <div class="flex justify-center items-center w-16 h-full border-2 border-emerald-400 text-emerald-400 rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
                                 <i class="bx bx-rocket text-3xl"></i>
@@ -391,7 +422,7 @@
                         </p>
                     </div>
 
-                    <div class="mt-10" data-scroll data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
+                    <div class="mt-10">
                         <div class="float-none md:float-left lg:float-left w-full md:w-16 lg:w-16 h-16 text flex md:block lg:block justify-center items-center">
                             <div class="flex justify-center items-center w-16 md:w-full lg:w-full h-full border-2 border-emerald-400 text-emerald-400 rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
                                 <i class="bx bx-lock text-3xl"></i>
@@ -495,7 +526,7 @@
 
     <footer class="page-footer w-full py-5 px-7 z-50 transition-all duration-500 3k:flex 3k:justify-center 3k:items-center bg-dark-blue text-zinc-300 bottom-0">
         <div class=" md:flex 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] text-center md:text-start">
-            <div class="text-light py-3 bg-primary 3k:text-lg">
+            <div class="text-light mt-3 bg-primary 3k:text-lg">
                 © 2021 Copyright
                 <a class="text-light font-bold" href="">GMAO</a>
                 . All Rights Reserved
@@ -516,42 +547,14 @@
 
     <script defer src="app.js"></script>
     <script defer src="anav.js"></script>
-    <script defer src="scroll.js"></script>
     <script src="vendor/aos/dist/aos.js"></script>
     <!-- <script src="animation.js"></script> -->
     <script src="vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
     <!-- <script src="script/navbar.js"></script> -->
     <script src="vendor/lenis/lenis.js"></script>
+    <script defer src="scroll.js"></script>
 
     <script>
-        const lenis = new Lenis({
-            duration: 1.2,
-            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // https://www.desmos.com/calculator/brs54l4xou
-            orientation: 'vertical', // vertical, horizontal
-            gestureOrientation: 'vertical', // vertical, horizontal, both
-            smoothWheel: true,
-            wheelMultiplier: 1,
-            smoothTouch: false,
-            touchMultiplier: 2,
-            infinite: false,
-        })
-
-        //get scroll value
-        lenis.on('scroll', ({
-            scroll,
-            limit,
-            velocity,
-            direction,
-            progress
-        }) => {})
-
-        function raf(time) {
-            lenis.raf(time)
-            requestAnimationFrame(raf)
-        }
-
-        requestAnimationFrame(raf);
-
         AOS.init();
         new PureCounter();
     </script>
