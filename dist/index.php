@@ -19,7 +19,9 @@
     <link href="vendor/remixIcon/fonts/remixicon.css" rel="stylesheet">
     <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <style>
-
+        .blur-all {
+            box-shadow: inset 0 0 40px 28px red;
+        }
     </style>
 </head>
 
@@ -172,7 +174,7 @@
             <div class="relative col-start-1 col-span-7 md:col-span-3 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
                 <div class="pb-24 pt-14 lg:pb-8 3k:pb-3 3k:text-xl">
 
-                    <img src="images/profile/Profile.jpg" class="w-6/12 " alt="">
+                    <img src="images/profile/test-3.png" class="w-10/12" alt="">
                 </div>
             </div>
 

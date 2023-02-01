@@ -3,6 +3,9 @@ module.exports = {
   content: ["./dist/*.{php,js}"],
   theme: {
     extend: {
+      boxShadow: {
+        'inner-2': 'inset 0 0 40px 28px white',
+      },
       spacing: {
         '85': '21rem',
       },

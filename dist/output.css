@@ -776,6 +776,10 @@ html {
   width: 2rem;
 }
 
+.w-10\/12 {
+  width: 83.333333%;
+}
+
 .w-40 {
   width: 10rem;
 }
@@ -1333,6 +1337,12 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-inner-2 {
+  --tw-shadow: inset 0 0 40px 28px white;
+  --tw-shadow-colored: inset 0 0 40px 28px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1829,16 +1839,6 @@ html {
   .md\:text-9xl {
     font-size: 8rem;
     line-height: 1;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .md\:font-normal {
