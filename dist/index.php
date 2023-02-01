@@ -160,7 +160,7 @@
                     after:content-[''] after:w-56 after:h-1 after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
                         About
                     </h3>
-                    <p class="text-zinc-700 text-xl md:text-3xl tracking-wider font-black z-10">
+                    <p class="text-zinc-700 text-xl md:text-xl 3xl:text-3xl tracking-wider font-black z-10">
                         I'm a full stack web developer, I specialize in creating dynamic and engaging websites using various technologies
                         and best practices. My portfolio showcases a range of projects, from simple to complex web applications,
                         that demonstrate my expertise in front-end and back-end technologies. I am passionate in developing robust and responsive
@@ -171,12 +171,8 @@
 
             <div class="relative col-start-1 col-span-7 md:col-span-3 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
                 <div class="pb-24 pt-14 lg:pb-8 3k:pb-3 3k:text-xl">
-                    <h3 id="about-me" class="pointer-events-none z-0 text-7xl md:text-9xl font-bold text-zinc-500/40 mb-4 transition-all
-                    before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
-                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
-                    after:content-[''] after:w-56 after:h-1 after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
-                        About
-                    </h3>
+
+                    <img src="images/profile/Profile.jpg" class="w-6/12 " alt="">
                 </div>
             </div>
 
