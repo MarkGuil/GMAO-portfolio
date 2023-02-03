@@ -62,7 +62,7 @@ function activatelink(linkPos) {
         if(linkName.classList.contains(linkPos)) {
             linkName.classList.add("text-zinc-600");
             linkName.classList.add("before:visible");
-            linkName.classList.add("before:w-6");
+            linkName.classList.add("before:w-8");
             linkName.classList.remove("text-zinc-400");
             linkName.classList.remove("before:invisible");
             linkName.classList.remove("before:w-0")
@@ -73,7 +73,7 @@ function activatelink(linkPos) {
             linkName.classList.add("before:w-0");
             linkName.classList.remove("text-zinc-600");
             linkName.classList.remove("before:visible");
-            linkName.classList.remove("before:w-6")
+            linkName.classList.remove("before:w-8")
         }
     })
 }

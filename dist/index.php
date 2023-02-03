@@ -49,7 +49,7 @@
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
                           before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s1" onclick="lenis.scrollTo('#s1')">
-                                <small>Home</small>
+                                <small><span class=" text-emerald-400">01</span> Home</small>
                             </a>
                         </li>
                         <li class="mx-5 relative">
@@ -59,7 +59,7 @@
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
                           before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s2" onclick="lenis.scrollTo('#s2')">
-                                <small>About</small>
+                                <small><span class=" text-emerald-400">02</span> About</small>
                             </a>
                         </li>
                         <li class="mx-5 relative">
@@ -69,7 +69,7 @@
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
                           before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s3" onclick="lenis.scrollTo('#s3')">
-                                <small>Projects</small>
+                                <small><span class=" text-emerald-400">03</span> Projects</small>
                             </a>
                         </li>
                         <li class="mx-5 relative">
@@ -78,8 +78,8 @@
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s6" onclick="lenis.scrollTo('#s6')">
-                                <small>Contact</small>
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s6" onclick="lenis.scrollTo('#s7')">
+                                <small><span class=" text-emerald-400">04</span> Contact</small>
                             </a>
                         </li>
                     </ul>
@@ -88,10 +88,10 @@
             </div>
             <div class="col hidden lg:block text-right">
                 <div class="social-links text-3xl">
-                    <a href="#" class="facebook"><i class="bx bxs-file-pdf text-zinc-600 px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="instagram"><i class="bx bxl-github text-zinc-600 px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="google-plus"><i class="bx bxs-envelope text-zinc-600 px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="linkedin"><i class="bx bxl-linkedin-square text-zinc-600 px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
+                    <a href="#" class="facebook"><i class="bx bxs-file-pdf text-zinc-600 px-2 py-2 rounded-full transition-color duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-github text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
+                    <a href="#" class="google-plus"><i class="bx bxs-envelope text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin-square text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
                 </div>
             </div>
             <div id="nav-menu" class="absolute bg-white text-zinc-900 top-20 left-0 text-4xl w-full flex-col justify-center origin-top animate-nav-bounce hidden lg:hidden transition-all duration-500">
@@ -126,7 +126,7 @@
                     <div class="relative mt-1 sm:mt-4 md:mt-7 lg:mt-8 3xl:mt-16 3k:mt-5">
                         <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-120 lg:scale-100 3xl:scale-105 h-44 sm:h-52 md:h-56 lg:h-72 xl:h-80 3xl:h-96 3k:h-80" width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
                             <text x="0" y="0" class="text-9xl font-allura">Mark Arjay</text>
-                            <text x="80" y="120" class="text-9xl font-allura">Guilang</text>
+                            <text x="100" y="120" class="text-9xl font-allura">Guilang</text>
                         </svg>
                     </div>
 
@@ -159,7 +159,7 @@
                     <h3 id="about-me" class="pointer-events-none z-0 text-5xl md:text-7xl lg:text-9xl font-bold text-zinc-400/40 mb-4 transition-all
                     before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
-                    after:content-[''] after:w-24 lg:after:w-56 after:h-px lg:after:h-1 after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
+                    after:content-[''] after:w-24 lg:after:w-56 after:h-px lg:after:h-1 after:bg-emerald-400/60 after:inline-block after:mt-1 after:mr-2">
                         About
                     </h3>
                     <p class="text-zinc-700 text-xl md:text-xl 3xl:text-3xl tracking-wider font-black z-10">
@@ -458,7 +458,7 @@
 
                         <div class="">
                             <div class="float-left w-16 h-16 text">
-                                <div class="flex justify-center items-center w-16 h-full rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
+                                <div class="flex justify-center items-center w-16 h-full rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
                                     <i class="bi bi-geo-alt text-2xl"></i>
                                 </div>
                             </div>
@@ -468,7 +468,7 @@
 
                         <div class="mt-10">
                             <div class="float-left w-16 h-16 text">
-                                <div class="flex justify-center items-center w-16 h-full rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
+                                <div class="flex justify-center items-center w-16 h-full rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
                                     <i class="bi bi-envelope text-2xl"></i>
                                 </div>
                             </div>
@@ -478,7 +478,7 @@
 
                         <div class="mt-10">
                             <div class="float-left w-16 h-16 text">
-                                <div class="flex justify-center items-center w-16 h-full rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
+                                <div class="flex justify-center items-center w-16 h-full rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
                                     <i class="bi bi-phone text-2xl"></i>
                                 </div>
                             </div>
@@ -531,11 +531,11 @@
             </div>
             <div class="ml-auto">
                 <div class="social-links mt-3 text-lg">
-                    <a href="#" class="twitter"><i class="bx bxl-twitter px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="facebook"><i class="bx bxl-facebook px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="instagram"><i class="bx bxl-instagram px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="google-plus"><i class="bx bxl-google-plus px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="linkedin"><i class="bx bxl-linkedin px-2 py-2 transition-all rounded-full duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
+                    <a href="#" class="twitter"><i class="bx bxl-twitter px-2 py-2 transition-all rounded-full duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
+                    <a href="#" class="facebook"><i class="bx bxl-facebook px-2 py-2 transition-all rounded-full duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram px-2 py-2 transition-all rounded-full duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
+                    <a href="#" class="google-plus"><i class="bx bxl-google-plus px-2 py-2 transition-all rounded-full duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin px-2 py-2 transition-all rounded-full duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
                 </div>
             </div>
         </div>

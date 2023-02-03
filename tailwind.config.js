@@ -32,7 +32,7 @@ module.exports = {
       },
       backgroundImage: {
         'home-small': "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('images/bglarge/bgsmall.jpg')",
-        'home-large': "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('images/bglarge/bglarge.jpg')",
+        'home-large': "linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('images/background/3bg.jpg')",
       },
       animation: {
         'zoom-in': 'zoom .8s ease-in',
