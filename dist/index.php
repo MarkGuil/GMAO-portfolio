@@ -152,8 +152,9 @@
     </section>
 
     <section id="s2" class="sect s2 relative h-fit lg:h-screen text-center sm:text-left bg-white lg:flex justify-center items-center">
-        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8  px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
-
+        <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8  px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+            <!-- <img src="images/bg.png" class="absolute top-0 left-0 w-full h-full" alt=""> -->
+            <img src="images/torn-paper.png" class="absolute top-0 left-0 w-full h-full " alt="">
             <div class="relative col-start-1 col-span-7 md:col-span-5 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
                 <div class="py-14 3k:pb-3 3k:text-xl">
                     <h3 id="about-me" class="pointer-events-none z-0 text-5xl md:text-7xl lg:text-9xl font-bold text-zinc-400/40 mb-4 transition-all
@@ -173,7 +174,6 @@
 
             <div class="relative col-start-1 col-span-7 md:col-span-2 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
                 <div class="pb-24 pt-14 lg:pb-8 3k:pb-3 3k:text-xl">
-
                     <img src="images/profile/test-3.png" class="w-full" alt="">
                 </div>
             </div>

@@ -545,6 +545,10 @@ html {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-y-2\/4 {
   top: 50%;
   bottom: 50%;
@@ -1278,6 +1282,11 @@ html {
   color: rgb(161 161 170 / var(--tw-text-opacity));
 }
 
+.text-emerald-400 {
+  --tw-text-opacity: 1;
+  color: rgb(52 211 153 / var(--tw-text-opacity));
+}
+
 .text-zinc-900 {
   --tw-text-opacity: 1;
   color: rgb(24 24 27 / var(--tw-text-opacity));
@@ -1309,11 +1318,6 @@ html {
 .text-dark-blue {
   --tw-text-opacity: 1;
   color: rgb(2 5 161 / var(--tw-text-opacity));
-}
-
-.text-emerald-400 {
-  --tw-text-opacity: 1;
-  color: rgb(52 211 153 / var(--tw-text-opacity));
 }
 
 .text-zinc-800 {
@@ -1446,19 +1450,14 @@ html {
   height: 1px;
 }
 
-.before\:w-6::before {
+.before\:w-8::before {
   content: var(--tw-content);
-  width: 1.5rem;
+  width: 2rem;
 }
 
 .before\:w-0::before {
   content: var(--tw-content);
   width: 0px;
-}
-
-.before\:w-8::before {
-  content: var(--tw-content);
-  width: 2rem;
 }
 
 .before\:font-outline-1::before {
