@@ -64,12 +64,12 @@
                             </a>
                         </li>
                         <li class="mx-5 relative">
-                            <a class="section-links s3
+                            <a class="section-links s4
                             font-semibold text-lg 3xl:text-xl 3k:text-2xl text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s3" onclick="lenis.scrollTo('#s3')">
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s4" onclick="lenis.scrollTo('#s4')">
                                 <small><span class=" text-emerald-400">03</span> Projects</small>
                             </a>
                         </li>
@@ -121,7 +121,7 @@
                     before:content-[''] lg:before:w-20 3xl:before:w-40 before:h-px before:bg-zinc-300 before:inline-block before:mt-1 before:ml-2
                     after:content-[''] lg:after:w-20 3xl:after:w-40 after:h-px after:bg-zinc-300 after:inline-block after:mt-1 after:mr-2
                     ">
-                        Hello world! I am
+                        Hello! My name is
                     </h1>
 
                     <div class="relative mt-1 sm:mt-4 md:mt-7 lg:mt-8 3xl:mt-16 3k:mt-5">
@@ -131,7 +131,7 @@
                         </svg>
                     </div>
 
-                    <h2 class="text-lg md:text-xl lg:text-3xl 3xl:text-4xl font-normal mt-1 sm:mt-4 md:mt-6 lg:mt-8 3xl:mt-16 3k:mt-5">a Full Stack Web Developer</h2>
+                    <h2 class="text-lg md:text-xl lg:text-3xl 3xl:text-4xl font-normal mt-1 sm:mt-4 md:mt-6 lg:mt-8 3xl:mt-16 3k:mt-5">I am a Web Developer</h2>
                 </div>
             </div>
 
@@ -155,8 +155,8 @@
     <section id="s2" class="sect s2 relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
         <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8  px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="relative col-start-1 col-span-7 md:col-span-5 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
-                <div class="py-8 3k:py-3 3k:text-xl">
+            <div class="relative col-start-1 col-span-7 md:col-span-4 lg:col-span-5 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
+                <div class="py-0 md:py-8 3k:py-3 3k:text-xl" data-aos="fade-right">
                     <h3 id="about-me" class="pointer-events-none z-0 text-5xl md:text-7xl lg:text-9xl font-bold text-zinc-400/40 mb-4 transition-all
                     before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
@@ -172,9 +172,9 @@
                 </div>
             </div>
 
-            <div class="relative col-start-1 col-span-7 md:col-span-2 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
-                <div class="py-0 lg:py-8 3k:py-3 3k:text-xl">
-                    <img src="images/profile/test-3.png" class="w-full" alt="">
+            <div class="relative col-start-1 col-span-7 md:col-span-3 lg:col-span-2 order-first md:order-last flex justify-start lg:justify-center items-center py-4 lg:py-10 px-2 md:px-10">
+                <div class="py-0 lg:py-8 3k:py-3 3k:text-xl flex justify-center items-center">
+                    <img src="images/profile/test-3.png" class="w-2/4 md:w-full" alt="" data-aos="fade-left">
                 </div>
             </div>
 
@@ -184,20 +184,20 @@
         </div>
     </section>
 
-    <section id="s3" class="sect s3 relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-emerald-900 md:bg-about-large bg-cover bg-fixed 3k:flex justify-center items-center">
+    <section id="s3" class="sect s3 relative h-fit 3k:h-fit text-center sm:text-left bg-emerald-900 bg-cover bg-fixed 3k:flex justify-center items-center">
         <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8  px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="relative col-start-1 col-span-7 text-start py-12 px-2 md:px-10">
                 <div class="py-10 3k:pb-3 3k:text-xl">
                     <h3 id="about-me" class=" absolute z-0 right-16 md:right-28 text-7xl md:text-8xl lg:text-[11rem] font-bold text-white mb-4 transition-all
                     before:content-['Skill'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
-                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 " data-aos="fade-right" data-aos-delay="50">
-                        Skill
+                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500" data-aos="fade-right" data-aos-delay="50">
+                        Skills
                     </h3>
-                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 text-white text-5xl md:text-6xl lg:text-7xl mt-16 mb-24 md:mb-10 md:mt-24 lg:mt-48 lg:mb-0 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 text-white text-5xl md:text-6xl lg:text-7xl mt-16 mb-24 md:mb-20 md:mt-24 lg:mt-48 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
 
                         <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
                                 <i class="devicon-html5-plain"></i>
                             </div>
                         </div>
@@ -214,6 +214,11 @@
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
                                 <i class="devicon-php-plain"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto lg:mt-4">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
+                                <i class="devicon-mysql-plain-wordmark"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
@@ -241,17 +246,13 @@
 
             </div>
         </div>
-        <img src="images/torn-paper-2.png" class="absolute top-0 left-0 w-full h-full" alt="">
+        <img src="images/torn-paper.png" class="absolute top-0 left-0 w-full h-full" alt="">
     </section>
 
     <section id="projects" class="sect projects h-fit 3k:flex justify-center items-center overflow-x-hidden">
         <div class="px-7 md:px-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div data-aos="fade-right">
-                <h2 class="font-semibold text-sm leading-none mb-1 tracking-widest uppercase text-neutral-400
-                after:content-[''] after:w-32 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
-                    Projects
-                </h2>
                 <h3 id="about-me" class="pointer-events-none z-0 text-7xl md:text-9xl font-bold text-zinc-500/40 mb-4 transition-all
                     before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 ">
@@ -266,7 +267,7 @@
         <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 md:px-20 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
-                <div class="lg:h-screen lg:sticky top-0 " data-aos="fade-right">
+                <div class="lg:h-screen lg:sticky top-0 " data-aos="fade-right" data-aos-delay="450">
                     <h1 class="lg:absolute top-20 text-5xl ">01</h1>
                     <div class="lg:absolute text-5xl inset-y-2/4 -mt-24 h-fit">
                         <h1 class="text-6xl font-extrabold">Omnibus</h1>
@@ -508,7 +509,7 @@
                 after:content-[''] after:w-32 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
                     Contact
                 </h2>
-                <p class="m-0 text-4xl font-bold uppercase text-zinc-800">Contact Us</p>
+                <p class="m-0 text-4xl font-bold uppercase text-zinc-800">Contact Me</p>
             </div>
 
             <div class="lg:grid grid-cols-12 gap-4">
