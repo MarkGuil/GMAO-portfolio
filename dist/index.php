@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="vendor/aos/dist/aos.css" rel="stylesheet">
     <link href="vendor/remixIcon/fonts/remixicon.css" rel="stylesheet">
@@ -42,7 +43,7 @@
                 </button>
                 <div class="hidden lg:flex justify-center items-center">
                     <ul class="flex text-center">
-                        <li class="mx-5 relative">
+                        <li class="mx-5 3k relative">
                             <a class="section-links s1 
                             font-extrabold text-lg 3xl:text-xl 3k:text-2xl text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
@@ -73,12 +74,12 @@
                             </a>
                         </li>
                         <li class="mx-5 relative">
-                            <a class="section-links s7
+                            <a class="section-links s8
                             font-semibold text-lg 3xl:text-xl 3k:text-2xl text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s6" onclick="lenis.scrollTo('#s7')">
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s8" onclick="lenis.scrollTo('#s8')">
                                 <small><span class=" text-emerald-400">04</span> Contact</small>
                             </a>
                         </li>
@@ -151,19 +152,18 @@
         </div>
     </section>
 
-    <section id="s2" class="sect s2 relative h-fit lg:h-screen text-center sm:text-left bg-white lg:flex justify-center items-center">
-        <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8  px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
-            <!-- <img src="images/bg.png" class="absolute top-0 left-0 w-full h-full" alt=""> -->
-            <img src="images/torn-paper.png" class="absolute top-0 left-0 w-full h-full " alt="">
+    <section id="s2" class="sect s2 relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
+        <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8  px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+
             <div class="relative col-start-1 col-span-7 md:col-span-5 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
-                <div class="py-14 3k:pb-3 3k:text-xl">
+                <div class="py-8 3k:py-3 3k:text-xl">
                     <h3 id="about-me" class="pointer-events-none z-0 text-5xl md:text-7xl lg:text-9xl font-bold text-zinc-400/40 mb-4 transition-all
                     before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
                     after:content-[''] after:w-24 lg:after:w-56 after:h-px lg:after:h-1 after:bg-emerald-400/60 after:inline-block after:mt-1 after:mr-2">
                         About
                     </h3>
-                    <p class="text-zinc-700 text-xl md:text-xl 3xl:text-3xl tracking-wider font-black z-10">
+                    <p class="text-zinc-700 text-xl md:text-2xl 3xl:text-3xl tracking-wider font-black z-10">
                         I'm a full stack web developer, I specialize in creating dynamic and engaging websites using various technologies
                         and best practices. My portfolio showcases a range of projects, from simple to complex web applications,
                         that demonstrate my expertise in front-end and back-end technologies. I am passionate in developing robust and responsive
@@ -173,7 +173,7 @@
             </div>
 
             <div class="relative col-start-1 col-span-7 md:col-span-2 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
-                <div class="pb-24 pt-14 lg:pb-8 3k:pb-3 3k:text-xl">
+                <div class="py-0 lg:py-8 3k:py-3 3k:text-xl">
                     <img src="images/profile/test-3.png" class="w-full" alt="">
                 </div>
             </div>
@@ -182,6 +182,66 @@
                 <canvas id="canvas" class="animate-zoom-in  absolute w-40 h-40 bottom-0 left-0 transition-all"></canvas>
             </div> -->
         </div>
+    </section>
+
+    <section id="s3" class="sect s3 relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-emerald-900 md:bg-about-large bg-cover bg-fixed 3k:flex justify-center items-center">
+        <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8  px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+
+            <div class="relative col-start-1 col-span-7 text-start py-12 px-2 md:px-10">
+                <div class="py-10 3k:pb-3 3k:text-xl">
+                    <h3 id="about-me" class=" absolute z-0 right-16 md:right-28 text-7xl md:text-8xl lg:text-[11rem] font-bold text-white mb-4 transition-all
+                    before:content-['Skill'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
+                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 " data-aos="fade-right" data-aos-delay="50">
+                        Skill
+                    </h3>
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 text-white text-5xl md:text-6xl lg:text-7xl mt-16 mb-24 md:mb-10 md:mt-24 lg:mt-48 lg:mb-0 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
+
+                        <div class="col-auto lg:mt-4">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="100">
+                                <i class="devicon-html5-plain"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto lg:mt-4">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
+                                <i class="devicon-css3-plain"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto lg:mt-4">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
+                                <i class="devicon-javascript-plain"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto lg:mt-4">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
+                                <i class="devicon-php-plain"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto lg:mt-4">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
+                                <i class="devicon-laravel-plain"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto lg:mt-4">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
+                                <i class="devicon-heroku-original"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto lg:mt-4">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
+                                <i class="devicon-bootstrap-plain"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto lg:mt-4">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
+                                <i class="devicon-tailwindcss-plain"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="images/torn-paper-2.png" class="absolute top-0 left-0 w-full h-full" alt="">
     </section>
 
     <section id="projects" class="sect projects h-fit 3k:flex justify-center items-center overflow-x-hidden">
@@ -202,7 +262,7 @@
         </div>
     </section>
 
-    <section id="s3" class="sect s3 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
+    <section id="s4" class="sect s4 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
         <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 md:px-20 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
@@ -252,7 +312,7 @@
         </div>
     </section>
 
-    <section id="s4" class="sect s3 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
+    <section id="s5" class="sect s5 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
         <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
@@ -292,7 +352,7 @@
             </div>
     </section>
 
-    <section id="s5" class="sect s3 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center ">
+    <section id="s6" class="sect s6 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center ">
         <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
             <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
                 <div class="lg:h-screen lg:sticky top-0 ">
@@ -366,7 +426,7 @@
         </div>
     </section>
 
-    <section id="s6" class="sect s3 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center ">
+    <section id="s7" class="sect s7 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center ">
         <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
             <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
                 <div class="lg:h-screen lg:sticky top-0 ">
@@ -440,7 +500,7 @@
         </div>
     </section>
 
-    <section id="s7" class="sect s7 h-fit 3k:flex justify-center items-center overflow-x-hidden">
+    <section id="s8" class="sect s8 h-fit 3k:flex justify-center items-center overflow-x-hidden">
         <div class="px-4 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-0 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-10" data-aos="fade-up">
