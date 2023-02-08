@@ -184,61 +184,61 @@
         </div>
     </section>
 
-    <section id="s3" class="sect s3 relative h-fit text-center sm:text-left bg-emerald-900 bg-cover bg-fixed 3k:flex justify-center items-center">
+    <section id="s3" class="sect s3 relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed 3k:flex justify-center items-center">
         <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-14 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="relative col-start-1 col-span-7 text-start py-36 md:py-24 px-2 md:px-10">
+            <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 px-2 md:px-10">
                 <div class="py-10">
-                    <h3 id="about-me" class=" absolute z-0 right-16 md:right-28 text-7xl md:text-8xl lg:text-[11rem] font-bold text-white mb-4 transition-all
+                    <h3 id="about-me" class="text-center lg:text-right text-7xl md:text-8xl lg:text-[10rem] font-bold text-white mb-4 transition-all
                     before:content-['Skill'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500" data-aos="fade-right" data-aos-delay="50">
                         Skills
                     </h3>
-                    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 3xl:grid-cols-9 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl mt-20 md:mb-10 md:mt-28 lg:mt-48 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
+                    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 3xl:grid-cols-9 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
 
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
-                                <i class="devicon-html5-plain"></i>
+                                <i class="devicon-html5-plain rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
-                                <i class="devicon-css3-plain"></i>
+                                <i class="devicon-css3-plain rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
-                                <i class="devicon-javascript-plain"></i>
+                                <i class="devicon-javascript-plain rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
-                                <i class="devicon-php-plain"></i>
+                                <i class="devicon-php-plain rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
-                                <i class="devicon-mysql-plain-wordmark"></i>
+                                <i class="devicon-mysql-plain-wordmark rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
-                                <i class="devicon-laravel-plain "></i>
+                                <i class="devicon-laravel-plain rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
-                                <i class="devicon-heroku-original"></i>
+                                <i class="devicon-heroku-original rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
-                                <i class="devicon-bootstrap-plain"></i>
+                                <i class="devicon-bootstrap-plain rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
-                                <i class="devicon-tailwindcss-plain rounded-full duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-tailwindcss-plain rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                     </div>
@@ -246,7 +246,8 @@
 
             </div>
         </div>
-        <img src="images/torn-paper.png" class="absolute top-0 left-0 w-full h-full" alt="">
+        <img src="images/skills-bg/torn-1-min.png" class="absolute top-0 left-0 w-full h-44" alt="">
+        <img src="images/skills-bg/torn-2-min.png" class="absolute bottom-0 left-0 w-full h-56" alt="">
     </section>
 
     <section id="projects" class="sect projects h-fit 3k:flex justify-center items-center overflow-x-hidden">
