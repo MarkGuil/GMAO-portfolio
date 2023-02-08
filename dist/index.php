@@ -184,17 +184,17 @@
         </div>
     </section>
 
-    <section id="s3" class="sect s3 relative h-fit 3k:h-fit text-center sm:text-left bg-emerald-900 bg-cover bg-fixed 3k:flex justify-center items-center">
-        <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8  px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+    <section id="s3" class="sect s3 relative h-fit text-center sm:text-left bg-emerald-900 bg-cover bg-fixed 3k:flex justify-center items-center">
+        <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-14 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="relative col-start-1 col-span-7 text-start py-12 px-2 md:px-10">
-                <div class="py-10 3k:pb-3 3k:text-xl">
+            <div class="relative col-start-1 col-span-7 text-start py-36 md:py-24 px-2 md:px-10">
+                <div class="py-10">
                     <h3 id="about-me" class=" absolute z-0 right-16 md:right-28 text-7xl md:text-8xl lg:text-[11rem] font-bold text-white mb-4 transition-all
                     before:content-['Skill'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500" data-aos="fade-right" data-aos-delay="50">
                         Skills
                     </h3>
-                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 text-white text-5xl md:text-6xl lg:text-7xl mt-16 mb-24 md:mb-20 md:mt-24 lg:mt-48 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
+                    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 3xl:grid-cols-9 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl mt-20 md:mb-10 md:mt-28 lg:mt-48 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
 
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
@@ -223,7 +223,7 @@
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
-                                <i class="devicon-laravel-plain"></i>
+                                <i class="devicon-laravel-plain "></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
@@ -238,7 +238,7 @@
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
-                                <i class="devicon-tailwindcss-plain"></i>
+                                <i class="devicon-tailwindcss-plain rounded-full duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                     </div>
