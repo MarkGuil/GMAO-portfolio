@@ -74,12 +74,12 @@
                             </a>
                         </li>
                         <li class="mx-5 relative">
-                            <a class="section-links s8
+                            <a class="section-links s9
                             font-semibold text-lg 3xl:text-xl 3k:text-2xl text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s8" onclick="lenis.scrollTo('#s8')">
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s9" onclick="lenis.scrollTo('#s9')">
                                 <small><span class=" text-emerald-400">04</span> Contact</small>
                             </a>
                         </li>
@@ -152,10 +152,23 @@
         </div>
     </section>
 
-    <section id="s2" class="sect s2 relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
-        <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8  px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+    <section id="s2" class="sect s2 about-section relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
+        <div class="relative h-full py-3 md:py-8  px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
 
-            <div class="relative col-start-1 col-span-7 md:col-span-4 lg:col-span-5 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
+            <div class="relative py-4 md:py-8 lg:py-10 px-2 md:px-10">
+                <div class="py-0 3k:py-3 text-start lg:text-right lg:flex justify-end items-end">
+                    <h3 id="about-me" class="lg:absolute lg:translate-y-5 3xl:translate-y-20 3k:-translate-y-5 pointer-events-none z-0 text-6xl md:text-7xl lg:text-[12rem] 3xl:text-[18rem] font-bold text-zinc-300/40 mb-4 transition-all duration-700
+                    before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
+                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 left-0 opacity-0">
+                        About
+                    </h3>
+                    <p class="text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl lg:w-10/12 tracking-wider font-black z-10" data-aos="fade-left">
+                        I'm a full stack web developer that is passionate in developing robust and responsive
+                        web solutions and is excited to bring my skills and experience to new challenges.
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="relative col-start-1 col-span-7 md:col-span-4 lg:col-span-5 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
                 <div class="py-0 md:py-8 3k:py-3 3k:text-xl" data-aos="fade-right">
                     <h3 id="about-me" class="pointer-events-none z-0 text-5xl md:text-7xl lg:text-9xl font-bold text-zinc-400/40 mb-4 transition-all
                     before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
@@ -174,9 +187,9 @@
 
             <div class="relative col-start-1 col-span-7 md:col-span-3 lg:col-span-2 order-first md:order-last flex justify-start lg:justify-center items-center py-4 lg:py-10 px-2 md:px-10">
                 <div class="py-0 lg:py-8 3k:py-3 3k:text-xl flex justify-center items-center">
-                    <img src="images/profile/test-3.png" class="w-2/4 md:w-full" alt="" data-aos="fade-left">
+                    <img src="images/profile/test-3.png" class="w-2/4 md:w-full " alt="" data-aos="fade-left">
                 </div>
-            </div>
+            </div> -->
 
             <!-- <div class="relative">
                 <canvas id="canvas" class="animate-zoom-in  absolute w-40 h-40 bottom-0 left-0 transition-all"></canvas>
@@ -189,8 +202,8 @@
 
             <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 px-2 md:px-10">
                 <div class="py-10">
-                    <h3 id="about-me" class="text-center lg:text-right text-7xl md:text-8xl lg:text-[10rem] font-bold text-white mb-4 transition-all
-                    before:content-['Skill'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
+                    <h3 id="about-me" class="text-center text-7xl md:text-8xl lg:text-[9rem] font-bold text-white mb-4 transition-all
+                    before:content-['Skills'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500" data-aos="fade-right" data-aos-delay="50">
                         Skills
                     </h3>
@@ -246,15 +259,15 @@
 
             </div>
         </div>
-        <img src="images/skills-bg/torn-1-min.png" class="absolute top-0 left-0 w-full h-44" alt="">
+        <img src="images/skills-bg/torn-1-min.png" class="absolute top-0 left-0 w-full h-44 " alt="">
         <img src="images/skills-bg/torn-2-min.png" class="absolute bottom-0 left-0 w-full h-56" alt="">
     </section>
 
-    <section id="projects" class="sect projects h-fit 3k:flex justify-center items-center overflow-x-hidden">
+    <section id="projects" class="sect projects h-fit 3k:flex justify-center items-center">
         <div class="px-7 md:px-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div data-aos="fade-right">
-                <h3 id="about-me" class="pointer-events-none z-0 text-7xl md:text-9xl font-bold text-zinc-500/40 mb-4 transition-all
+                <h3 id="about-me" class="z-0 text-7xl md:text-9xl font-bold text-zinc-500/40 mb-4 transition-all
                     before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 ">
                     Projects
@@ -264,8 +277,8 @@
         </div>
     </section>
 
-    <section id="s4" class="sect s4 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
-        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 md:px-20 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+    <section id="s4" class="sect s4 relative h-fit text-center sm:text-left bg-white 3k:flex justify-center items-center">
+        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
                 <div class="lg:h-screen lg:sticky top-0 " data-aos="fade-right" data-aos-delay="450">
@@ -314,124 +327,10 @@
         </div>
     </section>
 
-    <section id="s5" class="sect s5 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
-        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
-
-            <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
-                <div class="lg:h-screen lg:sticky top-0 ">
-                    <h1 class="lg:absolute top-20 text-5xl ">02</h1>
-                    <div class="lg:absolute text-5xl inset-y-2/4 -mt-40 h-fit">
-                        <h1 class="lg:text-6xl font-extrabold">Pangasinan State University Inventory And Planning Of Procurement Plan System</h1>
-                        <h1 class=" text-5xl">Programmer/ Developer</h1>
-                        <div class="text-lg-start mt-5 mb-10 md:inline-flex">
-                            <div class="mt-10 md:mt-0">
-                                <a href="" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full">
-                                    Github
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <h1 class="absolute text-5xl bottom-3">Web and Mobile</h1>
-                </div>
-            </div>
-
-            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10">
-                <div class="relative pb-24 lg:pb-8 3k:pb-3 3k:text-xl">
-
-                    <!-- <div class="grid grid-cols-2 gap-1"> -->
-                    <div class="border-2 border-black h-96 mb-5 p-4">
-                        <img src="images/psu/psu3-min.PNG" class="h-full w-full object-cover" alt="">
-                    </div>
-                    <div class="border-2 border-black h-96 mb-5 p-4">
-                        <img src="images/psu/psu-min.PNG" class="h-full w-full object-cover" alt="">
-                    </div>
-                    <div class="border-2 border-black h-96 mb-5 p-4">
-                        <img src="images/psu/psu2-min.PNG" class="h-full w-full object-cover" alt="">
-                    </div>
-                    <!-- </div> -->
-
-                </div>
-            </div>
-    </section>
-
-    <section id="s6" class="sect s6 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center ">
+    <section id="s5" class="sect s5 relative h-fit text-center sm:text-left bg-white 3k:flex justify-center items-center ">
         <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
             <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
-                <div class="lg:h-screen lg:sticky top-0 ">
-                    <h1 class="lg:absolute top-20 text-5xl ">03</h1>
-                    <div class="lg:absolute text-5xl inset-y-2/4 -mt-28 h-fit">
-                        <h1 class="text-6xl font-extrabold">Reinvented Coaching</h1>
-                        <h1 class=" text-5xl">Programmer/ Developer</h1>
-                        <div class="text-lg-start mt-5 mb-10 md:inline-flex">
-                            <div class="md:mr-2">
-                                <a href="http://reinventedcoach.com/index" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full ">
-                                    Open Live
-                                </a>
-                            </div>
-                            <div class="mt-10 md:mt-0">
-                                <a href="" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full">
-                                    Github
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <h1 class="absolute text-5xl bottom-3">Web and Mobile</h1>
-                </div>
-            </div>
-
-            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10">
-                <div class="pb-24 lg:pb-8 3k:pb-3 3k:text-xl">
-                    <h3 class="text-3xl font-bold text-dark-blue mb-4">For he who is in the pursuit of pleasures should avoid something</h3>
-                    <p class="text-zinc-600">
-                        As a full stack web developer, I specialize in creating dynamic and engaging websites using various technologies
-                        and best practices. My portfolio showcases a range of projects, from simple brochure websites to complex web applications,
-                        that demonstrate my expertise in front-end and back-end technologies. I am passionate about developing robust and responsive
-                        web solutions and staying up-to-date with the latest web development trends.
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic repellat blanditiis facilis debitis a placeat natus, quidem fugiat, ea voluptates voluptate veritatis repellendus corrupti rem sit, asperiores assumenda mollitia omnis veniam ad at aliquid. Sunt aliquid repellat a accusamus illum tenetur ducimus perferendis placeat possimus voluptas quam, repudiandae at debitis est expedita assumenda cupiditate voluptates blanditiis. Doloremque vitae sunt tempora odit similique sed molestias sequi. Quos esse ab perspiciatis error deserunt nam perferendis voluptatem maxime earum molestiae quod similique impedit, id voluptatibus vel atque? Laudantium perferendis dolore, saepe facilis quia rerum harum eius, vitae atque amet non veritatis! Ab perferendis labore illo eligendi sed sunt minus vel tempora dolorem neque nisi quia, consequatur cumque, repellendus quasi facilis minima. Beatae, ipsa minima culpa dicta porro nisi? Quo officia quis nisi iure qui voluptatum omnis inventore temporibus velit aliquid natus, officiis dolorum ducimus eveniet fugit maiores eos aliquam veritatis debitis placeat magnam accusamus totam? Placeat consectetur illum molestias, dolore consequatur dicta laboriosam, sed recusandae quidem blanditiis culpa corporis voluptatum nam est autem odio aut possimus similique assumenda? Iusto corporis officiis quas rerum. Rem, repellat tempore? Quisquam itaque eligendi nisi, omnis recusandae doloremque enim delectus placeat corrupti architecto quia rem explicabo provident!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores velit ea repellat maxime obcaecati voluptates odio qui illum pariatur, explicabo itaque laudantium similique nam provident. Eligendi ab perferendis soluta obcaecati enim veritatis nostrum necessitatibus vero error molestias possimus quidem velit, cum tempore sapiente, beatae ut, voluptates nemo. Adipisci expedita deleniti facere rem eaque ipsam quas illum, vero blanditiis totam inventore a vel vitae odio obcaecati doloribus nisi nam. Earum at exercitationem, magni eum qui illum eius soluta mollitia. A, libero voluptate tempore consequatur nulla eaque ex at, commodi rem excepturi eveniet earum, quaerat tempora eligendi nisi exercitationem dolorem dicta enim atque culpa quos quam sunt. Blanditiis, beatae? Ullam doloribus veritatis, dolorem obcaecati fugiat, nam pariatur provident temporibus harum odit dignissimos voluptates! Eum corrupti, at veritatis id nihil, dolores ullam excepturi, provident voluptates earum dolorem velit. Veritatis sed vero laborum consequuntur soluta labore qui quibusdam laudantium sunt placeat laboriosam unde accusamus ipsum exercitationem asperiores, tempore atque hic voluptate magni eius in totam quod, praesentium rem? Vel, dolor at! Fugiat id ut, consequatur ipsa iure dolores? Officiis provident enim ducimus, adipisci quia eligendi reprehenderit mollitia voluptatem veritatis consequuntur? Ducimus dicta deleniti error. Expedita asperiores aliquid iste quisquam modi sequi laudantium hic! Animi voluptate similique a, rerum excepturi inventore eum exercitationem voluptatum praesentium tenetur accusamus enim esse veniam unde aut culpa perferendis quasi omnis eos ipsum. Ea natus hic esse explicabo, nesciunt sunt dicta, quas libero velit asperiores, ab et? Unde tempora modi provident culpa numquam aperiam voluptates voluptatum et eveniet officia a architecto corporis illum hic soluta vel eos repellendus, amet quibusdam nesciunt optio illo? Laborum dignissimos exercitationem voluptate error, fuga nemo minus maxime voluptates, voluptatibus, obcaecati et! Laboriosam eveniet eligendi voluptas repellendus maiores voluptatum, voluptate, voluptatem quis iste est molestias facere rerum quisquam temporibus soluta. Ad commodi ea numquam quo nesciunt inventore deleniti, tempore fugiat modi repudiandae esse suscipit quae natus eligendi vel fuga consectetur qui aspernatur non iure sunt quibusdam cum nemo id. Eligendi eum, quam ratione in corporis velit? Repellat ratione exercitationem natus quam vitae, dolores at unde alias molestias aspernatur et eius voluptas sed ipsum consectetur est quis corrupti sint quidem laboriosam. Illo impedit aut itaque. Incidunt veritatis eaque nemo nam, autem fuga laborum alias, ex est ab natus quisquam amet similique consectetur voluptatibus, facilis exercitationem suscipit repudiandae placeat rem? Explicabo distinctio vero, modi odio dicta magnam voluptate rem earum eum voluptatum, vitae accusamus nam dolor reiciendis placeat.</p>
-                    <div class="mt-10" data-scroll data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
-                        <div class="float-none md:float-left lg:float-left w-full md:w-16 lg:w-16 h-16 text flex md:block lg:block justify-center items-center">
-                            <div class="flex justify-center items-center w-16 h-full border-2 border-emerald-400 text-emerald-400 rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
-                                <i class="bx bx-rocket text-3xl"></i>
-                            </div>
-                        </div>
-                        <h4 class="ml-0 md:ml-20 lg:ml-20 mb-2 mt-3 md:mt-0 lg:mt-0 font-bold text-lg 3k:text-xl"><a href="" class="text-zinc-800 transition duration-75 ease-in-out hover:text-emerald-300">Fast Booking</a></h4>
-                        <p class="px-10 md:px-20 lg:px-0 ml-0 lg:ml-20 text-sm 3k:text-lg leading-6 text-zinc-600">
-                            As a full stack web developer, I possess a diverse set of skills that allows me to handle all aspects of web development,
-                            from the front-end user interface to the back-end logic and database. My portfolio showcases a variety of projects that
-                            demonstrate my expertise in technologies such as HTML, CSS, JavaScript, React, Angular, Vue.js, Node.js, and PHP. My experience
-                            with different frameworks, libraries, and databases gives me the ability to build efficient and scalable web applications,
-                            whether it be a simple brochure website or a complex web application. I am passionate about developing robust and responsive
-                            web solutions that deliver a seamless user experience and meet the needs of my clients. I always strive to stay up-to-date
-                            with the latest web development trends and technologies and I am excited to bring my skills and experience to new challenges.
-                        </p>
-                    </div>
-
-                    <div class="mt-10" data-scroll data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
-                        <div class="float-none md:float-left lg:float-left w-full md:w-16 lg:w-16 h-16 text flex md:block lg:block justify-center items-center">
-                            <div class="flex justify-center items-center w-16 md:w-full lg:w-full h-full border-2 border-emerald-400 text-emerald-400 rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
-                                <i class="bx bx-lock text-3xl"></i>
-                            </div>
-                        </div>
-                        <h4 class="ml-0 md:ml-20 lg:ml-20 mb-2 mt-3 font-bold text-lg 3k:text-xl"><a href="" class="text-zinc-800 transition duration-75 ease-in-out hover:text-emerald-300">Secure Payment</a></h4>
-                        <p class="px-10 md:px-20 lg:px-0 ml-0 lg:ml-20 text-sm 3k:text-lg leading-6 text-zinc-600">
-                            As a web developer, I specialize in creating dynamic and engaging websites using the latest technologies and best practices in the industry. My portfolio showcases a diverse range of projects,
-                            from simple brochure websites to complex web applications. Each project represents my skills in areas such as HTML, CSS, JavaScript, and responsive design. My experience and expertise in web
-                            development have allowed me to deliver high-quality, fully-functional websites that meet the needs of my clients and exceed their expectations. I am passionate about creating beautiful,
-                            user-friendly websites and always strive to stay up-to-date with the latest web development trends and technologies.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="s7" class="sect s7 relative h-fit text-center sm:text-left bg-white lg:flex justify-center items-center ">
-        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
-            <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
-                <div class="lg:h-screen lg:sticky top-0 ">
+                <div class="lg:h-screen lg:sticky top-0 " data-aos="fade-right" data-aos-delay="450">
                     <h1 class="lg:absolute top-20 text-5xl ">04</h1>
                     <div class="lg:absolute text-5xl inset-y-2/4 -mt-28 h-fit">
                         <h1 class="text-6xl font-extrabold">Quizam</h1>
@@ -502,7 +401,195 @@
         </div>
     </section>
 
-    <section id="s8" class="sect s8 h-fit 3k:flex justify-center items-center overflow-x-hidden">
+    <section id="s6" class="sect s6 relative h-fit text-center sm:text-left bg-white 3k:flex justify-center items-center">
+        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+
+            <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
+                <div class="lg:h-screen lg:sticky top-0 " data-aos="fade-right" data-aos-delay="450">
+                    <h1 class="lg:absolute top-20 text-5xl ">02</h1>
+                    <div class="lg:absolute text-5xl inset-y-2/4 -mt-40 h-fit">
+                        <h1 class="lg:text-6xl font-extrabold">Pangasinan State University Inventory And Planning Of Procurement Plan System</h1>
+                        <h1 class=" text-5xl">Programmer/ Developer</h1>
+                        <div class="text-lg-start mt-5 mb-10 md:inline-flex">
+                            <div class="mt-10 md:mt-0">
+                                <a href="" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full">
+                                    Github
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="absolute text-5xl bottom-3">Web and Mobile</h1>
+                </div>
+            </div>
+
+            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10">
+                <div class="relative pb-24 lg:pb-8 3k:pb-3 3k:text-xl">
+
+                    <!-- <div class="grid grid-cols-2 gap-1"> -->
+                    <div class="border-2 border-black h-96 mb-5 p-4">
+                        <img src="images/psu/psu3-min.PNG" class="h-full w-full object-cover" alt="">
+                    </div>
+                    <div class="border-2 border-black h-96 mb-5 p-4">
+                        <img src="images/psu/psu-min.PNG" class="h-full w-full object-cover" alt="">
+                    </div>
+                    <div class="border-2 border-black h-96 mb-5 p-4">
+                        <img src="images/psu/psu2-min.PNG" class="h-full w-full object-cover" alt="">
+                    </div>
+                    <!-- </div> -->
+
+                </div>
+            </div>
+    </section>
+
+    <section id="s7" class="sect s7 relative h-fit text-center sm:text-left bg-white 3k:flex justify-center items-center ">
+        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+            <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
+                <div class="lg:h-screen lg:sticky top-0 " data-aos="fade-right" data-aos-delay="450">
+                    <h1 class="lg:absolute top-20 text-5xl ">03</h1>
+                    <div class="lg:absolute text-5xl inset-y-2/4 -mt-28 h-fit">
+                        <h1 class="text-6xl font-extrabold">Reinvented Coaching</h1>
+                        <h1 class=" text-5xl">Programmer/ Developer</h1>
+                        <div class="text-lg-start mt-5 mb-10 md:inline-flex">
+                            <div class="md:mr-2">
+                                <a href="http://reinventedcoach.com/index" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                    Open Live
+                                </a>
+                            </div>
+                            <div class="mt-10 md:mt-0">
+                                <a href="" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full">
+                                    Github
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="absolute text-5xl bottom-3">Web and Mobile</h1>
+                </div>
+            </div>
+
+            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10">
+                <div class="pb-24 lg:pb-8 3k:pb-3 3k:text-xl">
+                    <h3 class="text-3xl font-bold text-dark-blue mb-4">For he who is in the pursuit of pleasures should avoid something</h3>
+                    <p class="text-zinc-600">
+                        As a full stack web developer, I specialize in creating dynamic and engaging websites using various technologies
+                        and best practices. My portfolio showcases a range of projects, from simple brochure websites to complex web applications,
+                        that demonstrate my expertise in front-end and back-end technologies. I am passionate about developing robust and responsive
+                        web solutions and staying up-to-date with the latest web development trends.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic repellat blanditiis facilis debitis a placeat natus, quidem fugiat, ea voluptates voluptate veritatis repellendus corrupti rem sit, asperiores assumenda mollitia omnis veniam ad at aliquid. Sunt aliquid repellat a accusamus illum tenetur ducimus perferendis placeat possimus voluptas quam, repudiandae at debitis est expedita assumenda cupiditate voluptates blanditiis. Doloremque vitae sunt tempora odit similique sed molestias sequi. Quos esse ab perspiciatis error deserunt nam perferendis voluptatem maxime earum molestiae quod similique impedit, id voluptatibus vel atque? Laudantium perferendis dolore, saepe facilis quia rerum harum eius, vitae atque amet non veritatis! Ab perferendis labore illo eligendi sed sunt minus vel tempora dolorem neque nisi quia, consequatur cumque, repellendus quasi facilis minima. Beatae, ipsa minima culpa dicta porro nisi? Quo officia quis nisi iure qui voluptatum omnis inventore temporibus velit aliquid natus, officiis dolorum ducimus eveniet fugit maiores eos aliquam veritatis debitis placeat magnam accusamus totam? Placeat consectetur illum molestias, dolore consequatur dicta laboriosam, sed recusandae quidem blanditiis culpa corporis voluptatum nam est autem odio aut possimus similique assumenda? Iusto corporis officiis quas rerum. Rem, repellat tempore? Quisquam itaque eligendi nisi, omnis recusandae doloremque enim delectus placeat corrupti architecto quia rem explicabo provident!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores velit ea repellat maxime obcaecati voluptates odio qui illum pariatur, explicabo itaque laudantium similique nam provident. Eligendi ab perferendis soluta obcaecati enim veritatis nostrum necessitatibus vero error molestias possimus quidem velit, cum tempore sapiente, beatae ut, voluptates nemo. Adipisci expedita deleniti facere rem eaque ipsam quas illum, vero blanditiis totam inventore a vel vitae odio obcaecati doloribus nisi nam. Earum at exercitationem, magni eum qui illum eius soluta mollitia. A, libero voluptate tempore consequatur nulla eaque ex at, commodi rem excepturi eveniet earum, quaerat tempora eligendi nisi exercitationem dolorem dicta enim atque culpa quos quam sunt. Blanditiis, beatae? Ullam doloribus veritatis, dolorem obcaecati fugiat, nam pariatur provident temporibus harum odit dignissimos voluptates! Eum corrupti, at veritatis id nihil, dolores ullam excepturi, provident voluptates earum dolorem velit. Veritatis sed vero laborum consequuntur soluta labore qui quibusdam laudantium sunt placeat laboriosam unde accusamus ipsum exercitationem asperiores, tempore atque hic voluptate magni eius in totam quod, praesentium rem? Vel, dolor at! Fugiat id ut, consequatur ipsa iure dolores? Officiis provident enim ducimus, adipisci quia eligendi reprehenderit mollitia voluptatem veritatis consequuntur? Ducimus dicta deleniti error. Expedita asperiores aliquid iste quisquam modi sequi laudantium hic! Animi voluptate similique a, rerum excepturi inventore eum exercitationem voluptatum praesentium tenetur accusamus enim esse veniam unde aut culpa perferendis quasi omnis eos ipsum. Ea natus hic esse explicabo, nesciunt sunt dicta, quas libero velit asperiores, ab et? Unde tempora modi provident culpa numquam aperiam voluptates voluptatum et eveniet officia a architecto corporis illum hic soluta vel eos repellendus, amet quibusdam nesciunt optio illo? Laborum dignissimos exercitationem voluptate error, fuga nemo minus maxime voluptates, voluptatibus, obcaecati et! Laboriosam eveniet eligendi voluptas repellendus maiores voluptatum, voluptate, voluptatem quis iste est molestias facere rerum quisquam temporibus soluta. Ad commodi ea numquam quo nesciunt inventore deleniti, tempore fugiat modi repudiandae esse suscipit quae natus eligendi vel fuga consectetur qui aspernatur non iure sunt quibusdam cum nemo id. Eligendi eum, quam ratione in corporis velit? Repellat ratione exercitationem natus quam vitae, dolores at unde alias molestias aspernatur et eius voluptas sed ipsum consectetur est quis corrupti sint quidem laboriosam. Illo impedit aut itaque. Incidunt veritatis eaque nemo nam, autem fuga laborum alias, ex est ab natus quisquam amet similique consectetur voluptatibus, facilis exercitationem suscipit repudiandae placeat rem? Explicabo distinctio vero, modi odio dicta magnam voluptate rem earum eum voluptatum, vitae accusamus nam dolor reiciendis placeat.</p>
+                    <div class="mt-10" data-scroll data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
+                        <div class="float-none md:float-left lg:float-left w-full md:w-16 lg:w-16 h-16 text flex md:block lg:block justify-center items-center">
+                            <div class="flex justify-center items-center w-16 h-full border-2 border-emerald-400 text-emerald-400 rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
+                                <i class="bx bx-rocket text-3xl"></i>
+                            </div>
+                        </div>
+                        <h4 class="ml-0 md:ml-20 lg:ml-20 mb-2 mt-3 md:mt-0 lg:mt-0 font-bold text-lg 3k:text-xl"><a href="" class="text-zinc-800 transition duration-75 ease-in-out hover:text-emerald-300">Fast Booking</a></h4>
+                        <p class="px-10 md:px-20 lg:px-0 ml-0 lg:ml-20 text-sm 3k:text-lg leading-6 text-zinc-600">
+                            As a full stack web developer, I possess a diverse set of skills that allows me to handle all aspects of web development,
+                            from the front-end user interface to the back-end logic and database. My portfolio showcases a variety of projects that
+                            demonstrate my expertise in technologies such as HTML, CSS, JavaScript, React, Angular, Vue.js, Node.js, and PHP. My experience
+                            with different frameworks, libraries, and databases gives me the ability to build efficient and scalable web applications,
+                            whether it be a simple brochure website or a complex web application. I am passionate about developing robust and responsive
+                            web solutions that deliver a seamless user experience and meet the needs of my clients. I always strive to stay up-to-date
+                            with the latest web development trends and technologies and I am excited to bring my skills and experience to new challenges.
+                        </p>
+                    </div>
+
+                    <div class="mt-10" data-scroll data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
+                        <div class="float-none md:float-left lg:float-left w-full md:w-16 lg:w-16 h-16 text flex md:block lg:block justify-center items-center">
+                            <div class="flex justify-center items-center w-16 md:w-full lg:w-full h-full border-2 border-emerald-400 text-emerald-400 rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
+                                <i class="bx bx-lock text-3xl"></i>
+                            </div>
+                        </div>
+                        <h4 class="ml-0 md:ml-20 lg:ml-20 mb-2 mt-3 font-bold text-lg 3k:text-xl"><a href="" class="text-zinc-800 transition duration-75 ease-in-out hover:text-emerald-300">Secure Payment</a></h4>
+                        <p class="px-10 md:px-20 lg:px-0 ml-0 lg:ml-20 text-sm 3k:text-lg leading-6 text-zinc-600">
+                            As a web developer, I specialize in creating dynamic and engaging websites using the latest technologies and best practices in the industry. My portfolio showcases a diverse range of projects,
+                            from simple brochure websites to complex web applications. Each project represents my skills in areas such as HTML, CSS, JavaScript, and responsive design. My experience and expertise in web
+                            development have allowed me to deliver high-quality, fully-functional websites that meet the needs of my clients and exceed their expectations. I am passionate about creating beautiful,
+                            user-friendly websites and always strive to stay up-to-date with the latest web development trends and technologies.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="s8" class="sect s8 relative h-fit text-center sm:text-left bg-white 3k:flex justify-center items-center ">
+        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+            <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
+                <div class="lg:h-screen lg:sticky top-0 " data-aos="fade-right" data-aos-delay="450">
+                    <h1 class="lg:absolute top-20 text-5xl ">04</h1>
+                    <div class="lg:absolute text-5xl inset-y-2/4 -mt-28 h-fit">
+                        <h1 class="text-6xl font-extrabold">Quizam</h1>
+                        <h1 class=" text-5xl">Programmer/ Developer</h1>
+                        <div class="text-lg-start mt-5 mb-10 md:inline-flex">
+                            <div class="md:mr-2">
+                                <a href="http://reinventedcoach.com/index" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                    Open Live
+                                </a>
+                            </div>
+                            <div class="mt-10 md:mt-0">
+                                <a href="" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full">
+                                    Github
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="absolute text-5xl bottom-3">Web</h1>
+                </div>
+            </div>
+
+            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10">
+                <div class="pb-24 lg:pb-8 3k:pb-3 3k:text-xl">
+                    <h3 class="text-3xl font-bold text-dark-blue mb-4">For he who is in the pursuit of pleasures should avoid something</h3>
+                    <p class="text-zinc-600">
+                        As a full stack web developer, I specialize in creating dynamic and engaging websites using various technologies
+                        and best practices. My portfolio showcases a range of projects, from simple brochure websites to complex web applications,
+                        that demonstrate my expertise in front-end and back-end technologies. I am passionate about developing robust and responsive
+                        web solutions and staying up-to-date with the latest web development trends.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic repellat blanditiis facilis debitis a placeat natus, quidem fugiat, ea voluptates voluptate veritatis repellendus corrupti rem sit, asperiores assumenda mollitia omnis veniam ad at aliquid. Sunt aliquid repellat a accusamus illum tenetur ducimus perferendis placeat possimus voluptas quam, repudiandae at debitis est expedita assumenda cupiditate voluptates blanditiis. Doloremque vitae sunt tempora odit similique sed molestias sequi. Quos esse ab perspiciatis error deserunt nam perferendis voluptatem maxime earum molestiae quod similique impedit, id voluptatibus vel atque? Laudantium perferendis dolore, saepe facilis quia rerum harum eius, vitae atque amet non veritatis! Ab perferendis labore illo eligendi sed sunt minus vel tempora dolorem neque nisi quia, consequatur cumque, repellendus quasi facilis minima. Beatae, ipsa minima culpa dicta porro nisi? Quo officia quis nisi iure qui voluptatum omnis inventore temporibus velit aliquid natus, officiis dolorum ducimus eveniet fugit maiores eos aliquam veritatis debitis placeat magnam accusamus totam? Placeat consectetur illum molestias, dolore consequatur dicta laboriosam, sed recusandae quidem blanditiis culpa corporis voluptatum nam est autem odio aut possimus similique assumenda? Iusto corporis officiis quas rerum. Rem, repellat tempore? Quisquam itaque eligendi nisi, omnis recusandae doloremque enim delectus placeat corrupti architecto quia rem explicabo provident!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores velit ea repellat maxime obcaecati voluptates odio qui illum pariatur, explicabo itaque laudantium similique nam provident. Eligendi ab perferendis soluta obcaecati enim veritatis nostrum necessitatibus vero error molestias possimus quidem velit, cum tempore sapiente, beatae ut, voluptates nemo. Adipisci expedita deleniti facere rem eaque ipsam quas illum, vero blanditiis totam inventore a vel vitae odio obcaecati doloribus nisi nam. Earum at exercitationem, magni eum qui illum eius soluta mollitia. A, libero voluptate tempore consequatur nulla eaque ex at, commodi rem excepturi eveniet earum, quaerat tempora eligendi nisi exercitationem dolorem dicta enim atque culpa quos quam sunt. Blanditiis, beatae? Ullam doloribus veritatis, dolorem obcaecati fugiat, nam pariatur provident temporibus harum odit dignissimos voluptates! Eum corrupti, at veritatis id nihil, dolores ullam excepturi, provident voluptates earum dolorem velit. Veritatis sed vero laborum consequuntur soluta labore qui quibusdam laudantium sunt placeat laboriosam unde accusamus ipsum exercitationem asperiores, tempore atque hic voluptate magni eius in totam quod, praesentium rem? Vel, dolor at! Fugiat id ut, consequatur ipsa iure dolores? Officiis provident enim ducimus, adipisci quia eligendi reprehenderit mollitia voluptatem veritatis consequuntur? Ducimus dicta deleniti error. Expedita asperiores aliquid iste quisquam modi sequi laudantium hic! Animi voluptate similique a, rerum excepturi inventore eum exercitationem voluptatum praesentium tenetur accusamus enim esse veniam unde aut culpa perferendis quasi omnis eos ipsum. Ea natus hic esse explicabo, nesciunt sunt dicta, quas libero velit asperiores, ab et? Unde tempora modi provident culpa numquam aperiam voluptates voluptatum et eveniet officia a architecto corporis illum hic soluta vel eos repellendus, amet quibusdam nesciunt optio illo? Laborum dignissimos exercitationem voluptate error, fuga nemo minus maxime voluptates, voluptatibus, obcaecati et! Laboriosam eveniet eligendi voluptas repellendus maiores voluptatum, voluptate, voluptatem quis iste est molestias facere rerum quisquam temporibus soluta. Ad commodi ea numquam quo nesciunt inventore deleniti, tempore fugiat modi repudiandae esse suscipit quae natus eligendi vel fuga consectetur qui aspernatur non iure sunt quibusdam cum nemo id. Eligendi eum, quam ratione in corporis velit? Repellat ratione exercitationem natus quam vitae, dolores at unde alias molestias aspernatur et eius voluptas sed ipsum consectetur est quis corrupti sint quidem laboriosam. Illo impedit aut itaque. Incidunt veritatis eaque nemo nam, autem fuga laborum alias, ex est ab natus quisquam amet similique consectetur voluptatibus, facilis exercitationem suscipit repudiandae placeat rem? Explicabo distinctio vero, modi odio dicta magnam voluptate rem earum eum voluptatum, vitae accusamus nam dolor reiciendis placeat.</p>
+                    <div class="mt-10">
+                        <div class="float-none md:float-left lg:float-left w-full md:w-16 lg:w-16 h-16 text flex md:block lg:block justify-center items-center">
+                            <div class="flex justify-center items-center w-16 h-full border-2 border-emerald-400 text-emerald-400 rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
+                                <i class="bx bx-rocket text-3xl"></i>
+                            </div>
+                        </div>
+                        <h4 class="ml-0 md:ml-20 lg:ml-20 mb-2 mt-3 md:mt-0 lg:mt-0 font-bold text-lg 3k:text-xl"><a href="" class="text-zinc-800 transition duration-75 ease-in-out hover:text-emerald-300">Fast Booking</a></h4>
+                        <p class="px-10 md:px-20 lg:px-0 ml-0 lg:ml-20 text-sm 3k:text-lg leading-6 text-zinc-600">
+                            As a full stack web developer, I possess a diverse set of skills that allows me to handle all aspects of web development,
+                            from the front-end user interface to the back-end logic and database. My portfolio showcases a variety of projects that
+                            demonstrate my expertise in technologies such as HTML, CSS, JavaScript, React, Angular, Vue.js, Node.js, and PHP. My experience
+                            with different frameworks, libraries, and databases gives me the ability to build efficient and scalable web applications,
+                            whether it be a simple brochure website or a complex web application. I am passionate about developing robust and responsive
+                            web solutions that deliver a seamless user experience and meet the needs of my clients. I always strive to stay up-to-date
+                            with the latest web development trends and technologies and I am excited to bring my skills and experience to new challenges.
+                        </p>
+                    </div>
+
+                    <div class="mt-10">
+                        <div class="float-none md:float-left lg:float-left w-full md:w-16 lg:w-16 h-16 text flex md:block lg:block justify-center items-center">
+                            <div class="flex justify-center items-center w-16 md:w-full lg:w-full h-full border-2 border-emerald-400 text-emerald-400 rounded-full transition duration-75 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
+                                <i class="bx bx-lock text-3xl"></i>
+                            </div>
+                        </div>
+                        <h4 class="ml-0 md:ml-20 lg:ml-20 mb-2 mt-3 font-bold text-lg 3k:text-xl"><a href="" class="text-zinc-800 transition duration-75 ease-in-out hover:text-emerald-300">Secure Payment</a></h4>
+                        <p class="px-10 md:px-20 lg:px-0 ml-0 lg:ml-20 text-sm 3k:text-lg leading-6 text-zinc-600">
+                            As a web developer, I specialize in creating dynamic and engaging websites using the latest technologies and best practices in the industry. My portfolio showcases a diverse range of projects,
+                            from simple brochure websites to complex web applications. Each project represents my skills in areas such as HTML, CSS, JavaScript, and responsive design. My experience and expertise in web
+                            development have allowed me to deliver high-quality, fully-functional websites that meet the needs of my clients and exceed their expectations. I am passionate about creating beautiful,
+                            user-friendly websites and always strive to stay up-to-date with the latest web development trends and technologies.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="s9" class="sect s9 h-fit 3k:flex justify-center items-center overflow-x-hidden">
         <div class="px-4 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-0 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-10" data-aos="fade-up">
@@ -584,7 +671,7 @@
         </div>
     </section>
 
-    <footer class="page-footer w-full py-5 px-7 z-50 transition-all duration-500 3k:flex 3k:justify-center 3k:items-center bg-dark-blue text-zinc-300 bottom-0">
+    <footer class="page-footer w-full py-5 px-7 z-50 transition-all duration-500 3k:flex justify-center items-center bg-dark-blue text-zinc-300 bottom-0">
         <div class=" md:flex 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] text-center md:text-start">
             <div class="text-light mt-3 bg-primary 3k:text-lg">
                 © 2021 Copyright

@@ -44,6 +44,7 @@ module.exports = {
         'wave2': 'wave2 8s linear -2s infinite',
         'wave3': 'wave2 6s linear -2s infinite',
         'stroke-dashoffset': 'strokeDashoffset 1.1s ease-out, fill 1.1s',
+        'show-about': 'toRight 1s ease-in-out -2s',
       },
       keyframes: {
         zoom: {
@@ -99,6 +100,15 @@ module.exports = {
           '100%': {
             'stroke-dasharray': '850',
             'stroke-dashoffset': '0'
+          },
+        },
+        toRight: {
+          '0%': {
+            'opacity': '0',
+          },
+          '100%': {
+            'opacity': '1',
+            'right': '2rem'
           },
         }
       },

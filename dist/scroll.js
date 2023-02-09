@@ -1,19 +1,20 @@
 const aboutMe = document.getElementById('about-me');
+const aboutSection = document.querySelector(".about-section");
 
 const aboutObserver = new IntersectionObserver(
     entries => {
         entries.forEach(entry => {
-            // console.log(entry.isIntersecting);
-            // entry.target.classList.toggle("translate-x-96", entry.isIntersecting);
+            aboutMe.classList.toggle("opacity-100", entry.isIntersecting);
+            aboutMe.classList.toggle("left-1/2", entry.isIntersecting);
             // if(entry.isIntersecting) {
             // }
         })
     }, {
-        threshold: .7,
+        threshold: .8,
     }
 )
 
-aboutObserver.observe(aboutMe);
+aboutObserver.observe(aboutSection);
 
 const lenis = new Lenis({
     duration: 1.2,
@@ -35,13 +36,13 @@ lenis.on('scroll', ({
     direction,
     progress
 }) => {
-    console.log({
-        scroll,
-        limit,
-        velocity,
-        direction,
-        progress
-    })
+    // console.log({
+    //     scroll,
+    //     limit,
+    //     velocity,
+    //     direction,
+    //     progress
+    // })
 })
 
 function raf(time) {

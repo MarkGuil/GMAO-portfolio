@@ -57,6 +57,7 @@ const observer2 = new IntersectionObserver(
     }
 )
 
+
 function activatelink(linkPos) {
     links.forEach(linkName => {
         if(linkName.classList.contains(linkPos)) {
