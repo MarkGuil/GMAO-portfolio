@@ -88,23 +88,27 @@
 
             </div>
             <div class="col hidden lg:block text-right">
-                <div class="social-links text-3xl">
-                    <a href="#" class="facebook"><i class="bx bxs-file-pdf text-zinc-600 px-2 py-2 rounded-full transition-color duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="instagram"><i class="bx bxl-github text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="google-plus"><i class="bx bxs-envelope text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="linkedin"><i class="bx bxl-linkedin-square text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
+                <div class="social-links relative text-3xl">
+                    <a href="#" class="facebook">
+                        <i class="bx bxs-file-pdf text-zinc-600 px-2 py-2 rounded-full transition-color duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                    </a>
+                    <a href="#" class="instagram">
+                        <i class="bx bxl-github text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                    </a>
+                    <a href="#" class="google-plus">
+                        <i class="bx bxs-envelope text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                    </a>
+                    <a href="#" class="linkedin">
+                        <i class="bx bxl-linkedin-square text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                    </a>
                 </div>
             </div>
             <div id="nav-menu" class="absolute bg-white text-zinc-900 top-20 left-0 text-4xl w-full flex-col justify-center origin-top animate-nav-bounce hidden lg:hidden transition-all duration-500">
                 <div class="min-h-screen flex flex-col items-center py-7" aria-label="mobile">
-                    <a href="#s1" class="w-full text-center py-5 hover:opacity-75">Home</a>
-                    <a href="partners.php" class="w-full text-center py-5 hover:opacity-75">Partners</a>
-                    <a href="#s2" class="w-full text-center py-5 hover:opacity-75">About</a>
-                    <a href="#s3" class="w-full text-center py-5 hover:opacity-75">Features</a>
-                    <a href="#s5" class="w-full text-center py-5 hover:opacity-75">Details</a>
-                    <a href="#s6" class="w-full text-center py-5 hover:opacity-75">Contact Us</a>
-                    <a href="customer/registerCustomer.php" class="w-full text-center py-5 hover:opacity-75">Sign Up</a>
-                    <a href="customer/loginCustomer.php" class="w-full text-center py-5 hover:opacity-75">Login</a>
+                    <a href="#s1" onclick="lenis.scrollTo('#s1')" class="w-full text-center py-5 hover:opacity-75">Home</a>
+                    <a href="#s2" onclick="lenis.scrollTo('#s2')" class="w-full text-center py-5 hover:opacity-75">About</a>
+                    <a href="#s4" onclick="lenis.scrollTo('#s4')" class="w-full text-center py-5 hover:opacity-75">Projects</a>
+                    <a href="#s9" onclick="lenis.scrollTo('#s9')" class="w-full text-center py-5 hover:opacity-75">Contact</a>
                 </div>
             </div>
         </div>
@@ -157,14 +161,14 @@
 
             <div class="relative py-4 md:py-8 lg:py-10 px-2 md:px-10">
                 <div class="py-0 3k:py-3 text-start lg:text-right lg:flex justify-end items-end">
-                    <h3 id="about-me" class="lg:absolute lg:translate-y-5 3xl:translate-y-20 3k:-translate-y-5 pointer-events-none z-0 text-6xl md:text-7xl lg:text-[12rem] 3xl:text-[18rem] font-bold text-zinc-300/40 mb-4 transition-all duration-700
+                    <h3 id="about-me" class="lg:absolute lg:translate-y-5 3xl:translate-y-20 3k:-translate-y-5 pointer-events-none z-0 text-6xl md:text-8xl lg:text-[12rem] 3xl:text-[18rem] font-bold text-zinc-300/70 mb-4 transition-all duration-700
                     before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 left-0 opacity-0">
                         About
                     </h3>
                     <p class="text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl lg:w-10/12 tracking-wider font-black z-10" data-aos="fade-left">
                         I'm a full stack web developer that is passionate in developing robust and responsive
-                        web solutions and is excited to bring my skills and experience to new challenges.
+                        web applications and is excited to bring my skills and experience to new challenges.
                     </p>
                 </div>
             </div>
@@ -275,27 +279,41 @@
             </div>
 
             <div class="grid grid-cols-12 gap-4">
-                <div class="col-start-1 col-span-12 md:col-span-5 flex justify-center lg:justify-end items-center px-14 md:px-44 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                <div class="col-start-1 col-span-12 md:col-span-5 flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
                     <img src="images/details-1.png" class="" alt="">
                 </div>
                 <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-xl" data-aos="fade-up">
                     <h3 class="text-5xl 3xl:text-7xl font-bold text-emerald-600 mb-4">Omnibus</h3>
-                    <p class="pb-5 italic">
+                    <p class="pb-5 font-bold italic">
                         (Programmer, Developer, Designer)
                     </p>
                     <p class="pb-5">
                         An online bus seat booking platform for point-to-point (P2P) buses.
-                        This helps passengers to book bus tickets or seats from anywhere, upholding health safety protocols.
-                        The seat mapping for the transport vehicles can be set at variable maximum capacity, such as 50%,
-                        with passengers spaced out to maintain social distancing.
-                        The application envisioned to help improve the operations of P2P bus companies in terms of seat booking and e-ticket generation
+                        This helps passengers to book bus tickets, and upholding health safety protocols
+                        that spaced out the passengers to maintain social distancing.
+                        The application envisioned to help improve the operations of P2P bus companies in terms of seat booking and e-ticket generation.
+                    </p>
+                    <p class="pb-5">
+                        This application has 4 users:
                     </p>
                     <ul>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
-                        <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
+                        <li class="pb-2"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages their terminals, conductors, drivers, buses, routes, trips, and bookings. </li>
+                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage their own trips and bookings for their terminal</li>
+                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Conductor - manages booked seats</li>
+                        <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Passenger - </li>
                     </ul>
+                    <div class="text-lg-start mt-5 mb-10 md:inline-flex">
+                        <div class="md:mr-2">
+                            <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                Open Live
+                            </a>
+                        </div>
+                        <div class="mt-10 md:mt-0">
+                            <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                                Github
+                            </a>
+                        </div>
+                    </div>
                     <p>
                         Technologies:
                     </p>
@@ -316,7 +334,7 @@
             <div class="grid grid-cols-12 gap-4 mt-20">
                 <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-xl" data-aos="fade-up">
                     <h3 class="text-5xl 3xl:text-7xl font-bold text-emerald-600 mb-4">Quizam</h3>
-                    <p class="pb-5 italic">
+                    <p class="pb-5 font-bold italic">
                         (Programmer, Developer, Designer)
                     </p>
                     <p class="pb-5">
@@ -329,6 +347,18 @@
                         <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
                         <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
                     </ul>
+                    <div class="text-lg-start mt-5 mb-10 md:inline-flex">
+                        <div class="md:mr-2">
+                            <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                Open Live
+                            </a>
+                        </div>
+                        <div class="mt-10 md:mt-0">
+                            <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                                Github
+                            </a>
+                        </div>
+                    </div>
                     <p>
                         Technologies:
                     </p>
@@ -341,19 +371,19 @@
                         <i class="devicon-mysql-plain-wordmark px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                     </p>
                 </div>
-                <div class="col-start-1 col-span-12 md:col-span-5 flex justify-center lg:justify-end items-center px-14 md:px-44 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                <div class="col-start-1 col-span-12 md:col-span-5 order-first md:order-last flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
                     <img src="images/details-1.png" class="" alt="">
                 </div>
             </div>
 
             <div class="grid grid-cols-12 gap-4 mt-20">
-                <div class="col-start-1 col-span-12 md:col-span-5 flex justify-center lg:justify-end items-center px-14 md:px-44 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                <div class="col-start-1 col-span-12 md:col-span-5 flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
                     <img src="images/details-1.png" class="" alt="">
                 </div>
                 <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-xl" data-aos="fade-up">
                     <h3 class="text-5xl 3xl:text-7xl font-bold text-emerald-600 mb-4"> PSU Main Supply Office Inventory System</h3>
-                    <p class="pb-5 italic">
-                        (Programmer, Developer, Designer)
+                    <p class="pb-5 font-bold italic">
+                        (Programmer, Developer)
                     </p>
                     <p class="pb-5 ">
                         A web application that helps in the management and monitoring of supplies across many PSU campuses.
@@ -366,6 +396,11 @@
                         <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
                         <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
                     </ul>
+                    <div class="mb-10 mt-5">
+                        <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                            Github
+                        </a>
+                    </div>
                     <p>
                         Technologies:
                     </p>
@@ -383,7 +418,7 @@
             <div class="grid grid-cols-12 gap-4 mt-20">
                 <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-xl" data-aos="fade-up">
                     <h3 class="text-5xl 3xl:text-7xl font-bold text-emerald-600 mb-4">Reinvented Coaching</h3>
-                    <p class="pb-5 italic">
+                    <p class="pb-5 font-bold italic">
                         (Developer, Designer)
                     </p>
                     <p class="pb-5 italic">
@@ -395,6 +430,18 @@
                         <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
                         <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
                     </ul>
+                    <div class="text-lg-start mt-5 mb-10 md:inline-flex">
+                        <div class="md:mr-2">
+                            <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                Open Live
+                            </a>
+                        </div>
+                        <div class="mt-10 md:mt-0">
+                            <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                                Github
+                            </a>
+                        </div>
+                    </div>
                     <p>
                         Technologies:
                     </p>
@@ -408,7 +455,7 @@
                     </p>
                 </div>
 
-                <div class="col-start-1 col-span-12 md:col-span-5 flex justify-center lg:justify-end items-center px-14 md:px-44 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                <div class="col-start-1 col-span-12 md:col-span-5 order-first md:order-last flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
                     <img src="images/details-1.png" class="" alt="">
                 </div>
             </div>

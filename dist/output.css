@@ -727,18 +727,6 @@ html {
   margin-left: auto;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
 .block {
   display: block;
 }
@@ -994,10 +982,6 @@ html {
   gap: 1rem;
 }
 
-.gap-1 {
-  gap: 0.25rem;
-}
-
 .overflow-x-hidden {
   overflow-x: hidden;
 }
@@ -1195,6 +1179,16 @@ html {
   padding-right: 0.75rem;
 }
 
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -1237,10 +1231,6 @@ html {
 
 .pb-2 {
   padding-bottom: 0.5rem;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
 }
 
 .text-center {
@@ -1381,8 +1371,8 @@ html {
   color: rgb(24 24 27 / var(--tw-text-opacity));
 }
 
-.text-zinc-300\/40 {
-  color: rgb(212 212 216 / 0.4);
+.text-zinc-300\/50 {
+  color: rgb(212 212 216 / 0.5);
 }
 
 .text-zinc-700 {
@@ -1438,6 +1428,14 @@ html {
   color: rgb(212 212 216 / var(--tw-text-opacity));
 }
 
+.text-zinc-300\/60 {
+  color: rgb(212 212 216 / 0.6);
+}
+
+.text-zinc-300\/70 {
+  color: rgb(212 212 216 / 0.7);
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -1450,11 +1448,6 @@ html {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.drop-shadow {
-  --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .drop-shadow-xl {
@@ -1582,7 +1575,7 @@ html {
 
 .before\:font-outline-1::before {
   content: var(--tw-content);
-  -webkit-text-stroke: 1px rgba(46, 46, 46, 0.384);
+  -webkit-text-stroke: 1px rgba(46, 46, 46, 0.484);
 }
 
 .before\:font-outline-2::before {
@@ -1877,6 +1870,10 @@ html {
     grid-column: span 7 / span 7;
   }
 
+  .md\:col-span-6 {
+    grid-column: span 6 / span 6;
+  }
+
   .md\:col-start-3 {
     grid-column-start: 3;
   }
@@ -1911,6 +1908,10 @@ html {
 
   .md\:ml-20 {
     margin-left: 5rem;
+  }
+
+  .md\:mt-3 {
+    margin-top: 0.75rem;
   }
 
   .md\:block {
@@ -1979,6 +1980,11 @@ html {
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .md\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
   .md\:pb-14 {
@@ -2077,6 +2083,10 @@ html {
 
   .lg\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .lg\:col-span-7 {
+    grid-column: span 7 / span 7;
   }
 
   .lg\:col-start-3 {
@@ -2378,11 +2388,6 @@ html {
 
   .\33xl\:text-8xl {
     font-size: 6rem;
-    line-height: 1;
-  }
-
-  .\33xl\:text-6xl {
-    font-size: 3.75rem;
     line-height: 1;
   }
 
