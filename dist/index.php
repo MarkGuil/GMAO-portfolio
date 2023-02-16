@@ -161,13 +161,14 @@
 
             <div class="relative py-4 md:py-8 lg:py-10 px-2 md:px-10">
                 <div class="py-0 3k:py-3 text-start lg:text-right lg:flex justify-end items-end">
-                    <h3 id="about-me" class="lg:absolute lg:translate-y-5 3xl:translate-y-20 3k:-translate-y-5 pointer-events-none z-0 text-6xl md:text-8xl lg:text-[12rem] 3xl:text-[18rem] font-bold text-zinc-300/70 mb-4 transition-all duration-700
+                    <h3 id="about-me" class="lg:absolute lg:translate-y-10 3xl:translate-y-20 3k:-translate-y-5 pointer-events-none z-0 text-6xl md:text-8xl lg:text-[12rem] 3xl:text-[18rem] font-bold text-zinc-300/70 mb-4 transition-all duration-1000
                     before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 left-0 opacity-0">
                         About
                     </h3>
-                    <p class="text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl lg:w-10/12 tracking-wider font-black z-10" data-aos="fade-left">
-                        I'm a full stack web developer that is passionate in developing robust and responsive
+                    <p class="text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl lg:w-10/12 tracking-wider font-black z-10 leading-loose md:leading-loose 3xl:leading-loose 3k:leading-normal
+                            " data-aos="fade-left">
+                        I am a full stack web developer that is passionate in developing robust and responsive
                         web applications and is excited to bring my skills and experience to new challenges.
                     </p>
                 </div>
@@ -244,11 +245,6 @@
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="350">
-                                <i class="devicon-heroku-original drop-shadow-xl rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                            </div>
-                        </div>
-                        <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="400">
                                 <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
@@ -256,6 +252,11 @@
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="450">
                                 <i class="devicon-tailwindcss-plain drop-shadow-xl rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto lg:mt-4">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="450">
+                                <i class="devicon-java-plain drop-shadow-xl rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                     </div>

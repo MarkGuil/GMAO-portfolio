@@ -671,18 +671,6 @@ html {
   margin-top: 0px;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.-mt-24 {
-  margin-top: -6rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -693,6 +681,18 @@ html {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.-mt-24 {
+  margin-top: -6rem;
 }
 
 .-mt-28 {
@@ -1179,16 +1179,6 @@ html {
   padding-right: 0.75rem;
 }
 
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -1217,6 +1207,10 @@ html {
   padding-bottom: 1.25rem;
 }
 
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -1227,10 +1221,6 @@ html {
 
 .pb-3 {
   padding-bottom: 0.75rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 
 .text-center {
@@ -1331,6 +1321,10 @@ html {
   font-style: italic;
 }
 
+.leading-loose {
+  line-height: 2;
+}
+
 .leading-6 {
   line-height: 1.5rem;
 }
@@ -1371,8 +1365,8 @@ html {
   color: rgb(24 24 27 / var(--tw-text-opacity));
 }
 
-.text-zinc-300\/50 {
-  color: rgb(212 212 216 / 0.5);
+.text-zinc-300\/70 {
+  color: rgb(212 212 216 / 0.7);
 }
 
 .text-zinc-700 {
@@ -1428,14 +1422,6 @@ html {
   color: rgb(212 212 216 / var(--tw-text-opacity));
 }
 
-.text-zinc-300\/60 {
-  color: rgb(212 212 216 / 0.6);
-}
-
-.text-zinc-300\/70 {
-  color: rgb(212 212 216 / 0.7);
-}
-
 .opacity-0 {
   opacity: 0;
 }
@@ -1473,8 +1459,8 @@ html {
   transition-duration: 500ms;
 }
 
-.duration-700 {
-  transition-duration: 700ms;
+.duration-1000 {
+  transition-duration: 1000ms;
 }
 
 .duration-75 {
@@ -1870,10 +1856,6 @@ html {
     grid-column: span 7 / span 7;
   }
 
-  .md\:col-span-6 {
-    grid-column: span 6 / span 6;
-  }
-
   .md\:col-start-3 {
     grid-column-start: 3;
   }
@@ -1908,10 +1890,6 @@ html {
 
   .md\:ml-20 {
     margin-left: 5rem;
-  }
-
-  .md\:mt-3 {
-    margin-top: 0.75rem;
   }
 
   .md\:block {
@@ -1972,19 +1950,14 @@ html {
     padding-right: 5rem;
   }
 
-  .md\:px-44 {
-    padding-left: 11rem;
-    padding-right: 11rem;
+  .md\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-  }
-
-  .md\:px-1 {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
   }
 
   .md\:pb-14 {
@@ -2009,8 +1982,8 @@ html {
     line-height: 1.75rem;
   }
 
-  .md\:text-7xl {
-    font-size: 4.5rem;
+  .md\:text-8xl {
+    font-size: 6rem;
     line-height: 1;
   }
 
@@ -2019,14 +1992,14 @@ html {
     line-height: 2.25rem;
   }
 
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .md\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
   }
 
   .md\:text-6xl {
@@ -2041,6 +2014,10 @@ html {
 
   .md\:font-normal {
     font-weight: 400;
+  }
+
+  .md\:leading-loose {
+    line-height: 2;
   }
 
   .md\:tracking-widest {
@@ -2083,10 +2060,6 @@ html {
 
   .lg\:col-span-3 {
     grid-column: span 3 / span 3;
-  }
-
-  .lg\:col-span-7 {
-    grid-column: span 7 / span 7;
   }
 
   .lg\:col-start-3 {
@@ -2153,8 +2126,8 @@ html {
     width: 100%;
   }
 
-  .lg\:translate-y-5 {
-    --tw-translate-y: 1.25rem;
+  .lg\:translate-y-10 {
+    --tw-translate-y: 2.5rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
@@ -2396,6 +2369,10 @@ html {
     line-height: 1;
   }
 
+  .\33xl\:leading-loose {
+    line-height: 2;
+  }
+
   .\33xl\:before\:w-40::before {
     content: var(--tw-content);
     width: 10rem;
@@ -2481,6 +2458,11 @@ html {
     line-height: 1.75rem;
   }
 
+  .\33k\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .\33k\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2491,9 +2473,8 @@ html {
     line-height: 1.75rem;
   }
 
-  .\33k\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .\33k\:leading-normal {
+    line-height: 1.5;
   }
 }
 
