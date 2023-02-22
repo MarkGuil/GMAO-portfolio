@@ -23,10 +23,6 @@
     -webkit-text-stroke: 1px rgba(52, 211, 153, 0.801);
   }
 
-  .font-outline-4 {
-    -webkit-text-stroke: 4px rgba(60, 60, 60, 0.501);
-  }
-
   .wave-group {
     outline: 1px solid transparent;
     -webkit-backface-visibility: hidden;

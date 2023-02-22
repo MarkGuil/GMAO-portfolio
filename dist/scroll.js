@@ -30,6 +30,7 @@ const aboutObserver = new IntersectionObserver(
             aboutMe.classList.toggle("opacity-100", entry.isIntersecting);
             aboutMe.classList.toggle("left-1/2", entry.isIntersecting);
             
+            
             // if(entry.isIntersecting) {
             //     console.log(scrollY);
             // }

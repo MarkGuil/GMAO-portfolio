@@ -117,13 +117,13 @@
 
     <section id="s1" class="sect s1 relative h-fit 3k:h-fit bg-cover bg-home-small md:bg-home-large text-zinc-900 3k:flex justify-center items-center">
 
-        <div class="grid grid-cols-8 gap-8 h-full py-28 lg:py-36 xl:py-40 3xl:py-48 3k:py-60 4k:py-40 px-5 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="grid grid-cols-8 gap-8 h-full py-32 lg:py-36 xl:py-40 3xl:py-48 3k:py-60 4k:py-40 px-5 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="col-start-2 col-span-6 md:col-start-3 md:col-span-4 lg:col-start-3 lg:col-span-4 ">
                 <div class="animate-zoom-in text-zinc-600 text-center">
-                    <h1 class="text-xl lg:text-3xl 3xl:text-4xl font-semibold md:font-normal
-                    before:content-[''] lg:before:w-20 3xl:before:w-40 before:h-px before:bg-zinc-300 before:inline-block before:mt-1 before:ml-2
-                    after:content-[''] lg:after:w-20 3xl:after:w-40 after:h-px after:bg-zinc-300 after:inline-block after:mt-1 after:mr-2
+                    <h1 class="text-2xl lg:text-3xl 3xl:text-4xl font-semibold md:font-normal
+                    before:content-[''] lg:before:w-20 3xl:before:w-40 before:h-px before:bg-zinc-400 before:inline-block before:mt-1 before:ml-2
+                    after:content-[''] lg:after:w-20 3xl:after:w-40 after:h-px after:bg-zinc-400 after:inline-block after:mt-1 after:mr-2
                     ">
                         Hello! My name is
                     </h1>
@@ -135,7 +135,7 @@
                         </svg>
                     </div>
 
-                    <h2 class="text-lg md:text-xl lg:text-3xl 3xl:text-4xl font-normal mt-1 sm:mt-4 md:mt-6 lg:mt-8 3xl:mt-16 3k:mt-5">I am a Web Developer</h2>
+                    <h2 class="text-2xl  lg:text-3xl 3xl:text-4xl font-normal mt-1 sm:mt-4 md:mt-6 lg:mt-8 3xl:mt-16 3k:mt-5">I am a Web Developer</h2>
                 </div>
             </div>
 
@@ -144,29 +144,29 @@
                     <path id="wave-path" class="" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" shape-rendering="auto">
                 </defs>
                 <g class="animate-wave1">
-                    <use xlink:href="#wave-path" x="50" y="3" stroke="rgb(82 82 91 / var(--tw-text-opacity))" stroke-opacity="0.2" fill="rgba(0,0,0, .1)" shape-rendering="optimizeQuality">
+                    <use xlink:href="#wave-path" x="50" y="3" fill="rgba(0,0,0, .1)" shape-rendering="optimizeQuality">
                 </g>
                 <g class="animate-wave2">
-                    <use xlink:href="#wave-path" x="50" y="0" stroke="rgb(82 82 91 / var(--tw-text-opacity))" stroke-opacity="0.4" fill="rgba(135,135,135, .2)" shape-rendering="optimizeQuality">
+                    <use xlink:href="#wave-path" x="50" y="0" fill="rgba(135,135,135, .2)" shape-rendering="optimizeQuality">
                 </g>
                 <g class="animate-wave3">
-                    <use xlink:href="#wave-path" x="50" y="7" stroke="rgb(82 82 91 / var(--tw-text-opacity))" stroke-opacity="0.6" fill="#fff" shape-rendering="optimizeQuality">
+                    <use xlink:href="#wave-path" x="50" y="7" fill="#fff" shape-rendering="optimizeQuality">
                 </g>
             </svg>
         </div>
     </section>
 
     <section id="s2" class="sect s2 about-section relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
-        <div class="relative h-full py-3 md:py-8  px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
+        <div class="relative h-full py-12 md:py-20  px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
 
             <div class="relative py-4 md:py-8 lg:py-10 px-2 md:px-10">
                 <div class="py-0 3k:py-3 text-start lg:text-right lg:flex justify-end items-end">
-                    <h3 id="about-me" class="lg:absolute lg:translate-y-10 3xl:translate-y-20 3k:-translate-y-5 pointer-events-none z-0 text-6xl md:text-8xl lg:text-[12rem] 3xl:text-[18rem] font-bold text-zinc-300/70 mb-4 transition-all duration-1000
+                    <h3 id="about-me" class="lg:absolute lg:-translate-y-2 3xl:translate-y-16 3k:-translate-y-5 pointer-events-none z-0 text-6xl md:text-8xl lg:text-[12rem] 3xl:text-[18rem] font-bold text-zinc-300/70 mb-4 transition-all duration-1000
                     before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
-                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 left-0 opacity-0">
+                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 left-0  opacity-0">
                         About
                     </h3>
-                    <p class="text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl lg:w-10/12 tracking-wider font-black z-10 leading-loose md:leading-loose 3xl:leading-loose 3k:leading-normal
+                    <p class="text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl lg:w-10/12 tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
                             " data-aos="fade-left">
                         I am a full stack web developer that is passionate in developing robust and responsive
                         web applications and is excited to bring my skills and experience to new challenges.
@@ -203,7 +203,7 @@
     </section>
 
     <section id="s3" class="sect s3 relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed 3k:flex justify-center items-center">
-        <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-14 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-8 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 px-2 md:px-10">
                 <div class="py-10">
@@ -269,7 +269,7 @@
     </section>
 
     <section id="s9" class="sect s9 h-fit 3k:flex justify-center items-center">
-        <div class="px-4 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-0 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="px-7 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-0 md:pt-14 lg:pt-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-10" data-aos="fade-up">
                 <h3 id="about-me" class="z-0 text-7xl md:text-9xl font-bold text-zinc-500/40 mb-4 transition-all
@@ -298,10 +298,10 @@
                         This application has 4 users:
                     </p>
                     <ul>
-                        <li class="pb-2"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages their terminals, conductors, drivers, buses, routes, trips, and bookings. </li>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage their own trips and bookings for their terminal</li>
+                        <li class="pb-2"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
+                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal</li>
                         <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Conductor - manages booked seats</li>
-                        <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Passenger - </li>
+                        <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Passenger </li>
                     </ul>
                     <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                         <div class="md:mr-2">
@@ -332,15 +332,14 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-12 gap-4 mt-20">
+            <div class="grid grid-cols-12 gap-4 mt-24">
                 <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-xl" data-aos="fade-up">
                     <h3 class="text-5xl 3xl:text-7xl font-bold text-emerald-600 mb-4">Quizam</h3>
                     <p class="pb-5 font-bold italic">
                         (Programmer, Developer, Designer)
                     </p>
                     <p class="pb-5">
-                        This web-app allows you to manage and conduct online
-                        online assessments.
+                        This web-app allows users to manage and conduct online assessments.
                     </p>
                     <ul>
                         <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
@@ -377,7 +376,7 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-12 gap-4 mt-20">
+            <div class="grid grid-cols-12 gap-4 mt-24">
                 <div class="col-start-1 col-span-12 md:col-span-5 flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
                     <img src="images/details-1.png" class="" alt="">
                 </div>
@@ -416,7 +415,7 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-12 gap-4 mt-20">
+            <div class="grid grid-cols-12 gap-4 mt-24">
                 <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-xl" data-aos="fade-up">
                     <h3 class="text-5xl 3xl:text-7xl font-bold text-emerald-600 mb-4">Reinvented Coaching</h3>
                     <p class="pb-5 font-bold italic">
@@ -798,7 +797,7 @@
     <footer class="page-footer w-full py-5 px-10 z-50 transition-all duration-500 3k:flex justify-center items-center bg-dark-blue text-zinc-300 bottom-0">
         <div class=" md:flex 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] text-center md:text-start">
             <div class="text-light mt-3 bg-primary 3k:text-lg">
-                © 2021 Copyright
+                © 2022 Copyright
                 <a class="text-light font-bold" href="">GMAO</a>
                 . All Rights Reserved
             </div>
