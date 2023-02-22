@@ -1129,14 +1129,19 @@ html {
   padding-bottom: 1.75rem;
 }
 
-.py-28 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-4 {
@@ -1149,9 +1154,9 @@ html {
   padding-bottom: 0px;
 }
 
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-10 {
@@ -1159,14 +1164,19 @@ html {
   padding-bottom: 2.5rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
 
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-1 {
@@ -1177,26 +1187,6 @@ html {
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
 }
 
 .pb-1 {
@@ -1278,9 +1268,9 @@ html {
   line-height: 2.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-9xl {
@@ -1293,14 +1283,14 @@ html {
   line-height: 1;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-7xl {
@@ -1351,10 +1341,6 @@ html {
 
 .leading-none {
   line-height: 1;
-}
-
-.leading-relaxed {
-  line-height: 1.625;
 }
 
 .tracking-normal {
@@ -1634,12 +1620,6 @@ html {
   background-color: rgb(52 211 153 / var(--tw-bg-opacity));
 }
 
-.before\:bg-zinc-300::before {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(212 212 216 / var(--tw-bg-opacity));
-}
-
 .before\:bg-zinc-400::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -1756,10 +1736,10 @@ html {
   background-color: rgb(82 82 91 / var(--tw-bg-opacity));
 }
 
-.after\:bg-zinc-300::after {
+.after\:bg-zinc-400::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(212 212 216 / var(--tw-bg-opacity));
+  background-color: rgb(161 161 170 / var(--tw-bg-opacity));
 }
 
 .after\:bg-emerald-400\/60::after {
@@ -1771,12 +1751,6 @@ html {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(52 211 153 / var(--tw-bg-opacity));
-}
-
-.after\:bg-zinc-400::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(161 161 170 / var(--tw-bg-opacity));
 }
 
 .after\:transition-all::after {
@@ -1966,6 +1940,11 @@ html {
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('images/background/3bg.jpg');
   }
 
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .md\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -1996,16 +1975,6 @@ html {
     padding-bottom: 0.75rem;
   }
 
-  .md\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .md\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
   .md\:pb-14 {
     padding-bottom: 3.5rem;
   }
@@ -2025,11 +1994,6 @@ html {
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .md\:text-8xl {
@@ -2070,10 +2034,6 @@ html {
     line-height: 2;
   }
 
-  .md\:leading-relaxed {
-    line-height: 1.625;
-  }
-
   .md\:tracking-widest {
     letter-spacing: 0.1em;
   }
@@ -2098,14 +2058,6 @@ html {
 
   .lg\:sticky {
     position: sticky;
-  }
-
-  .lg\:left-1\/2 {
-    left: 50%;
-  }
-
-  .lg\:left-0 {
-    left: 0px;
   }
 
   .lg\:col-span-4 {
@@ -2188,26 +2140,6 @@ html {
     width: 100%;
   }
 
-  .lg\:translate-y-10 {
-    --tw-translate-y: 2.5rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .lg\:translate-y-5 {
-    --tw-translate-y: 1.25rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .lg\:-translate-y-10 {
-    --tw-translate-y: -2.5rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .lg\:-translate-y-5 {
-    --tw-translate-y: -1.25rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
   .lg\:-translate-y-2 {
     --tw-translate-y: -0.5rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -2244,9 +2176,9 @@ html {
     padding-bottom: 9rem;
   }
 
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .lg\:py-10 {
@@ -2327,8 +2259,8 @@ html {
     line-height: 2.25rem;
   }
 
-  .lg\:text-\[12rem\] {
-    font-size: 12rem;
+  .lg\:text-\[13rem\] {
+    font-size: 13rem;
   }
 
   .lg\:text-4xl {
@@ -2355,20 +2287,16 @@ html {
     line-height: 1;
   }
 
-  .lg\:leading-loose {
-    line-height: 2;
+  .lg\:text-\[12rem\] {
+    font-size: 12rem;
+  }
+
+  .lg\:text-\[18rem\] {
+    font-size: 18rem;
   }
 
   .lg\:leading-relaxed {
     line-height: 1.625;
-  }
-
-  .lg\:opacity-100 {
-    opacity: 1;
-  }
-
-  .lg\:opacity-0 {
-    opacity: 0;
   }
 
   .lg\:before\:w-20::before {
@@ -2410,11 +2338,6 @@ html {
 
   .\33xl\:h-96 {
     height: 24rem;
-  }
-
-  .\33xl\:translate-y-20 {
-    --tw-translate-y: 5rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .\33xl\:translate-y-16 {
@@ -2474,10 +2397,6 @@ html {
   .\33xl\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
-  }
-
-  .\33xl\:leading-loose {
-    line-height: 2;
   }
 
   .\33xl\:leading-relaxed {

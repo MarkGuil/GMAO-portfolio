@@ -157,7 +157,7 @@
     </section>
 
     <section id="s2" class="sect s2 about-section relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
-        <div class="relative h-full py-12 md:py-20  px-7 lg:px-10 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
+        <div class="relative h-full py-12 md:py-20  px-7 lg:px-20 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
 
             <div class="relative py-4 md:py-8 lg:py-10 px-2 md:px-10">
                 <div class="py-0 3k:py-3 text-start lg:text-right lg:flex justify-end items-end">
