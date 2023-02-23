@@ -266,8 +266,8 @@
 
             </div>
         </div>
-        <img src="images/skills-bg/torn-1-min.png" class="absolute top-0 left-0 w-full h-44 " alt="">
-        <img src="images/skills-bg/torn-2-min.png" class="absolute bottom-0 left-0 w-full h-56" alt="">
+        <img src="images/skills-bg/torn-1-mins.png" class="absolute top-0 left-0 w-full h-44 " alt="">
+        <img src="images/skills-bg/torn-2-mins.png" class="absolute bottom-0 left-0 w-full h-56" alt="">
     </section>
 
     <section id="s9" class="sect s9 h-fit 3k:flex justify-center items-center">
