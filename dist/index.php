@@ -156,17 +156,19 @@
         </div>
     </section>
 
-    <section id="s2" class="sect s2 about-section relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
-        <div class="relative h-full py-12 md:py-20  px-7 lg:px-20 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
+    <section id="s2" class="sect s2 about-section relative h-fit lg:h-fit 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
+        <div class="relative h-full py-12 md:py-20 px-7 lg:px-20 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
 
-            <div class="relative py-4 md:py-8 lg:py-10 px-2 md:px-10">
-                <div class="py-0 3k:py-3 text-start lg:text-right lg:flex justify-end items-end">
-                    <h3 id="about-me" class="lg:absolute lg:-translate-y-2 3xl:translate-y-16 3k:-translate-y-5 pointer-events-none z-0 text-6xl md:text-8xl lg:text-[12rem] 3xl:text-[18rem] font-bold text-zinc-300/70 mb-4 transition-all duration-1000
-                    before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
-                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 left-0  opacity-0">
-                        About
-                    </h3>
-                    <p class="text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl lg:w-10/12 tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
+            <div class="relative py-4 md:py-8 lg:pb-20 px-2 md:px-10">
+                <div class="py-0 3k:py-3 text-start 3k:text-start lg:flex justify-start items-start border">
+                    <div class="border pl-10 h-[60vh] sticky inset-0 lg:flex items-end">
+                        <h3 id="about-me" class="  pointer-events-none z-0 text-6xl md:text-8xl lg:text-[10rem] 3xl:text-[14rem] 3k:text-[10rem] font-bold text-zinc-300 transition-all duration-1000
+                                before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
+                                before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500">
+                            About
+                        </h3>
+                    </div>
+                    <p class="border lg:flex items-end pl-20 mt-40 mb-64 h-screen text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl lg:w-10/12 3k:w-full tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
                             " data-aos="fade-left">
                         I am a full stack web developer that is passionate in developing robust and responsive
                         web applications and is excited to bring my skills and experience to new challenges.
@@ -269,11 +271,11 @@
     </section>
 
     <section id="s9" class="sect s9 h-fit 3k:flex justify-center items-center">
-        <div class="px-7 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-0 md:pt-14 lg:pt-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="px-7 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-10 md:pt-14 lg:pt-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-10" data-aos="fade-up">
-                <h3 id="about-me" class="z-0 text-7xl md:text-9xl font-bold text-zinc-500/40 mb-4 transition-all
-                    before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
+                <h3 id="about-me" class="z-0 text-7xl md:text-9xl font-bold text-zinc-500 mb-4 transition-all
+                    before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 ">
                     Projects
                 </h3>
@@ -298,7 +300,7 @@
                         This application has 4 users:
                     </p>
                     <ul>
-                        <li class="pb-2"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
+                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
                         <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal</li>
                         <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Conductor - manages booked seats</li>
                         <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Passenger </li>
@@ -315,18 +317,18 @@
                             </a>
                         </div>
                     </div>
-                    <p>
+                    <p class="mt-5">
                         Technologies:
                     </p>
                     <p class="mt-3">
-                        <i class="devicon-html5-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-css3-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-php-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-javascript-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-bootstrap-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-tailwindcss-original-wordmark px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-mysql-plain-wordmark px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-java-plain-wordmark px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-html5-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-css3-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-php-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-javascript-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-bootstrap-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-tailwindcss-original-wordmark px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-mysql-plain-wordmark px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-java-plain-wordmark px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                     </p>
 
                 </div>
@@ -339,7 +341,7 @@
                         (Programmer, Developer, Designer)
                     </p>
                     <p class="pb-5">
-                        This web-app allows users to manage and conduct online assessments.
+                        This web application allows users to manage and conduct online assessments.
                     </p>
                     <ul>
                         <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
@@ -359,16 +361,16 @@
                             </a>
                         </div>
                     </div>
-                    <p>
+                    <p class="mt-5">
                         Technologies:
                     </p>
                     <p class="mt-3">
-                        <i class="devicon-html5-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-css3-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-php-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-javascript-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-bootstrap-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-mysql-plain-wordmark px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-html5-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-css3-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-php-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-javascript-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-bootstrap-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-mysql-plain-wordmark px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                     </p>
                 </div>
                 <div class="col-start-1 col-span-12 md:col-span-5 order-first md:order-last flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
@@ -401,16 +403,16 @@
                             Github
                         </a>
                     </div>
-                    <p>
+                    <p class="mt-5">
                         Technologies:
                     </p>
                     <p class="mt-3">
-                        <i class="devicon-html5-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-css3-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-php-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-javascript-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-bootstrap-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-mysql-plain-wordmark px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-html5-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-css3-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-php-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-javascript-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-bootstrap-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-mysql-plain-wordmark px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                     </p>
                 </div>
             </div>
@@ -442,16 +444,16 @@
                             </a>
                         </div>
                     </div>
-                    <p>
+                    <p class="mt-5">
                         Technologies:
                     </p>
                     <p class="mt-3">
-                        <i class="devicon-html5-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-css3-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-php-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-javascript-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-bootstrap-plain px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-mysql-plain-wordmark px-2 py-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-html5-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-css3-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-php-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-javascript-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-bootstrap-plain px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <i class="devicon-mysql-plain-wordmark px-2 py-2 mt-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                     </p>
                 </div>
 
@@ -713,7 +715,7 @@
 
 
     <section id="s9" class="sect s9 h-fit 3k:flex justify-center items-center overflow-x-hidden">
-        <div class="px-4 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-0 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="px-4 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-10 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-10" data-aos="fade-up">
                 <h2 class="font-semibold text-sm leading-none mb-1 tracking-widest uppercase text-neutral-400
@@ -823,6 +825,7 @@
     <!-- <script src="script/navbar.js"></script> -->
     <script src="vendor/lenis/lenis.js"></script>
     <script defer src="scroll.js"></script>
+    <script src="vendor/locomotive-scroll/locomotive-scroll.min.js"></script>
 
     <script>
         AOS.init();
