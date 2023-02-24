@@ -19,6 +19,7 @@
     <link href="vendor/remixIcon/fonts/remixicon.css" rel="stylesheet">
     <link href="vendor/remixIcon/fonts/remixicon.css" rel="stylesheet">
     <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="vendor/locomotive-scroll/locomotive-scroll.min.css" rel="stylesheet">
     <style>
         .blur-all {
             box-shadow: inset 0 0 40px 28px red;
@@ -64,7 +65,7 @@
                             </a>
                         </li>
                         <li class="mx-5 relative">
-                            <a class="section-links s4
+                            <a class="section-links s9
                             font-semibold text-lg 3xl:text-xl 3k:text-2xl text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
@@ -74,7 +75,7 @@
                             </a>
                         </li>
                         <li class="mx-5 relative">
-                            <a class="section-links s9
+                            <a class="section-links s10
                             font-semibold text-lg 3xl:text-xl 3k:text-2xl text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
@@ -107,8 +108,8 @@
                 <div class="min-h-screen flex flex-col items-center py-7" aria-label="mobile">
                     <a href="#s1" onclick="lenis.scrollTo('#s1')" class="w-full text-center py-5 hover:opacity-75">Home</a>
                     <a href="#s2" onclick="lenis.scrollTo('#s2')" class="w-full text-center py-5 hover:opacity-75">About</a>
-                    <a href="#s4" onclick="lenis.scrollTo('#s4')" class="w-full text-center py-5 hover:opacity-75">Projects</a>
-                    <a href="#s9" onclick="lenis.scrollTo('#s9')" class="w-full text-center py-5 hover:opacity-75">Contact</a>
+                    <a href="#s4" onclick="lenis.scrollTo('#s9')" class="w-full text-center py-5 hover:opacity-75">Projects</a>
+                    <a href="#s9" onclick="lenis.scrollTo('#s10')" class="w-full text-center py-5 hover:opacity-75">Contact</a>
                 </div>
             </div>
         </div>
@@ -156,10 +157,51 @@
         </div>
     </section>
 
-    <section id="s2" class="sect s2 about-section relative h-fit lg:h-fit 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
-        <div class="relative h-full py-12 md:py-20 px-7 lg:px-20 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
+    <section id="s2" class="sect s2 about-section relative h-fit lg:h-fit 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center" data-scroll-container>
+        <div id="about_paragraph" class="relative h-full py-12 md:py-16 lg:py-0 px-7 lg:px-20 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center" data-scroll-section>
 
+            <!-- <div class="relative py-4 md:py-8 lg:pb-32 px-2 md:px-10">
+                <div class="py-0 3k:py-3 text-start 3k:text-start lg:flex  ">
+                    <div class=" lg:pl-10 lg:h-[70vh] 3xl:h-[85vh] lg:sticky inset-0 flex justify-center items-center lg:items-end pb-16">
+                        <img src="images/profile/test-3.png" class="w-3/4 md:w-3/5 3xl:w-3/5" alt="" ">
+                    </div>
+                    <div class=" lg:mt-[58vh] md:mb-16 3xl:mb-10 h-fit 3xl:h-screen z-10 3xl:w-11/12 3k:w-full">
+                        <h3 id="about-me" class="  pointer-events-none z-0 text-6xl md:text-8xl lg:text-[10rem] 3xl:text-[12rem] 3k:text-[9rem] font-bold text-zinc-500 transition-all duration-1000
+                                before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
+                                before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500">
+                            About
+                        </h3>
+                        <p class="text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl tracking-wider font-black leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal">
+                            I am a full stack web developer that is passionate in developing robust and responsive
+                            web applications and is excited to bring my skills and experience to new challenges.
+                        </p>
+                    </div>
+                </div>
+            </div> -->
             <div class="relative py-4 md:py-8 lg:pb-20 px-2 md:px-10">
+                <div class="py-0 3k:py-3 text-start 3k:text-start grid grid-cols-12 gap-0 h-fit lg:h-screen lg:flex justify-start items-start 3xl:block">
+
+                    <div class="col-start-1 col-span-12 lg:col-span-6 xl:pl-10">
+                        <h3 id="about-me" class="relative pointer-events-none z-0 text-6xl md:text-8xl lg:text-[8rem] 3xl:text-[14rem] 3k:text-[10rem] font-bold text-zinc-500 transition-all duration-1000
+                                before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
+                                before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500
+                                after:content-[''] after:absolute lg:after:right-28 after:bottom-1 lg:after:bottom-5 after:w-20 md:after:w-36 lg:after:w-85 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2" data-scroll data-scroll-delay="0.03" data-scroll-speed="7.8">
+                            About
+                        </h3>
+
+                    </div>
+
+                    <div class="col-start-1 col-span-12 lg:col-span-6 mt-3 md:mt-5 lg:mt-0">
+                        <p class=" text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
+                            " data-scroll data-scroll-delay="0.1" data-scroll-speed="6">
+                            I am a full stack web developer that is passionate in developing robust and responsive
+                            web applications and is excited to bring my skills and experience to new challenges.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- <div class="relative py-4 md:py-8 lg:pb-20 px-2 md:px-10">
                 <div class="py-0 3k:py-3 text-start 3k:text-start lg:flex justify-start items-start border">
                     <div class="border pl-10 h-[60vh] sticky inset-0 lg:flex items-end">
                         <h3 id="about-me" class="  pointer-events-none z-0 text-6xl md:text-8xl lg:text-[10rem] 3xl:text-[14rem] 3k:text-[10rem] font-bold text-zinc-300 transition-all duration-1000
@@ -174,33 +216,8 @@
                         web applications and is excited to bring my skills and experience to new challenges.
                     </p>
                 </div>
-            </div>
-            <!-- <div class="relative col-start-1 col-span-7 md:col-span-4 lg:col-span-5 flex justify-start lg:justify-center items-center text-start py-4 lg:py-10 px-2 md:px-10">
-                <div class="py-0 md:py-8 3k:py-3 3k:text-xl" data-aos="fade-right">
-                    <h3 id="about-me" class="pointer-events-none z-0 text-5xl md:text-7xl lg:text-9xl font-bold text-zinc-400/40 mb-4 transition-all
-                    before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
-                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
-                    after:content-[''] after:w-24 lg:after:w-56 after:h-px lg:after:h-1 after:bg-emerald-400/60 after:inline-block after:mt-1 after:mr-2">
-                        About
-                    </h3>
-                    <p class="text-zinc-700 text-xl md:text-2xl 3xl:text-3xl tracking-wider font-black z-10">
-                        I'm a full stack web developer, I specialize in creating dynamic and engaging websites using various technologies
-                        and best practices. My portfolio showcases a range of projects, from simple to complex web applications,
-                        that demonstrate my expertise in front-end and back-end technologies. I am passionate in developing robust and responsive
-                        web solutions and I am excited to bring my skills and experience to new challenges.
-                    </p>
-                </div>
-            </div>
-
-            <div class="relative col-start-1 col-span-7 md:col-span-3 lg:col-span-2 order-first md:order-last flex justify-start lg:justify-center items-center py-4 lg:py-10 px-2 md:px-10">
-                <div class="py-0 lg:py-8 3k:py-3 3k:text-xl flex justify-center items-center">
-                    <img src="images/profile/test-3.png" class="w-2/4 md:w-full " alt="" data-aos="fade-left">
-                </div>
             </div> -->
 
-            <!-- <div class="relative">
-                <canvas id="canvas" class="animate-zoom-in  absolute w-40 h-40 bottom-0 left-0 transition-all"></canvas>
-            </div> -->
         </div>
     </section>
 
@@ -276,7 +293,8 @@
             <div class="pb-10" data-aos="fade-up">
                 <h3 id="about-me" class="z-0 text-7xl md:text-9xl font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
-                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 ">
+                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
+                    after:content-[''] after:absolute after:left-32 md:after:left-40 after:bottom-16 after:w-36 md:after:w-72 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
                     Projects
                 </h3>
             </div>
@@ -714,7 +732,7 @@
     </section> -->
 
 
-    <section id="s9" class="sect s9 h-fit 3k:flex justify-center items-center overflow-x-hidden">
+    <section id="s10" class="sect s10 h-fit 3k:flex justify-center items-center overflow-x-hidden">
         <div class="px-4 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-10 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-10" data-aos="fade-up">

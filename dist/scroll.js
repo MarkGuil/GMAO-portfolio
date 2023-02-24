@@ -55,13 +55,13 @@ const lenis = new Lenis({
 })
 
 //get scroll value
-lenis.on('scroll', ({
-    scroll,
-    limit,
-    velocity,
-    direction,
-    progress
-}) => {
+// lenis.on('scroll', ({
+//     scroll,
+//     limit,
+//     velocity,
+//     direction,
+//     progress
+// }) => {
     // console.log({
     //     scroll,
     //     limit,
@@ -69,7 +69,7 @@ lenis.on('scroll', ({
     //     direction,
     //     progress
     // })
-})
+// })
 
 function raf(time) {
     lenis.raf(time)
@@ -79,6 +79,9 @@ function raf(time) {
 requestAnimationFrame(raf);
 
 (function () {
-    var scroll = new LocomotiveScroll();
+    var scroll = new LocomotiveScroll({
+        el: document.querySelector('[data-scroll-container]'),
+        smooth: true
+    });
 })();
 
