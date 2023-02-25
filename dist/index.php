@@ -158,7 +158,7 @@
     </section>
 
     <section id="s2" class="sect s2 about-section relative h-fit lg:h-fit 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center" data-scroll-container>
-        <div id="about_paragraph" class="relative h-full py-12 md:py-16 lg:py-0 px-7 lg:px-20 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center" data-scroll-section>
+        <div class="relative h-full py-12 md:py-16 lg:py-0 px-7 md:px-20 lg:px-40 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center" data-scroll-section>
 
             <!-- <div class="relative py-4 md:py-8 lg:pb-32 px-2 md:px-10">
                 <div class="py-0 3k:py-3 text-start 3k:text-start lg:flex  ">
@@ -178,8 +178,8 @@
                     </div>
                 </div>
             </div> -->
-            <div class="relative py-4 md:py-8 lg:pb-20 px-2 md:px-10">
-                <div class="py-0 3k:py-3 text-start 3k:text-start grid grid-cols-12 gap-0 h-fit lg:h-screen lg:flex justify-start items-start 3xl:block">
+            <!-- <div class="relative py-4 md:py-8 px-2 md:px-3">
+                <div class="py-0 3k:py-3 text-start 3k:text-start grid grid-cols-12 gap-0 h-fit lg:h-screen lg:flex justify-center items-center">
 
                     <div class="col-start-1 col-span-12 lg:col-span-6 xl:pl-10">
                         <h3 id="about-me" class="relative pointer-events-none z-0 text-6xl md:text-8xl lg:text-[8rem] 3xl:text-[14rem] 3k:text-[10rem] font-bold text-zinc-500 transition-all duration-1000
@@ -200,28 +200,30 @@
                     </div>
 
                 </div>
-            </div>
-            <!-- <div class="relative py-4 md:py-8 lg:pb-20 px-2 md:px-10">
-                <div class="py-0 3k:py-3 text-start 3k:text-start lg:flex justify-start items-start border">
-                    <div class="border pl-10 h-[60vh] sticky inset-0 lg:flex items-end">
-                        <h3 id="about-me" class="  pointer-events-none z-0 text-6xl md:text-8xl lg:text-[10rem] 3xl:text-[14rem] 3k:text-[10rem] font-bold text-zinc-300 transition-all duration-1000
-                                before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
+            </div> -->
+            <div class="relative py-4 md:py-20 3k:py-0 lg:pb-64 px-2 ">
+                <div class="py-0 3k:py-3 text-start 3k:text-start lg:flex justify-start items-start">
+                    <div class=" lg:pl-10 lg:h-[60vh] 3k:h-[55vh] lg:sticky inset-0 lg:flex items-end">
+                        <h3 id="about-me" class="  pointer-events-none z-0 text-6xl md:text-8xl lg:text-[10rem] 3xl:text-[12rem] 3k:text-[10rem] font-bold text-zinc-500 transition-all duration-1000
+                                before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                                 before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500">
                             About
                         </h3>
                     </div>
-                    <p class="border lg:flex items-end pl-20 mt-40 mb-64 h-screen text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl lg:w-10/12 3k:w-full tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
-                            " data-aos="fade-left">
-                        I am a full stack web developer that is passionate in developing robust and responsive
-                        web applications and is excited to bring my skills and experience to new challenges.
-                    </p>
+                    <div class=" lg:flex items-end lg:ml-14 mt-5 lg:mt-28 3k:mt-0 lg:mb-32 lg:h-screen 3k:h-[80vh]">
+                        <p class="text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl lg:w-10/12 3k:w-full tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
+                            ">
+                            I am a full stack web developer that is passionate in developing robust and responsive
+                            web applications and is excited to bring my skills and experience to new challenges.
+                        </p>
+                    </div>
                 </div>
-            </div> -->
+            </div>
 
         </div>
     </section>
 
-    <section id="s3" class="sect s3 relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed 3k:flex justify-center items-center">
+    <section id="s3" class="sect s3 relative h-fit text-center sm:text-left bg-neutral-500 bg-cover bg-fixed 3k:flex justify-center items-center">
         <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-8 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 px-2 md:px-10">
@@ -283,8 +285,8 @@
 
             </div>
         </div>
-        <img src="images/skills-bg/torn-1-mins.png" class="absolute top-0 left-0 w-full h-44 " alt="">
-        <img src="images/skills-bg/torn-2-mins.png" class="absolute bottom-0 left-0 w-full h-56" alt="">
+        <img src="images/skills-bg/torn-1-mins.png" class="absolute top-0 left-0 md:w-full h-44 " alt="">
+        <img src="images/skills-bg/torn-2-mins.png" class="absolute bottom-0 left-0 md:w-full h-56" alt="">
     </section>
 
     <section id="s9" class="sect s9 h-fit 3k:flex justify-center items-center">
@@ -843,7 +845,7 @@
     <!-- <script src="script/navbar.js"></script> -->
     <script src="vendor/lenis/lenis.js"></script>
     <script defer src="scroll.js"></script>
-    <script src="vendor/locomotive-scroll/locomotive-scroll.min.js"></script>
+    <!-- <script src="vendor/locomotive-scroll/locomotive-scroll.min.js"></script> -->
 
     <script>
         AOS.init();
