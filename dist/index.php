@@ -196,7 +196,7 @@
 
                 </div>
             </div> -->
-            <div class="relative py-4 md:py-20 lg:py-0 lg:pb-64 3k:pb-40 3k:py-72 px-2 ">
+            <!-- <div class="relative py-4 md:py-20 lg:py-0 lg:pb-64 3k:pb-40 3k:py-72 px-2 ">
                 <div class="py-0 3k:py-3 text-start 3k:text-start lg:flex 3k:block justify-start items-start">
                     <div class=" lg:pl-10 lg:h-[60vh] 3k:h-fit lg:sticky 3k:static inset-0 lg:flex 3k:block items-end">
                         <h3 id="about-me" class="  pointer-events-none z-0 text-6xl md:text-8xl lg:text-[7rem] 3xl:text-[12rem] 3k:text-[8rem] font-bold text-zinc-500 transition-all duration-1000
@@ -207,6 +207,24 @@
                     </div>
                     <div class=" lg:flex items-end  lg:pl-14 mt-5 lg:mt-28 3k:mt-7 lg:mb-32 lg:h-[85vh] 3k:h-fit">
                         <p class="text-zinc-700 text-2xl md:text-3xl 3xl:text-5xl lg:w-10/12 3k:w-full tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
+                            ">
+                            I am a full stack web developer that is passionate in developing robust and responsive
+                            web applications and is excited to bring my skills and experience to new challenges.
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+            <div class="relative py-4 md:py-20 lg:py-0 3k:py-10 lg:pb-64 3k:pb-40 px-2 ">
+                <div class="py-0 text-start 3k:text-start lg:flex justify-start items-start">
+                    <div class=" lg:pl-10 lg:h-[60vh] 3k:h-[27vh] lg:sticky inset-0 lg:flex items-end">
+                        <h3 id="about-me" class="  pointer-events-none z-0 text-6xl md:text-8xl lg:text-[7rem] 3xl:text-[12rem] 3k:text-[8rem] font-bold text-zinc-500 transition-all duration-1000
+                                before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
+                                before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500">
+                            About
+                        </h3>
+                    </div>
+                    <div class=" lg:flex items-end lg:pl-14 mt-5 lg:mt-28 3k:mt-7 lg:mb-32 3k:mb-24 lg:h-[85vh] 3k:h-[43vh]">
+                        <p class="text-zinc-700 text-2xl md:text-3xl 3xl:text-5xl 3k:text-4xl lg:w-10/12 3k:w-full tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
                             ">
                             I am a full stack web developer that is passionate in developing robust and responsive
                             web applications and is excited to bring my skills and experience to new challenges.
@@ -280,8 +298,8 @@
 
             </div>
         </div>
-        <img src="images/skills-bg/torn-1-mins.png" class="absolute top-0 left-0 md:w-full h-44 " alt="">
-        <img src="images/skills-bg/torn-2-mins.png" class="absolute bottom-0 left-0 md:w-full h-56" alt="">
+        <img src="images/skills-bg/torn-1-mins-min.png" class="absolute top-0 left-0 md:w-full h-44 " alt="">
+        <img src="images/skills-bg/torn-2-mins-min.png" class="absolute bottom-0 left-0 md:w-full h-56" alt="">
     </section>
 
     <section id="s9" class="sect s9 h-fit 3k:flex justify-center items-center">

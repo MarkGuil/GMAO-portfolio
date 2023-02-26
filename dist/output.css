@@ -662,26 +662,6 @@ html {
   margin-right: 1.25rem;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .-mt-0\.5 {
   margin-top: -0.125rem;
 }
@@ -716,10 +696,6 @@ html {
 
 .mt-10 {
   margin-top: 2.5rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
 }
 
 .mt-24 {
@@ -772,10 +748,6 @@ html {
 
 .grid {
   display: grid;
-}
-
-.inline-grid {
-  display: inline-grid;
 }
 
 .hidden {
@@ -953,18 +925,6 @@ html {
   cursor: pointer;
 }
 
-.auto-cols-max {
-  grid-auto-columns: max-content;
-}
-
-.auto-cols-min {
-  grid-auto-columns: min-content;
-}
-
-.grid-flow-col {
-  grid-auto-flow: column;
-}
-
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -1087,19 +1047,9 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-neutral-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(115 115 115 / var(--tw-bg-opacity));
-}
-
 .bg-emerald-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(52 211 153 / var(--tw-bg-opacity));
-}
-
-.bg-dark-blue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(2 5 161 / var(--tw-bg-opacity));
 }
 
 .bg-emerald-800 {
@@ -1112,7 +1062,7 @@ html {
 }
 
 .bg-skill-large {
-  background-image: linear-gradient(rgba(6, 78, 59, 0.8), rgba(6, 78, 59, 0.8)), url('images/skills-bg/skill-bg-1-min2.jpg');
+  background-image: linear-gradient(rgba(6, 78, 59, 0.8), rgba(6, 78, 59, 0.8)), url('images/skills-bg/skill-bg-1-min2-min1.jpg');
 }
 
 .bg-cover {
@@ -1485,24 +1435,9 @@ html {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-zinc-300 {
-  --tw-text-opacity: 1;
-  color: rgb(212 212 216 / var(--tw-text-opacity));
-}
-
-.text-zinc-200 {
-  --tw-text-opacity: 1;
-  color: rgb(228 228 231 / var(--tw-text-opacity));
-}
-
 .text-zinc-100 {
   --tw-text-opacity: 1;
   color: rgb(244 244 245 / var(--tw-text-opacity));
-}
-
-.text-emerald-700 {
-  --tw-text-opacity: 1;
-  color: rgb(4 120 87 / var(--tw-text-opacity));
 }
 
 .opacity-100 {
@@ -2195,10 +2130,6 @@ html {
     margin-top: 0px;
   }
 
-  .lg\:ml-14 {
-    margin-left: 3.5rem;
-  }
-
   .lg\:mt-28 {
     margin-top: 7rem;
   }
@@ -2254,14 +2185,6 @@ html {
 
   .lg\:h-\[60vh\] {
     height: 60vh;
-  }
-
-  .lg\:h-\[80vh\] {
-    height: 80vh;
-  }
-
-  .lg\:h-\[90vh\] {
-    height: 90vh;
   }
 
   .lg\:h-\[85vh\] {
@@ -2330,6 +2253,11 @@ html {
     padding-right: 4rem;
   }
 
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
   .lg\:px-3\.5 {
     padding-left: 0.875rem;
     padding-right: 0.875rem;
@@ -2355,16 +2283,6 @@ html {
     padding-bottom: 0.75rem;
   }
 
-  .lg\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .lg\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-
   .lg\:pb-32 {
     padding-bottom: 8rem;
   }
@@ -2375,6 +2293,10 @@ html {
 
   .lg\:pb-64 {
     padding-bottom: 16rem;
+  }
+
+  .lg\:pl-14 {
+    padding-left: 3.5rem;
   }
 
   .lg\:pb-20 {
@@ -2395,10 +2317,6 @@ html {
 
   .lg\:pt-20 {
     padding-top: 5rem;
-  }
-
-  .lg\:pl-14 {
-    padding-left: 3.5rem;
   }
 
   .lg\:text-start {
@@ -2423,8 +2341,8 @@ html {
     font-size: 8rem;
   }
 
-  .lg\:text-\[9rem\] {
-    font-size: 9rem;
+  .lg\:text-\[7rem\] {
+    font-size: 7rem;
   }
 
   .lg\:text-7xl {
@@ -2435,10 +2353,6 @@ html {
   .lg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
-  }
-
-  .lg\:text-\[7rem\] {
-    font-size: 7rem;
   }
 
   .lg\:leading-relaxed {
@@ -2472,10 +2386,6 @@ html {
 }
 
 @media (min-width: 1280px) {
-  .xl\:ml-14 {
-    margin-left: 3.5rem;
-  }
-
   .xl\:h-80 {
     height: 20rem;
   }
@@ -2485,17 +2395,8 @@ html {
     padding-bottom: 10rem;
   }
 
-  .xl\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
   .xl\:pl-10 {
     padding-left: 2.5rem;
-  }
-
-  .xl\:pl-14 {
-    padding-left: 3.5rem;
   }
 
   .xl\:text-\[9rem\] {
@@ -2605,44 +2506,32 @@ html {
     position: static;
   }
 
-  .\33k\:col-span-6 {
-    grid-column: span 6 / span 6;
-  }
-
-  .\33k\:col-span-8 {
-    grid-column: span 8 / span 8;
-  }
-
   .\33k\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .\33k\:col-span-6 {
+    grid-column: span 6 / span 6;
   }
 
   .\33k\:col-start-2 {
     grid-column-start: 2;
   }
 
-  .\33k\:col-start-1 {
-    grid-column-start: 1;
-  }
-
-  .\33k\:mt-5 {
-    margin-top: 1.25rem;
-  }
-
-  .\33k\:mt-0 {
-    margin-top: 0px;
-  }
-
-  .\33k\:mb-20 {
-    margin-bottom: 5rem;
+  .\33k\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .\33k\:mt-7 {
     margin-top: 1.75rem;
   }
 
-  .\33k\:mt-10 {
-    margin-top: 2.5rem;
+  .\33k\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .\33k\:mb-24 {
+    margin-bottom: 6rem;
   }
 
   .\33k\:block {
@@ -2658,36 +2547,68 @@ html {
     height: fit-content;
   }
 
-  .\33k\:h-80 {
-    height: 20rem;
-  }
-
-  .\33k\:h-\[55vh\] {
-    height: 55vh;
-  }
-
-  .\33k\:h-\[80vh\] {
-    height: 80vh;
+  .\33k\:h-96 {
+    height: 24rem;
   }
 
   .\33k\:h-\[50vh\] {
     height: 50vh;
   }
 
-  .\33k\:h-\[35vh\] {
-    height: 35vh;
-  }
-
   .\33k\:h-\[70vh\] {
     height: 70vh;
   }
 
-  .\33k\:h-96 {
-    height: 24rem;
+  .\33k\:h-\[40vh\] {
+    height: 40vh;
   }
 
-  .\33k\:h-85 {
-    height: 21rem;
+  .\33k\:h-\[75vh\] {
+    height: 75vh;
+  }
+
+  .\33k\:h-\[30vh\] {
+    height: 30vh;
+  }
+
+  .\33k\:h-\[26vh\] {
+    height: 26vh;
+  }
+
+  .\33k\:h-\[25vh\] {
+    height: 25vh;
+  }
+
+  .\33k\:h-\[20vh\] {
+    height: 20vh;
+  }
+
+  .\33k\:h-\[7vh\] {
+    height: 7vh;
+  }
+
+  .\33k\:h-\[10vh\] {
+    height: 10vh;
+  }
+
+  .\33k\:h-\[45vh\] {
+    height: 45vh;
+  }
+
+  .\33k\:h-\[48vh\] {
+    height: 48vh;
+  }
+
+  .\33k\:h-\[47vh\] {
+    height: 47vh;
+  }
+
+  .\33k\:h-\[43vh\] {
+    height: 43vh;
+  }
+
+  .\33k\:h-\[27vh\] {
+    height: 27vh;
   }
 
   .\33k\:w-\[1320px\] {
@@ -2702,20 +2623,12 @@ html {
     max-width: 1320px;
   }
 
-  .\33k\:grid-cols-7 {
-    grid-template-columns: repeat(7, minmax(0, 1fr));
-  }
-
   .\33k\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .\33k\:flex-col {
-    flex-direction: column;
-  }
-
-  .\33k\:justify-center {
-    justify-content: center;
+  .\33k\:grid-cols-7 {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
   }
 
   .\33k\:px-5 {
@@ -2733,14 +2646,24 @@ html {
     padding-bottom: 0.75rem;
   }
 
-  .\33k\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
+  .\33k\:py-72 {
+    padding-top: 18rem;
+    padding-bottom: 18rem;
   }
 
   .\33k\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .\33k\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .\33k\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .\33k\:px-3 {
@@ -2753,33 +2676,7 @@ html {
     padding-bottom: 2.5rem;
   }
 
-  .\33k\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
-  .\33k\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .\33k\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-
-  .\33k\:py-72 {
-    padding-top: 18rem;
-    padding-bottom: 18rem;
-  }
-
-  .\33k\:py-48 {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-  }
-
-  .\33k\:py-40 {
-    padding-top: 10rem;
+  .\33k\:pb-40 {
     padding-bottom: 10rem;
   }
 
@@ -2787,33 +2684,17 @@ html {
     padding-bottom: 0.75rem;
   }
 
-  .\33k\:pb-0 {
-    padding-bottom: 0px;
-  }
-
-  .\33k\:pb-64 {
-    padding-bottom: 16rem;
-  }
-
-  .\33k\:pb-60 {
-    padding-bottom: 15rem;
-  }
-
-  .\33k\:pb-52 {
-    padding-bottom: 13rem;
-  }
-
-  .\33k\:pb-40 {
-    padding-bottom: 10rem;
-  }
-
   .\33k\:text-start {
     text-align: start;
   }
 
-  .\33k\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .\33k\:text-\[1\.6rem\] {
+    font-size: 1.6rem;
+  }
+
+  .\33k\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .\33k\:text-\[9rem\] {
@@ -2824,9 +2705,22 @@ html {
     font-size: 10rem;
   }
 
-  .\33k\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+  .\33k\:text-\[8rem\] {
+    font-size: 8rem;
+  }
+
+  .\33k\:text-\[5rem\] {
+    font-size: 5rem;
+  }
+
+  .\33k\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .\33k\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .\33k\:text-3xl {
@@ -2839,36 +2733,14 @@ html {
     line-height: 2.5rem;
   }
 
-  .\33k\:text-lg {
-    font-size: 1.125rem;
+  .\33k\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
-  .\33k\:text-\[8rem\] {
-    font-size: 8rem;
-  }
-
-  .\33k\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .\33k\:text-\[5rem\] {
-    font-size: 5rem;
-  }
-
-  .\33k\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .\33k\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .\33k\:text-\[1\.6rem\] {
-    font-size: 1.6rem;
+  .\33k\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .\33k\:leading-normal {
@@ -2877,11 +2749,6 @@ html {
 }
 
 @media (min-width: 2560px) {
-  .\34k\:py-40 {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-  }
-
   .\34k\:py-60 {
     padding-top: 15rem;
     padding-bottom: 15rem;
