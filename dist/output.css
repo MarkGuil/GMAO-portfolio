@@ -545,6 +545,10 @@ html {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-0 {
   top: 0px;
   right: 0px;
@@ -552,9 +556,52 @@ html {
   left: 0px;
 }
 
+.-inset-2\/4 {
+  top: -50%;
+  right: -50%;
+  bottom: -50%;
+  left: -50%;
+}
+
+.inset-2\/4 {
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  left: 50%;
+}
+
+.inset-1\/4 {
+  top: 25%;
+  right: 25%;
+  bottom: 25%;
+  left: 25%;
+}
+
+.inset-1\/3 {
+  top: 33.333333%;
+  right: 33.333333%;
+  bottom: 33.333333%;
+  left: 33.333333%;
+}
+
 .inset-y-2\/4 {
   top: 50%;
   bottom: 50%;
+}
+
+.inset-y-\[20\%\] {
+  top: 20%;
+  bottom: 20%;
+}
+
+.inset-y-\[17\%\] {
+  top: 17%;
+  bottom: 17%;
+}
+
+.inset-y-\[18\%\] {
+  top: 18%;
+  bottom: 18%;
 }
 
 .top-20 {
@@ -736,6 +783,14 @@ html {
 
 .ml-auto {
   margin-left: auto;
+}
+
+.mt-52 {
+  margin-top: 13rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
 }
 
 .block {
@@ -945,6 +1000,10 @@ html {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1104,6 +1163,14 @@ html {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .py-5 {
@@ -1959,6 +2026,10 @@ html {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
   .md\:bg-home-large {
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('images/background/3bg.jpg');
   }
@@ -2215,6 +2286,10 @@ html {
 
   .lg\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 
   .lg\:items-end {
@@ -2506,6 +2581,26 @@ html {
     position: static;
   }
 
+  .\33k\:inset-y-1\/2 {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .\33k\:inset-y-1\/3 {
+    top: 33.333333%;
+    bottom: 33.333333%;
+  }
+
+  .\33k\:inset-y-\[25\%\] {
+    top: 25%;
+    bottom: 25%;
+  }
+
+  .\33k\:inset-y-\[30\%\] {
+    top: 30%;
+    bottom: 30%;
+  }
+
   .\33k\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -2526,12 +2621,12 @@ html {
     margin-top: 1.75rem;
   }
 
-  .\33k\:mb-20 {
-    margin-bottom: 5rem;
-  }
-
   .\33k\:mb-24 {
     margin-bottom: 6rem;
+  }
+
+  .\33k\:mb-20 {
+    margin-bottom: 5rem;
   }
 
   .\33k\:block {
@@ -2551,64 +2646,24 @@ html {
     height: 24rem;
   }
 
-  .\33k\:h-\[50vh\] {
-    height: 50vh;
-  }
-
-  .\33k\:h-\[70vh\] {
-    height: 70vh;
-  }
-
-  .\33k\:h-\[40vh\] {
-    height: 40vh;
-  }
-
-  .\33k\:h-\[75vh\] {
-    height: 75vh;
-  }
-
-  .\33k\:h-\[30vh\] {
-    height: 30vh;
-  }
-
-  .\33k\:h-\[26vh\] {
-    height: 26vh;
-  }
-
-  .\33k\:h-\[25vh\] {
-    height: 25vh;
-  }
-
-  .\33k\:h-\[20vh\] {
-    height: 20vh;
-  }
-
-  .\33k\:h-\[7vh\] {
-    height: 7vh;
-  }
-
-  .\33k\:h-\[10vh\] {
-    height: 10vh;
-  }
-
-  .\33k\:h-\[45vh\] {
-    height: 45vh;
-  }
-
-  .\33k\:h-\[48vh\] {
-    height: 48vh;
-  }
-
-  .\33k\:h-\[47vh\] {
-    height: 47vh;
+  .\33k\:h-\[27vh\] {
+    height: 27vh;
   }
 
   .\33k\:h-\[43vh\] {
     height: 43vh;
   }
 
-  .\33k\:h-\[27vh\] {
-    height: 27vh;
+  .\33k\:h-\[10vh\] {
+    height: 10vh;
+  }
+
+  .\33k\:h-\[20vh\] {
+    height: 20vh;
+  }
+
+  .\33k\:h-\[33vh\] {
+    height: 33vh;
   }
 
   .\33k\:w-\[1320px\] {
@@ -2651,6 +2706,11 @@ html {
     padding-bottom: 18rem;
   }
 
+  .\33k\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .\33k\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -2671,17 +2731,16 @@ html {
     padding-right: 0.75rem;
   }
 
-  .\33k\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
   .\33k\:pb-40 {
     padding-bottom: 10rem;
   }
 
   .\33k\:pb-3 {
     padding-bottom: 0.75rem;
+  }
+
+  .\33k\:pb-48 {
+    padding-bottom: 12rem;
   }
 
   .\33k\:text-start {
@@ -2709,6 +2768,11 @@ html {
     font-size: 8rem;
   }
 
+  .\33k\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .\33k\:text-\[5rem\] {
     font-size: 5rem;
   }
@@ -2726,11 +2790,6 @@ html {
   .\33k\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .\33k\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .\33k\:text-xl {

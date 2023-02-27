@@ -65,7 +65,7 @@
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s4" onclick="lenis.scrollTo('#s4')">
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s9" onclick="lenis.scrollTo('#s9')">
                                 <small><span class=" text-emerald-400">03</span> Projects</small>
                             </a>
                         </li>
@@ -75,7 +75,7 @@
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s9" onclick="lenis.scrollTo('#s9')">
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s10" onclick="lenis.scrollTo('#s10')">
                                 <small><span class=" text-emerald-400">04</span> Contact</small>
                             </a>
                         </li>
@@ -103,8 +103,8 @@
                 <div class="min-h-screen flex flex-col items-center py-7" aria-label="mobile">
                     <a href="#s1" onclick="lenis.scrollTo('#s1')" class="w-full text-center py-5 hover:opacity-75">Home</a>
                     <a href="#s2" onclick="lenis.scrollTo('#s2')" class="w-full text-center py-5 hover:opacity-75">About</a>
-                    <a href="#s4" onclick="lenis.scrollTo('#s9')" class="w-full text-center py-5 hover:opacity-75">Projects</a>
-                    <a href="#s9" onclick="lenis.scrollTo('#s10')" class="w-full text-center py-5 hover:opacity-75">Contact</a>
+                    <a href="#s9" onclick="lenis.scrollTo('#s9')" class="w-full text-center py-5 hover:opacity-75">Projects</a>
+                    <a href="#s10" onclick="lenis.scrollTo('#s10')" class="w-full text-center py-5 hover:opacity-75">Contact</a>
                 </div>
             </div>
         </div>
@@ -214,17 +214,17 @@
                     </div>
                 </div>
             </div> -->
-            <div class="relative py-4 md:py-20 lg:py-0 3k:py-10 lg:pb-64 3k:pb-40 px-2 ">
+            <div class="relative py-4 md:py-20 lg:py-0 3k:py-10 lg:pb-64 3k:pb-48 px-2 ">
                 <div class="py-0 text-start 3k:text-start lg:flex justify-start items-start">
-                    <div class=" lg:pl-10 lg:h-[60vh] 3k:h-[27vh] lg:sticky inset-0 lg:flex items-end">
+                    <div class=" lg:pl-10 lg:h-[60vh] 3k:h-[20vh] lg:sticky inset-0 3k:inset-y-[30%] lg:flex items-end">
                         <h3 id="about-me" class="  pointer-events-none z-0 text-6xl md:text-8xl lg:text-[7rem] 3xl:text-[12rem] 3k:text-[8rem] font-bold text-zinc-500 transition-all duration-1000
                                 before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                                 before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500">
                             About
                         </h3>
                     </div>
-                    <div class=" lg:flex items-end lg:pl-14 mt-5 lg:mt-28 3k:mt-7 lg:mb-32 3k:mb-24 lg:h-[85vh] 3k:h-[43vh]">
-                        <p class="text-zinc-700 text-2xl md:text-3xl 3xl:text-5xl 3k:text-4xl lg:w-10/12 3k:w-full tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
+                    <div class=" lg:flex items-end lg:pl-14 mt-5 lg:mt-28 3k:mt-7 lg:mb-32 3k:mb-24 lg:h-[85vh] 3k:h-[33vh]">
+                        <p class="text-zinc-700 text-2xl md:text-3xl 3xl:text-5xl 3k:text-4xl  tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
                             ">
                             I am a full stack web developer that is passionate in developing robust and responsive
                             web applications and is excited to bring my skills and experience to new challenges.
@@ -239,7 +239,7 @@
     <section id="s3" class="sect s3 relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed 3k:flex justify-center items-center">
         <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-8 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-32 3k:py-40 px-2 md:px-10 3k:px-0">
+            <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-36 3k:py-40 px-2 md:px-10 3k:px-0">
                 <div class="py-10">
                     <h3 id="about-me" class="text-center text-7xl md:text-8xl lg:text-[8rem] xl:text-[9rem] 3k:text-[8rem] font-bold text-white mb-4 transition-all drop-shadow-xl
                     before:content-['Skills'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
@@ -314,186 +314,310 @@
                 </h3>
             </div>
 
-            <div class="grid grid-cols-12 gap-4">
-                <div class="col-start-1 col-span-12 md:col-span-5 flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+            <div class="relative grid grid-cols-12 gap-4">
+                <div class="relative col-start-1 col-span-12 md:col-span-5 flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
                     <img src="images/details-1.png" class="" alt="">
                 </div>
                 <div class="relative col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
-                    <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Omnibus</h3>
-                    <p class="pb-5 font-bold italic">
-                        (Programmer, Developer, Designer)
-                    </p>
-                    <p class="pb-5">
-                        An online bus seat booking platform for point-to-point (P2P) buses.
-                        This helps passengers to book bus tickets, and upholding health safety protocols
-                        that spaced out the passengers to maintain social distancing.
-                        The application envisioned to help improve the operations of P2P bus companies in terms of seat booking and e-ticket generation.
-                    </p>
-                    <p class="pb-5">
-                        This application has 4 users:
-                    </p>
-                    <ul>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal</li>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Conductor - manages booked seats</li>
-                        <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Passenger </li>
-                    </ul>
-                    <div class="text-lg-start mt-5 mb-10 md:inline-flex">
-                        <div class="md:mr-2">
-                            <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
-                                Open Live
-                            </a>
+
+                    <div class="sticky inset-y-[18%] 3k:inset-y-[25%]">
+                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Omnibus</h3>
+                        <p class="pb-5 font-bold italic">
+                            (Programmer, Developer, Designer)
+                        </p>
+                        <p class="pb-5">
+                            An online bus seat booking platform for point-to-point (P2P) buses.
+                            This helps passengers to book bus tickets, and upholding health safety protocols
+                            that spaced out the passengers to maintain social distancing.
+                            The application envisioned to help improve the operations of P2P bus companies in terms of seat booking and e-ticket generation.
+                        </p>
+                        <p class="pb-5">
+                            This application has 4 users:
+                        </p>
+                        <ul>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Conductor - manages booked seats</li>
+                            <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Passenger </li>
+                        </ul>
+                        <div class="text-lg-start mt-5 mb-10 md:inline-flex">
+                            <div class="md:mr-2">
+                                <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                    Open Live
+                                </a>
+                            </div>
+                            <div class="mt-10 md:mt-0">
+                                <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                                    Github
+                                </a>
+                            </div>
                         </div>
-                        <div class="mt-10 md:mt-0">
+                        <p class="mt-5">
+                            Technologies:
+                        </p>
+                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 3k:grid-cols-7 gap-2">
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl ">
+                                    <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl ">
+                                    <i class="devicon-css3-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-php-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-tailwindcss-original-wordmark drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-java-plain-wordmark drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="relative grid grid-cols-12 gap-4 mt-32">
+                <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
+                    <div class="sticky inset-y-[18%] 3k:inset-y-[25%]">
+
+                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Quizam</h3>
+                        <p class="pb-5 font-bold italic">
+                            (Programmer, Developer, Designer)
+                        </p>
+                        <p class="pb-5">
+                            This web application allows users to manage and conduct online assessments.
+                        </p>
+                        <ul>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
+                            <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
+                        </ul>
+                        <div class="text-lg-start mt-5 mb-10 md:inline-flex">
+                            <div class="md:mr-2">
+                                <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                    Open Live
+                                </a>
+                            </div>
+                            <div class="mt-10 md:mt-0">
+                                <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                                    Github
+                                </a>
+                            </div>
+                        </div>
+                        <p class="mt-5">
+                            Technologies:
+                        </p>
+                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 3k:grid-cols-7 gap-2">
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl ">
+                                    <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl ">
+                                    <i class="devicon-css3-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-php-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative col-start-1 col-span-12 md:col-span-5 order-first md:order-last flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                    <img src="images/quizam/Capture.PNG" class="" alt="">
+                </div>
+            </div>
+
+            <div class="relative grid grid-cols-12 gap-4 mt-32">
+                <div class="relative col-start-1 col-span-12 md:col-span-5 flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                    <img src="images/psu/psu-1.png" class="" alt="">
+                    <img src="images/psu/psu-2.png" class="" alt="">
+                    <img src="images/psu/psu-3.png" class="" alt="">
+                </div>
+                <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
+                    <div class="sticky inset-y-[18%] 3k:inset-y-[25%]">
+                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4"> PSU Main Supply Office Inventory System</h3>
+                        <p class="pb-5 font-bold italic">
+                            (Programmer, Developer)
+                        </p>
+                        <p class="pb-5 ">
+                            A web application that helps in the management and monitoring of supplies across many PSU campuses.
+                            It can track requested supplies, and create an annual
+                            procurement plan for budget utilization.
+                        </p>
+                        <ul>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
+                            <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
+                        </ul>
+                        <div class="mb-10 mt-5">
                             <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
                                 Github
                             </a>
                         </div>
-                    </div>
-                    <p class="mt-5">
-                        Technologies:
-                    </p>
-                    <div class="mt-3 grid grid-cols-8 3k:grid-cols-7 gap-2">
-                        <i class="devicon-html5-plain px-2 py-2 m-2  transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-css3-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-php-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-javascript-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-bootstrap-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-tailwindcss-original-wordmark px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-mysql-plain-wordmark px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-java-plain-wordmark px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <p class="mt-5">
+                            Technologies:
+                        </p>
+                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 3k:grid-cols-7 gap-2">
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl ">
+                                    <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl ">
+                                    <i class="devicon-css3-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-php-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
             </div>
 
-            <div class="grid grid-cols-12 gap-4 mt-24">
+            <div class="grid grid-cols-12 gap-4 mt-32 relative">
                 <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
-                    <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Quizam</h3>
-                    <p class="pb-5 font-bold italic">
-                        (Programmer, Developer, Designer)
-                    </p>
-                    <p class="pb-5">
-                        This web application allows users to manage and conduct online assessments.
-                    </p>
-                    <ul>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
-                        <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
-                    </ul>
-                    <div class="text-lg-start mt-5 mb-10 md:inline-flex">
-                        <div class="md:mr-2">
-                            <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
-                                Open Live
-                            </a>
+                    <div class="sticky inset-y-[20%] 3k:inset-y-[25%]">
+                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Reinvented Coaching</h3>
+                        <p class="pb-5 font-bold italic">
+                            (Developer, Designer)
+                        </p>
+                        <p class="pb-5 italic">
+                            An online peer-to-peer (P2P) bus seat booking.
+                        </p>
+                        <ul>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
+                            <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
+                        </ul>
+                        <div class="text-lg-start mt-5 mb-10 md:inline-flex">
+                            <div class="md:mr-2">
+                                <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                    Open Live
+                                </a>
+                            </div>
+                            <div class="mt-10 md:mt-0">
+                                <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                                    Github
+                                </a>
+                            </div>
                         </div>
-                        <div class="mt-10 md:mt-0">
-                            <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
-                                Github
-                            </a>
+                        <p class="mt-5">
+                            Technologies:
+                        </p>
+                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 3k:grid-cols-7 gap-2">
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl ">
+                                    <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl ">
+                                    <i class="devicon-css3-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-php-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center text-6xl">
+                                    <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <p class="mt-5">
-                        Technologies:
-                    </p>
-                    <div class="mt-3 grid grid-cols-8 3k:grid-cols-7 gap-2">
-                        <i class="devicon-html5-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-css3-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-php-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-javascript-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-bootstrap-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-mysql-plain-wordmark px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                    </div>
+
                 </div>
-                <div class="col-start-1 col-span-12 md:col-span-5 order-first md:order-last flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
-                    <img src="images/details-1.png" class="" alt="">
+
+                <div class="relative col-start-1 col-span-12 md:col-span-5 order-first md:order-last flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                    <img src="images/reinvented/reinvented-1.png" class="" alt="">
+                    <img src="images/reinvented/reinvented-2.png" class="" alt="">
+                    <img src="images/reinvented/reinvented-3.png" class="" alt="">
                 </div>
             </div>
 
-            <div class="grid grid-cols-12 gap-4 mt-24">
-                <div class="col-start-1 col-span-12 md:col-span-5 flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
-                    <img src="images/details-1.png" class="" alt="">
-                </div>
-                <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
-                    <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4"> PSU Main Supply Office Inventory System</h3>
-                    <p class="pb-5 font-bold italic">
-                        (Programmer, Developer)
-                    </p>
-                    <p class="pb-5 ">
-                        A web application that helps in the management and monitoring of supplies across many PSU campuses.
-                        It can track requested supplies, and create an annual
-                        procurement plan for budget utilization.
-                    </p>
-                    <ul>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
-                        <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
-                    </ul>
-                    <div class="mb-10 mt-5">
-                        <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
-                            Github
-                        </a>
-                    </div>
-                    <p class="mt-5">
-                        Technologies:
-                    </p>
-                    <div class="mt-3 grid grid-cols-8 3k:grid-cols-7 gap-2">
-                        <i class="devicon-html5-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-css3-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-php-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-javascript-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-bootstrap-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-mysql-plain-wordmark px-2 m-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                    </div>
-                </div>
-            </div>
+        </div>
 
-            <div class="grid grid-cols-12 gap-4 mt-24">
-                <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
-                    <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Reinvented Coaching</h3>
-                    <p class="pb-5 font-bold italic">
-                        (Developer, Designer)
-                    </p>
-                    <p class="pb-5 italic">
-                        An online peer-to-peer (P2P) bus seat booking.
-                    </p>
-                    <ul>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                        <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
-                        <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
-                    </ul>
-                    <div class="text-lg-start mt-5 mb-10 md:inline-flex">
-                        <div class="md:mr-2">
-                            <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
-                                Open Live
-                            </a>
-                        </div>
-                        <div class="mt-10 md:mt-0">
-                            <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
-                                Github
-                            </a>
-                        </div>
-                    </div>
-                    <p class="mt-5">
-                        Technologies:
-                    </p>
-                    <div class="mt-3 grid grid-cols-8 3k:grid-cols-7 gap-2">
-                        <i class="devicon-html5-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-css3-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-php-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-javascript-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-bootstrap-plain px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <i class="devicon-mysql-plain-wordmark px-2 py-2 m-2 transition-all rounded-full duration-500 ease-in-out text-6xl hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                    </div>
-                </div>
 
-                <div class="col-start-1 col-span-12 md:col-span-5 order-first md:order-last flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
-                    <img src="images/details-1.png" class="" alt="">
-                </div>
-            </div>
 
         </div>
     </section>
