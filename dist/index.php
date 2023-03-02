@@ -246,51 +246,56 @@
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500" data-aos="zoom-in" data-aos-delay="50">
                         Skills
                     </h3>
-                    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 3xl:grid-cols-9 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl 3k:text-[5rem] mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
+                    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 3xl:grid-cols-10 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl 3k:text-[5rem] mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
 
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
-                                <i class="devicon-html5-plain drop-shadow-xl rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-html5-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="100">
-                                <i class="devicon-css3-plain drop-shadow-xl rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-css3-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="150">
-                                <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-javascript-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="200">
-                                <i class="devicon-php-plain drop-shadow-xl rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-php-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="250">
-                                <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="300">
-                                <i class="devicon-laravel-plain drop-shadow-xl rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-laravel-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="400">
-                                <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-bootstrap-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="450">
-                                <i class="devicon-tailwindcss-plain drop-shadow-xl rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-tailwindcss-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="450">
-                                <i class="devicon-java-plain drop-shadow-xl rounded-full p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-java-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto lg:mt-4">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="450">
+                                <i class="devicon-csharp-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                     </div>

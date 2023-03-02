@@ -1072,7 +1072,7 @@ html {
 }
 
 .bg-skill-large {
-  background-image: linear-gradient(rgba(6, 78, 59, 0.8), rgba(6, 78, 59, 0.8)), url('images/skills-bg/skill-bg-1-min2-min1.jpg');
+  background-image: linear-gradient(rgba(6, 78, 59, 0.8), rgba(6, 78, 59, 0.8)), url('images/skills-bg/skill-bg-1.jpg');
 }
 
 .bg-cover {
@@ -2452,8 +2452,8 @@ html {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
-  .\33xl\:grid-cols-9 {
-    grid-template-columns: repeat(9, minmax(0, 1fr));
+  .\33xl\:grid-cols-10 {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
   }
 
   .\33xl\:py-48 {
