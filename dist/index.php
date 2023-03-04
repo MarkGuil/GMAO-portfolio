@@ -347,12 +347,12 @@
                         </ul>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="md:mr-2">
-                                <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                <a href="https://omnibus-ph.000webhostapp.com/dist/index.php" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
                                     Open Live
                                 </a>
                             </div>
                             <div class="mt-10 md:mt-0">
-                                <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
                                     Github
                                 </a>
                             </div>
@@ -426,12 +426,12 @@
                         </ul>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="md:mr-2">
-                                <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
                                     Open Live
                                 </a>
                             </div>
                             <div class="mt-10 md:mt-0">
-                                <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
                                     Github
                                 </a>
                             </div>
@@ -502,7 +502,7 @@
                             <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
                         </ul>
                         <div class="mb-10 mt-5">
-                            <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                            <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
                                 Github
                             </a>
                         </div>
@@ -564,12 +564,12 @@
                         </ul>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="md:mr-2">
-                                <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
                                     Open Live
                                 </a>
                             </div>
                             <div class="mt-10 md:mt-0">
-                                <a href="" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
                                     Github
                                 </a>
                             </div>
