@@ -25,7 +25,7 @@
 <body class="m-0 p-0 font-crimson overflow-x-hidden">
     <nav class="navbar fixed w-full py-5 px-7 z-50 transition-all duration-500 3k:flex justify-center items-center ">
         <div class="grid grid-cols-2 lg:grid-cols-3 3k:grid-cols-4 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
-            <a class="col lg:flex items-end" href="#">
+            <a class="col lg:flex items-center" href="#">
                 <span class=" tracking-normal md:tracking-widest text-3xl md:text-4xl text-zinc-600 font-molle font-black">GMAO</span>
             </a>
             <div class="col 3k:col-span-2 text-zinc-600 text-right lg:flex justify-center items-center">
@@ -83,7 +83,7 @@
                 </div>
 
             </div>
-            <div class="col hidden lg:block text-right">
+            <div class="col hidden lg:flex justify-end items-center">
                 <div class="social-links relative text-3xl">
                     <a href="#" class="facebook">
                         <i class="bx bxs-file-pdf text-zinc-600 px-2 py-2 rounded-full transition-color duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
@@ -111,7 +111,7 @@
 
     </nav>
 
-    <section id="s1" class="sect s1 relative h-fit 3k:h-fit bg-cover bg-home-small md:bg-home-large text-zinc-900 3k:flex justify-center items-center">
+    <section id="s1" class="sect s1 relative h-fit 3k:h-fit bg-cover bg-home-large text-zinc-900 3k:flex justify-center items-center">
 
         <div class="grid grid-cols-8 gap-8 h-full py-32 lg:py-36 xl:py-40 3xl:py-48 3k:py-60 4k:py-60 px-5 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
@@ -303,8 +303,8 @@
 
             </div>
         </div>
-        <img src="images/skills-bg/torn-1-mins-min.png" class="absolute top-0 left-0 md:w-full h-44 " alt="">
-        <img src="images/skills-bg/torn-2-mins-min.png" class="absolute bottom-0 left-0 md:w-full h-56" alt="">
+        <img src="images/skills-bg/torn-1-mins-min.png" class="absolute -top-2 left-0 md:w-full h-44" alt="">
+        <img src="images/skills-bg/torn-2-mins-min.png" class="absolute -bottom-2 left-0 md:w-full h-56" alt="">
     </section>
 
     <section id="s9" class="sect s9 h-fit 3k:flex justify-center items-center">
@@ -320,10 +320,13 @@
             </div>
 
             <div class="relative grid grid-cols-12 gap-4">
-                <div class="relative col-start-1 col-span-12 md:col-span-5 flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
-                    <img src="images/details-1.png" class="" alt="">
+                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3">
+                    <img src="images/omnibus/login-partner.png" class="" alt="" data-aos="fade-right" data-aos-delay="50">
+                    <img src="images/omnibus/buses.png" class="" alt="" data-aos="fade-right" data-aos-delay="100">
+                    <img src="images/omnibus/weekly view.png" class="" alt="" data-aos="fade-right" data-aos-delay="150">
+                    <img src="images/omnibus/login-mobile.png" class=" " alt="" data-aos="fade-right" data-aos-delay="200">
                 </div>
-                <div class="relative col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
+                <div class="relative col-start-1 col-span-12 md:col-span-7 lg:col-span-6 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
 
                     <div class="sticky inset-y-[18%] 3k:inset-y-[25%]">
                         <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Omnibus</h3>
@@ -360,7 +363,7 @@
                         <p class="mt-5">
                             Technologies:
                         </p>
-                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 3k:grid-cols-7 gap-2">
+                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
                             <div class="col-auto ">
                                 <div class=" flex justify-center text-6xl ">
                                     <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -408,7 +411,7 @@
             </div>
 
             <div class="relative grid grid-cols-12 gap-4 mt-32">
-                <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
+                <div class="col-start-1 col-span-12 md:col-span-7 lg:col-span-6 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
                     <div class="sticky inset-y-[18%] 3k:inset-y-[25%]">
 
                         <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Quizam</h3>
@@ -439,7 +442,7 @@
                         <p class="mt-5">
                             Technologies:
                         </p>
-                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 3k:grid-cols-7 gap-2">
+                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
                             <div class="col-auto ">
                                 <div class=" flex justify-center text-6xl ">
                                     <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -473,18 +476,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="relative col-start-1 col-span-12 md:col-span-5 order-first md:order-last flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 order-first md:order-last flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
                     <img src="images/quizam/Capture.PNG" class="" alt="">
                 </div>
             </div>
 
             <div class="relative grid grid-cols-12 gap-4 mt-32">
-                <div class="relative col-start-1 col-span-12 md:col-span-5 flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
-                    <img src="images/psu/psu-1.png" class="" alt="">
-                    <img src="images/psu/psu-2.png" class="" alt="">
-                    <img src="images/psu/psu-3.png" class="" alt="">
+                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                    <img src="images/psu/landing-page.png" class=" w-fulls" alt="">
+                    <img src="images/psu/dashboard.png" class="" alt="">
+                    <img src="images/psu/plan.png" class="" alt="">
                 </div>
-                <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
+                <div class="col-start-1 col-span-12 md:col-span-7 lg:col-span-6 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
                     <div class="sticky inset-y-[18%] 3k:inset-y-[25%]">
                         <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4"> PSU Main Supply Office Inventory System</h3>
                         <p class="pb-5 font-bold italic">
@@ -509,7 +512,7 @@
                         <p class="mt-5">
                             Technologies:
                         </p>
-                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 3k:grid-cols-7 gap-2">
+                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
                             <div class="col-auto ">
                                 <div class=" flex justify-center text-6xl ">
                                     <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -547,8 +550,8 @@
             </div>
 
             <div class="grid grid-cols-12 gap-4 mt-32 relative">
-                <div class="col-start-1 col-span-12 md:col-span-7 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
-                    <div class="sticky inset-y-[20%] 3k:inset-y-[25%]">
+                <div class="col-start-1 col-span-12 md:col-span-7 lg:col-span-6 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
+                    <div class="sticky inset-y-[13%] 3k:inset-y-[18%]">
                         <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Reinvented Coaching</h3>
                         <p class="pb-5 font-bold italic">
                             (Developer, Designer)
@@ -577,7 +580,7 @@
                         <p class="mt-5">
                             Technologies:
                         </p>
-                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 3k:grid-cols-7 gap-2">
+                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
                             <div class="col-auto ">
                                 <div class=" flex justify-center text-6xl ">
                                     <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -613,7 +616,7 @@
 
                 </div>
 
-                <div class="relative col-start-1 col-span-12 md:col-span-5 order-first md:order-last flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 order-first md:order-last flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
                     <img src="images/reinvented/reinvented-1.png" class="" alt="">
                     <img src="images/reinvented/reinvented-2.png" class="" alt="">
                     <img src="images/reinvented/reinvented-3.png" class="" alt="">
