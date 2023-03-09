@@ -561,9 +561,9 @@ html {
   bottom: 18%;
 }
 
-.inset-y-\[20\%\] {
-  top: 20%;
-  bottom: 20%;
+.inset-y-\[13\%\] {
+  top: 13%;
+  bottom: 13%;
 }
 
 .inset-y-2\/4 {
@@ -571,14 +571,14 @@ html {
   bottom: 50%;
 }
 
-.inset-y-\[17\%\] {
-  top: 17%;
-  bottom: 17%;
+.inset-y-\[14\%\] {
+  top: 14%;
+  bottom: 14%;
 }
 
-.inset-y-\[15\%\] {
-  top: 15%;
-  bottom: 15%;
+.inset-y-\[2\%\] {
+  top: 2%;
+  bottom: 2%;
 }
 
 .inset-y-\[10\%\] {
@@ -586,14 +586,29 @@ html {
   bottom: 10%;
 }
 
-.inset-y-\[5\%\] {
-  top: 5%;
-  bottom: 5%;
+.inset-y-\[9\%\] {
+  top: 9%;
+  bottom: 9%;
 }
 
-.inset-y-\[13\%\] {
-  top: 13%;
-  bottom: 13%;
+.inset-y-\[17\%\] {
+  top: 17%;
+  bottom: 17%;
+}
+
+.inset-y-\[19\%\] {
+  top: 19%;
+  bottom: 19%;
+}
+
+.inset-y-\[11\%\] {
+  top: 11%;
+  bottom: 11%;
+}
+
+.inset-y-\[12\%\] {
+  top: 12%;
+  bottom: 12%;
 }
 
 .top-20 {
@@ -856,14 +871,6 @@ html {
 
 .w-16 {
   width: 4rem;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-1\/3 {
-  width: 33.333333%;
 }
 
 .origin-top {
@@ -1251,6 +1258,11 @@ html {
   padding-right: 0.75rem;
 }
 
+.px-3\.5 {
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+}
+
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -1461,10 +1473,6 @@ html {
   color: rgb(5 150 105 / var(--tw-text-opacity));
 }
 
-.text-zinc-500\/40 {
-  color: rgb(113 113 122 / 0.4);
-}
-
 .text-dark-blue {
   --tw-text-opacity: 1;
   color: rgb(2 5 161 / var(--tw-text-opacity));
@@ -1628,11 +1636,6 @@ html {
   width: 0px;
 }
 
-.before\:font-outline-1::before {
-  content: var(--tw-content);
-  -webkit-text-stroke: 1px rgba(46, 46, 46, 0.484);
-}
-
 .before\:font-outline-2::before {
   content: var(--tw-content);
   -webkit-text-stroke: 1px rgba(52, 211, 153, 0.801);
@@ -1724,6 +1727,11 @@ html {
 
 .before\:content-\[\'Projects\'\]::before {
   --tw-content: 'Projects';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'Contact\'\]::before {
+  --tw-content: 'Contact';
   content: var(--tw-content);
 }
 
@@ -2063,6 +2071,11 @@ html {
     padding-bottom: 0.75rem;
   }
 
+  .md\:py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
   .md\:pb-14 {
     padding-bottom: 3.5rem;
   }
@@ -2272,10 +2285,6 @@ html {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-8 {
-    grid-template-columns: repeat(8, minmax(0, 1fr));
-  }
-
   .lg\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
@@ -2341,6 +2350,16 @@ html {
     padding-bottom: 0.75rem;
   }
 
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .lg\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
   .lg\:pb-32 {
     padding-bottom: 8rem;
   }
@@ -2375,6 +2394,14 @@ html {
 
   .lg\:pt-20 {
     padding-top: 5rem;
+  }
+
+  .lg\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
+  .lg\:pl-20 {
+    padding-left: 5rem;
   }
 
   .lg\:text-start {
@@ -2574,24 +2601,54 @@ html {
     bottom: 25%;
   }
 
-  .\33k\:inset-y-\[23\%\] {
-    top: 23%;
-    bottom: 23%;
-  }
-
   .\33k\:inset-y-\[18\%\] {
     top: 18%;
     bottom: 18%;
   }
 
-  .\33k\:inset-y-\[5\%\] {
-    top: 5%;
-    bottom: 5%;
+  .\33k\:inset-y-\[2\%\] {
+    top: 2%;
+    bottom: 2%;
   }
 
-  .\33k\:inset-y-\[22\%\] {
-    top: 22%;
-    bottom: 22%;
+  .\33k\:inset-y-\[15\%\] {
+    top: 15%;
+    bottom: 15%;
+  }
+
+  .\33k\:inset-y-\[10\%\] {
+    top: 10%;
+    bottom: 10%;
+  }
+
+  .\33k\:inset-y-\[12\%\] {
+    top: 12%;
+    bottom: 12%;
+  }
+
+  .\33k\:inset-y-\[14\%\] {
+    top: 14%;
+    bottom: 14%;
+  }
+
+  .\33k\:inset-y-\[16\%\] {
+    top: 16%;
+    bottom: 16%;
+  }
+
+  .\33k\:inset-y-\[19\%\] {
+    top: 19%;
+    bottom: 19%;
+  }
+
+  .\33k\:inset-y-\[13\%\] {
+    top: 13%;
+    bottom: 13%;
+  }
+
+  .\33k\:inset-y-\[11\%\] {
+    top: 11%;
+    bottom: 11%;
   }
 
   .\33k\:col-span-2 {

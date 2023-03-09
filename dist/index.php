@@ -153,7 +153,7 @@
     </section>
 
     <section id="s2" class="sect s2 about-section relative h-fit lg:h-fit 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center" data-scroll-container>
-        <div class="relative h-full py-12 md:py-16 lg:py-0 px-7 md:px-20 lg:px-40 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center" data-scroll-section>
+        <div class="relative h-full py-12 md:py-16 lg:py-0 px-7 md:px-20 lg:px-28 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center" data-scroll-section>
 
             <!-- <div class="relative py-4 md:py-8 lg:pb-32 px-2 md:px-10">
                 <div class="py-0 3k:py-3 text-start 3k:text-start lg:flex  ">
@@ -241,11 +241,11 @@
 
             <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-36 3k:py-40 px-2 md:px-10 3k:px-0">
                 <div class="py-10">
-                    <h3 id="about-me" class="text-center text-7xl md:text-8xl lg:text-[8rem] xl:text-[9rem] 3k:text-[8rem] font-bold text-white mb-4 transition-all drop-shadow-xl
+                    <!-- <h3 id="about-me" class="text-center text-7xl md:text-8xl lg:text-[8rem] xl:text-[9rem] 3k:text-[8rem] font-bold text-white mb-4 transition-all drop-shadow-xl
                     before:content-['Skills'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500" data-aos="zoom-in" data-aos-delay="50">
                         Skills
-                    </h3>
+                    </h3> -->
                     <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 3xl:grid-cols-10 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl 3k:text-[5rem] mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
 
                         <div class="col-auto lg:mt-4">
@@ -308,10 +308,10 @@
     </section>
 
     <section id="s9" class="sect s9 h-fit 3k:flex justify-center items-center">
-        <div class="px-7 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-10 md:pt-14 lg:pt-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="px-7 md:px-20 lg:px-28 3k:px-5 py-10 md:py-14 lg:py-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-10" data-aos="fade-up">
-                <h3 id="about-me" class="z-0 text-7xl md:text-9xl font-bold text-zinc-500 mb-4 transition-all
+                <h3 id="about-me" class="z-0 text-7xl md:text-8xl lg:9xl font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
                     after:content-[''] after:absolute after:left-32 md:after:left-40 after:bottom-16 after:w-36 md:after:w-72 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
@@ -320,7 +320,7 @@
             </div>
 
             <div class="relative grid grid-cols-12 gap-4">
-                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3">
+                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5  3k:px-3">
                     <img src="images/omnibus/login-partner.png" class="" alt="" data-aos="fade-right" data-aos-delay="50">
                     <img src="images/omnibus/buses.png" class="" alt="" data-aos="fade-right" data-aos-delay="100">
                     <img src="images/omnibus/weekly view.png" class="" alt="" data-aos="fade-right" data-aos-delay="150">
@@ -328,7 +328,7 @@
                 </div>
                 <div class="relative col-start-1 col-span-12 md:col-span-7 lg:col-span-6 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
 
-                    <div class="sticky inset-y-[18%] 3k:inset-y-[25%]">
+                    <div class="sticky inset-y-[12%] 3k:inset-y-[10%]">
                         <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Omnibus</h3>
                         <p class="pb-5 font-bold italic">
                             (Programmer, Developer, Designer)
@@ -338,10 +338,11 @@
                             This helps passengers to book bus tickets, and upholding health safety protocols
                             that spaced out the passengers to maintain social distancing.
                             The application envisioned to help improve the operations of P2P bus companies in terms of seat booking and e-ticket generation.
-                        </p>
-                        <p class="pb-5">
                             This application has 4 users:
                         </p>
+                        <!-- <p class="pb-5">
+                            
+                        </p> -->
                         <ul>
                             <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
                             <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal</li>
@@ -488,7 +489,7 @@
                     <img src="images/psu/plan.png" class="" alt="">
                 </div>
                 <div class="col-start-1 col-span-12 md:col-span-7 lg:col-span-6 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
-                    <div class="sticky inset-y-[18%] 3k:inset-y-[25%]">
+                    <div class="sticky inset-y-[18%] 3k:inset-y-[16%]">
                         <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4"> PSU Main Supply Office Inventory System</h3>
                         <p class="pb-5 font-bold italic">
                             (Programmer, Developer)
@@ -551,7 +552,7 @@
 
             <div class="grid grid-cols-12 gap-4 mt-32 relative">
                 <div class="col-start-1 col-span-12 md:col-span-7 lg:col-span-6 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
-                    <div class="sticky inset-y-[13%] 3k:inset-y-[18%]">
+                    <div class="sticky inset-y-[19%] 3k:inset-y-[19%]">
                         <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Reinvented Coaching</h3>
                         <p class="pb-5 font-bold italic">
                             (Developer, Designer)
@@ -630,20 +631,7 @@
         </div>
     </section>
 
-    <!-- <section id="projects" class="sect projects h-fit 3k:flex justify-center items-center">
-        <div class="px-7 md:px-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
-
-            <div data-aos="fade-right">
-                <h3 id="about-me" class="z-0 text-7xl md:text-9xl font-bold text-zinc-500/40 mb-4 transition-all
-                    before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-1 before:text-transparent
-                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 ">
-                    Projects
-                </h3>
-            </div>
-
-        </div>
-    </section>
-
+    <!-- 
     <section id="s4" class="sect s4 relative h-fit text-center sm:text-left bg-white 3k:flex justify-center items-center">
         <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
@@ -883,11 +871,17 @@
         <div class="px-4 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-10 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-10" data-aos="fade-up">
-                <h2 class="font-semibold text-sm leading-none mb-1 tracking-widest uppercase text-neutral-400
+                <!-- <h2 class="font-semibold text-sm leading-none mb-1 tracking-widest uppercase text-neutral-400
                 after:content-[''] after:w-32 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
                     Contact
-                </h2>
-                <p class="m-0 text-4xl font-bold uppercase text-zinc-800">Contact Me</p>
+                </h2> -->
+                <h3 id="about-me" class="z-0 text-7xl md:text-8xl lg:9xl font-bold text-zinc-500 mb-4 transition-all
+                    before:content-['Contact'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
+                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
+                    after:content-[''] after:absolute after:left-32 md:after:left-40 after:bottom-16 after:w-36 md:after:w-72 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
+                    Contact
+                </h3>
+                <!-- <p class="m-0 text-4xl font-bold uppercase text-zinc-800">Contact Me</p> -->
             </div>
 
             <div class="lg:grid grid-cols-12 gap-4">
