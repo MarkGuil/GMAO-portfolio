@@ -617,10 +617,12 @@
 
                 </div>
 
-                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 order-first md:order-last flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
-                    <img src="images/reinvented/reinvented-1.png" class="" alt="">
-                    <img src="images/reinvented/reinvented-2.png" class="" alt="">
-                    <img src="images/reinvented/reinvented-3.png" class="" alt="">
+                <div class="relative h-full col-start-1 col-span-12 md:col-span-5 lg:col-span-6 order-first md:order-last flex flex-col px-14 md:px-1 lg:px-3.5 3k:px-3" data-aos="fade-right">
+                    <!-- <div class="relative h-fit"> -->
+                    <img src="images/reinvented/reinvented-1.png" class="lg:absolute top-10 lg:left-16 w-96 z-10" alt="">
+                    <img src="images/reinvented/reinvented-2.png" class="lg:absolute top-40 right-0 lg:left-0 w-20 lg:w-32 z-30" alt="">
+                    <img src="images/reinvented/reinvented-3.png" class="lg:absolute hidden lg:block top-56 lg:top-44 lg:right-20 w-96 z-20" alt="">
+                    <!-- </div> -->
                 </div>
             </div>
 
@@ -632,52 +634,52 @@
     </section>
 
     <!-- 
-    <section id="s4" class="sect s4 relative h-fit text-center sm:text-left bg-white 3k:flex justify-center items-center">
-        <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+    <section id=" s4" class="sect s4 relative h-fit text-center sm:text-left bg-white 3k:flex justify-center items-center">
+                    <div class="grid grid-cols-7 gap-3 lg:gap-8 h-full top-10 py-3 md:py-8 lg:py-0 lg:pt-12 px-7 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
-                <div class="lg:h-screen lg:sticky top-0 " data-aos="fade-right" data-aos-delay="450">
-                    <h1 class="lg:absolute top-20 text-5xl ">01</h1>
-                    <div class="lg:absolute text-5xl inset-y-2/4 -mt-24 h-fit">
-                        <h1 class="text-6xl font-extrabold">Omnibus</h1>
-                        <h1 class=" text-5xl">Thesis Project/ Programmer/ Developer</h1>
-                        <h1 class=" text-5xl">Online P2P bus seat booking</h1>
-                        <div class="text-lg-start mt-5 mb-10 md:inline-flex">
-                            <div class="md:mr-2">
-                                <a href="" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full ">
-                                    Open Live
-                                </a>
+                        <div class="col-start-1 col-span-7 lg:col-span-3 h-full">
+                            <div class="lg:h-screen lg:sticky top-0 " data-aos="fade-right" data-aos-delay="450">
+                                <h1 class="lg:absolute top-20 text-5xl ">01</h1>
+                                <div class="lg:absolute text-5xl inset-y-2/4 -mt-24 h-fit">
+                                    <h1 class="text-6xl font-extrabold">Omnibus</h1>
+                                    <h1 class=" text-5xl">Thesis Project/ Programmer/ Developer</h1>
+                                    <h1 class=" text-5xl">Online P2P bus seat booking</h1>
+                                    <div class="text-lg-start mt-5 mb-10 md:inline-flex">
+                                        <div class="md:mr-2">
+                                            <a href="" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                                Open Live
+                                            </a>
+                                        </div>
+                                        <div class="mt-10 md:mt-0">
+                                            <a href="" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full">
+                                                Github
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="absolute text-5xl bottom-3">Web and Mobile</h1>
                             </div>
-                            <div class="mt-10 md:mt-0">
-                                <a href="" class="text-white text-3xl 3k:text-4xl py-2 px-10 bg-emerald-400 rounded-full">
-                                    Github
-                                </a>
+                        </div>
+
+                        <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
+                            <div class="relative pb-24 lg:pb-8 3k:pb-3 3k:text-xl w-full">
+
+                                <div class="  border border-red-800 h-96">
+                                    <img src="images/phone bus.png" class="w-6/12 " alt="">
+                                </div>
+                                <div class=" border border-red-800 h-96">
+                                    <img src="images/phone bus.png" class="w-6/12" alt="">
+                                </div>
+                                <div class=" border border-red-800 h-96">
+                                    <img src="images/phone bus.png" class="w-6/12" alt="">
+                                </div>
+                                <div class=" border border-red-800 h-96">
+                                    <img src="images/phone bus.png" class="w-6/12" alt="">
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <h1 class="absolute text-5xl bottom-3">Web and Mobile</h1>
-                </div>
-            </div>
-
-            <div class="col-start-1 col-span-7 lg:col-span-4 flex justify-start lg:justify-center items-center text-center md:text-start lg:text-start py-4 lg:py-10 px-2 md:px-10" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" data-scroll-class="appear" data-scroll-repeat="true">
-                <div class="relative pb-24 lg:pb-8 3k:pb-3 3k:text-xl w-full">
-
-                    <div class="  border border-red-800 h-96">
-                        <img src="images/phone bus.png" class="w-6/12 " alt="">
-                    </div>
-                    <div class=" border border-red-800 h-96">
-                        <img src="images/phone bus.png" class="w-6/12" alt="">
-                    </div>
-                    <div class=" border border-red-800 h-96">
-                        <img src="images/phone bus.png" class="w-6/12" alt="">
-                    </div>
-                    <div class=" border border-red-800 h-96">
-                        <img src="images/phone bus.png" class="w-6/12" alt="">
-                    </div>
-
-                </div>
-            </div>
-        </div>
     </section>
 
     <section id="s5" class="sect s5 relative h-fit text-center sm:text-left bg-white 3k:flex justify-center items-center ">
