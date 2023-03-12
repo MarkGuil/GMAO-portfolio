@@ -239,7 +239,7 @@
     <section id="s3" class="sect s3 relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed 3k:flex justify-center items-center">
         <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-8 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-36 3k:py-40 px-2 md:px-10 3k:px-0">
+            <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-36 3k:py-24 px-2 md:px-10 3k:px-0">
                 <div class="py-10">
                     <!-- <h3 id="about-me" class="text-center text-7xl md:text-8xl lg:text-[8rem] xl:text-[9rem] 3k:text-[8rem] font-bold text-white mb-4 transition-all drop-shadow-xl
                     before:content-['Skills'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
@@ -340,9 +340,6 @@
                             The application envisioned to help improve the operations of P2P bus companies in terms of seat booking and e-ticket generation.
                             This application has 4 users:
                         </p>
-                        <!-- <p class="pb-5">
-                            
-                        </p> -->
                         <ul>
                             <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
                             <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal</li>
@@ -364,7 +361,7 @@
                         <p class="mt-5">
                             Technologies:
                         </p>
-                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
+                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
                             <div class="col-auto ">
                                 <div class=" flex justify-center text-6xl ">
                                     <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -443,7 +440,7 @@
                         <p class="mt-5">
                             Technologies:
                         </p>
-                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
+                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
                             <div class="col-auto ">
                                 <div class=" flex justify-center text-6xl ">
                                     <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -513,7 +510,7 @@
                         <p class="mt-5">
                             Technologies:
                         </p>
-                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
+                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
                             <div class="col-auto ">
                                 <div class=" flex justify-center text-6xl ">
                                     <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -581,7 +578,7 @@
                         <p class="mt-5">
                             Technologies:
                         </p>
-                        <div class="mt-3 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
+                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
                             <div class="col-auto ">
                                 <div class=" flex justify-center text-6xl ">
                                     <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -617,7 +614,7 @@
 
                 </div>
 
-                <div class="relative h-full col-start-1 col-span-12 md:col-span-5 lg:col-span-6 order-first md:order-last flex flex-col px-14 md:px-1 lg:px-3.5 3k:px-3" data-aos="fade-right">
+                <div class="relative h-96 md:h-fit col-start-1 col-span-12 md:col-span-5 lg:col-span-6 order-first md:order-last flex flex-col px-14 md:px-1 lg:px-3.5 3k:px-3" data-aos="fade-right">
                     <!-- <div class="relative h-fit"> -->
                     <img src="images/reinvented/reinvented-1.png" class="lg:absolute top-10 lg:left-16 w-96 z-10" alt="">
                     <img src="images/reinvented/reinvented-2.png" class="lg:absolute top-40 right-0 lg:left-0 w-20 lg:w-32 z-30" alt="">
