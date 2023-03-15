@@ -320,11 +320,14 @@
             </div>
 
             <div class="relative grid grid-cols-12 gap-4">
-                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5  3k:px-3">
-                    <img src="images/omnibus/login-partner.png" class="" alt="" data-aos="fade-right" data-aos-delay="50">
-                    <img src="images/omnibus/buses.png" class="" alt="" data-aos="fade-right" data-aos-delay="100">
-                    <img src="images/omnibus/weekly view.png" class="" alt="" data-aos="fade-right" data-aos-delay="150">
-                    <img src="images/omnibus/login-mobile.png" class=" " alt="" data-aos="fade-right" data-aos-delay="200">
+                <!-- <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5  3k:px-3"> -->
+                <!-- <img src="images/omnibus/screens.png" class="" alt="" data-aos="fade-right" data-aos-delay="50"> -->
+                <!-- <img src="images/omnibus/buses.png" class="" alt="" data-aos="fade-right" data-aos-delay="100"> -->
+                <!-- <img src="images/omnibus/weekly view.png" class="" alt="" data-aos="fade-right" data-aos-delay="150"> -->
+                <!-- <img src="images/omnibus/login-mobile.png" class=" " alt="" data-aos="fade-right" data-aos-delay="200"> -->
+                <!-- </div> -->
+                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 flex justify-center lg:justify-start items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                    <img src="images/omnibus/screens.png" class="" alt="">
                 </div>
                 <div class="relative col-start-1 col-span-12 md:col-span-7 lg:col-span-6 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
 
@@ -475,15 +478,18 @@
                     </div>
                 </div>
                 <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 order-first md:order-last flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
-                    <img src="images/quizam/Capture.PNG" class="" alt="">
+                    <img src="images/quizam/screens.png" class="" alt="">
                 </div>
             </div>
 
             <div class="relative grid grid-cols-12 gap-4 mt-32">
-                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
-                    <img src="images/psu/landing-page.png" class=" w-fulls" alt="">
-                    <img src="images/psu/dashboard.png" class="" alt="">
-                    <img src="images/psu/plan.png" class="" alt="">
+                <!-- <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 flex flex-col justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right"> -->
+                <!-- <img src="images/psu/screens.png" class=" w-fulls" alt=""> -->
+                <!-- <img src="images/psu/dashboard.png" class="" alt=""> -->
+                <!-- <img src="images/psu/plan.png" class="" alt=""> -->
+                <!-- </div> -->
+                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 flex justify-center lg:justify-start items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                    <img src="images/psu/screens.png" class="" alt="">
                 </div>
                 <div class="col-start-1 col-span-12 md:col-span-7 lg:col-span-6 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
                     <div class="sticky inset-y-[18%] 3k:inset-y-[16%]">
@@ -614,12 +620,15 @@
 
                 </div>
 
-                <div class="relative h-96 md:h-fit col-start-1 col-span-12 md:col-span-5 lg:col-span-6 order-first md:order-last flex flex-col px-14 md:px-1 lg:px-3.5 3k:px-3" data-aos="fade-right">
-                    <!-- <div class="relative h-fit"> -->
-                    <img src="images/reinvented/reinvented-1.png" class="lg:absolute top-10 lg:left-16 w-96 z-10" alt="">
-                    <img src="images/reinvented/reinvented-2.png" class="lg:absolute top-40 right-0 lg:left-0 w-20 lg:w-32 z-30" alt="">
-                    <img src="images/reinvented/reinvented-3.png" class="lg:absolute hidden lg:block top-56 lg:top-44 lg:right-20 w-96 z-20" alt="">
-                    <!-- </div> -->
+                <!-- <div class="relative h-96 md:h-fit col-start-1 col-span-12 md:col-span-5 lg:col-span-6 order-first md:order-last flex flex-col px-14 md:px-1 lg:px-3.5 3k:px-3" data-aos="fade-right"> -->
+                <!-- <div class="relative h-fit"> -->
+                <!-- <img src="images/reinvented/screens.png" class="lg:absolute top-10 lg:left-16 w-96 z-10" alt=""> -->
+                <!-- <img src="images/reinvented/reinvented-2.png" class="lg:absolute top-40 right-0 lg:left-0 w-20 lg:w-32 z-30" alt=""> -->
+                <!-- <img src="images/reinvented/reinvented-3.png" class="lg:absolute hidden lg:block top-56 lg:top-44 lg:right-20 w-96 z-20" alt=""> -->
+                <!-- </div> -->
+                <!-- </div> -->
+                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 order-first md:order-last flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                    <img src="images/reinvented/screens.png" class="" alt="">
                 </div>
             </div>
 
