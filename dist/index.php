@@ -310,7 +310,7 @@
     <section id="s9" class="sect s9 h-fit 3k:flex justify-center items-center">
         <div class="px-7 md:px-20 lg:px-28 3k:px-5 py-10 md:py-14 lg:py-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="pb-10" data-aos="fade-up">
+            <div class="pb-10 md:mb-20" data-aos="fade-up">
                 <h3 id="about-me" class="z-0 text-7xl md:text-8xl lg:9xl font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
@@ -326,13 +326,13 @@
                 <!-- <img src="images/omnibus/weekly view.png" class="" alt="" data-aos="fade-right" data-aos-delay="150"> -->
                 <!-- <img src="images/omnibus/login-mobile.png" class=" " alt="" data-aos="fade-right" data-aos-delay="200"> -->
                 <!-- </div> -->
-                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 flex justify-center lg:justify-start items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
                     <img src="images/omnibus/screens.png" class="" alt="">
                 </div>
-                <div class="relative col-start-1 col-span-12 md:col-span-7 lg:col-span-6 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
+                <div class="relative col-start-1 col-span-12  lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
 
                     <div class="sticky inset-y-[12%] 3k:inset-y-[10%]">
-                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Omnibus</h3>
+                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 my-4">Omnibus</h3>
                         <p class="pb-5 font-bold italic">
                             (Programmer, Developer, Designer)
                         </p>
@@ -351,12 +351,12 @@
                         </ul>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="md:mr-2">
-                                <a href="https://omnibus-ph.000webhostapp.com/dist/index.php" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                <a href="https://omnibus-ph.000webhostapp.com/dist/index.php" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full ">
                                     Open Live
                                 </a>
                             </div>
                             <div class="mt-10 md:mt-0">
-                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full">
                                     Github
                                 </a>
                             </div>
@@ -364,44 +364,44 @@
                         <p class="mt-5">
                             Technologies:
                         </p>
-                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
+                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-1 text-5xl">
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl ">
+                                <div class=" flex justify-center  ">
                                     <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl ">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-css3-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-php-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-tailwindcss-original-wordmark drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center">
                                     <i class="devicon-java-plain-wordmark drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
@@ -412,30 +412,31 @@
             </div>
 
             <div class="relative grid grid-cols-12 gap-4 mt-32">
-                <div class="col-start-1 col-span-12 md:col-span-7 lg:col-span-6 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
+                <div class="col-start-1 col-span-12  lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
                     <div class="sticky inset-y-[18%] 3k:inset-y-[25%]">
 
-                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Quizam</h3>
+                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 my-4">Quizam</h3>
                         <p class="pb-5 font-bold italic">
                             (Programmer, Developer, Designer)
                         </p>
                         <p class="pb-5">
+                            An online based quiz/ exam system that is designed and built with anti cheating functions.
                             This web application allows users to manage and conduct online assessments.
                         </p>
                         <ul>
-                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
-                            <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Prohibiting users to backtrack while taking the test.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Prohibit users to take the test multiple times.</li>
+                            <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Delay score availability.</li>
                         </ul>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="md:mr-2">
-                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full ">
                                     Open Live
                                 </a>
                             </div>
                             <div class="mt-10 md:mt-0">
-                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full">
                                     Github
                                 </a>
                             </div>
@@ -443,41 +444,41 @@
                         <p class="mt-5">
                             Technologies:
                         </p>
-                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
+                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-1 text-5xl">
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl ">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl ">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-css3-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-php-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center">
                                     <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center">
                                     <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 order-first md:order-last flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                <div class="relative col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
                     <img src="images/quizam/screens.png" class="" alt="">
                 </div>
             </div>
@@ -488,12 +489,12 @@
                 <!-- <img src="images/psu/dashboard.png" class="" alt=""> -->
                 <!-- <img src="images/psu/plan.png" class="" alt=""> -->
                 <!-- </div> -->
-                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 flex justify-center lg:justify-start items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
-                    <img src="images/psu/screens.png" class="" alt="">
+                <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                    <img src="images/psu/screens.png" class="w-full" alt="">
                 </div>
-                <div class="col-start-1 col-span-12 md:col-span-7 lg:col-span-6 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
+                <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
                     <div class="sticky inset-y-[18%] 3k:inset-y-[16%]">
-                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4"> PSU Main Supply Office Inventory System</h3>
+                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 my-4"> PSU Main Supply Office Inventory System</h3>
                         <p class="pb-5 font-bold italic">
                             (Programmer, Developer)
                         </p>
@@ -503,47 +504,45 @@
                             procurement plan for budget utilization.
                         </p>
                         <ul>
-                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
-                            <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Main Admin - managing and monitoring inventory of campuses</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Campus Admin - manages offices and creates their procurement plan for their campus</li>
                         </ul>
                         <div class="mb-10 mt-5">
-                            <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                            <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full">
                                 Github
                             </a>
                         </div>
                         <p class="mt-5">
                             Technologies:
                         </p>
-                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
-                            <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl ">
+                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-1 text-5xl">
+                            <div class="col-auto">
+                                <div class=" flex justify-center  ">
                                     <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl ">
+                                <div class=" flex justify-center  ">
                                     <i class="devicon-css3-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-php-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
@@ -554,9 +553,9 @@
             </div>
 
             <div class="grid grid-cols-12 gap-4 mt-32 relative">
-                <div class="col-start-1 col-span-12 md:col-span-7 lg:col-span-6 pt-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
+                <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
                     <div class="sticky inset-y-[19%] 3k:inset-y-[19%]">
-                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 mb-4">Reinvented Coaching</h3>
+                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 my-4">Reinvented Coaching</h3>
                         <p class="pb-5 font-bold italic">
                             (Developer, Designer)
                         </p>
@@ -571,12 +570,12 @@
                         </ul>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="md:mr-2">
-                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full ">
                                     Open Live
                                 </a>
                             </div>
                             <div class="mt-10 md:mt-0">
-                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-3xl py-2 px-10 bg-emerald-400 rounded-full">
+                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full">
                                     Github
                                 </a>
                             </div>
@@ -584,34 +583,34 @@
                         <p class="mt-5">
                             Technologies:
                         </p>
-                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-2">
-                            <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl ">
+                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-1 text-5xl">
+                            <div class="col-auto">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl ">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-css3-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-php-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
-                                <div class=" flex justify-center text-6xl">
+                                <div class=" flex justify-center ">
                                     <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
@@ -627,7 +626,7 @@
                 <!-- <img src="images/reinvented/reinvented-3.png" class="lg:absolute hidden lg:block top-56 lg:top-44 lg:right-20 w-96 z-20" alt=""> -->
                 <!-- </div> -->
                 <!-- </div> -->
-                <div class="relative col-start-1 col-span-12 md:col-span-5 lg:col-span-6 order-first md:order-last flex justify-center lg:justify-end items-center px-14 md:px-1 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                <div class="relative col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
                     <img src="images/reinvented/screens.png" class="" alt="">
                 </div>
             </div>

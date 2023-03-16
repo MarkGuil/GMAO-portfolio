@@ -705,6 +705,11 @@ html {
   margin-right: 1.25rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .-mt-0\.5 {
   margin-top: -0.125rem;
 }
@@ -739,6 +744,10 @@ html {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mt-32 {
@@ -779,10 +788,6 @@ html {
 
 .ml-auto {
   margin-left: auto;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
 }
 
 .block {
@@ -1046,6 +1051,10 @@ html {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .overflow-x-hidden {
@@ -1976,6 +1985,14 @@ html {
     margin-left: 5rem;
   }
 
+  .md\:mb-28 {
+    margin-bottom: 7rem;
+  }
+
+  .md\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -2073,12 +2090,30 @@ html {
     padding-bottom: 0.75rem;
   }
 
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .md\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
   .md\:pb-14 {
     padding-bottom: 3.5rem;
   }
 
   .md\:pt-10 {
     padding-top: 2.5rem;
+  }
+
+  .md\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .md\:pb-28 {
+    padding-bottom: 7rem;
   }
 
   .md\:text-start {
@@ -2170,6 +2205,10 @@ html {
     right: 5rem;
   }
 
+  .lg\:order-last {
+    order: 9999;
+  }
+
   .lg\:col-span-4 {
     grid-column: span 4 / span 4;
   }
@@ -2180,6 +2219,14 @@ html {
 
   .lg\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .lg\:col-span-5 {
+    grid-column: span 5 / span 5;
+  }
+
+  .lg\:col-span-7 {
+    grid-column: span 7 / span 7;
   }
 
   .lg\:col-start-3 {
@@ -2299,6 +2346,10 @@ html {
 
   .lg\:items-end {
     align-items: flex-end;
+  }
+
+  .lg\:justify-start {
+    justify-content: flex-start;
   }
 
   .lg\:justify-end {
@@ -2715,9 +2766,9 @@ html {
     padding-right: 2.5rem;
   }
 
-  .\33k\:py-40 {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+  .\33k\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .\33k\:px-0 {
@@ -2728,26 +2779,6 @@ html {
   .\33k\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
-  }
-
-  .\33k\:py-36 {
-    padding-top: 9rem;
-    padding-bottom: 9rem;
-  }
-
-  .\33k\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-
-  .\33k\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
-  .\33k\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
   }
 
   .\33k\:pb-40 {
