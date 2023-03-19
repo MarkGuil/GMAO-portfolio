@@ -45,6 +45,7 @@ module.exports = {
         'wave3': 'wave2 6s linear -2s infinite',
         'stroke-dashoffset': 'strokeDashoffset 1.1s ease-out, fill 1.1s',
         'show-about': 'toRight 1s ease-in-out -2s',
+        'cv-shake': 'shake 2s ease-in-out 1s alternate'
       },
       keyframes: {
         zoom: {
@@ -110,7 +111,49 @@ module.exports = {
             'opacity': '1',
             'right': '2rem'
           },
-        }
+        },
+        shake: {
+          '0%': {
+            opacity: 0,
+            transform: 'scale(0)',
+            transform: 'rotate(150deg);'
+          },
+          '10%': {
+            opacity: 1,
+            transform: 'scale(1)',
+            transform: 'rotate(-12deg);'
+          },
+          '20%': {
+            opacity: 1,
+            transform: 'scale(1)',
+            transform: 'rotate(12deg);'
+          },
+          '40%': {
+            opacity: 1,
+            transform: 'scale(1)',
+            transform: 'rotate(-12deg);'
+          },
+          '60%': {
+            opacity: 1,
+            transform: 'scale(1)',
+            transform: 'rotate(12deg);'
+          },
+          '80%': {
+            opacity: 1,
+            transform: 'scale(1)',
+            transform: 'rotate(-12deg);'
+          },
+          '90%': {
+            opacity: 1,
+            transform: 'scale(1)',
+            transform: 'rotate(12deg);'
+          },
+          '100%': {
+            opacity: 0,
+            transform: 'scale(0)',
+            transform: 'rotate(-150deg);'
+          },
+        },
       },
     },
     maxWidth: {

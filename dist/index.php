@@ -60,12 +60,12 @@
                             </a>
                         </li>
                         <li class="mx-5 relative">
-                            <a class="section-links s9
+                            <a class="section-links s3
                             font-semibold text-lg 3xl:text-xl 3k:text-[1.6rem] text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s9" onclick="lenis.scrollTo('#s9')">
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s3" onclick="lenis.scrollTo('#s3')">
                                 <small><span class=" text-emerald-400">03</span> Projects</small>
                             </a>
                         </li>
@@ -85,10 +85,16 @@
             </div>
             <div class="col hidden lg:flex justify-end items-center">
                 <div class="social-links relative text-3xl">
-                    <a href="#" class="facebook">
+                    <a href="#" class="resume">
+                        <div class="absolute text-sm top-11 -left-3 bg-emerald-300 px-3 py-1 rounded animate-cv-shake opacity-0 pointer-events-none">
+                            <span>Resume</span>
+                        </div>
                         <i class="bx bxs-file-pdf text-zinc-600 px-2 py-2 rounded-full transition-color duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        <!-- <div> -->
+
+                        <!-- </div> -->
                     </a>
-                    <a href="#" class="instagram">
+                    <a href="#" class="github">
                         <i class="bx bxl-github text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                     </a>
                     <a href="#" class="google-plus">
@@ -100,12 +106,27 @@
                 </div>
             </div>
             <div id="nav-menu" class="absolute bg-white text-zinc-900 top-20 left-0 text-4xl w-full flex-col justify-center origin-top animate-nav-bounce hidden lg:hidden transition-all duration-500">
-                <div class="min-h-screen flex flex-col items-center py-7" aria-label="mobile">
+                <div class="relative min-h-screen flex flex-col items-center py-7" aria-label="mobile">
                     <a href="#s1" onclick="lenis.scrollTo('#s1')" class="w-full text-center py-5 hover:opacity-75">Home</a>
                     <a href="#s2" onclick="lenis.scrollTo('#s2')" class="w-full text-center py-5 hover:opacity-75">About</a>
-                    <a href="#s9" onclick="lenis.scrollTo('#s9')" class="w-full text-center py-5 hover:opacity-75">Projects</a>
+                    <a href="#s3" onclick="lenis.scrollTo('#s3')" class="w-full text-center py-5 hover:opacity-75">Projects</a>
                     <a href="#s10" onclick="lenis.scrollTo('#s10')" class="w-full text-center py-5 hover:opacity-75">Contact</a>
+                    <div class="social-links absolute bottom-28 text-4xl">
+                        <a href="#" class="resume">
+                            <i class="bx bxs-file-pdf text-zinc-600 px-2 py-2 rounded-full transition-color duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        </a>
+                        <a href="#" class="github">
+                            <i class="bx bxl-github text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        </a>
+                        <a href="#" class="google-plus">
+                            <i class="bx bxs-envelope text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        </a>
+                        <a href="#" class="linkedin">
+                            <i class="bx bxl-linkedin-square text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                        </a>
+                    </div>
                 </div>
+
             </div>
         </div>
 
@@ -152,8 +173,8 @@
         </div>
     </section>
 
-    <section id="s2" class="sect s2 about-section relative h-fit lg:h-fit 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center" data-scroll-container>
-        <div class="relative h-full py-12 md:py-16 lg:py-0 px-7 md:px-20 lg:px-28 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center" data-scroll-section>
+    <section id="s2" class="sect s2 about-section relative h-fit lg:h-fit 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
+        <div class="relative h-full py-12 md:py-16 lg:py-0 px-7 md:px-20 lg:px-28 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
 
             <!-- <div class="relative py-4 md:py-8 lg:pb-32 px-2 md:px-10">
                 <div class="py-0 3k:py-3 text-start 3k:text-start lg:flex  ">
@@ -236,7 +257,7 @@
         </div>
     </section>
 
-    <section id="s3" class="sect s3 relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed 3k:flex justify-center items-center">
+    <section id="s2" class="sect s2 relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed 3k:flex justify-center items-center">
         <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-8 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-36 3k:py-24 px-2 md:px-10 3k:px-0">
@@ -307,7 +328,7 @@
         <img src="images/skills-bg/torn-2-mins-min.png" class="absolute -bottom-2 left-0 md:w-full h-56" alt="">
     </section>
 
-    <section id="s9" class="sect s9 h-fit 3k:flex justify-center items-center">
+    <section id="s3" class="sect s3 h-fit 3k:flex justify-center items-center">
         <div class="px-7 md:px-20 lg:px-28 3k:px-5 py-10 md:py-14 lg:py-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-10 md:mb-20" data-aos="fade-up">
@@ -347,7 +368,7 @@
                             <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
                             <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal</li>
                             <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Conductor - manages booked seats</li>
-                            <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Passenger </li>
+                            <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Passenger - search trips, book and generate e-tickets </li>
                         </ul>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="md:mr-2">
@@ -633,9 +654,6 @@
 
         </div>
 
-
-
-        </div>
     </section>
 
     <!-- 
@@ -861,9 +879,12 @@
                         </div>
                         <h4 class="ml-0 md:ml-20 lg:ml-20 mb-2 mt-3 font-bold text-lg 3k:text-xl"><a href="" class="text-zinc-800 transition duration-75 ease-in-out hover:text-emerald-300">Secure Payment</a></h4>
                         <p class="px-10 md:px-20 lg:px-0 ml-0 lg:ml-20 text-sm 3k:text-lg leading-6 text-zinc-600">
-                            As a web developer, I specialize in creating dynamic and engaging websites using the latest technologies and best practices in the industry. My portfolio showcases a diverse range of projects,
-                            from simple brochure websites to complex web applications. Each project represents my skills in areas such as HTML, CSS, JavaScript, and responsive design. My experience and expertise in web
-                            development have allowed me to deliver high-quality, fully-functional websites that meet the needs of my clients and exceed their expectations. I am passionate about creating beautiful,
+                            As a web developer, I specialize in creating dynamic and engaging websites using the latest technologies and best practices 
+                            in the industry. My portfolio showcases a diverse range of projects,
+                            from simple brochure websites to complex web applications. Each project represents my skills in areas such as HTML, CSS, 
+                            JavaScript, and responsive design. My experience and expertise in web
+                            development have allowed me to deliver high-quality, fully-functional websites that meet the needs of my clients and exceed 
+                            their expectations. I am passionate about creating beautiful,
                             user-friendly websites and always strive to stay up-to-date with the latest web development trends and technologies.
                         </p>
                     </div>
