@@ -1,3 +1,8 @@
+<?php
+if (session_id() == '') {
+    session_start();
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -85,22 +90,19 @@
             </div>
             <div class="col hidden lg:flex justify-end items-center">
                 <div class="social-links relative text-3xl">
-                    <a href="#" class="resume">
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="resume">
                         <div class="absolute text-sm top-11 -left-3 bg-emerald-300 px-3 py-1 rounded animate-cv-shake opacity-0 pointer-events-none">
                             <span>Resume</span>
                         </div>
                         <i class="bx bxs-file-pdf text-zinc-600 px-2 py-2 rounded-full transition-color duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                        <!-- <div> -->
-
-                        <!-- </div> -->
                     </a>
-                    <a href="#" class="github">
+                    <a href="https://github.com/MarkGuil" target="_blank" rel="noopener noreferrer" class="github">
                         <i class="bx bxl-github text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                     </a>
-                    <a href="#" class="google-plus">
+                    <a href="mailto:guilangmarkarjay@gmail.com" class="google-plus">
                         <i class="bx bxs-envelope text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                     </a>
-                    <a href="#" class="linkedin">
+                    <a href="https://www.linkedin.com/in/mark-arjay-guilang/" target="_blank" rel="noopener noreferrer" class="linkedin">
                         <i class="bx bxl-linkedin-square text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                     </a>
                 </div>
@@ -260,7 +262,7 @@
     <section id="s2" class="sect s2 relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed 3k:flex justify-center items-center">
         <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-8 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-36 3k:py-24 px-2 md:px-10 3k:px-0">
+            <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-28 3k:py-24 px-2 md:px-10 3k:px-0">
                 <div class="py-10">
                     <!-- <h3 id="about-me" class="text-center text-7xl md:text-8xl lg:text-[8rem] xl:text-[9rem] 3k:text-[8rem] font-bold text-white mb-4 transition-all drop-shadow-xl
                     before:content-['Skills'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
@@ -366,9 +368,9 @@
                         </p>
                         <ul>
                             <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
-                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal</li>
-                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Conductor - manages booked seats</li>
-                            <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Passenger - search trips, book and generate e-tickets </li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Conductor - manages booked seats.</li>
+                            <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Passenger - search trips, book and generate e-tickets.</li>
                         </ul>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="md:mr-2">
@@ -973,7 +975,7 @@
                             <div class="error-message"></div>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                         </div>
-                        <div class="text-center"><button type="submit" class="btn-get-started scrollto py-2 md:py-3 lg:py-3 px-7 bg-emerald-400 rounded-full text-white 3k:text-2xl">Send Message</button></div>
+                        <div class="text-center"><button type="submit" name="submit-contact-form" class="btn-get-started scrollto py-2 md:py-3 lg:py-3 px-7 bg-emerald-400 rounded-full text-white 3k:text-2xl">Send Message</button></div>
                     </form>
 
                 </div>
@@ -992,11 +994,15 @@
             </div>
             <div class="ml-auto">
                 <div class="social-links mt-3 text-lg">
-                    <a href="#" class="twitter"><i class="bx bxl-twitter px-2 py-2 transition-all rounded-full duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="facebook"><i class="bx bxl-facebook px-2 py-2 transition-all rounded-full duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="instagram"><i class="bx bxl-instagram px-2 py-2 transition-all rounded-full duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="google-plus"><i class="bx bxl-google-plus px-2 py-2 transition-all rounded-full duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
-                    <a href="#" class="linkedin"><i class="bx bxl-linkedin px-2 py-2 transition-all rounded-full duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i></a>
+                    <a href="#" class="github">
+                        <i class="bx bxl-github px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                    </a>
+                    <a href="#" class="google-plus">
+                        <i class="bx bxs-envelope px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                    </a>
+                    <a href="#" class="linkedin">
+                        <i class="bx bxl-linkedin-square px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -1007,12 +1013,37 @@
     <script defer src="app.js"></script>
     <script defer src="anav.js"></script>
     <script src="vendor/aos/dist/aos.js"></script>
-    <!-- <script src="animation.js"></script> -->
     <script src="vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
-    <!-- <script src="script/navbar.js"></script> -->
+    <script src="vendor/sweetalert/sweetalert2.all.min.js"></script>
     <script src="vendor/lenis/lenis.js"></script>
     <script defer src="scroll.js"></script>
-    <!-- <script src="vendor/locomotive-scroll/locomotive-scroll.min.js"></script> -->
+    <script>
+        const Toast = Swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 4000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+                toast.addEventListener('mouseenter', Swal.stopTimer)
+                toast.addEventListener('mouseleave', Swal.resumeTimer)
+            }
+        })
+    </script>
+    <?php
+    if (isset($_SESSION['form_title']) && $_SESSION['form_title'] != '') {
+    ?>
+        <script>
+            Toast.fire({
+                icon: "<?php echo $_SESSION['form_icon'] ?>",
+                text: "<?php echo $_SESSION['form_message'] ?>"
+            })
+        </script>
+
+    <?php
+        unset($_SESSION['form_title']);
+    }
+    ?>
 
     <script>
         AOS.init();

@@ -83,4 +83,6 @@ sections.forEach(card => {
     observer.observe(card);
 });
 
+
+
 // observer2.observe(footerObserver);
