@@ -349,7 +349,7 @@ if (session_id() == '') {
                 <!-- <img src="images/omnibus/weekly view.png" class="" alt="" data-aos="fade-right" data-aos-delay="150"> -->
                 <!-- <img src="images/omnibus/login-mobile.png" class=" " alt="" data-aos="fade-right" data-aos-delay="200"> -->
                 <!-- </div> -->
-                <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-left">
                     <img src="images/omnibus/screens.png" class="" alt="">
                 </div>
                 <div class="relative col-start-1 col-span-12  lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
@@ -512,7 +512,7 @@ if (session_id() == '') {
                 <!-- <img src="images/psu/dashboard.png" class="" alt=""> -->
                 <!-- <img src="images/psu/plan.png" class="" alt=""> -->
                 <!-- </div> -->
-                <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-left">
                     <img src="images/psu/screens.png" class="w-full" alt="">
                 </div>
                 <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
