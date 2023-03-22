@@ -178,65 +178,6 @@ if (session_id() == '') {
     <section id="s2" class="sect s2 about-section relative h-fit lg:h-fit 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
         <div class="relative h-full py-12 md:py-16 lg:py-0 px-7 md:px-20 lg:px-28 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
 
-            <!-- <div class="relative py-4 md:py-8 lg:pb-32 px-2 md:px-10">
-                <div class="py-0 3k:py-3 text-start 3k:text-start lg:flex  ">
-                    <div class=" lg:pl-10 lg:h-[70vh] 3xl:h-[85vh] lg:sticky inset-0 flex justify-center items-center lg:items-end pb-16">
-                        <img src="images/profile/test-3.png" class="w-3/4 md:w-3/5 3xl:w-3/5" alt="" ">
-                    </div>
-                    <div class=" lg:mt-[58vh] md:mb-16 3xl:mb-10 h-fit 3xl:h-screen z-10 3xl:w-11/12 3k:w-full">
-                        <h3 id="about-me" class="  pointer-events-none z-0 text-6xl md:text-8xl lg:text-[10rem] 3xl:text-[12rem] 3k:text-[9rem] font-bold text-zinc-500 transition-all duration-1000
-                                before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
-                                before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500">
-                            About
-                        </h3>
-                        <p class="text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl tracking-wider font-black leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal">
-                            I am a full stack web developer that is passionate in developing robust and responsive
-                            web applications and is excited to bring my skills and experience to new challenges.
-                        </p>
-                    </div>
-                </div>
-            </div> -->
-            <!-- <div class="relative py-4 md:py-8 px-2 md:px-3">
-                <div class="py-0 3k:py-3 text-start 3k:text-start grid grid-cols-12 gap-0 h-fit lg:h-screen lg:flex justify-center items-center">
-
-                    <div class="col-start-1 col-span-12 lg:col-span-6 xl:pl-10">
-                        <h3 id="about-me" class="relative pointer-events-none z-0 text-6xl md:text-8xl lg:text-[8rem] 3xl:text-[14rem] 3k:text-[10rem] font-bold text-zinc-500 transition-all duration-1000
-                                before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
-                                before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500
-                                after:content-[''] after:absolute lg:after:right-28 after:bottom-1 lg:after:bottom-5 after:w-20 md:after:w-36 lg:after:w-85 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2" data-scroll data-scroll-delay="0.03" data-scroll-speed="7.8">
-                            About
-                        </h3>
-
-                    </div>
-
-                    <div class="col-start-1 col-span-12 lg:col-span-6 mt-3 md:mt-5 lg:mt-0">
-                        <p class=" text-zinc-700 text-2xl md:text-3xl lg:text-4xl 3xl:text-5xl tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
-                            " data-scroll data-scroll-delay="0.1" data-scroll-speed="6">
-                            I am a full stack web developer that is passionate in developing robust and responsive
-                            web applications and is excited to bring my skills and experience to new challenges.
-                        </p>
-                    </div>
-
-                </div>
-            </div> -->
-            <!-- <div class="relative py-4 md:py-20 lg:py-0 lg:pb-64 3k:pb-40 3k:py-72 px-2 ">
-                <div class="py-0 3k:py-3 text-start 3k:text-start lg:flex 3k:block justify-start items-start">
-                    <div class=" lg:pl-10 lg:h-[60vh] 3k:h-fit lg:sticky 3k:static inset-0 lg:flex 3k:block items-end">
-                        <h3 id="about-me" class="  pointer-events-none z-0 text-6xl md:text-8xl lg:text-[7rem] 3xl:text-[12rem] 3k:text-[8rem] font-bold text-zinc-500 transition-all duration-1000
-                                before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
-                                before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500">
-                            About
-                        </h3>
-                    </div>
-                    <div class=" lg:flex items-end  lg:pl-14 mt-5 lg:mt-28 3k:mt-7 lg:mb-32 lg:h-[85vh] 3k:h-fit">
-                        <p class="text-zinc-700 text-2xl md:text-3xl 3xl:text-5xl lg:w-10/12 3k:w-full tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
-                            ">
-                            I am a full stack web developer that is passionate in developing robust and responsive
-                            web applications and is excited to bring my skills and experience to new challenges.
-                        </p>
-                    </div>
-                </div>
-            </div> -->
             <div class="relative py-4 md:py-20 lg:py-0 3k:py-10 lg:pb-64 3k:pb-48 px-2 ">
                 <div class="py-0 text-start 3k:text-start lg:flex justify-start items-start">
                     <div class=" lg:pl-10 lg:h-[60vh] 3k:h-[20vh] lg:sticky inset-0 3k:inset-y-[30%] lg:flex items-end">
@@ -269,7 +210,7 @@ if (session_id() == '') {
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500" data-aos="zoom-in" data-aos-delay="50">
                         Skills
                     </h3> -->
-                    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 3xl:grid-cols-10 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl 3k:text-[5rem] mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
+                    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 3xl:grid-cols-10 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl 3k:text-[5rem] mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
 
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
@@ -287,6 +228,11 @@ if (session_id() == '') {
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="450">
+                                <i class="devicon-jquery-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="200">
                                 <i class="devicon-php-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
@@ -298,12 +244,12 @@ if (session_id() == '') {
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="300">
-                                <i class="devicon-laravel-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-laravel-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="400">
-                                <i class="devicon-bootstrap-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-bootstrap-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
@@ -313,12 +259,12 @@ if (session_id() == '') {
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="450">
-                                <i class="devicon-java-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-java-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="450">
-                                <i class="devicon-csharp-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <i class="devicon-csharp-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                     </div>
@@ -481,6 +427,11 @@ if (session_id() == '') {
                             <div class="col-auto ">
                                 <div class=" flex justify-center ">
                                     <i class="devicon-php-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center">
+                                    <i class="devicon-jquery-plain-wordmark drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                             <div class="col-auto ">
