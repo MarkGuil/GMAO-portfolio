@@ -190,7 +190,7 @@ if (session_id() == '') {
                     <div class=" lg:flex items-end lg:pl-14 mt-5 lg:mt-28 3k:mt-7 lg:mb-32 3k:mb-24 lg:h-[85vh] 3k:h-[33vh]">
                         <p class="text-zinc-700 text-2xl md:text-3xl 3xl:text-5xl 3k:text-4xl  tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
                             ">
-                            I am a full stack web developer that is passionate in developing robust and responsive
+                            I am a web developer that is passionate in developing robust and responsive
                             web applications and is excited to bring my skills and experience to new challenges.
                         </p>
                     </div>
@@ -206,7 +206,7 @@ if (session_id() == '') {
             <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-28 3k:py-24 px-2 md:px-10 3k:px-0">
                 <div class="py-10">
 
-                    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 3xl:grid-cols-10 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl 3k:text-[5rem] mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
+                    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 3xl:grid-cols-6 3k:grid-cols-11 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl 3k:text-[5rem] mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
 
                         <div class="col-auto lg:mt-4">
                             <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
@@ -224,22 +224,22 @@ if (session_id() == '') {
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="450">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="200">
                                 <i class="devicon-jquery-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="250">
                                 <i class="devicon-php-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="250">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="300">
                                 <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="350">
                                 <i class="devicon-laravel-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
@@ -254,12 +254,12 @@ if (session_id() == '') {
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="450">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="500">
                                 <i class="devicon-java-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
                         <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="450">
+                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="550">
                                 <i class="devicon-csharp-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                             </div>
                         </div>
@@ -275,7 +275,7 @@ if (session_id() == '') {
     <section id="s3" class="sect s3 h-fit 3k:flex justify-center items-center">
         <div class="px-7 md:px-20 lg:px-28 3k:px-5 py-10 md:py-14 lg:py-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="pb-10 md:mb-20" data-aos="fade-up">
+            <div class="pb-10 md:mb-10" data-aos="fade-up">
                 <h3 id="about-me" class="z-0 text-7xl md:text-8xl lg:9xl font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
@@ -291,7 +291,8 @@ if (session_id() == '') {
                 </div>
                 <div class="relative col-start-1 col-span-12  lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
 
-                    <div class="sticky inset-y-[12%] 3k:inset-y-[10%]">
+                    <!-- <div class="sticky inset-y-[12%] 3k:inset-y-[10%]"> -->
+                    <div class="inset-y-[12%] 3k:inset-y-[10%]">
                         <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 my-4">Omnibus</h3>
                         <p class="pb-5 font-bold italic">
                             (Programmer, Developer, Designer)
@@ -373,8 +374,8 @@ if (session_id() == '') {
 
             <div class="relative grid grid-cols-12 gap-4 mt-32">
                 <div class="col-start-1 col-span-12  lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
-                    <div class="sticky inset-y-[18%] 3k:inset-y-[25%]">
-
+                    <!-- <div class="sticky inset-y-[18%] 3k:inset-y-[25%]"> -->
+                    <div class=" inset-y-[18%] 3k:inset-y-[25%]">
                         <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 my-4">Quizam</h3>
                         <p class="pb-5 font-bold italic">
                             (Programmer, Developer, Designer)
@@ -454,7 +455,8 @@ if (session_id() == '') {
                     <img src="images/psu/screens.png" class="w-full" alt="">
                 </div>
                 <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
-                    <div class="sticky inset-y-[18%] 3k:inset-y-[16%]">
+                    <!-- <div class="sticky inset-y-[18%] 3k:inset-y-[16%]"> -->
+                    <div class=" inset-y-[18%] 3k:inset-y-[16%]">
                         <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 my-4"> PSU Main Supply Office Inventory System</h3>
                         <p class="pb-5 font-bold italic">
                             (Programmer, Developer)
@@ -476,7 +478,7 @@ if (session_id() == '') {
                         <p class="mt-5">
                             Technologies:
                         </p>
-                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-1 text-5xl">
+                        <div class="mt-2 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 3k:grid-cols-7 gap-1 text-4xl">
                             <div class="col-auto">
                                 <div class=" flex justify-center  ">
                                     <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -515,7 +517,8 @@ if (session_id() == '') {
 
             <div class="grid grid-cols-12 gap-4 mt-32 relative">
                 <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
-                    <div class="sticky inset-y-[19%] 3k:inset-y-[19%]">
+                    <!-- <div class="sticky inset-y-[19%] 3k:inset-y-[19%]"> -->
+                    <div class=" inset-y-[19%] 3k:inset-y-[19%]">
                         <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 my-4">Reinvented Coaching</h3>
                         <p class="pb-5 font-bold italic">
                             (Developer, Designer)
@@ -685,13 +688,13 @@ if (session_id() == '') {
             </div>
             <div class="ml-auto">
                 <div class="social-links mt-3 text-lg">
-                    <a href="#" class="github">
+                    <a href="https://github.com/MarkGuil" target="_blank" rel="noopener noreferrer" class="github">
                         <i class="bx bxl-github px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                     </a>
-                    <a href="#" class="google-plus">
+                    <a href="mailto:guilangmarkarjay@gmail.com" class="google-plus">
                         <i class="bx bxs-envelope px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                     </a>
-                    <a href="#" class="linkedin">
+                    <a href="https://www.linkedin.com/in/mark-arjay-guilang/" target="_blank" rel="noopener noreferrer" class="linkedin">
                         <i class="bx bxl-linkedin-square px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                     </a>
                 </div>
