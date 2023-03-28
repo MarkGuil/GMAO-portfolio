@@ -15,13 +15,12 @@ if (session_id() == '') {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="vendor/aos/dist/aos.css" rel="stylesheet">
-    <link href="vendor/remixIcon/fonts/remixicon.css" rel="stylesheet">
     <link href="vendor/remixIcon/fonts/remixicon.css" rel="stylesheet">
     <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="vendor/locomotive-scroll/locomotive-scroll.min.css" rel="stylesheet">
@@ -312,12 +311,12 @@ if (session_id() == '') {
                         </ul>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="md:mr-2">
-                                <a href="https://omnibus-ph.000webhostapp.com/dist/index.php" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                <a href="https://omnibus-ph.000webhostapp.com/dist/" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full ">
                                     Open Live
                                 </a>
                             </div>
                             <div class="mt-10 md:mt-0">
-                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full">
+                                <a href="https://github.com/MarkGuil/Omnibus-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full">
                                     Github
                                 </a>
                             </div>
@@ -392,12 +391,12 @@ if (session_id() == '') {
                         </ul>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="md:mr-2">
-                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                <a href="https://quizam-asd.000webhostapp.com/" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full ">
                                     Open Live
                                 </a>
                             </div>
                             <div class="mt-10 md:mt-0">
-                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full">
+                                <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full">
                                     Github
                                 </a>
                             </div>
@@ -538,11 +537,6 @@ if (session_id() == '') {
                                     Open Live
                                 </a>
                             </div>
-                            <div class="mt-10 md:mt-0">
-                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full">
-                                    Github
-                                </a>
-                            </div>
                         </div>
                         <p class="mt-5">
                             Technologies:
@@ -595,17 +589,12 @@ if (session_id() == '') {
         <div class="px-4 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-10 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-10" data-aos="fade-up">
-                <!-- <h2 class="font-semibold text-sm leading-none mb-1 tracking-widest uppercase text-neutral-400
-                after:content-[''] after:w-32 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
-                    Contact
-                </h2> -->
                 <h3 id="about-me" class="z-0 text-7xl md:text-8xl lg:9xl font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Contact'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
                     after:content-[''] after:absolute after:left-32 md:after:left-40 after:bottom-16 after:w-36 md:after:w-72 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
                     Contact
                 </h3>
-                <!-- <p class="m-0 text-4xl font-bold uppercase text-zinc-800">Contact Me</p> -->
             </div>
 
             <div class="lg:grid grid-cols-12 gap-4">
@@ -669,7 +658,9 @@ if (session_id() == '') {
                             <div class="error-message"></div>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                         </div>
-                        <div class="text-center"><button type="submit" name="submit-contact-form" class="btn-get-started scrollto py-2 md:py-3 lg:py-3 px-7 bg-emerald-400 rounded-full text-white 3k:text-2xl">Send Message</button></div>
+                        <div class="text-center">
+                            <button type="submit" name="submit-contact-form" class="btn-get-started scrollto py-2 md:py-3 lg:py-3 px-7 bg-emerald-400 rounded-full text-white 3k:text-2xl">Send Message</button>
+                        </div>
                     </form>
 
                 </div>

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/*.{php,js}"],
+  content: ["./dist/*.{php,html,js}"],
   theme: {
     extend: {
       boxShadow: {
