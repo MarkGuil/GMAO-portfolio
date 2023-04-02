@@ -523,7 +523,7 @@ if (session_id() == '') {
                             (Developer, Designer)
                         </p>
                         <p class="pb-5 italic">
-                            An online peer-to-peer (P2P) bus seat booking.
+                            A simple landing page for reinvented coaching. 
                         </p>
                         <ul>
                             <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
@@ -586,13 +586,13 @@ if (session_id() == '') {
     </section>
 
     <section id="s10" class="sect s10 h-fit 3k:flex justify-center items-center overflow-x-hidden">
-        <div class="px-4 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-10 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="px-7 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-10 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="pb-10" data-aos="fade-up">
+            <div class="pb-4 md:pb-10" data-aos="fade-up">
                 <h3 id="about-me" class="z-0 text-7xl md:text-8xl lg:9xl font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Contact'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
-                    after:content-[''] after:absolute after:left-32 md:after:left-40 after:bottom-16 after:w-36 md:after:w-72 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
+                    after:content-[''] after:absolute after:left-32 md:after:left-40 after:bottom-10 md:after:bottom-16 after:w-36 md:after:w-72 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
                     Contact
                 </h3>
             </div>
