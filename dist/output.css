@@ -1977,10 +1977,13 @@ html {
     padding-top: 2.5rem;
   }
 
+<<<<<<< Updated upstream
   .md\:pb-10 {
     padding-bottom: 2.5rem;
   }
 
+=======
+>>>>>>> Stashed changes
   .md\:text-start {
     text-align: start;
   }

@@ -286,7 +286,7 @@ if (session_id() == '') {
             <div class="relative grid grid-cols-12 gap-4">
 
                 <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-left">
-                    <img src="images/omnibus/screens.png" class="" alt="">
+                    <img src="images/omnibus/screens.png" class="w-full " alt="">
                 </div>
                 <div class="relative col-start-1 col-span-12  lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
 
@@ -444,30 +444,33 @@ if (session_id() == '') {
                     </div>
                 </div>
                 <div class="relative col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
-                    <img src="images/quizam/screens.png" class="" alt="">
+                    <img src="images/quizam/screens.png" class="w-full" alt="">
                 </div>
             </div>
 
             <div class="relative grid grid-cols-12 gap-4 mt-32">
 
-                <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-left">
-                    <img src="images/psu/screens.png" class="w-full" alt="">
+                <div class="relative col-start-1 col-span-12 lg:col-span-5 flex justify-center lg:justify-start items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-left">
+                    <img src="images/reinvented/screens.png" class="w-full" alt="">
                 </div>
                 <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
                     <!-- <div class="sticky inset-y-[18%] 3k:inset-y-[16%]"> -->
                     <div class=" inset-y-[18%] 3k:inset-y-[16%]">
-                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 my-4"> PSU Main Supply Office Inventory System</h3>
+                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 my-4">Anishop </h3>
                         <p class="pb-5 font-bold italic">
                             (Programmer, Developer)
                         </p>
                         <p class="pb-5 ">
-                            A web application that helps in the management and monitoring of supplies across many PSU campuses.
-                            It can track requested supplies, and create an annual
-                            procurement plan for budget utilization.
+                            An e-commerce website, where anime fans can find all the products they need to show their love for their
+                            favorite anime! Providing a vast selection of high-quality anime-related products,
+                            from clothing to accessories and much more. Our website features a design that reflects the anime aesthetic
+                            and style, while still being easy to navigate.
                         </p>
                         <ul>
-                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Main Admin - managing and monitoring inventory of campuses</li>
-                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Campus Admin - manages offices and creates their procurement plan for their campus</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Vast selection of high-quality anime-related products, including clothing, accessories, and more.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Design that reflects the anime aesthetic and style, while being easy to navigate.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Engaging and informative product descriptions.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Management of products.</li>
                         </ul>
                         <div class="mb-10 mt-5">
                             <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full">
@@ -518,18 +521,22 @@ if (session_id() == '') {
                 <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
                     <!-- <div class="sticky inset-y-[19%] 3k:inset-y-[19%]"> -->
                     <div class=" inset-y-[19%] 3k:inset-y-[19%]">
-                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 my-4">Reinvented Coaching</h3>
+                        <h3 class="text-5xl 3xl:text-7xl 3k:text-6xl font-bold text-emerald-600 my-4">PSU Main Supply Office Inventory System</h3>
                         <p class="pb-5 font-bold italic">
                             (Developer, Designer)
                         </p>
                         <p class="pb-5 italic">
+<<<<<<< Updated upstream
                             A simple landing page for reinvented coaching. 
+=======
+                            A web application that helps in the management and monitoring of supplies across many PSU campuses.
+                            It can track requested supplies, and create an annual
+                            procurement plan for budget utilization.
+>>>>>>> Stashed changes
                         </p>
                         <ul>
-                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
-                            <li class="pb-5"><i class="bi bi-check text-emerald-400"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Main Admin - managing and monitoring inventory of campuses</li>
+                            <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Campus Admin - manages offices and creates their procurement plan for their campus</li>
                         </ul>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="md:mr-2">
@@ -578,7 +585,7 @@ if (session_id() == '') {
                 </div>
 
                 <div class="relative col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
-                    <img src="images/reinvented/screens.png" class="" alt="">
+                    <img src="images/psu/screens.png" class="w-full" alt="">
                 </div>
             </div>
 
