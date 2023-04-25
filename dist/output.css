@@ -619,10 +619,6 @@ html {
   left: 50%;
 }
 
-.-bottom-3 {
-  bottom: -0.75rem;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -747,10 +743,6 @@ html {
 
 .ml-auto {
   margin-left: auto;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
 }
 
 .block {
@@ -1890,10 +1882,6 @@ html {
     margin-left: 5rem;
   }
 
-  .md\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -1977,13 +1965,14 @@ html {
     padding-top: 2.5rem;
   }
 
-<<<<<<< Updated upstream
   .md\:pb-10 {
     padding-bottom: 2.5rem;
   }
 
-=======
->>>>>>> Stashed changes
+  .md\:pt-14 {
+    padding-top: 3.5rem;
+  }
+
   .md\:text-start {
     text-align: start;
   }
@@ -2233,6 +2222,14 @@ html {
 
   .lg\:pt-20 {
     padding-top: 5rem;
+  }
+
+  .lg\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
+  .lg\:pt-24 {
+    padding-top: 6rem;
   }
 
   .lg\:text-3xl {
