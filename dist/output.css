@@ -1234,6 +1234,10 @@ html {
   padding-bottom: 9rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1248,10 +1252,6 @@ html {
 
 .pb-4 {
   padding-bottom: 1rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
 }
 
 .pb-3 {
@@ -1942,11 +1942,6 @@ html {
     padding-right: 2.5rem;
   }
 
-  .md\:py-14 {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
-  }
-
   .md\:px-28 {
     padding-left: 7rem;
     padding-right: 7rem;
@@ -1955,6 +1950,10 @@ html {
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .md\:pt-14 {
+    padding-top: 3.5rem;
   }
 
   .md\:pb-14 {
@@ -1967,10 +1966,6 @@ html {
 
   .md\:pb-10 {
     padding-bottom: 2.5rem;
-  }
-
-  .md\:pt-14 {
-    padding-top: 3.5rem;
   }
 
   .md\:text-start {
@@ -2174,11 +2169,6 @@ html {
     padding-bottom: 7rem;
   }
 
-  .lg\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-
   .lg\:px-3\.5 {
     padding-left: 0.875rem;
     padding-right: 0.875rem;
@@ -2216,20 +2206,20 @@ html {
     padding-left: 3.5rem;
   }
 
-  .lg\:pb-20 {
-    padding-bottom: 5rem;
-  }
-
-  .lg\:pt-20 {
-    padding-top: 5rem;
+  .lg\:pt-24 {
+    padding-top: 6rem;
   }
 
   .lg\:pb-24 {
     padding-bottom: 6rem;
   }
 
-  .lg\:pt-24 {
-    padding-top: 6rem;
+  .lg\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .lg\:pt-20 {
+    padding-top: 5rem;
   }
 
   .lg\:text-3xl {

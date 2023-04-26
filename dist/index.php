@@ -455,7 +455,7 @@ if (session_id() == '') {
             <div class="relative grid grid-cols-12 gap-4 mt-32">
 
                 <div class="relative col-start-1 col-span-12 lg:col-span-5 flex justify-center lg:justify-start items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-left">
-                    <img src="images/reinvented/screens.png" class="w-full" alt="">
+                    <img src="images/anishop/anishop.png" class="w-full" alt="">
                 </div>
                 <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
                     <!-- <div class="sticky inset-y-[18%] 3k:inset-y-[16%]"> -->
