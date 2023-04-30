@@ -1678,11 +1678,6 @@ html {
   bottom: 4rem;
 }
 
-.after\:bottom-10::after {
-  content: var(--tw-content);
-  bottom: 2.5rem;
-}
-
 .after\:mt-1::after {
   content: var(--tw-content);
   margin-top: 0.25rem;
@@ -2019,11 +2014,6 @@ html {
   .md\:after\:left-40::after {
     content: var(--tw-content);
     left: 10rem;
-  }
-
-  .md\:after\:bottom-16::after {
-    content: var(--tw-content);
-    bottom: 4rem;
   }
 
   .md\:after\:w-72::after {
