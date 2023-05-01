@@ -133,7 +133,7 @@ if (session_id() == '') {
 
     </nav>
 
-    <section id="s1" class="sect s1 relative h-fit 3k:h-fit bg-cover bg-home-large text-zinc-900 3k:flex justify-center items-center">
+    <section id="s1" class="sect s1 relative h-fit 3k:h-fit bg-cover bg-home-large text-zinc-900 3k:flex justify-center items-center z-20">
 
         <div class="grid grid-cols-8 gap-8 h-full py-32 lg:py-36 xl:py-40 3xl:py-48 3k:py-60 4k:py-60 px-5 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
@@ -174,7 +174,7 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <section id="s2" class="sect s2 about-section relative h-fit lg:h-fit 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center">
+    <section id="s2" class="sect s2 about-section relative h-fit lg:h-fit 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center z-20">
         <div class="relative h-full py-12 md:py-16 lg:py-0 px-7 md:px-20 lg:px-28 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
 
             <div class="relative py-4 md:py-20 lg:py-0 3k:py-10 lg:pb-64 3k:pb-48 px-2 ">
@@ -200,24 +200,24 @@ if (session_id() == '') {
     </section>
 
     <section id="s2" class="sect s2 relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed 3k:flex justify-center items-center overflow-hidden">
-        <div class=" -z-20">
-            <div class=" bg-white w-full absolute origin-center -rotate-45">
+        <div class="relative z-10">
+            <div class=" bg-white w-full shadow origin-center -rotate-45 scale-125 fixed inset-x-0 top-20">
                 <span class=" text-7xl text-black truncate text-clip ">
                     SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
                 </span>
             </div>
-            <div class=" bg-white w-full absolute origin-top-left rotate-45">
+            <div class=" bg-white w-full shadow origin-top-left rotate-45 scale-125 fixed inset-x-0 top-20">
                 <span class=" text-7xl text-black truncate text-clip ">
                     SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
                 </span>
             </div>
-            <div class=" bg-white w-full absolute origin-bottom-right -rotate-12 -translate-x-20">
+            <div class=" bg-white w-full shadow origin-bottom-right -rotate-12 scale-125 -translate-x-20 fixed inset-x-0 top-20">
                 <span class=" text-7xl text-black truncate text-clip ">
                     SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
                 </span>
             </div>
         </div>
-        <div class="bg-[#064e3b]/80 z-10">
+        <div class="bg-[#064e3b]/80 z-20 relative">
 
             <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-5 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
 
@@ -288,13 +288,13 @@ if (session_id() == '') {
                 </div>
             </div>
         </div>
-        <img src="images/skills-bg/torn-1-mins-min.png" class="absolute -top-2 left-0 md:w-full h-44" alt="">
-        <img src="images/skills-bg/torn-2-mins-min.png" class="absolute -bottom-2 left-0 md:w-full h-56" alt="">
+        <img src="images/skills-bg/torn-1-mins-min.png" class="absolute z-30 -top-2 left-0 md:w-full h-44" alt="">
+        <img src="images/skills-bg/torn-2-mins-min.png" class="absolute z-30 -bottom-2 left-0 md:w-full h-56" alt="">
     </section>
 
-    <section id="s3" class="sect s3 h-fit 3k:flex justify-center items-center">
+    <section id="s3" class="sect s3 relative bg-white h-fit 3k:flex justify-center items-center z-30">
         <div class="px-5 md:px-20 lg:px-28 3k:px-5 pt-10 md:pt-14 lg:pt-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
-            <div class="pb-10 md:mb-10" data-aos="fade-up">
+            <div class="pb-10" data-aos="fade-up">
                 <h3 id="about-me" class="z-0 text-7xl md:text-8xl lg:9xl font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
@@ -305,7 +305,7 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <section id="s3" class="sect s3 h-fit 3k:flex justify-center items-center">
+    <section id="s3" class="sect s3 relative bg-white h-fit 3k:flex justify-center items-center z-30">
         <div class="px-5 md:px-20 lg:px-28 3k:px-5 pb-10 md:pb-14 lg:pb-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="relative grid grid-cols-12 gap-4">
@@ -613,7 +613,7 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <section id="s10" class="sect s10 h-fit 3k:flex justify-center items-center overflow-x-hidden">
+    <section id="s10" class="sect s10 relative bg-white h-fit 3k:flex justify-center items-center overflow-x-hidden z-30">
         <div class="px-7 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-10 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-4 md:pb-10" data-aos="fade-up">
@@ -698,7 +698,7 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <footer class="page-footer w-full py-5 px-10 z-50 transition-all duration-500 3k:flex justify-center items-center bg-emerald-800 text-zinc-100 bottom-0">
+    <footer class="page-footer relative w-full py-5 px-10 z-50 transition-all duration-500 3k:flex justify-center items-center bg-emerald-800 text-zinc-100 bottom-0">
         <div class=" md:flex 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] text-center md:text-start">
             <div class="text-light mt-3 bg-primary 3k:text-lg">
                 © 2022 Copyright

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/*.{php,html,js}","./dist/script/*.{js}"],
+  content: ["./dist/*.{php,html,js}","./dist/script/*.js"],
   theme: {
     extend: {
       boxShadow: {
@@ -34,7 +34,7 @@ module.exports = {
         'home-small': "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('images/bglarge/bgsmall.jpg')",
         'home-large': "linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('images/background/3bg.jpg')",
         'about-large': "linear-gradient(rgba(6, 78, 59, 0.4), rgba(6, 78, 59, 0.4)), url('images/bg.png')",
-        'skill-large': "linear-gradient(rgba(6, 78, 59, 0.8), rgba(6, 78, 59, 0.8)), url('images/skills-bg/skill-bg-1.jpg')",
+        'skill-large': "url('images/skills-bg/skill-bg-1.jpg')",
       },
       animation: {
         'zoom-in': 'zoom .8s ease-in',
