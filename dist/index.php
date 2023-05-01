@@ -199,32 +199,38 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <section id="s2" class="sect s2 relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed 3k:flex justify-center items-center overflow-hidden">
-        <div class="relative z-10">
-            <div class=" bg-white w-full shadow origin-center -rotate-45 scale-125 fixed inset-x-0 top-20">
-                <span class=" text-7xl text-black truncate text-clip ">
+    <section id="s2" class="sect s2 skill-section relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed  overflow-hidden">
+        <div>
+        <div class="relative z-10 w-full">
+            <div class="skill-1 bg-white w-full shadow origin-center fixed -rotate-[35deg] scale-150 -translate-x-full translate-y-96 inset-x-0 top-0 overflow-hidden">
+                <span class=" text-7xl 3k:text-8xl text-black truncate text-clip ">
                     SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
                 </span>
             </div>
-            <div class=" bg-white w-full shadow origin-top-left rotate-45 scale-125 fixed inset-x-0 top-20">
-                <span class=" text-7xl text-black truncate text-clip ">
-                    SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
+            <div class="skill-2 bg-white w-full shadow origin-top-left absolute rotate-45 scale-150 -translate-x-1/2 -translate-y-60 inset-x-0 top-60 overflow-hidden">
+                <span class=" text-7xl 3k:text-8xl text-black truncate text-clip ">
+                    SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS 
                 </span>
             </div>
-            <div class=" bg-white w-full shadow origin-bottom-right -rotate-12 scale-125 -translate-x-20 fixed inset-x-0 top-20">
-                <span class=" text-7xl text-black truncate text-clip ">
-                    SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
+            <div class="skill-3 bg-white w-full shadow origin-bottom-right fixed -rotate-12 scale-150 translate-x-full  right-0 top-60 overflow-hidden">
+                <span class=" text-7xl 3k:text-8xl text-black truncate text-clip ">
+                    SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS 
+                </span>
+            </div>
+            <div class="skill-4 bg-white w-full shadow origin-right rotate-12 absolute scale-150 -translate-x-20  inset-x-0 top-96 overflow-hidden">
+                <span class=" text-7xl 3k:text-8xl text-black truncate text-clip ">
+                    SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS 
                 </span>
             </div>
         </div>
-        <div class="bg-[#064e3b]/80 z-20 relative">
+        <div class="bg-[#064e3b]/80 z-20 relative 3k:flex justify-center items-center">
 
             <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-5 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
 
                 <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-28 3k:py-24 px-2 md:px-10 3k:px-0">
                     <div class="py-10">
 
-                        <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 3xl:grid-cols-6 3k:grid-cols-11 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl 3k:text-[5rem] mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
+                        <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 3xl:grid-cols-6 3k:grid-cols-6 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl 3k:text-[5rem] mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
 
                             <div class="col-auto lg:mt-4">
                                 <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="50">
@@ -287,9 +293,10 @@ if (session_id() == '') {
 
                 </div>
             </div>
+            <img src="images/skills-bg/torn-1-mins-min.png" class="absolute z-30 -top-2 left-0 md:w-full h-44" alt="">
+            <img src="images/skills-bg/torn-2-mins-min.png" class="absolute z-30 -bottom-2 left-0 md:w-full h-56" alt="">
         </div>
-        <img src="images/skills-bg/torn-1-mins-min.png" class="absolute z-30 -top-2 left-0 md:w-full h-44" alt="">
-        <img src="images/skills-bg/torn-2-mins-min.png" class="absolute z-30 -bottom-2 left-0 md:w-full h-56" alt="">
+        </div>
     </section>
 
     <section id="s3" class="sect s3 relative bg-white h-fit 3k:flex justify-center items-center z-30">

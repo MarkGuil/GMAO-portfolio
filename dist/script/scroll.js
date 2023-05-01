@@ -1,6 +1,12 @@
 const aboutMe = document.getElementById('about-me');
 const aboutSection = document.querySelector(".about-section");
 
+const skill1 = document.querySelector('.skill-1');
+const skill2 = document.querySelector('.skill-2');
+const skill3 = document.querySelector('.skill-3');
+const skill4 = document.querySelector('.skill-4');
+const skillSection = document.querySelector(".skill-section");
+
 const numSteps = 20.0;
 let prevRatio = 0.0;
 
@@ -20,15 +26,26 @@ let prevRatio = 0.0;
 // const aboutObserver = new IntersectionObserver(
 //     entries => {
 //         entries.forEach(entry => {
-//             // if (entry.intersectionRatio > prevRatio) {
+//             if (entry.intersectionRatio > prevRatio) {
+//                 let pos = entry.intersectionRatio * 50;
+//                 // aboutMe.style.left = pos + "%"
+//                 skill1.style.left = pos + "%";
+//                 skill2.style.left = pos + "%";
+//                 skill3.style.left = "-"+pos + "%";
+//                 skill4.style.left = pos + "%";
+//                 console.log(pos);
+//               } 
+//             //   else {
 //             //     let pos = entry.intersectionRatio * 50;
-//             //     aboutMe.style.left = pos + "%"
-//             //   } else {
-//             //     let pos = entry.intersectionRatio * 50;
-//             //     aboutMe.style.left = pos + "%"
+//             //     // aboutMe.style.left = pos + "%"
+//             //     skill1.style.left = pos + "%";
+//             //     skill2.style.left = pos + "%";
+//             //     skill3.style.left = pos + "%";
+//             //     skill4.style.left = pos + "%";
+//             //     console.log(pos);
 //             //   }
-//             aboutMe.classList.toggle("opacity-100", entry.isIntersecting);
-//             aboutMe.classList.toggle("left-1/2", entry.isIntersecting);
+//             // aboutMe.classList.toggle("opacity-100", entry.isIntersecting);
+//             // aboutMe.classList.toggle("left-1/2", entry.isIntersecting);
             
             
 //             // if(entry.isIntersecting) {
@@ -36,11 +53,11 @@ let prevRatio = 0.0;
 //             // }
 //         })
 //     }, {
-//         threshold: .7,
+//         threshold: buildThresholdList(),
 //     }
 // )
 
-// aboutObserver.observe(aboutSection);
+// aboutObserver.observe(skillSection);
 
 const lenis = new Lenis({
     duration: 1.2,
@@ -54,22 +71,19 @@ const lenis = new Lenis({
     infinite: false,
 })
 
-//get scroll value
-// lenis.on('scroll', ({
-//     scroll,
-//     limit,
-//     velocity,
-//     direction,
-//     progress
-// }) => {
-    // console.log({
-    //     scroll,
-    //     limit,
-    //     velocity,
-    //     direction,
-    //     progress
-    // })
-// })
+// get scroll value
+lenis.on('scroll', ({
+    scroll,
+    limit,
+    velocity,
+    direction,
+    progress
+}) => {
+    skill1.style.left = scroll * 1.05 + "px";
+    skill2.style.left = scroll * 0.50 + "px";
+    skill3.style.left = "-"+ scroll * 0.75 + "px";
+    skill4.style.left = scroll * 0.25 + "px";
+})
 
 function raf(time) {
     lenis.raf(time)
