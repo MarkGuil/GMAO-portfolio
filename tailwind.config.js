@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/*.{php,html,js}"],
+  content: ["./dist/*.{php,html,js}","./dist/script/*.{js}"],
   theme: {
     extend: {
       boxShadow: {
@@ -38,7 +38,7 @@ module.exports = {
       },
       animation: {
         'zoom-in': 'zoom .8s ease-in',
-        'slow-bounce': 'slowbounce 3s ease-in-out infinite alternate',
+        'slow-bounce': 'slowbounce 2s ease-in-out infinite alternate',
         'nav-bounce': 'navbounce .5s ease-in-out',
         'wave1': 'wave1 10s linear -2s infinite',
         'wave2': 'wave2 8s linear -2s infinite',

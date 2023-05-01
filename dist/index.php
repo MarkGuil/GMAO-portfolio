@@ -186,7 +186,7 @@ if (session_id() == '') {
                             About
                         </h3>
                     </div>
-                    <div class=" lg:flex items-end lg:pl-14 mt-5 lg:mt-28 3k:mt-7 lg:mb-32 3k:mb-24 lg:h-[85vh] 3k:h-[33vh]">
+                    <div class="text-justify lg:flex items-end lg:pl-14 mt-5 lg:mt-28 3k:mt-7 lg:mb-32 3k:mb-24 lg:h-[85vh] 3k:h-[33vh]">
                         <p class="text-zinc-700 text-2xl md:text-3xl 3xl:text-5xl 3k:text-4xl  tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
                             ">
                             I am a web developer that is passionate in developing robust and responsive
@@ -199,72 +199,93 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <section id="s2" class="sect s2 relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed 3k:flex justify-center items-center">
-        <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-8 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
+    <section id="s2" class="sect s2 relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed 3k:flex justify-center items-center overflow-hidden">
+        <div class=" -z-20">
+            <div class=" bg-white w-full absolute origin-center -rotate-45">
+                <span class=" text-7xl text-black truncate text-clip ">
+                    SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
+                </span>
+            </div>
+            <div class=" bg-white w-full absolute origin-top-left rotate-45">
+                <span class=" text-7xl text-black truncate text-clip ">
+                    SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
+                </span>
+            </div>
+            <div class=" bg-white w-full absolute origin-bottom-right -rotate-12 -translate-x-20">
+                <span class=" text-7xl text-black truncate text-clip ">
+                    SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
+                </span>
+            </div>
+        </div>
+        <div class="bg-[#064e3b]/80 z-10">
 
-            <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-28 3k:py-24 px-2 md:px-10 3k:px-0">
-                <div class="py-10">
+            <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-5 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
 
-                    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 3xl:grid-cols-6 3k:grid-cols-11 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl 3k:text-[5rem] mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
+                <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-28 3k:py-24 px-2 md:px-10 3k:px-0">
+                    <div class="py-10">
 
-                        <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="50">
-                                <i class="devicon-html5-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                        <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 3xl:grid-cols-6 3k:grid-cols-11 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl 3k:text-[5rem] mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
+
+                            <div class="col-auto lg:mt-4">
+                                <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="50">
+                                    <i class="devicon-html5-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto lg:mt-4">
+                                <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="100">
+                                    <i class="devicon-css3-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto lg:mt-4">
+                                <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="150">
+                                    <i class="devicon-javascript-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto lg:mt-4">
+                                <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="200">
+                                    <i class="devicon-jquery-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto lg:mt-4">
+                                <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="250">
+                                    <i class="devicon-php-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto lg:mt-4">
+                                <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="300">
+                                    <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto lg:mt-4">
+                                <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="350">
+                                    <i class="devicon-laravel-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto lg:mt-4">
+                                <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="400">
+                                    <i class="devicon-bootstrap-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto lg:mt-4">
+                                <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="450">
+                                    <i class="devicon-tailwindcss-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto lg:mt-4">
+                                <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="500">
+                                    <i class="devicon-java-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto lg:mt-4">
+                                <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="550">
+                                    <i class="devicon-csharp-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="100">
-                                <i class="devicon-css3-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                            </div>
-                        </div>
-                        <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="150">
-                                <i class="devicon-javascript-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                            </div>
-                        </div>
-                        <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="200">
-                                <i class="devicon-jquery-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                            </div>
-                        </div>
-                        <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="250">
-                                <i class="devicon-php-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                            </div>
-                        </div>
-                        <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="300">
-                                <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                            </div>
-                        </div>
-                        <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="350">
-                                <i class="devicon-laravel-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                            </div>
-                        </div>
-                        <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="400">
-                                <i class="devicon-bootstrap-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                            </div>
-                        </div>
-                        <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="450">
-                                <i class="devicon-tailwindcss-plain drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                            </div>
-                        </div>
-                        <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="500">
-                                <i class="devicon-java-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                            </div>
-                        </div>
-                        <div class="col-auto lg:mt-4">
-                            <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out" data-aos="zoom-in" data-aos-delay="550">
-                                <i class="devicon-csharp-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                            </div>
-                        </div>
+
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
         <img src="images/skills-bg/torn-1-mins-min.png" class="absolute -top-2 left-0 md:w-full h-44" alt="">
@@ -272,7 +293,7 @@ if (session_id() == '') {
     </section>
 
     <section id="s3" class="sect s3 h-fit 3k:flex justify-center items-center">
-        <div class="px-7 md:px-20 lg:px-28 3k:px-5 pt-10 md:pt-14 lg:pt-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="px-5 md:px-20 lg:px-28 3k:px-5 pt-10 md:pt-14 lg:pt-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
             <div class="pb-10 md:mb-10" data-aos="fade-up">
                 <h3 id="about-me" class="z-0 text-7xl md:text-8xl lg:9xl font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
@@ -285,7 +306,7 @@ if (session_id() == '') {
     </section>
 
     <section id="s3" class="sect s3 h-fit 3k:flex justify-center items-center">
-        <div class="px-7 md:px-20 lg:px-28 3k:px-5 pb-10 md:pb-14 lg:pb-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="px-5 md:px-20 lg:px-28 3k:px-5 pb-10 md:pb-14 lg:pb-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="relative grid grid-cols-12 gap-4">
 
@@ -300,7 +321,7 @@ if (session_id() == '') {
                         <p class="pb-5 font-bold italic">
                             (Programmer, Developer, Designer)
                         </p>
-                        <p class="pb-5">
+                        <p class="pb-5 text-justify">
                             An online bus seat booking platform for point-to-point (P2P) buses.
                             This helps passengers to book bus tickets, and upholding health safety protocols
                             that spaced out the passengers to maintain social distancing.
@@ -383,7 +404,7 @@ if (session_id() == '') {
                         <p class="pb-5 font-bold italic">
                             (Programmer, Developer, Designer)
                         </p>
-                        <p class="pb-5">
+                        <p class="pb-5 text-justify">
                             An online based quiz/ exam system that is designed and built with anti cheating functions.
                             This web application allows users to manage and conduct online assessments.
                         </p>
@@ -464,7 +485,7 @@ if (session_id() == '') {
                         <p class="pb-5 font-bold italic">
                             (Programmer, Developer)
                         </p>
-                        <p class="pb-5 ">
+                        <p class="pb-5 text-justify">
                             An e-commerce website, where anime fans can find all the products they need to show their love for their
                             favorite anime! Providing a vast selection of high-quality anime-related products,
                             from clothing to accessories and much more. Our website features a design that reflects the anime aesthetic
@@ -529,7 +550,7 @@ if (session_id() == '') {
                         <p class="pb-5 font-bold italic">
                             (Developer, Designer)
                         </p>
-                        <p class="pb-5 italic">
+                        <p class="pb-5 italic text-justify">
                             A web application that helps in the management and monitoring of supplies across many PSU campuses.
                             It can track requested supplies, and create an annual
                             procurement plan for budget utilization.
@@ -702,13 +723,13 @@ if (session_id() == '') {
     </footer>
 
 
-    <script defer src="app.js"></script>
-    <script defer src="anav.js"></script>
+    <script defer src="script/app.js"></script>
+    <script defer src="script/anav.js"></script>
     <script src="vendor/aos/dist/aos.js"></script>
     <script src="vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
     <script src="vendor/sweetalert/sweetalert2.all.min.js"></script>
     <script src="vendor/lenis/lenis.js"></script>
-    <script defer src="scroll.js"></script>
+    <script defer src="script/scroll.js"></script>
     <script>
         const Toast = Swal.mixin({
             toast: true,
