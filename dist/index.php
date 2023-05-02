@@ -27,7 +27,7 @@ if (session_id() == '') {
 </head>
 
 <body class="m-0 p-0 font-crimson overflow-x-hidden">
-    <nav class="navbar fixed w-full py-5 px-7 z-50 transition-all duration-500 3k:flex justify-center items-center ">
+    <nav class="navbar fixed w-screen py-5 px-7 z-50 transition-all duration-500 3k:flex justify-center items-center ">
         <div class="grid grid-cols-2 lg:grid-cols-3 3k:grid-cols-4 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
             <a class="col lg:flex items-center" href="#">
                 <span class=" tracking-normal md:tracking-widest text-3xl md:text-4xl text-zinc-600 font-molle font-black">GMAO</span>
@@ -174,7 +174,7 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <section id="s2" class="sect s2 about-section relative h-screen 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center z-20">
+    <section id="s2" class="sect s2 about-section relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center z-20">
         <div class="relative h-full py-12 md:py-16 lg:py-0 px-7 md:px-20 lg:px-28 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
 
             <!-- <div class="relative py-4 md:py-20 lg:py-0 3k:py-10 lg:pb-64 3k:pb-48 px-2 ">
@@ -197,15 +197,15 @@ if (session_id() == '') {
             </div> -->
 
             <div class="relative py-4 md:py-20 lg:py-0  px-2 ">
-                <h3 id="about-me" class=" absolute -translate-x-1/2 pointer-events-none z-0 text-6xl md:text-8xl lg:text-[8rem] 
+                <h3 id="about-me" class=" absolute -translate-x-1/2 pointer-events-none z-0 text-9xl md:text-8xl lg:text-[8rem] 
                     3xl:text-[14rem] 3k:text-[8rem] scale-125 font-bold text-zinc-400 before:content-['About'] before:rounded before:absolute 
                     before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent before:-translate-y-1 
-                    md:before:-translate-y-3 before:transition-all before:duration-500 opacity-0 transition-opacity duration-500">
+                    md:before:-translate-y-3 before:transition-all before:duration-500 opacity-0 transition-opacity duration-300">
                     About
                 </h3>
-                <h3 id="about-me-desc" class="relative translate-x-full text-zinc-700 text-2xl md:text-3xl 3xl:text-5xl 3k:text-4xl  
+                <h3 id="about-me-desc" class="relative translate-x-full mr-10 text-zinc-700 text-2xl md:text-4xl 3xl:text-5xl 3k:text-4xl  
                     tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal 
-                    text-justify opacity-0 transition-opacity duration-500">
+                    text-justify opacity-0 transition-opacity duration-300">
                     I am a web developer that is passionate in developing robust and responsive
                     web applications and is excited to bring my skills and experience to new challenges.
                 </h3>

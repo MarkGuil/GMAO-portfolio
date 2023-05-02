@@ -74,7 +74,7 @@ lenis.on('scroll', ({
     progress
 }) => {
     // console.log(direction);
-    aboutMeDesc.style.left = "-" + scroll * 1.70 + "px";
+    aboutMeDesc.style.left = "-" + scroll * 1.75 + "px";
     aboutMe.style.left = scroll * 1.25 + "px";
     skill1.style.left = scroll * 1.05 + "px";
     skill2.style.left = scroll * 0.50 + "px";
@@ -82,10 +82,6 @@ lenis.on('scroll', ({
     skill4.style.left = scroll * 0.25 + "px";
 })
 
-window.addEventListener('scroll',function() {
-    newScrollValue = window.pageYOffset;
-    console.log(newScrollValue);
-});
 
 function raf(time) {
     lenis.raf(time)
