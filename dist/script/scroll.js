@@ -1,4 +1,5 @@
 const aboutMe = document.getElementById('about-me');
+const aboutMeDesc = document.getElementById('about-me-desc');
 const aboutSection = document.querySelector(".about-section");
 
 const skill1 = document.querySelector('.skill-1');
@@ -23,41 +24,34 @@ let prevRatio = 0.0;
 //     return thresholds;
 // }
 
-// const aboutObserver = new IntersectionObserver(
-//     entries => {
-//         entries.forEach(entry => {
-//             if (entry.intersectionRatio > prevRatio) {
-//                 let pos = entry.intersectionRatio * 50;
-//                 // aboutMe.style.left = pos + "%"
-//                 skill1.style.left = pos + "%";
-//                 skill2.style.left = pos + "%";
-//                 skill3.style.left = "-"+pos + "%";
-//                 skill4.style.left = pos + "%";
-//                 console.log(pos);
-//               } 
-//             //   else {
-//             //     let pos = entry.intersectionRatio * 50;
-//             //     // aboutMe.style.left = pos + "%"
-//             //     skill1.style.left = pos + "%";
-//             //     skill2.style.left = pos + "%";
-//             //     skill3.style.left = pos + "%";
-//             //     skill4.style.left = pos + "%";
-//             //     console.log(pos);
-//             //   }
-//             // aboutMe.classList.toggle("opacity-100", entry.isIntersecting);
-//             // aboutMe.classList.toggle("left-1/2", entry.isIntersecting);
+const aboutObserver = new IntersectionObserver(
+    entries => {
+        entries.forEach(entry => {
+            // if (entry.intersectionRatio > prevRatio) {
+            //     let pos = entry.intersectionRatio * 50;
+            //     // aboutMe.style.left = pos + "%"
+            //     console.log(pos);
+            //   } 
+            //   else {
+            //     let pos = entry.intersectionRatio * 50;
+            //     // aboutMe.style.left = pos + "%"
+            //     console.log(pos);
+            //   }
+            aboutMe.classList.toggle("opacity-100", entry.isIntersecting);
+            aboutMeDesc.classList.toggle("opacity-100", entry.isIntersecting);
+            // aboutMe.classList.toggle("left-1/2", entry.isIntersecting);
             
             
-//             // if(entry.isIntersecting) {
-//             //     console.log(scrollY);
-//             // }
-//         })
-//     }, {
-//         threshold: buildThresholdList(),
-//     }
-// )
+            // if(entry.isIntersecting) {
+            //     console.log(scrollY);
+            // }
+        })
+    }, {
+        threshold: .7,
+    }
+)
 
-// aboutObserver.observe(skillSection);
+aboutObserver.observe(aboutSection);
 
 const lenis = new Lenis({
     duration: 1.2,
@@ -66,7 +60,7 @@ const lenis = new Lenis({
     gestureOrientation: 'vertical', // vertical, horizontal, both
     smoothWheel: true,
     wheelMultiplier: 1,
-    smoothTouch: false,
+    smoothTouch: true,
     touchMultiplier: 2,
     infinite: false,
 })
@@ -79,11 +73,19 @@ lenis.on('scroll', ({
     direction,
     progress
 }) => {
+    // console.log(direction);
+    aboutMeDesc.style.left = "-" + scroll * 1.70 + "px";
+    aboutMe.style.left = scroll * 1.25 + "px";
     skill1.style.left = scroll * 1.05 + "px";
     skill2.style.left = scroll * 0.50 + "px";
-    skill3.style.left = "-"+ scroll * 0.75 + "px";
+    skill3.style.left = "-" + scroll * 0.75 + "px";
     skill4.style.left = scroll * 0.25 + "px";
 })
+
+window.addEventListener('scroll',function() {
+    newScrollValue = window.pageYOffset;
+    console.log(newScrollValue);
+});
 
 function raf(time) {
     lenis.raf(time)
@@ -92,10 +94,4 @@ function raf(time) {
 
 requestAnimationFrame(raf);
 
-// (function () {
-//     var scroll = new LocomotiveScroll({
-//         el: document.querySelector('[data-scroll-container]'),
-//         smooth: true
-//     });
-// })();
 
