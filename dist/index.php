@@ -24,6 +24,7 @@ if (session_id() == '') {
     <link href="vendor/remixIcon/fonts/remixicon.css" rel="stylesheet">
     <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="vendor/locomotive-scroll/locomotive-scroll.min.css" rel="stylesheet">
+   
 </head>
 
 <body class="m-0 p-0 font-crimson overflow-x-hidden">
@@ -137,7 +138,7 @@ if (session_id() == '') {
 
         <div class="grid grid-cols-8 gap-8 h-full py-32 lg:py-36 xl:py-40 3xl:py-48 3k:py-60 4k:py-60 px-5 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="col-start-2 col-span-6 md:col-start-3 md:col-span-4 lg:col-start-3 lg:col-span-4 3k:col-start-2 3k:col-span-6 ">
+            <div class="col-start-2 col-span-6 md:col-start-2 md:col-span-6 lg:col-start-3 lg:col-span-4 3k:col-start-2 3k:col-span-6 ">
                 <div class="animate-zoom-in text-zinc-600 text-center">
                     <h1 class="text-2xl lg:text-3xl 3xl:text-4xl 3k:text-5xl font-semibold md:font-normal
                     before:content-[''] lg:before:w-20 3xl:before:w-40 before:h-px before:bg-zinc-400 before:inline-block before:mt-1 before:ml-2
@@ -147,7 +148,7 @@ if (session_id() == '') {
                     </h1>
 
                     <div class="relative mt-1 sm:mt-4 md:mt-7 lg:mt-8 3xl:mt-16 3k:mt-10">
-                        <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-120 lg:scale-100 3xl:scale-105 h-44 sm:h-52 md:h-56 lg:h-72 xl:h-80 3xl:h-96 3k:h-96" width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
+                        <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-110 lg:scale-100 3xl:scale-105 h-44 sm:h-52 md:h-56 lg:h-72 xl:h-80 3xl:h-96 3k:h-96" width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
                             <text x="0" y="0" class="text-9xl font-allura">Mark Arjay</text>
                             <text x="100" y="120" class="text-9xl font-allura">Guilang</text>
                         </svg>
@@ -175,7 +176,7 @@ if (session_id() == '') {
     </section>
 
     <section id="s2" class="sect s2 about-section relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center z-20">
-        <div class="relative h-full py-12 md:py-16 lg:py-0 px-7 md:px-20 lg:px-28 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
+        <div class="relative h-full py-12 md:py-16 lg:py-0 3k:py-80 px-7 md:px-20 lg:px-28 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
 
             <!-- <div class="relative py-4 md:py-20 lg:py-0 3k:py-10 lg:pb-64 3k:pb-48 px-2 ">
                 <div class="py-0 text-start 3k:text-start lg:flex justify-start items-start">
@@ -203,7 +204,7 @@ if (session_id() == '') {
                     md:before:-translate-y-3 before:transition-all before:duration-500 opacity-0 transition-opacity duration-300">
                     About
                 </h3>
-                <h3 id="about-me-desc" class="relative translate-x-full mr-10 text-zinc-700 text-2xl md:text-4xl 3xl:text-5xl 3k:text-4xl  
+                <h3 id="about-me-desc" class="relative translate-x-full mr-2 text-zinc-700 text-2xl md:text-4xl 3xl:text-5xl 3k:text-4xl  
                     tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal 
                     text-justify opacity-0 transition-opacity duration-300">
                     I am a web developer that is passionate in developing robust and responsive
@@ -242,10 +243,10 @@ if (session_id() == '') {
 
                 <div class="relative grid grid-cols-7 gap-3 lg:gap-8 h-full py-3 md:py-8 px-5 lg:px-16 3xl:px-24 3k:px-10 3k:w-[1320px] 3k:max-w-[1320px]">
 
-                    <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-28 3k:py-24 px-2 md:px-10 3k:px-0">
+                    <div class="relative col-start-1 col-span-7 text-start pt-24 pb-36 md:py-24 lg:py-32 3k:py-28 px-2 md:px-10 3k:px-0">
                         <div class="py-10">
 
-                            <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 3xl:grid-cols-6 3k:grid-cols-6 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl 3k:text-[5rem] mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
+                            <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-5 3xl:grid-cols-5 3k:grid-cols-5 gap-2 text-white text-5xl md:text-6xl lg:text-7xl 3xl:text-8xl 3k:text-[5rem] mt-0 md:mb-10 md:mt-5 lg:mt-0 lg:mb-14 3k:mb-20" data-aos="fade-left" data-aos-delay="50">
 
                                 <div class="col-auto lg:mt-4">
                                     <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="50">
@@ -297,11 +298,11 @@ if (session_id() == '') {
                                         <i class="devicon-java-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                     </div>
                                 </div>
-                                <div class="col-auto lg:mt-4">
+                                <!-- <div class="col-auto lg:mt-4">
                                     <div class="icon-box p-5 flex justify-center transition duration-75 ease-in-out animate-slow-bounce" data-aos="zoom-in" data-aos-delay="550">
                                         <i class="devicon-csharp-plain-wordmark drop-shadow-xl rounded p-2 duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
 
                         </div>
@@ -638,7 +639,7 @@ if (session_id() == '') {
     <section id="s10" class="sect s10 relative bg-white h-fit 3k:flex justify-center items-center overflow-x-hidden z-30">
         <div class="px-7 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-10 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
-            <div class="pb-4 md:pb-10" data-aos="fade-up">
+            <div class="pb-10" data-aos="fade-up">
                 <h3 id="about-me" class="z-0 text-7xl md:text-8xl lg:9xl font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Contact'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
