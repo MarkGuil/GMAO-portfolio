@@ -4,7 +4,7 @@ if (session_id() == '') {
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html class=" overflow-x-hidden">
 
 <head>
     <meta charset="utf-8">
@@ -24,10 +24,11 @@ if (session_id() == '') {
     <link href="vendor/remixIcon/fonts/remixicon.css" rel="stylesheet">
     <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="vendor/locomotive-scroll/locomotive-scroll.min.css" rel="stylesheet">
+	<link rel="icon" type="jpg/png" href="images/logo1111.png">
    
 </head>
 
-<body class="m-0 p-0 font-crimson overflow-x-hidden">
+<body class="relative m-0 p-0 font-crimson overflow-x-hidden">
     <nav class="navbar fixed w-screen py-5 px-7 z-50 transition-all duration-500 3k:flex justify-center items-center ">
         <div class="grid grid-cols-2 lg:grid-cols-3 3k:grid-cols-4 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
             <a class="col lg:flex items-center" href="#">
@@ -148,7 +149,7 @@ if (session_id() == '') {
                     </h1>
 
                     <div class="relative mt-1 sm:mt-4 md:mt-7 lg:mt-8 3xl:mt-16 3k:mt-10">
-                        <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-110 lg:scale-100 3xl:scale-105 h-44 sm:h-52 md:h-56 lg:h-72 xl:h-80 3xl:h-96 3k:h-96" width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
+                        <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-110 lg:scale-100 3xl:scale-105 h-44 sm:h-52 md:h-72 lg:h-72 xl:h-80 3xl:h-96 3k:h-96" width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
                             <text x="0" y="0" class="text-9xl font-allura">Mark Arjay</text>
                             <text x="100" y="120" class="text-9xl font-allura">Guilang</text>
                         </svg>

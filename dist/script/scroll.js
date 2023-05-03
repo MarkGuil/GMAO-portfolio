@@ -37,8 +37,20 @@ const aboutObserver = new IntersectionObserver(
             //     // aboutMe.style.left = pos + "%"
             //     console.log(pos);
             //   }
-            aboutMe.classList.toggle("opacity-100", entry.isIntersecting);
-            aboutMeDesc.classList.toggle("opacity-100", entry.isIntersecting);
+            // if(entry.isIntersecting) {
+            //     aboutMe.classList.replace("hidden", "block");
+            //     aboutMeDesc.classList.replace("hidden", "block");
+            // } else {
+            //     aboutMe.classList.replace("block", "hidden");
+            //     aboutMeDesc.classList.replace("block", "hidden");
+            // }
+            // setTimeout(()=> {
+                aboutMe.classList.toggle("opacity-100", entry.isIntersecting);
+                aboutMeDesc.classList.toggle("opacity-100", entry.isIntersecting);
+            //  }
+            //  ,100);
+            
+            // aboutMeDesc.classList.toggle("block", entry.isIntersecting);
             // aboutMe.classList.toggle("left-1/2", entry.isIntersecting);
             
             
@@ -61,7 +73,7 @@ const lenis = new Lenis({
     smoothWheel: true,
     wheelMultiplier: 1,
     smoothTouch: true,
-    touchMultiplier: 2,
+    touchMultiplier: 3,
     infinite: false,
 })
 
@@ -73,7 +85,7 @@ lenis.on('scroll', ({
     direction,
     progress
 }) => {
-    // console.log(direction);
+    console.log(progress);
     aboutMeDesc.style.left = "-" + scroll * 1.70 + "px";
     aboutMe.style.left = scroll * 1.25 + "px";
     skill1.style.left = scroll * 1.05 + "px";
