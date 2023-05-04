@@ -73,9 +73,10 @@ const lenis = new Lenis({
     smoothWheel: true,
     wheelMultiplier: 1,
     smoothTouch: true,
-    touchMultiplier: 3,
+    touchMultiplier: 2,
     infinite: false,
 })
+
 
 // get scroll value
 lenis.on('scroll', ({
@@ -85,13 +86,33 @@ lenis.on('scroll', ({
     direction,
     progress
 }) => {
-    console.log(progress);
-    aboutMeDesc.style.left = "-" + scroll * 1.70 + "px";
-    aboutMe.style.left = scroll * 1.25 + "px";
-    skill1.style.left = scroll * 1.05 + "px";
-    skill2.style.left = scroll * 0.50 + "px";
-    skill3.style.left = "-" + scroll * 0.75 + "px";
-    skill4.style.left = scroll * 0.25 + "px";
+    
+    scrollVal1 = 1.70;
+    scrollVal2 = 1.25;
+    scrollVal3 = 1.05;
+    scrollVal4 = 0.50;
+    scrollVal5 = 0.75;
+    scrollVal6 = 0.25;
+
+    if (window.innerWidth <= 640) {
+        scrollVal1 = 0.73;
+        scrollVal2 = 0.40;
+        scrollVal3 = 0.37;
+        scrollVal4 = 0.30;
+        scrollVal5 = 0.35;
+        scrollVal6 = 0.15;
+    } else if (window.innerWidth > 640 && window.innerHeight <= 124) {
+        scrollVal1 = 1.20;
+        scrollVal2 = 0.80;
+    } 
+
+    aboutMeDesc.style.left = "-" + scroll * scrollVal1 + "px";
+    aboutMe.style.left = scroll * scrollVal2 + "px";
+
+    skill1.style.left = scroll * scrollVal3 + "px";
+    skill2.style.left = scroll * scrollVal4 + "px";
+    skill3.style.left = "-" + scroll * scrollVal5 + "px";
+    skill4.style.left = scroll * scrollVal6 + "px";
 })
 
 

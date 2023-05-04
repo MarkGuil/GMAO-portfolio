@@ -46,42 +46,42 @@ if (session_id() == '') {
                 <div class="hidden lg:flex justify-center items-center">
                     <ul class="flex text-center">
                         <li class="mx-5 3k relative">
-                            <a class="section-links s1 
+                            <a class="section-links home 
                             font-extrabold text-lg 3xl:text-xl 3k:text-[1.6rem] text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s1" onclick="lenis.scrollTo('#s1')">
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#home" onclick="lenis.scrollTo('#home')">
                                 <small><span class=" text-emerald-400">01</span> Home</small>
                             </a>
                         </li>
                         <li class="mx-5 relative">
-                            <a class="section-links s2
+                            <a class="section-links about
                             font-semibold text-lg 3xl:text-xl 3k:text-[1.6rem] text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s2" onclick="lenis.scrollTo('#s2')">
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#about" onclick="lenis.scrollTo('#about')">
                                 <small><span class=" text-emerald-400">02</span> About</small>
                             </a>
                         </li>
                         <li class="mx-5 relative">
-                            <a class="section-links s3
+                            <a class="section-links project
                             font-semibold text-lg 3xl:text-xl 3k:text-[1.6rem] text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s3" onclick="lenis.scrollTo('#s3')">
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#project" onclick="lenis.scrollTo('#project')">
                                 <small><span class=" text-emerald-400">03</span> Projects</small>
                             </a>
                         </li>
                         <li class="mx-5 relative">
-                            <a class="section-links s10
+                            <a class="section-links contact
                             font-semibold text-lg 3xl:text-xl 3k:text-[1.6rem] text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#s10" onclick="lenis.scrollTo('#s10')">
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#contact" onclick="lenis.scrollTo('#contact')">
                                 <small><span class=" text-emerald-400">04</span> Contact</small>
                             </a>
                         </li>
@@ -91,7 +91,7 @@ if (session_id() == '') {
             </div>
             <div class="col hidden lg:flex justify-end items-center">
                 <div class="social-links relative text-3xl">
-                    <a href="#" target="_blank" rel="noopener noreferrer" class="resume">
+                    <a href="resume/Mark Arjay O. Guilang.pdf" target="_blank" rel="noopener noreferrer" class="resume">
                         <div class="absolute text-sm top-11 -left-3 bg-emerald-300 px-3 py-1 rounded animate-cv-shake opacity-0 pointer-events-none">
                             <span>Resume</span>
                         </div>
@@ -110,21 +110,21 @@ if (session_id() == '') {
             </div>
             <div id="nav-menu" class="absolute bg-white text-zinc-900 top-20 left-0 text-4xl w-full flex-col justify-center origin-top animate-nav-bounce hidden lg:hidden transition-all duration-500">
                 <div class="relative min-h-screen flex flex-col items-center py-7" aria-label="mobile">
-                    <a href="#s1" onclick="lenis.scrollTo('#s1')" class="w-full text-center py-5 hover:opacity-75">Home</a>
-                    <a href="#s2" onclick="lenis.scrollTo('#s2')" class="w-full text-center py-5 hover:opacity-75">About</a>
-                    <a href="#s3" onclick="lenis.scrollTo('#s3')" class="w-full text-center py-5 hover:opacity-75">Projects</a>
-                    <a href="#s10" onclick="lenis.scrollTo('#s10')" class="w-full text-center py-5 hover:opacity-75">Contact</a>
+                    <a href="#home" onclick="lenis.scrollTo('#home')" class="w-full text-center py-5 hover:opacity-75">Home</a>
+                    <a href="#about" onclick="lenis.scrollTo('#about')" class="w-full text-center py-5 hover:opacity-75">About</a>
+                    <a href="#project" onclick="lenis.scrollTo('#project')" class="w-full text-center py-5 hover:opacity-75">Projects</a>
+                    <a href="#contact" onclick="lenis.scrollTo('#contact')" class="w-full text-center py-5 hover:opacity-75">Contact</a>
                     <div class="social-links absolute bottom-28 text-4xl">
-                        <a href="#" class="resume">
+                        <a href="resume/Mark Arjay O. Guilang.pdf" target="_blank" rel="noopener noreferrer" class="resume">
                             <i class="bx bxs-file-pdf text-zinc-600 px-2 py-2 rounded-full transition-color duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                         </a>
-                        <a href="#" class="github">
+                        <a href="https://github.com/MarkGuil" target="_blank" rel="noopener noreferrer" class="github">
                             <i class="bx bxl-github text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                         </a>
-                        <a href="#" class="google-plus">
+                        <a href="mailto:guilangmarkarjay@gmail.com" class="google-plus">
                             <i class="bx bxs-envelope text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                         </a>
-                        <a href="#" class="linkedin">
+                        <a href="https://www.linkedin.com/in/mark-arjay-guilang/" target="_blank" rel="noopener noreferrer" class="linkedin">
                             <i class="bx bxl-linkedin-square text-zinc-600 px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                         </a>
                     </div>
@@ -135,9 +135,9 @@ if (session_id() == '') {
 
     </nav>
 
-    <section id="s1" class="sect s1 relative h-fit 3k:h-fit bg-cover bg-home-large text-zinc-900 3k:flex justify-center items-center z-20">
+    <section id="home" class="sect home relative h-fit 3k:h-fit bg-cover bg-home-large text-zinc-900 3k:flex justify-center items-center z-20">
 
-        <div class="grid grid-cols-8 gap-8 h-full py-32 lg:py-36 xl:py-40 3xl:py-48 3k:py-60 4k:py-60 px-5 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="grid grid-cols-8 gap-8 h-full py-36 lg:py-36 xl:py-40 3xl:py-48 3k:py-60 4k:py-60 px-5 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="col-start-2 col-span-6 md:col-start-2 md:col-span-6 lg:col-start-3 lg:col-span-4 3k:col-start-2 3k:col-span-6 ">
                 <div class="animate-zoom-in text-zinc-600 text-center">
@@ -176,29 +176,10 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <section id="s2" class="sect s2 about-section relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center z-20">
+    <section id="about" class="sect about about-section relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center z-20">
         <div class="relative h-full py-12 md:py-16 lg:py-0 3k:py-80 px-7 md:px-20 lg:px-28 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
 
-            <!-- <div class="relative py-4 md:py-20 lg:py-0 3k:py-10 lg:pb-64 3k:pb-48 px-2 ">
-                <div class="py-0 text-start 3k:text-start lg:flex justify-start items-start">
-                    <div class=" lg:pl-10 lg:h-[60vh] 3k:h-[20vh] lg:sticky inset-0 3k:inset-y-[30%] lg:flex items-end">
-                        <h3 id="about-me" class="  pointer-events-none z-0 text-6xl md:text-8xl lg:text-[7rem] 3xl:text-[12rem] 3k:text-[8rem] font-bold text-zinc-500 transition-all duration-1000
-                                before:content-['About'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
-                                before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500">
-                            About
-                        </h3>
-                    </div>
-                    <div class="text-justify lg:flex items-end lg:pl-14 mt-5 lg:mt-28 3k:mt-7 lg:mb-32 3k:mb-24 lg:h-[85vh] 3k:h-[33vh]">
-                        <p class="text-zinc-700 text-2xl md:text-3xl 3xl:text-5xl 3k:text-4xl  tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 3k:leading-normal
-                            ">
-                            I am a web developer that is passionate in developing robust and responsive
-                            web applications and is excited to bring my skills and experience to new challenges.
-                        </p>
-                    </div>
-                </div>
-            </div> -->
-
-            <div class="relative py-4 md:py-20 lg:py-0  px-2 ">
+            <div class="relative py-12 md:py-20 lg:py-0  px-2 ">
                 <h3 id="about-me" class=" absolute -translate-x-1/2 pointer-events-none z-0 text-9xl md:text-8xl lg:text-[8rem] 
                     3xl:text-[14rem] 3k:text-[8rem] scale-125 font-bold text-zinc-400 before:content-['About'] before:rounded before:absolute 
                     before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent before:-translate-y-1 
@@ -216,10 +197,10 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <section id="s2" class="sect s2 skill-section relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed  overflow-hidden">
+    <section id="about" class="sect about skill-section relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed  overflow-hidden">
         <div>
             <div class="relative z-10 w-full">
-                <div class="skill-1 bg-white w-full shadow origin-center fixed -rotate-[35deg] scale-150 -translate-x-full translate-y-96 inset-x-0 top-0 overflow-hidden">
+                <div class="skill-1 bg-white w-full shadow origin-center fixed -rotate-[35deg] scale-150 -translate-x-full translate-y-96 inset-x-0 -top-44 md:top-0 overflow-hidden">
                     <span class="tracking-wide text-7xl 3k:text-8xl text-black truncate text-clip ">
                         SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
                     </span>
@@ -316,7 +297,7 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <section id="s3" class="sect s3 relative bg-white h-fit 3k:flex justify-center items-center z-30">
+    <section id="project" class="sect project relative bg-white h-fit 3k:flex justify-center items-center z-30">
         <div class="px-5 md:px-20 lg:px-28 3k:px-5 pt-10 md:pt-14 lg:pt-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
             <div class="pb-10" data-aos="fade-up">
                 <h3 id="about-me" class="z-0 text-7xl md:text-8xl lg:9xl font-bold text-zinc-500 mb-4 transition-all
@@ -329,7 +310,7 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <section id="s3" class="sect s3 relative bg-white h-fit 3k:flex justify-center items-center z-30">
+    <section id="project" class="sect project relative bg-white h-fit 3k:flex justify-center items-center z-30">
         <div class="px-5 md:px-20 lg:px-28 3k:px-5 pb-10 md:pb-14 lg:pb-24 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="relative grid grid-cols-12 gap-4">
@@ -637,7 +618,7 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <section id="s10" class="sect s10 relative bg-white h-fit 3k:flex justify-center items-center overflow-x-hidden z-30">
+    <section id="contact" class="contact s10 relative bg-white h-fit 3k:flex justify-center items-center overflow-x-hidden z-30">
         <div class="px-7 md:px-20 lg:px-40 3k:px-5 pb-10 md:pb-14 lg:pb-20 pt-10 md:pt-10 lg:pt-20 relative h-full 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="pb-10" data-aos="fade-up">
