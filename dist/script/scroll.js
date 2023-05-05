@@ -95,14 +95,14 @@ lenis.on('scroll', ({
     scrollVal6 = 0.25;
 
     if (window.innerWidth <= 640) {
-        scrollVal1 = 0.73;
-        scrollVal2 = 0.40;
+        scrollVal1 = 0.65;
+        scrollVal2 = 0.37;
         scrollVal3 = 0.37;
         scrollVal4 = 0.30;
         scrollVal5 = 0.35;
         scrollVal6 = 0.15;
     } else if (window.innerWidth > 640 && window.innerHeight <= 124) {
-        scrollVal1 = 1.20;
+        scrollVal1 = 1.15;
         scrollVal2 = 0.80;
     } 
 

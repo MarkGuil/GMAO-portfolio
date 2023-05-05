@@ -108,13 +108,13 @@ if (session_id() == '') {
                     </a>
                 </div>
             </div>
-            <div id="nav-menu" class="absolute bg-white text-zinc-900 top-20 left-0 text-4xl w-full flex-col justify-center origin-top animate-nav-bounce hidden lg:hidden transition-all duration-500">
+            <div id="nav-menu" class="absolute z-[60] bg-white text-zinc-900 top-20 left-0 text-4xl w-full flex-col justify-center origin-top animate-nav-bounce hidden lg:hidden transition-all duration-500">
                 <div class="relative min-h-screen flex flex-col items-center py-7" aria-label="mobile">
                     <a href="#home" onclick="lenis.scrollTo('#home')" class="w-full text-center py-5 hover:opacity-75">Home</a>
                     <a href="#about" onclick="lenis.scrollTo('#about')" class="w-full text-center py-5 hover:opacity-75">About</a>
                     <a href="#project" onclick="lenis.scrollTo('#project')" class="w-full text-center py-5 hover:opacity-75">Projects</a>
                     <a href="#contact" onclick="lenis.scrollTo('#contact')" class="w-full text-center py-5 hover:opacity-75">Contact</a>
-                    <div class="social-links absolute bottom-28 text-4xl">
+                    <div class="social-links absolute bottom-32 text-4xl">
                         <a href="resume/Mark Arjay O. Guilang.pdf" target="_blank" rel="noopener noreferrer" class="resume">
                             <i class="bx bxs-file-pdf text-zinc-600 px-2 py-2 rounded-full transition-color duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                         </a>
@@ -196,10 +196,22 @@ if (session_id() == '') {
 
         </div>
     </section>
-
     <section id="about" class="sect about skill-section relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed  overflow-hidden">
         <div>
             <div class="relative z-10 w-full">
+                
+                <!-- <svg class="absolute" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                    <defs>
+                        <style>.cls-1,.cls-2{fill:#34d399;}.cls-2{font-size:147.98px;font-family:Corbel;letter-spacing:0.13em;}.cls-3{letter-spacing:0.12em;}.cls-4{letter-spacing:0.13em;}</style>
+                    </defs>
+                    <path class="cls-1" d="M158.75,257.64q12.57-68.59,48.5-123.55Q273.25,34,399.92,34,492.33,34,552,91.19q41.58,40.1,67,117.81h17L619,0H601q-1.47,24.92-8.06,33.45T577.06,42q-9.79,0-36.65-10.25Q516,23,498.13,16.86a335.85,335.85,0,0,0-34-9.77,274.48,274.48,0,0,0-33.23-5.37Q413.82,0,390.88,0q-77.24,0-140,25.88T139.2,106.39A376.57,376.57,0,0,0,66.39,222.53q-6.82,17.31-11.94,35.11Z"/>
+                    <path class="cls-1" d="M544,451.81V622a292.42,292.42,0,0,1-66.31,27.62A265,265,0,0,1,407,659a218.24,218.24,0,0,1-68.77-10.73A230.58,230.58,0,0,1,277.77,618a245.88,245.88,0,0,1-50.41-47.36,301.54,301.54,0,0,1-38.66-62.5,373.35,373.35,0,0,1-21.07-56.31H53Q71.16,515.21,114.75,569q99.66,123,291.69,123a547,547,0,0,0,62.78-3.44A445.65,445.65,0,0,0,526.88,678a431.59,431.59,0,0,0,55.45-18.18A580.48,580.48,0,0,0,639,633V451.81Z"/>
+                    <text class="cls-2" transform="translate(150.89 409.73) scale(0.92 1)">
+                        GM
+                        <tspan class="cls-3" x="258.92" y="0">A</tspan>
+                        <tspan class="cls-4" x="370.72" y="0">O</tspan>
+                    </text>
+                </svg> -->
                 <div class="skill-1 bg-white w-full shadow origin-center fixed -rotate-[35deg] scale-150 -translate-x-full translate-y-96 inset-x-0 -top-44 md:top-0 overflow-hidden">
                     <span class="tracking-wide text-7xl 3k:text-8xl text-black truncate text-clip ">
                         SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
@@ -315,7 +327,7 @@ if (session_id() == '') {
 
             <div class="relative grid grid-cols-12 gap-4">
 
-                <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-left">
+                <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-2 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-left">
                     <img src="images/omnibus/screens.png" class="w-full " alt="">
                 </div>
                 <div class="relative col-start-1 col-span-12  lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
@@ -341,7 +353,7 @@ if (session_id() == '') {
                         </ul>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="md:mr-2">
-                                <a href="https://omnibus-ph.000webhostapp.com/dist/" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                <a href="https://omnibus.markguilang.com/dist/" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full ">
                                     Open Live
                                 </a>
                             </div>
@@ -421,7 +433,7 @@ if (session_id() == '') {
                         </ul>
                         <div class="text-lg-start mt-5 mb-10 md:inline-flex">
                             <div class="md:mr-2">
-                                <a href="https://quizam-asd.000webhostapp.com/" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full ">
                                     Open Live
                                 </a>
                             </div>
@@ -473,14 +485,14 @@ if (session_id() == '') {
                         </div>
                     </div>
                 </div>
-                <div class="relative col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                <div class="relative col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
                     <img src="images/quizam/screens.png" class="w-full" alt="">
                 </div>
             </div>
 
             <div class="relative grid grid-cols-12 gap-4 mt-32">
 
-                <div class="relative col-start-1 col-span-12 lg:col-span-5 flex justify-center lg:justify-start items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-left">
+                <div class="relative col-start-1 col-span-12 lg:col-span-5 flex justify-center lg:justify-start items-center px-2 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-left">
                     <img src="images/anishop/anishop.png" class="w-full" alt="">
                 </div>
                 <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
@@ -502,10 +514,17 @@ if (session_id() == '') {
                             <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Engaging and informative product descriptions.</li>
                             <li class="pb-4"><i class="bi bi-check text-emerald-400"></i> Management of products.</li>
                         </ul>
-                        <div class="mb-10 mt-5">
-                            <a href="" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full">
-                                Github
-                            </a>
+                        <div class="text-lg-start mt-5 mb-10 md:inline-flex">
+                            <div class="md:mr-2">
+                                <a href="https://anishop.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full ">
+                                    Open Live
+                                </a>
+                            </div>
+                            <div class="mt-10 md:mt-0">
+                                <a href="https://github.com/MarkGuil/e-commerce-shop" target="_blank" rel="noopener noreferrer" class="text-white text-xl 3k:text-2xl py-2 px-10 bg-emerald-400 rounded-full">
+                                    Github
+                                </a>
+                            </div>
                         </div>
                         <p class="mt-5">
                             Technologies:
@@ -610,7 +629,7 @@ if (session_id() == '') {
 
                 </div>
 
-                <div class="relative col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-14 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
+                <div class="relative col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
                     <img src="images/psu/screens.png" class="w-full" alt="">
                 </div>
             </div>

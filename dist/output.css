@@ -549,13 +549,6 @@ html {
   position: sticky;
 }
 
-.inset-0 {
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
-
 .inset-x-0 {
   left: 0px;
   right: 0px;
@@ -604,8 +597,8 @@ html {
   bottom: 0px;
 }
 
-.top-0 {
-  top: 0px;
+.-top-44 {
+  top: -11rem;
 }
 
 .top-60 {
@@ -640,8 +633,8 @@ html {
   left: 50%;
 }
 
-.-top-44 {
-  top: -11rem;
+.bottom-32 {
+  bottom: 8rem;
 }
 
 .z-50 {
@@ -662,6 +655,10 @@ html {
 
 .z-30 {
   z-index: 30;
+}
+
+.z-\[60\] {
+  z-index: 60;
 }
 
 .order-first {
@@ -730,10 +727,6 @@ html {
   margin-top: 0.25rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .mr-2 {
   margin-right: 0.5rem;
 }
@@ -744,6 +737,10 @@ html {
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .mb-10 {
@@ -898,11 +895,6 @@ html {
 
 .-translate-x-20 {
   --tw-translate-x: -5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-y-28 {
-  --tw-translate-y: -7rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1128,14 +1120,6 @@ html {
   flex-direction: column;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
-.items-end {
-  align-items: flex-end;
-}
-
 .items-center {
   align-items: center;
 }
@@ -1327,9 +1311,9 @@ html {
   padding-bottom: 1.75rem;
 }
 
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+.py-36 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 }
 
 .px-5 {
@@ -1340,16 +1324,6 @@ html {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 .py-3 {
@@ -1375,11 +1349,6 @@ html {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-}
-
-.py-36 {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
 }
 
 .pb-1 {
@@ -1476,11 +1445,6 @@ html {
   line-height: 1;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
@@ -1560,11 +1524,6 @@ html {
   color: rgb(24 24 27 / var(--tw-text-opacity));
 }
 
-.text-zinc-500 {
-  --tw-text-opacity: 1;
-  color: rgb(113 113 122 / var(--tw-text-opacity));
-}
-
 .text-zinc-700 {
   --tw-text-opacity: 1;
   color: rgb(63 63 70 / var(--tw-text-opacity));
@@ -1578,6 +1537,11 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-zinc-500 {
+  --tw-text-opacity: 1;
+  color: rgb(113 113 122 / var(--tw-text-opacity));
 }
 
 .text-emerald-600 {
@@ -1641,10 +1605,6 @@ html {
 
 .duration-500 {
   transition-duration: 500ms;
-}
-
-.duration-1000 {
-  transition-duration: 1000ms;
 }
 
 .duration-300 {
@@ -2075,16 +2035,6 @@ html {
     width: 100%;
   }
 
-  .md\:translate-y-96 {
-    --tw-translate-y: 24rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .md\:-translate-y-60 {
-    --tw-translate-y: -15rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
   .md\:scale-110 {
     --tw-scale-x: 1.1;
     --tw-scale-y: 1.1;
@@ -2161,11 +2111,6 @@ html {
     line-height: 1;
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -2207,10 +2152,6 @@ html {
 }
 
 @media (min-width: 1024px) {
-  .lg\:sticky {
-    position: sticky;
-  }
-
   .lg\:order-last {
     order: 9999;
   }
@@ -2233,14 +2174,6 @@ html {
 
   .lg\:mt-8 {
     margin-top: 2rem;
-  }
-
-  .lg\:mt-28 {
-    margin-top: 7rem;
-  }
-
-  .lg\:mb-32 {
-    margin-bottom: 8rem;
   }
 
   .lg\:mt-0 {
@@ -2277,14 +2210,6 @@ html {
 
   .lg\:h-screen {
     height: 100vh;
-  }
-
-  .lg\:h-\[60vh\] {
-    height: 60vh;
-  }
-
-  .lg\:h-\[85vh\] {
-    height: 85vh;
   }
 
   .lg\:scale-100 {
@@ -2371,18 +2296,6 @@ html {
     padding-bottom: 0.75rem;
   }
 
-  .lg\:pb-64 {
-    padding-bottom: 16rem;
-  }
-
-  .lg\:pl-10 {
-    padding-left: 2.5rem;
-  }
-
-  .lg\:pl-14 {
-    padding-left: 3.5rem;
-  }
-
   .lg\:pt-24 {
     padding-top: 6rem;
   }
@@ -2402,10 +2315,6 @@ html {
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .lg\:text-\[7rem\] {
-    font-size: 7rem;
   }
 
   .lg\:text-\[8rem\] {
@@ -2482,17 +2391,13 @@ html {
     line-height: 2.5rem;
   }
 
-  .\33xl\:text-\[12rem\] {
-    font-size: 12rem;
+  .\33xl\:text-\[14rem\] {
+    font-size: 14rem;
   }
 
   .\33xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .\33xl\:text-\[14rem\] {
-    font-size: 14rem;
   }
 
   .\33xl\:text-8xl {
@@ -2521,11 +2426,6 @@ html {
 }
 
 @media (min-width: 2130px) {
-  .\33k\:inset-y-\[30\%\] {
-    top: 30%;
-    bottom: 30%;
-  }
-
   .\33k\:inset-y-\[10\%\] {
     top: 10%;
     bottom: 10%;
@@ -2562,14 +2462,6 @@ html {
     margin-top: 2.5rem;
   }
 
-  .\33k\:mt-7 {
-    margin-top: 1.75rem;
-  }
-
-  .\33k\:mb-24 {
-    margin-bottom: 6rem;
-  }
-
   .\33k\:mb-20 {
     margin-bottom: 5rem;
   }
@@ -2585,14 +2477,6 @@ html {
 
   .\33k\:h-96 {
     height: 24rem;
-  }
-
-  .\33k\:h-\[20vh\] {
-    height: 20vh;
-  }
-
-  .\33k\:h-\[33vh\] {
-    height: 33vh;
   }
 
   .\33k\:w-\[1320px\] {
@@ -2630,11 +2514,6 @@ html {
     padding-bottom: 20rem;
   }
 
-  .\33k\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
   .\33k\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -2653,14 +2532,6 @@ html {
   .\33k\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
-  }
-
-  .\33k\:pb-48 {
-    padding-bottom: 12rem;
-  }
-
-  .\33k\:text-start {
-    text-align: start;
   }
 
   .\33k\:text-\[1\.6rem\] {
