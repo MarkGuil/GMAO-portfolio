@@ -29,7 +29,7 @@ if (session_id() == '') {
 </head>
 
 <body class="relative m-0 p-0 font-crimson overflow-x-hidden">
-    <nav class="navbar fixed w-screen py-5 px-7 z-50 transition-all duration-500 3k:flex justify-center items-center ">
+    <nav class="navbar fixed w-screen py-5 px-7 z-[60] transition-all duration-500 3k:flex justify-center items-center ">
         <div class="grid grid-cols-2 lg:grid-cols-3 3k:grid-cols-4 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
             <a class="col lg:flex items-center" href="#">
                 <span class=" tracking-normal md:tracking-widest text-3xl md:text-4xl text-zinc-600 font-molle font-black">GMAO</span>
