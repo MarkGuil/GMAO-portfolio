@@ -11,6 +11,11 @@ const skillSection = document.querySelector(".skill-section");
 const numSteps = 20.0;
 let prevRatio = 0.0;
 
+let thresholdVal = .7;
+if (window.innerWidth <= 640) {
+    thresholdVal = .5;
+}
+
 // function buildThresholdList() {
 //     let thresholds = [];
 //     let numSteps = 20;
@@ -59,7 +64,7 @@ const aboutObserver = new IntersectionObserver(
             // }
         })
     }, {
-        threshold: .7,
+        threshold: thresholdVal,
     }
 )
 
@@ -72,7 +77,7 @@ const lenis = new Lenis({
     gestureOrientation: 'vertical', // vertical, horizontal, both
     smoothWheel: true,
     wheelMultiplier: 1,
-    smoothTouch: true,
+    smoothTouch: false,
     touchMultiplier: 2,
     infinite: false,
 })

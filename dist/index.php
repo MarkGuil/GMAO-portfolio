@@ -137,7 +137,7 @@ if (session_id() == '') {
 
     <section id="home" class="sect home relative h-fit 3k:h-fit bg-cover bg-home-large text-zinc-900 3k:flex justify-center items-center z-20">
 
-        <div class="grid grid-cols-8 gap-8 h-full py-36 lg:py-36 xl:py-40 3xl:py-48 3k:py-60 4k:py-60 px-5 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
+        <div class="grid grid-cols-8 gap-8 h-full py-40 lg:py-36 xl:py-40 3xl:py-48 3k:py-60 4k:py-60 px-5 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px]">
 
             <div class="col-start-2 col-span-6 md:col-start-2 md:col-span-6 lg:col-start-3 lg:col-span-4 3k:col-start-2 3k:col-span-6 ">
                 <div class="animate-zoom-in text-zinc-600 text-center">
@@ -179,7 +179,7 @@ if (session_id() == '') {
     <section id="about" class="sect about about-section relative h-fit lg:h-screen 3k:h-fit text-center sm:text-left bg-white lg:flex justify-center items-center z-20">
         <div class="relative h-full py-12 md:py-16 lg:py-0 3k:py-80 px-7 md:px-20 lg:px-28 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] flex justify-start lg:justify-center items-center">
 
-            <div class="relative py-12 md:py-20 lg:py-0  px-2 ">
+            <div class="relative py-20 lg:py-0 px-2 ">
                 <h3 id="about-me" class=" absolute -translate-x-1/2 pointer-events-none z-0 text-9xl md:text-8xl lg:text-[8rem] 
                     3xl:text-[14rem] 3k:text-[8rem] scale-125 font-bold text-zinc-400 before:content-['About'] before:rounded before:absolute 
                     before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent before:-translate-y-1 
