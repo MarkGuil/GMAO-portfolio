@@ -6,6 +6,13 @@ const footer = document.querySelector(".page-footer");
 const mobileNav = document.getElementById("nav-menu");
 const hamburger = document.getElementById("hamburger");
 
+if (window.innerWidth <= 640) {
+    document.getElementById("myImg1").src = "images/omnibus/screens(mobile).png";
+    document.getElementById("myImg2").src = "images/quizam/screens(mobile).png";
+    document.getElementById("myImg3").src = "images/anishop/screens(mobile).png";
+    document.getElementById("myImg4").src = "images/psu/screens(mobile).png";
+}
+
 window.onscroll = function(){
     if(window.pageYOffset <= 70){
         navbar.classList.add("bg-transparent");

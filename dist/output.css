@@ -1307,9 +1307,9 @@ html {
   padding-bottom: 1.75rem;
 }
 
-.py-36 {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .px-5 {
@@ -1320,6 +1320,11 @@ html {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .py-3 {
@@ -1340,16 +1345,6 @@ html {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-}
-
-.py-40 {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .pb-1 {
@@ -2054,11 +2049,6 @@ html {
   .md\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
-  }
-
-  .md\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
   }
 
   .md\:py-8 {
