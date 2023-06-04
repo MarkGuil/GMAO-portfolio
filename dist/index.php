@@ -196,6 +196,7 @@ if (session_id() == '') {
 
         </div>
     </section>
+    
     <section id="about" class="sect about skill-section relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed  overflow-hidden">
         <div>
             <div class="relative z-10 w-full">
@@ -328,7 +329,7 @@ if (session_id() == '') {
             <div class="relative grid grid-cols-12 gap-4">
 
                 <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-2 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-left">
-                    <img src="images/omnibus/screens.png" class="w-full " id="myImg1" alt="">
+                    <img src="images/omnibus/screens.png" class="w-full drop-shadow-xl" id="myImg1" alt="">
                 </div>
                 <div class="relative col-start-1 col-span-12  lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
 
@@ -486,14 +487,14 @@ if (session_id() == '') {
                     </div>
                 </div>
                 <div class="relative col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
-                    <img src="images/quizam/screens.png" class="w-full" id="myImg2" alt="">
+                    <img src="images/quizam/screens.png" class="w-full drop-shadow-xl" id="myImg2" alt="">
                 </div>
             </div>
 
             <div class="relative grid grid-cols-12 gap-4 mt-32">
 
                 <div class="relative col-start-1 col-span-12 lg:col-span-5 flex justify-center lg:justify-start items-center px-2 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-left">
-                    <img src="images/anishop/screens.png" class="w-full" id="myImg3" alt="">
+                    <img src="images/anishop/screens.png" class="w-full drop-shadow-xl" id="myImg3" alt="">
                 </div>
                 <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl 3k:text-2xl" data-aos="fade-up">
                     <!-- <div class="sticky inset-y-[18%] 3k:inset-y-[16%]"> -->
@@ -630,7 +631,7 @@ if (session_id() == '') {
                 </div>
 
                 <div class="relative col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-3.5 3xl:px-24 3k:px-3" data-aos="fade-right">
-                    <img src="images/psu/screens.png" class="w-full" id="myImg4" alt="">
+                    <img src="images/psu/screens.png" class="w-full drop-shadow-xl" id="myImg4" alt="">
                 </div>
             </div>
 
@@ -690,7 +691,7 @@ if (session_id() == '') {
 
                 <div class="col-start-5 col-span-12 mt-7 lg:mt-0" data-aos="fade-left" data-aos-delay="200">
 
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form text-sm">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form text-sm" autocomplete="on">
                         <div class="grid grid-cols-2">
                             <div class="col-auto form-group w-full pb-3 px-2">
                                 <input type="text" name="name" class="h-11 w-full py-1 px-3 border border-zinc-300 text-black" id="name" placeholder="Your Name" required>
