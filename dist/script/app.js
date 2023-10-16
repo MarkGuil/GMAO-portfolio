@@ -16,24 +16,26 @@ if (window.innerWidth <= 640) {
 window.onscroll = function(){
     if(window.pageYOffset <= 70){
         navbar.classList.add("bg-transparent");
-        navbar.classList.add("py-[1.25vw]");
+        navbar.classList.add("sm:py-[1.25vw]");
+        navbar.classList.add("py-5");
         mobileNav.classList.add("top-20");
-        hamburger.classList.add("top-10");
+        hamburger.classList.add("top-9");
         navbar.classList.remove("bg-white/[.95]");
         navbar.classList.remove("shadow");
         navbar.classList.remove("py-3");
         mobileNav.classList.remove("top-[3.75rem]");
-        hamburger.classList.remove("top-8");
+        hamburger.classList.remove("top-7");
     } else {
         navbar.classList.add("bg-white/[.95]");
         navbar.classList.add("shadow");
         navbar.classList.add("py-3");
         mobileNav.classList.add("top-[3.75rem]");
-        hamburger.classList.add("top-8");
+        hamburger.classList.add("top-7");
         navbar.classList.remove("bg-transparent");
-        navbar.classList.remove("py-[1.25vw]");
+        navbar.classList.remove("sm:py-[1.25vw]");
+        navbar.classList.remove("py-5");
         mobileNav.classList.remove("top-20");
-        hamburger.classList.remove("top-10");
+        hamburger.classList.remove("top-9");
     }
 }
 
@@ -47,7 +49,7 @@ const observer = new IntersectionObserver(
             }
         })
     }, {
-        threshold: .5,
+        threshold: .15,
     }
 )
 
