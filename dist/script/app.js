@@ -16,7 +16,7 @@ if (window.innerWidth <= 640) {
 window.onscroll = function(){
     if(window.pageYOffset <= 70){
         navbar.classList.add("bg-transparent");
-        navbar.classList.add("py-5");
+        navbar.classList.add("py-[1.25vw]");
         mobileNav.classList.add("top-20");
         hamburger.classList.add("top-10");
         navbar.classList.remove("bg-white/[.95]");
@@ -31,7 +31,7 @@ window.onscroll = function(){
         mobileNav.classList.add("top-[3.75rem]");
         hamburger.classList.add("top-8");
         navbar.classList.remove("bg-transparent");
-        navbar.classList.remove("py-5");
+        navbar.classList.remove("py-[1.25vw]");
         mobileNav.classList.remove("top-20");
         hamburger.classList.remove("top-10");
     }

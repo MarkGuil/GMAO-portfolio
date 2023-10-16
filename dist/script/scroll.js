@@ -11,7 +11,7 @@ const skillSection = document.querySelector(".skill-section");
 const numSteps = 20.0;
 let prevRatio = 0.0;
 
-let thresholdVal = .7;
+let thresholdVal = .65;
 if (window.innerWidth <= 640) {
     thresholdVal = .5;
 }
@@ -92,8 +92,8 @@ lenis.on('scroll', ({
     progress
 }) => {
     
-    scrollVal1 = 1.70;
-    scrollVal2 = 1.25;
+    scrollVal1 = 1.55;
+    scrollVal2 = 1.10;
     scrollVal3 = 1.05;
     scrollVal4 = 0.50;
     scrollVal5 = 0.75;
