@@ -93,7 +93,7 @@ lenis.on('scroll', ({
 }) => {
     
     scrollVal1 = 1.65;
-    scrollVal2 = 0.95;
+    scrollVal2 = 1.15;
     scrollVal3 = 1.05;
     scrollVal4 = 0.50;
     scrollVal5 = 0.75;

@@ -293,14 +293,34 @@ if (session_id() == '') {
     </section>
 
     <section id="project" class="sect project relative bg-white h-fit z-30">
-        <div class="px-5 md:px-20 lg:px-[7vw] pt-10 md:pt-14 lg:pt-[6vw] relative h-full ">
-            <div class="pb-10" data-aos="fade-up">
-                <h3 id="about-me" class="z-0 text-7xl md:text-[6vw] font-bold text-zinc-500 mb-4 transition-all
+        <div class="px-5 md:px-20 lg:px-[7vw] py-10 md:py-14 lg:py-[6vw] relative h-full ">
+            <div class="pb-10 text-center" data-aos="fade-up">
+                <h3 id="about-me" class="z-0 text-7xl md:text-[7vw] font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
-                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
-                    after:content-[''] after:absolute after:left-32 md:after:left-40 after:bottom-16 after:w-36 md:after:w-72 after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
+                    before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 ">
                     Projects
                 </h3>
+            </div>
+            <div class="grid grid-cols-6 gap-3 w-full">
+                <div class="col-span-2 bg-black rounded-full shadow h-full w-full">
+                    <div>HEY</div>
+                </div>
+                <div class="col-span-2 bg-black rounded-full shadow h-full w-full">
+                    <div>HEY</div>
+
+                </div>
+                <div class="col-span-2 bg-black rounded-full shadow h-full w-full">
+                    <div>HEY</div>
+
+                </div>
+                <div class="col-start-2 col-end-3 bg-black rounded-full shadow h-full w-full">
+                    <div>HEY</div>
+
+                </div>
+                <div class="col-start-4 col-end-5 bg-black rounded-full shadow h-full w-full">
+                    <div>HEY</div>
+
+                </div>
             </div>
         </div>
     </section>
