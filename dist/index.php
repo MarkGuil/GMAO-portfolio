@@ -294,32 +294,38 @@ if (session_id() == '') {
 
     <section id="project" class="sect project relative bg-white h-fit z-30">
         <div class="px-5 md:px-20 lg:px-[7vw] py-10 md:py-14 lg:py-[6vw] relative h-full ">
-            <div class="pb-10 text-center" data-aos="fade-up">
+            <div class="pb-10 sm:pb-[4vw] text-center" data-aos="fade-up">
                 <h3 id="about-me" class="z-0 text-7xl md:text-[7vw] font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 ">
                     Projects
                 </h3>
             </div>
-            <div class="grid grid-cols-6 gap-3 w-full">
-                <div class="col-span-2 bg-black rounded-full shadow h-full w-full">
-                    <div>HEY</div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3 w-full">
+                <div class="col-auto lg:col-span-2 h-85 w-85 2xl:h-[26.5rem] 2xl:w-[26.5rem] flex justify-self-center">
+                    <div class="h-full w-full">
+                        <img src="images/pos/1.png" class="w-full drop-shadow-2xl" id="myImg1" alt="">
+                    </div>
                 </div>
-                <div class="col-span-2 bg-black rounded-full shadow h-full w-full">
-                    <div>HEY</div>
-
+                <div class="col-auto lg:col-span-2 h-85 w-85 2xl:h-[26.5rem] 2xl:w-[26.5rem] flex justify-self-center">
+                    <div class="h-full w-full">
+                        <img src="images/omnibus/1.png" class="w-full drop-shadow-2xl" id="myImg1" alt="">
+                    </div>
                 </div>
-                <div class="col-span-2 bg-black rounded-full shadow h-full w-full">
-                    <div>HEY</div>
-
+                <div class="col-auto lg:col-span-2 h-85 w-85 2xl:h-[26.5rem] 2xl:w-[26.5rem] flex justify-self-center">
+                    <div class="h-full w-ful">
+                        <img src="images/anishop/1.png" class="w-full drop-shadow-2xl" id="myImg1" alt="">
+                    </div>
                 </div>
-                <div class="col-start-2 col-end-3 bg-black rounded-full shadow h-full w-full">
-                    <div>HEY</div>
-
+                <div class="col-auto lg:col-start-2 lg:col-span-2 h-85 w-85 2xl:h-[26.5rem] 2xl:w-[26.5rem] flex justify-self-center">
+                    <div class="h-full w-full">
+                        <img src="images/quizam/1.png" class="w-full drop-shadow-2xl" id="myImg1" alt="">
+                    </div>
                 </div>
-                <div class="col-start-4 col-end-5 bg-black rounded-full shadow h-full w-full">
-                    <div>HEY</div>
-
+                <div class="col-auto lg:col-span-2 h-85 w-85 2xl:h-[26.5rem] 2xl:w-[26.5rem] flex justify-self-center">
+                    <div class="h-full w-full">
+                        <img src="images/anishop/1.png" class="w-full drop-shadow-2xl" id="myImg1" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -698,17 +704,17 @@ if (session_id() == '') {
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form text-sm sm:text-[.875vw]" autocomplete="on">
                         <div class="grid grid-cols-2">
                             <div class="col-auto form-group w-full pb-3 sm:pb-[.75vw] px-2 sm:px-[.5vw]">
-                                <input type="text" name="name" class="h-11 w-full py-1 sm:py-[.25vw] px-3 sm:px-[.75vw] border border-zinc-300 focus:outline-none focus:ring focus:ring-emerald-300 focus:border-emerald-300 " id="name" placeholder="Your Name" required>
+                                <input type="text" name="name" class="h-11 w-full py-1 sm:py-[.75vw] px-3 sm:px-[.75vw] border border-zinc-300 focus:outline-none focus:ring focus:ring-emerald-300 focus:border-emerald-300 " id="name" placeholder="Your Name" required>
                             </div>
                             <div class="col-auto form-group w-full pb-3 sm:pb-[.75vw] px-2 sm:px-[.5vw]">
-                                <input type="email" class="h-11 w-full py-1 sm:py-[.25vw] px-3 sm:px-[.75vw] border border-zinc-300 focus:outline-none focus:ring focus:ring-emerald-300 focus:border-emerald-300" name="email" id="email" placeholder="Your Email" required>
+                                <input type="email" class="h-11 w-full py-1 sm:py-[.75vw] px-3 sm:px-[.75vw] border border-zinc-300 focus:outline-none focus:ring focus:ring-emerald-300 focus:border-emerald-300" name="email" id="email" placeholder="Your Email" required>
                             </div>
                         </div>
                         <div class="form-group w-full pb-3 sm:pb-[.75vw] px-2 sm:px-[.5vw] mt-3 sm:mt-[.75vw]">
-                            <input type="text" class="form-control h-11 w-full py-1 sm:py-[.25vw] px-3 sm:px-[.75vw] border border-zinc-300 focus:outline-none focus:ring focus:ring-emerald-300 focus:border-emerald-300" name="subject" id="subject" placeholder="Subject" required>
+                            <input type="text" class="form-control h-11 w-full py-1 sm:py-[.75vw] px-3 sm:px-[.75vw] border border-zinc-300 focus:outline-none focus:ring focus:ring-emerald-300 focus:border-emerald-300" name="subject" id="subject" placeholder="Subject" required>
                         </div>
                         <div class="form-group w-full pb-2 sm:pb-[.5vw] px-2 sm:px-[.5vw] mt-3 sm:mt-[.75vw]">
-                            <textarea class="form-control w-full py-1 sm:py-[.25vw] px-3 sm:px-[.75vw] border border-zinc-300 focus:outline-none focus:ring focus:ring-emerald-300 focus:border-emerald-300" name="message" rows="5" placeholder="Message" required></textarea>
+                            <textarea class="form-control w-full max-h-60 py-1 sm:py-[.75vw] px-3 sm:px-[.75vw] border border-zinc-300 focus:outline-none focus:ring focus:ring-emerald-300 focus:border-emerald-300" name="message" rows="6" placeholder="Message" required></textarea>
                         </div>
                         <div class="text-center">
                             <button type="submit" name="submit-contact-form" class="btn-get-started scrollto py-2 md:py-[.75vw] px-7 sm:px-[1.75vw] bg-emerald-400 rounded-full text-white lg:text-[1vw]">Send Message</button>
