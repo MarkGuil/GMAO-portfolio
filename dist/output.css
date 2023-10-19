@@ -2678,24 +2678,8 @@ html {
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:h-\[28rem\] {
-    height: 28rem;
-  }
-
-  .\32xl\:h-\[26rem\] {
-    height: 26rem;
-  }
-
   .\32xl\:h-\[26\.5rem\] {
     height: 26.5rem;
-  }
-
-  .\32xl\:w-\[28rem\] {
-    width: 28rem;
-  }
-
-  .\32xl\:w-\[26rem\] {
-    width: 26rem;
   }
 
   .\32xl\:w-\[26\.5rem\] {

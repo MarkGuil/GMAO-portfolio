@@ -32,7 +32,7 @@ if (session_id() == '') {
     <nav class="navbar fixed w-screen py-5 sm:py-[1.25vw] px-7 lg:px-[1.75vw] z-[60] transition-all duration-500 ">
         <div class="grid grid-cols-2 lg:grid-cols-3 ">
             <a class="col lg:flex items-center" href="#">
-                <span class=" tracking-normal md:tracking-widest text-3xl md:text-[2.25vw] text-zinc-600 font-molle font-black">GMAO</span>
+                <span class=" tracking-normal md:tracking-widest text-3xl md:text-[2.25vw] text-zinc-600 font-black">GMAO</span>
             </a>
             <div class="col text-zinc-600 text-right lg:flex justify-center items-center">
                 <button id="nav-btn" class="text-3xl cursor-pointer lg:hidden w-7 h-7">
