@@ -286,14 +286,14 @@ if (session_id() == '') {
 
                     </div>
                 </div>
-                <img src="images/skills-bg/torn-1-mins-min.png" class="absolute z-30 -top-2 left-0 md:w-full h-44 sm:h-[11vw]" alt="">
-                <img src="images/skills-bg/torn-2-mins-min.png" class="absolute z-30 -bottom-2 left-0 md:w-full h-56 sm:h-[14vw]" alt="">
+                <img src="images/skills-bg/torn-1-mins-min.png" class="absolute z-30 -top-2 left-0 sm:w-full h-44 sm:h-[11vw]" alt="">
+                <img src="images/skills-bg/torn-2-mins-min.png" class="absolute z-30 -bottom-2 left-0 sm:w-full h-56 sm:h-[14vw]" alt="">
             </div>
         </div>
     </section>
 
     <section id="project" class="sect project relative bg-white h-fit z-30">
-        <div class="px-5 md:px-20 lg:px-[7vw] py-10 md:py-14 lg:py-[6vw] relative h-full ">
+        <div id="project-section" class="px-5 md:px-20 lg:px-[7vw] py-10 md:py-14 lg:py-[6vw] relative h-full ">
             <div class="pb-10 sm:pb-[4vw] text-center" data-aos="fade-up">
                 <h3 id="about-me" class="z-0 text-7xl md:text-[7vw] font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
@@ -301,30 +301,25 @@ if (session_id() == '') {
                     Projects
                 </h3>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3 w-full">
-                <div class="col-auto lg:col-span-2 h-85 w-85 2xl:h-[26.5rem] 2xl:w-[26.5rem] flex justify-self-center">
-                    <div class="h-full w-full">
-                        <img src="images/pos/1.png" class="w-full drop-shadow-2xl" id="myImg1" alt="">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-1 w-full">
+                <div class="col-auto h-72 w-72 lg:h-[26.5vw] lg:w-[26.5vw] flex justify-self-center">
+                    <div class="relative h-full w-full">
+                        <img src="images/pos/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-y-[8deg] skew-x-6 transition-all duration-500" id="" alt="">
                     </div>
                 </div>
-                <div class="col-auto lg:col-span-2 h-85 w-85 2xl:h-[26.5rem] 2xl:w-[26.5rem] flex justify-self-center">
-                    <div class="h-full w-full">
-                        <img src="images/omnibus/1.png" class="w-full drop-shadow-2xl" id="myImg1" alt="">
+                <div class="col-auto h-72 w-72 lg:h-[26.5vw] lg:w-[26.5vw] flex justify-self-center">
+                    <div class="relative h-full w-full">
+                        <img src="images/omnibus/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-x-3 skew-y-3 transition-all duration-500 delay-75" id="" alt="">
                     </div>
                 </div>
-                <div class="col-auto lg:col-span-2 h-85 w-85 2xl:h-[26.5rem] 2xl:w-[26.5rem] flex justify-self-center">
-                    <div class="h-full w-ful">
-                        <img src="images/anishop/1.png" class="w-full drop-shadow-2xl" id="myImg1" alt="">
+                <div class="col-auto h-72 w-72 lg:h-[26.5vw] lg:w-[26.5vw] flex justify-self-center">
+                    <div class="relative h-full w-full">
+                        <img src="images/anishop/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 skew-y-6 transition-all duration-500 delay-100" id="" alt="">
                     </div>
                 </div>
-                <div class="col-auto lg:col-start-2 lg:col-span-2 h-85 w-85 2xl:h-[26.5rem] 2xl:w-[26.5rem] flex justify-self-center">
-                    <div class="h-full w-full">
-                        <img src="images/quizam/1.png" class="w-full drop-shadow-2xl" id="myImg1" alt="">
-                    </div>
-                </div>
-                <div class="col-auto lg:col-span-2 h-85 w-85 2xl:h-[26.5rem] 2xl:w-[26.5rem] flex justify-self-center">
-                    <div class="h-full w-full">
-                        <img src="images/anishop/1.png" class="w-full drop-shadow-2xl" id="myImg1" alt="">
+                <div class="col-auto h-72 w-72 lg:h-[26.5vw] lg:w-[26.5vw] flex justify-self-center">
+                    <div class="relative h-full w-full">
+                        <img src="images/quizam/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-y-[10deg] skew-x-6 transition-all duration-500 delay-150" id="" alt="">
                     </div>
                 </div>
             </div>
@@ -332,12 +327,12 @@ if (session_id() == '') {
     </section>
 
     <section id="project" class="sect project relative bg-white h-fit z-30">
-        <div class="px-5 md:px-20 lg:px-[7vw]  pb-10 md:pb-14 lg:pb-[6vw] relative h-full">
+        <div class="px-5 md:px-20 lg:px-[7vw]  py-10 md:py-14 lg:py-[6vw] relative h-full">
 
             <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw]">
 
                 <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-2 md:px-28 lg:px-[3vw]" data-aos="fade-left">
-                    <img src="images/omnibus/screens.png" class="w-full drop-shadow-xl" id="myImg1" alt="">
+                    <img src="images/omnibus/screensold.png" class="w-full drop-shadow-xl" id="myImg1" alt="">
                 </div>
                 <div class="relative col-start-1 col-span-12  lg:col-span-7 pt-[1vw] px-[1vw] text-zinc-600 text-lg sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up">
 
@@ -499,10 +494,10 @@ if (session_id() == '') {
                 </div>
             </div>
 
-            <div class="relative grid grid-cols-12 gap-4 mt-32 sm:mt-[8vw]">
+            <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
 
                 <div class="relative col-start-1 col-span-12 lg:col-span-5 flex justify-center lg:justify-start items-center px-2 md:px-28 lg:px-[1vw]" data-aos="fade-left">
-                    <img src="images/anishop/screens.png" class="w-full drop-shadow-xl" id="myImg3" alt="">
+                    <img src="images/anishop/anishop.png" class="w-full drop-shadow-xl" id="myImg3" alt="">
                 </div>
                 <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw]" data-aos="fade-up">
                     <!-- <div class="sticky inset-y-[18%]"> -->
@@ -575,7 +570,7 @@ if (session_id() == '') {
                 </div>
             </div>
 
-            <div class="grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw] relative">
+            <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
                 <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 sm:pt-[1vw] px-4 sm:px-[1vw] text-zinc-600 text-xl sm:text-[1.25vw] sm:leading-[1.75vw]" data-aos="fade-up">
                     <!-- <div class="sticky inset-y-[19%]"> -->
                     <div class=" inset-y-[19%]">

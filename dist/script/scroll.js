@@ -1,7 +1,7 @@
 const aboutMe = document.getElementById('about-me');
 const aboutMeDesc = document.getElementById('about-me-desc');
 const aboutSection = document.querySelector(".about-section");
-
+const projectSection = document.querySelector("#project-section");
 const skill1 = document.querySelector('.skill-1');
 const skill2 = document.querySelector('.skill-2');
 const skill3 = document.querySelector('.skill-3');
@@ -68,6 +68,23 @@ const aboutObserver = new IntersectionObserver(
     }
 )
 
+
+const projectObserver = new IntersectionObserver(
+    entries => {
+        entries.forEach(entry => {
+            const projectImage = document.querySelectorAll(".project-image");
+            
+            for (var i=0; i < projectImage.length; i++) {
+                projectImage[i].classList.toggle("opacity-100", entry.isIntersecting);
+                projectImage[i].classList.toggle("rotate-0", entry.isIntersecting);
+            }
+        })
+    }, {
+        threshold: .35,
+    }
+)
+
+projectObserver.observe(projectSection);
 aboutObserver.observe(aboutSection);
 
 const lenis = new Lenis({
