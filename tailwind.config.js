@@ -32,18 +32,18 @@ module.exports = {
       },
       backgroundImage: {
         'home-small': "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('images/bglarge/bgsmall.jpg')",
-        'home-large': "linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('images/background/3bg.jpg')",
+        'home-large': "linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('images/background/5bg.jpg')",
         'about-large': "linear-gradient(rgba(6, 78, 59, 0.4), rgba(6, 78, 59, 0.4)), url('images/bg.png')",
         'skill-large': "url('images/skills-bg/skill-bg-1.jpg')",
       },
       animation: {
-        'zoom-in': 'zoom .8s ease-in',
+        'zoom-in': 'zoom 1.4s ease-in-out',
         'slow-bounce': 'slowbounce 2s ease-in-out infinite alternate',
         'nav-bounce': 'navbounce .5s ease-in-out',
         'wave1': 'wave1 10s linear -2s infinite',
         'wave2': 'wave2 8s linear -2s infinite',
         'wave3': 'wave2 6s linear -2s infinite',
-        'stroke-dashoffset': 'strokeDashoffset 1.1s ease-out, fill 1.1s',
+        'stroke-dashoffset': 'strokeDashoffset 2.2s ease-in-out, fill 1.1s',
         'show-about': 'toRight 1s ease-in-out -2s',
         'cv-shake': 'shake 2s ease-in-out 1s alternate'
       },

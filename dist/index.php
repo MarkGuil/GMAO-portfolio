@@ -25,16 +25,18 @@ if (session_id() == '') {
     <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="vendor/locomotive-scroll/locomotive-scroll.min.css" rel="stylesheet">
 	<link rel="icon" type="jpg/png" href="images/logo1111.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
    
 </head>
 
-<body class="relative m-0 p-0 font-crimson overflow-x-hidden">
+<body class="relative m-0 p-0 font-crimson overflow-x-clip">
     <nav class="navbar fixed w-screen py-5 sm:py-[1.25vw] px-7 lg:px-[1.75vw] z-[60] transition-all duration-500 ">
         <div class="grid grid-cols-2 lg:grid-cols-3 ">
-            <a class="col lg:flex items-center" href="#">
+            <a class="col-auto lg:flex items-center" href="#">
                 <span class=" tracking-normal md:tracking-widest text-3xl md:text-[2.25vw] text-zinc-600 font-black">GMAO</span>
             </a>
-            <div class="col text-zinc-600 text-right lg:flex justify-center items-center">
+            <div class="col-auto text-zinc-600 text-right lg:flex justify-center items-center">
                 <button id="nav-btn" class="text-3xl cursor-pointer lg:hidden w-7 h-7">
                     <div id="hamburger" class="bg-zinc-600 rounded absolute w-7 h-1 top-9 -mt-0.5 transition-all duration-500
                             before:content-[''] before:bg-zinc-600 before:rounded before:absolute before:w-7 before:h-1 before:-translate-x-3.5 
@@ -47,7 +49,7 @@ if (session_id() == '') {
                     <ul class="flex text-center">
                         <li class="mx-5 relative">
                             <a class="section-links home 
-                            font-extrabold text-lg 3xl:text-[1.25vw] text-zinc-400 transition-all duration-500 pb-1 
+                            font-extrabold text-lg lg:text-[1.125vw] text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
@@ -57,7 +59,7 @@ if (session_id() == '') {
                         </li>
                         <li class="mx-5 relative">
                             <a class="section-links about
-                            font-semibold text-lg 3xl:text-[1.25vw] text-zinc-400 transition-all duration-500 pb-1 
+                            font-semibold text-lg lg:text-[1.125vw] text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
@@ -67,7 +69,7 @@ if (session_id() == '') {
                         </li>
                         <li class="mx-5 relative">
                             <a class="section-links project
-                            font-semibold text-lg 3xl:text-[1.25vw] text-zinc-400 transition-all duration-500 pb-1 
+                            font-semibold text-lg lg:text-[1.125vw] text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
@@ -77,7 +79,7 @@ if (session_id() == '') {
                         </li>
                         <li class="mx-5 relative">
                             <a class="section-links contact
-                            font-semibold text-lg 3xl:text-[1.25vw] text-zinc-400 transition-all duration-500 pb-1 
+                            font-semibold text-lg lg:text-[1.125vw] text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
@@ -89,7 +91,7 @@ if (session_id() == '') {
                 </div>
 
             </div>
-            <div class="col hidden lg:flex justify-end items-center">
+            <div class="col-auto hidden lg:flex justify-end items-center">
                 <div class="social-links relative text-[1.875vw]">
                     <a href="resume/Mark Arjay O. Guilang.pdf" target="_blank" rel="noopener noreferrer" class="resume">
                         <div class="absolute text-[.85vw] top-[2.75vw] -left-[.75vw] bg-emerald-300 px-[.75vw] py-[.25vw] rounded animate-cv-shake opacity-0 pointer-events-none">
@@ -135,27 +137,27 @@ if (session_id() == '') {
 
     </nav>
 
-    <section id="home" class="sect home relative h-fit bg-cover bg-home-large text-zinc-900 z-20">
+    <section id="home" class="sect home relative h-fit sm:h-screen bg-cover bg-home-large text-zinc-900 z-20">
 
-        <div class="grid grid-cols-8 gap-8 h-full py-40 lg:py-36 xl:py-[10vw] 3xl:py-[10vw] px-[1.25vw] ">
+        <div class="grid grid-cols-8 gap-8 h-full py-56 sm:py-[10vw] px-[1.25vw] ">
 
-            <div class="col-start-2 col-span-6 md:col-start-2 md:col-span-6 lg:col-start-3 lg:col-span-4  ">
+            <div class="col-start-2 col-span-6 md:col-start-2 md:col-span-6 lg:col-start-3 lg:col-span-4 flex justify-center items-center ">
                 <div class="animate-zoom-in text-zinc-600 text-center">
-                    <h1 class="text-2xl lg:text-3xl 3xl:text-[2.25vw] font-semibold md:font-normal
-                    before:content-[''] lg:before:w-20 3xl:before:w-40 before:h-px before:bg-zinc-400 before:inline-block before:mt-1 before:ml-2
-                    after:content-[''] lg:after:w-20 3xl:after:w-40 after:h-px after:bg-zinc-400 after:inline-block after:mt-1 after:mr-2
+                    <h1 class="text-2xl lg:text-[1.875vw] font-semibold md:font-normal
+                    before:content-[''] lg:before:w-[5vw] before:h-px before:bg-zinc-400 before:inline-block before:mt-1 before:ml-2
+                    after:content-[''] lg:after:w-[5vw] after:h-px after:bg-zinc-400 after:inline-block after:mt-1 after:mr-2
                     ">
                         Hello! My name is
                     </h1>
 
-                    <div class="relative mt-1 sm:mt-4 md:mt-7 lg:mt-8 3xl:mt-[3.75vw]">
-                        <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-110 lg:scale-100 3xl:scale-105 h-44 sm:h-52 md:h-72 lg:h-72 xl:h-80 3xl:h-[23vw] " width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
+                    <div class="relative mt-1 sm:mt-4 md:mt-7 lg:mt-[2vw] ">
+                        <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-110 lg:scale-100 h-44 sm:h-52 md:h-72 lg:h-[19vw]" width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
                             <text x="0" y="0" class="text-9xl font-allura">Mark Arjay</text>
                             <text x="100" y="120" class="text-9xl font-allura">Guilang</text>
                         </svg>
                     </div>
 
-                    <h2 class="text-2xl  lg:text-3xl 3xl:text-[2.25vw] font-normal mt-1 sm:mt-4 md:mt-6 lg:mt-8 3xl:mt-[3.75vw]">I am a Web Developer</h2>
+                    <h2 class="text-2xl lg:text-[1.875vw] font-normal mt-1 sm:mt-4 md:mt-6 lg:mt-[2vw] ">I am a Web Developer</h2>
                 </div>
             </div>
 
@@ -176,10 +178,10 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <section id="about" class="sect about about-section relative h-fit lg:h-screen text-center sm:text-left bg-white lg:flex justify-center items-center z-20">
+    <section id="about" class="sect about about-section relative h-screen text-center sm:text-left bg-white lg:flex justify-center items-center z-20">
         <div class="relative h-full py-12 md:py-16 lg:py-0 px-7 md:px-20 lg:px-[7vw] flex justify-start lg:justify-center items-center">
 
-            <div class="relative py-20 lg:py-0 px-2 ">
+            <!-- <div class="relative py-20 lg:py-0 px-2 ">
                 <h3 id="about-me" class=" absolute -translate-x-1/2 pointer-events-none z-0 text-9xl md:text-[6rem] 
                     lg:text-[13vw] scale-125 font-bold text-zinc-400 before:content-['About'] before:rounded before:absolute 
                     before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent before:-translate-y-1 
@@ -189,6 +191,20 @@ if (session_id() == '') {
                 <h3 id="about-me-desc" class="relative translate-x-full mr-[.5vw] text-zinc-700 text-2xl md:text-[2.25vw]  
                     tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 
                     text-justify opacity-0 transition-opacity duration-500">
+                    I am a web developer that is passionate in developing robust and responsive
+                    web applications and is excited to bring my skills and experience to new challenges.
+                </h3>
+            </div> -->
+            <div class="py-20 lg:py-0 px-2 ">
+                <h3 id="about-me" class="absolute -translate-x-full sm:-translate-x-2/4 -translate-y-10 sm:-translate-y-36 pointer-events-none z-0 text-9xl md:text-[6rem] 
+                    lg:text-[13vw] scale-125 font-bold text-zinc-400 before:content-['About'] before:rounded before:absolute 
+                    before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent before:-translate-y-1 
+                    md:before:-translate-y-3 before:transition-all before:duration-500 transition-opacity duration-500 opacity-0">
+                    About
+                </h3>
+                <h3 id="about-me-desc" class="relative translate-x-full mr-[.5vw] text-zinc-700 text-3xl md:text-[2.25vw]  
+                    tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 
+                    text-justify transition-opacity duration-500 opacity-0">
                     I am a web developer that is passionate in developing robust and responsive
                     web applications and is excited to bring my skills and experience to new challenges.
                 </h3>
@@ -295,31 +311,31 @@ if (session_id() == '') {
     <section id="project" class="sect project relative bg-white h-fit z-30">
         <div id="project-section" class="px-5 md:px-20 lg:px-[7vw] py-10 md:py-14 lg:py-[6vw] relative h-full ">
             <div class="pb-10 sm:pb-[4vw] text-center" data-aos="fade-up">
-                <h3 id="about-me" class="z-0 text-7xl md:text-[7vw] font-bold text-zinc-500 mb-4 transition-all
+                <h3 class="z-0 text-7xl md:text-[7vw] font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 ">
                     Projects
                 </h3>
             </div>
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-1 w-full">
-                <div class="col-auto h-72 w-72 lg:h-[26.5vw] lg:w-[26.5vw] flex justify-self-center">
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-0 w-full">
+                <div class="col-auto h-60 w-60 lg:h-[23.5vw] lg:w-[23.5vw] flex justify-self-center">
                     <div class="relative h-full w-full">
-                        <img src="images/pos/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-y-[8deg] skew-x-6 transition-all duration-500" id="" alt="">
+                        <img src="images/pos/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-y-[8deg] skew-x-6 transition-all duration-500 delay-75 ease-in-out" id="" alt="">
                     </div>
                 </div>
-                <div class="col-auto h-72 w-72 lg:h-[26.5vw] lg:w-[26.5vw] flex justify-self-center">
+                <div class="col-auto h-60 w-60 lg:h-[23.5vw] lg:w-[23.5vw] flex justify-self-center">
                     <div class="relative h-full w-full">
-                        <img src="images/omnibus/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-x-3 skew-y-3 transition-all duration-500 delay-75" id="" alt="">
+                        <img src="images/omnibus/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-x-3 skew-y-3 transition-all duration-500 delay-100 ease-in-out" id="" alt="">
                     </div>
                 </div>
-                <div class="col-auto h-72 w-72 lg:h-[26.5vw] lg:w-[26.5vw] flex justify-self-center">
+                <div class="col-auto h-60 w-60 lg:h-[23.5vw] lg:w-[23.5vw] flex justify-self-center">
                     <div class="relative h-full w-full">
-                        <img src="images/anishop/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 skew-y-6 transition-all duration-500 delay-100" id="" alt="">
+                        <img src="images/anishop/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 skew-y-6 transition-all duration-500 delay-150 ease-in-out" id="" alt="">
                     </div>
                 </div>
-                <div class="col-auto h-72 w-72 lg:h-[26.5vw] lg:w-[26.5vw] flex justify-self-center">
+                <div class="col-auto h-60 w-60 lg:h-[23.5vw] lg:w-[23.5vw] flex justify-self-center">
                     <div class="relative h-full w-full">
-                        <img src="images/quizam/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-y-[10deg] skew-x-6 transition-all duration-500 delay-150" id="" alt="">
+                        <img src="images/quizam/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-y-[10deg] skew-x-6 transition-all duration-500 delay-200 ease-in-out" id="" alt="">
                     </div>
                 </div>
             </div>
@@ -327,9 +343,84 @@ if (session_id() == '') {
     </section>
 
     <section id="project" class="sect project relative bg-white h-fit z-30">
-        <div class="px-5 md:px-20 lg:px-[7vw]  py-10 md:py-14 lg:py-[6vw] relative h-full">
+        <div class="px-5 sm:px-[2vw] py-10 md:py-14 lg:py-[6vw] relative h-full">
 
-            <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw]">
+            <div class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[100rem]">
+                <div class=" pt-4 sm:pt-[1vw] h-full text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up">
+                    <!-- <div class="sticky inset-y-[18%]"> -->
+                        <div class="sticky h-fit w-[30rem] bg-white py-2 px-3 inset-20">
+                            <h3 class=" text-5xl sm:text-[3vw]  font-bold text-emerald-600 my-4 sm:my-[1vw]">Pos System</h3>
+                            <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
+                                (Programmer, Developer, Designer)
+                            </p>
+                            <p class="pb-5 sm:pb-[1.25vw] text-justify">
+                                An online based quiz/ exam system that is designed and built with anti cheating functions.
+                                This web application allows users to manage and conduct online assessments.
+                            </p>
+                            <ul>
+                                <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
+                            </ul>
+                            <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
+                                <div class="md:mr-2">
+                                    <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full ">
+                                        Open Live
+                                    </a>
+                                </div>
+                                <div class="mt-6 sm:mt-[2.5vw] md:mt-0">
+                                    <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full">
+                                        Github
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="mt-5 sm:mt-[1.25vw]">
+                                Technologies:
+                            </p>
+                            <div class="mt-[.5vw] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-1 sm:gap-[.25vw] text-5xl sm:text-[3vw]">
+                                <div class="col-auto ">
+                                    <div class=" flex justify-center ">
+                                        <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                    </div>
+                                </div>
+                                <div class="col-auto ">
+                                    <div class=" flex justify-center ">
+                                        <i class="devicon-css3-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                    </div>
+                                </div>
+                                <div class="col-auto ">
+                                    <div class=" flex justify-center ">
+                                        <i class="devicon-php-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                    </div>
+                                </div>
+                                <div class="col-auto ">
+                                    <div class=" flex justify-center">
+                                        <i class="devicon-jquery-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                    </div>
+                                </div>
+                                <div class="col-auto ">
+                                    <div class=" flex justify-center ">
+                                        <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                    </div>
+                                </div>
+                                <div class="col-auto ">
+                                    <div class=" flex justify-center">
+                                        <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                    </div>
+                                </div>
+                                <div class="col-auto ">
+                                    <div class=" flex justify-center">
+                                        <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+                <div class="relative h-full col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[1vw] " data-aos="fade-right">
+                    <img src="images/quizam/screens.png" class="w-full drop-shadow-xl" id="myImg2" alt="">
+                </div>
+            </div>
+
+            <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
 
                 <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-2 md:px-28 lg:px-[3vw]" data-aos="fade-left">
                     <img src="images/omnibus/screensold.png" class="w-full drop-shadow-xl" id="myImg1" alt="">
@@ -786,6 +877,8 @@ if (session_id() == '') {
     <script>
         AOS.init();
         new PureCounter();
+        gsap.registerPlugin(ScrollTrigger);
+
     </script>
 </body>
 

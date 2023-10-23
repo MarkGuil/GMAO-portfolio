@@ -1,3 +1,5 @@
+
+gsap.registerPlugin(ScrollTrigger);
 const aboutMe = document.getElementById('about-me');
 const aboutMeDesc = document.getElementById('about-me-desc');
 const aboutSection = document.querySelector(".about-section");
@@ -10,58 +12,21 @@ const skillSection = document.querySelector(".skill-section");
 
 const numSteps = 20.0;
 let prevRatio = 0.0;
+let aboutMePerc = '190%';
+let aboutMeDescPerc = '-40%';
 
 let thresholdVal = .65;
 if (window.innerWidth <= 640) {
+    aboutMePerc = '60%';
+    aboutMeDescPerc = '-10%';
     thresholdVal = .5;
 }
-
-// function buildThresholdList() {
-//     let thresholds = [];
-//     let numSteps = 20;
-  
-//     for (let i = 1.0; i <= numSteps; i++) {
-//         let ratio = i / numSteps;
-//         thresholds.push(ratio);
-//     }
-  
-//     thresholds.push(0);
-//     return thresholds;
-// }
 
 const aboutObserver = new IntersectionObserver(
     entries => {
         entries.forEach(entry => {
-            // if (entry.intersectionRatio > prevRatio) {
-            //     let pos = entry.intersectionRatio * 50;
-            //     // aboutMe.style.left = pos + "%"
-            //     console.log(pos);
-            //   } 
-            //   else {
-            //     let pos = entry.intersectionRatio * 50;
-            //     // aboutMe.style.left = pos + "%"
-            //     console.log(pos);
-            //   }
-            // if(entry.isIntersecting) {
-            //     aboutMe.classList.replace("hidden", "block");
-            //     aboutMeDesc.classList.replace("hidden", "block");
-            // } else {
-            //     aboutMe.classList.replace("block", "hidden");
-            //     aboutMeDesc.classList.replace("block", "hidden");
-            // }
-            // setTimeout(()=> {
-                aboutMe.classList.toggle("opacity-100", entry.isIntersecting);
-                aboutMeDesc.classList.toggle("opacity-100", entry.isIntersecting);
-            //  }
-            //  ,100);
-            
-            // aboutMeDesc.classList.toggle("block", entry.isIntersecting);
-            // aboutMe.classList.toggle("left-1/2", entry.isIntersecting);
-            
-            
-            // if(entry.isIntersecting) {
-            //     console.log(scrollY);
-            // }
+            aboutMe.classList.toggle("opacity-100", entry.isIntersecting);
+            aboutMeDesc.classList.toggle("opacity-100", entry.isIntersecting);
         })
     }, {
         threshold: thresholdVal,
@@ -85,7 +50,7 @@ const projectObserver = new IntersectionObserver(
 )
 
 projectObserver.observe(projectSection);
-aboutObserver.observe(aboutSection);
+// aboutObserver.observe(aboutSection);
 
 const lenis = new Lenis({
     duration: 1.2,
@@ -97,11 +62,17 @@ const lenis = new Lenis({
     smoothTouch: false,
     touchMultiplier: 2,
     infinite: false,
-})
+});
+
+gsap.ticker.add((time)=>{
+    lenis.raf(time * 1000)
+  });
+  
+gsap.ticker.lagSmoothing(0);
 
 
 // get scroll value
-lenis.on('scroll', ({
+lenis.on('scroll', ScrollTrigger.update, ({
     scroll,
     limit,
     velocity,
@@ -109,33 +80,70 @@ lenis.on('scroll', ({
     progress
 }) => {
     
-    scrollVal1 = 1.65;
-    scrollVal2 = 1.15;
     scrollVal3 = 1.05;
     scrollVal4 = 0.50;
     scrollVal5 = 0.75;
     scrollVal6 = 0.25;
 
     if (window.innerWidth <= 640) {
-        scrollVal1 = 0.65;
-        scrollVal2 = 0.37;
         scrollVal3 = 0.37;
         scrollVal4 = 0.30;
         scrollVal5 = 0.35;
         scrollVal6 = 0.15;
-    } else if (window.innerWidth > 640 && window.innerHeight <= 124) {
-        scrollVal1 = 1.15;
-        scrollVal2 = 0.80;
     } 
-
-    aboutMeDesc.style.left = "-" + scroll * scrollVal1 + "px";
-    aboutMe.style.left = scroll * scrollVal2 + "px";
 
     skill1.style.left = scroll * scrollVal3 + "px";
     skill2.style.left = scroll * scrollVal4 + "px";
     skill3.style.left = "-" + scroll * scrollVal5 + "px";
     skill4.style.left = scroll * scrollVal6 + "px";
-})
+});
+
+ScrollTrigger.create({
+    trigger: ".about-section",
+    start: "100px 70%",
+    endTrigger: ".about-section",
+    end: "85% 60%+=100px",
+    onEnter: (self) => {
+        aboutMe.classList.toggle('opacity-0')
+        aboutMeDesc.classList.toggle('opacity-0')
+    },
+    onEnterBack: (self) => {
+        aboutMe.classList.toggle('opacity-0')
+        aboutMeDesc.classList.toggle('opacity-0')
+    },
+    onLeave: (self) => {
+        aboutMe.classList.toggle('opacity-0')
+        aboutMeDesc.classList.toggle('opacity-0')
+    },
+    onLeaveBack: (self) => {
+        aboutMe.classList.toggle('opacity-0')
+        aboutMeDesc.classList.toggle('opacity-0')
+    },
+  });
+
+gsap.to('#about-me', {
+    scrollTrigger: {
+        trigger: '#about-me',
+        start: "-200px 30%",
+        end: "30px 5%",
+        scrub: 1,
+        pin: true,
+        toggleActions: 'restart pause continue none',
+        // onUpdate: (self) => console.log("progress:", self),
+    },
+    x: aboutMePerc,
+});
+
+gsap.to('#about-me-desc', {
+    scrollTrigger: {
+        trigger: '#about-me-desc',
+        start: "-300px 35%",
+        end: "30px 5%",
+        scrub: 1,
+        toggleActions: 'restart pause continue none'
+    },
+    x: aboutMeDescPerc,
+});
 
 
 function raf(time) {
