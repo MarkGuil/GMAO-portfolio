@@ -180,29 +180,13 @@ if (session_id() == '') {
 
     <section id="about" class="sect about about-section relative h-screen text-center sm:text-left bg-white lg:flex justify-center items-center z-20">
         <div class="relative h-full py-12 md:py-16 lg:py-0 px-7 md:px-20 lg:px-[7vw] flex justify-start lg:justify-center items-center">
-
-            <!-- <div class="relative py-20 lg:py-0 px-2 ">
-                <h3 id="about-me" class=" absolute -translate-x-1/2 pointer-events-none z-0 text-9xl md:text-[6rem] 
-                    lg:text-[13vw] scale-125 font-bold text-zinc-400 before:content-['About'] before:rounded before:absolute 
-                    before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent before:-translate-y-1 
-                    md:before:-translate-y-3 before:transition-all before:duration-500 opacity-0 transition-opacity duration-500">
-                    About
-                </h3>
-                <h3 id="about-me-desc" class="relative translate-x-full mr-[.5vw] text-zinc-700 text-2xl md:text-[2.25vw]  
-                    tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 
-                    text-justify opacity-0 transition-opacity duration-500">
-                    I am a web developer that is passionate in developing robust and responsive
-                    web applications and is excited to bring my skills and experience to new challenges.
-                </h3>
-            </div> -->
             <div class="py-20 lg:py-0 px-2 ">
-                <h3 id="about-me" class="absolute -translate-x-full sm:-translate-x-2/4 -translate-y-10 sm:-translate-y-36 pointer-events-none z-0 text-9xl md:text-[6rem] 
-                    lg:text-[13vw] scale-125 font-bold text-zinc-400 before:content-['About'] before:rounded before:absolute 
+                <h3 id="about-me" class="absolute -translate-x-2/4 sm:-translate-x-2/4 px-3 -translate-y-10 sm:-translate-y-36 pointer-events-none z-0 text-9xl md:text-[6rem] lg:text-[13vw] scale-125 font-bold text-zinc-400 before:content-['About'] before:rounded before:absolute 
                     before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent before:-translate-y-1 
                     md:before:-translate-y-3 before:transition-all before:duration-500 transition-opacity duration-500 opacity-0">
                     About
                 </h3>
-                <h3 id="about-me-desc" class="relative translate-x-full mr-[.5vw] text-zinc-700 text-3xl md:text-[2.25vw]  
+                <h3 id="about-me-desc" class="relative translate-x-[90%] sm:translate-x-3/4 text-zinc-700 text-3xl md:text-[2.50vw]  
                     tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 
                     text-justify transition-opacity duration-500 opacity-0">
                     I am a web developer that is passionate in developing robust and responsive
@@ -214,24 +198,29 @@ if (session_id() == '') {
     </section>
     
     <section id="about" class="sect about skill-section relative h-fit text-center sm:text-left bg-skill-large bg-cover bg-fixed overflow-hidden">
-        <div>
+        <div class="relative">
             <div class="relative z-10 w-full">
-                <div class="skill-1 bg-white w-full shadow origin-center fixed -rotate-[35deg] scale-150 -translate-x-full translate-y-96 inset-x-0 -top-44 md:top-0 overflow-hidden">
+                <div id="skill-1" class="skill-1 bg-zinc-400 w-full shadow origin-center absolute -rotate-[35deg] scale-150 -translate-x-3/4 translate-y-96 inset-x-0 -top-44 md:-top-28 overflow-hidden">
                     <span class="tracking-wide text-6xl sm:text-[4.5vw] text-black truncate text-clip ">
                         SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
                     </span>
                 </div>
-                <div class="skill-2 bg-white w-full shadow origin-top-left absolute rotate-45 scale-150 -translate-x-1/2 -translate-y-60 inset-x-0 top-60 overflow-hidden">
+                <div id="skill-2" class="skill-2 bg-zinc-200 w-full shadow origin-top-left absolute rotate-45 scale-150 -translate-x-3/4 sm:-translate-x-1/4 -translate-y-80 inset-x-0 -top-96 overflow-hidden">
                     <span class="tracking-wide text-6xl sm:text-[4.5vw] text-black truncate text-clip ">
                         SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
                     </span>
                 </div>
-                <div class="skill-3 bg-white w-full shadow origin-bottom-right fixed -rotate-12 scale-150 translate-x-full  right-0 top-60 overflow-hidden">
+                <div id="skill-3" class="skill-3 bg-white w-full shadow origin-bottom-right absolute -rotate-12 scale-150 translate-x-full  right-0 top-28 overflow-hidden">
                     <span class="tracking-wide text-6xl sm:text-[4.5vw] text-black truncate text-clip ">
                         SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
                     </span>
                 </div>
-                <div class="skill-4 bg-white w-full shadow origin-right rotate-12 absolute scale-150 -translate-x-20  inset-x-0 top-96 overflow-hidden">
+                <div id="skill-4" class="skill-4 bg-white w-full shadow origin-right rotate-12 absolute scale-150 -translate-x-3/4 sm:-translate-x-20 inset-x-0 top-96 overflow-hidden">
+                    <span class="tracking-wide text-6xl sm:text-[4.5vw] text-black truncate text-clip ">
+                        SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
+                    </span>
+                </div>
+                <div id="skill-5" class="skill-5 bg-zinc-300 w-full shadow origin-bottom-right absolute -rotate-45 scale-150 translate-x-3/4 sm:translate-x-1/4 -right-56 sm:right-0 top-28 sm:-top-28 overflow-hidden">
                     <span class="tracking-wide text-6xl sm:text-[4.5vw] text-black truncate text-clip ">
                         SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS SKILLS
                     </span>
@@ -347,76 +336,77 @@ if (session_id() == '') {
 
             <div class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[100rem]">
                 <div class=" pt-4 sm:pt-[1vw] h-full text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up">
-                    <!-- <div class="sticky inset-y-[18%]"> -->
-                        <div class="sticky h-fit w-[30rem] bg-white py-2 px-3 inset-20">
-                            <h3 class=" text-5xl sm:text-[3vw]  font-bold text-emerald-600 my-4 sm:my-[1vw]">Pos System</h3>
-                            <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
-                                (Programmer, Developer, Designer)
-                            </p>
-                            <p class="pb-5 sm:pb-[1.25vw] text-justify">
-                                An online based quiz/ exam system that is designed and built with anti cheating functions.
-                                This web application allows users to manage and conduct online assessments.
-                            </p>
-                            <ul>
-                                <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
-                            </ul>
-                            <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
-                                <div class="md:mr-2">
-                                    <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full ">
-                                        Open Live
-                                    </a>
-                                </div>
-                                <div class="mt-6 sm:mt-[2.5vw] md:mt-0">
-                                    <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full">
-                                        Github
-                                    </a>
+                    <div class="sticky h-fit w-[30rem] bg-white py-2 px-3 inset-20">
+                        <h3 class=" text-5xl sm:text-[3vw]  font-bold text-emerald-600 my-4 sm:my-[1vw]">Pos System</h3>
+                        <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
+                            (Programmer, Developer, Designer)
+                        </p>
+                        <p class="pb-5 sm:pb-[1.25vw] text-justify">
+                            An online based quiz/ exam system that is designed and built with anti cheating functions.
+                            This web application allows users to manage and conduct online assessments.
+                        </p>
+                        <ul>
+                            <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
+                        </ul>
+                        <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
+                            <div class="md:mr-2">
+                                <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full ">
+                                    Open Live
+                                </a>
+                            </div>
+                            <div class="mt-6 sm:mt-[2.5vw] md:mt-0">
+                                <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full">
+                                    Github
+                                </a>
+                            </div>
+                        </div>
+                        <p class="mt-5 sm:mt-[1.25vw]">
+                            Technologies:
+                        </p>
+                        <div class="mt-[.5vw] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-1 sm:gap-[.25vw] text-5xl sm:text-[3vw]">
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
-                            <p class="mt-5 sm:mt-[1.25vw]">
-                                Technologies:
-                            </p>
-                            <div class="mt-[.5vw] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-1 sm:gap-[.25vw] text-5xl sm:text-[3vw]">
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center ">
-                                        <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                    </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-css3-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center ">
-                                        <i class="devicon-css3-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                    </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-php-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center ">
-                                        <i class="devicon-php-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                    </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center">
+                                    <i class="devicon-jquery-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center">
-                                        <i class="devicon-jquery-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                    </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center ">
-                                        <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                    </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center">
+                                    <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center">
-                                        <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                    </div>
-                                </div>
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center">
-                                        <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                    </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center">
+                                    <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                 </div>
                             </div>
                         </div>
-                    <!-- </div> -->
+                    </div>
                 </div>
-                <div class="relative h-full col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[1vw] " data-aos="fade-right">
-                    <img src="images/quizam/screens.png" class="w-full drop-shadow-xl" id="myImg2" alt="">
+                <div class="relative h-full w-full col-start-1 col-span-12 bg-slate-200 lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[1vw] " data-aos="fade-right">
+                    <div class=" w-80 h-[28rem] absolute top-64 left-0 bg-red-300"></div>
+                    <div class=" w-80 h-[28rem] absolute top-96 right-0 bg-red-300"></div>
+                    <div class=" w-80 h-[28rem] absolute bottom-20 left-0 bg-red-300"></div>
+                    <div class=" w-80 h-[28rem] absolute bottom-0 right-0 bg-red-300"></div>
                 </div>
             </div>
 
@@ -813,31 +803,6 @@ if (session_id() == '') {
 
         </div>
     </section>
-
-    <!-- <footer class="page-footer relative w-full py-5 px-10 z-50 transition-all duration-500 3k:flex justify-center items-center bg-emerald-800 text-zinc-100 bottom-0">
-        <div class=" md:flex 3k:px-5 3k:w-[1320px] 3k:max-w-[1320px] text-center md:text-start">
-            <div class="text-light mt-3 bg-primary 3k:text-lg">
-                © 2022 Copyright
-                <a class="text-light font-bold" href="">GMAO</a>
-                . All Rights Reserved
-            </div>
-            <div class="ml-auto">
-                <div class="social-links mt-3 text-lg">
-                    <a href="https://github.com/MarkGuil" target="_blank" rel="noopener noreferrer" class="github">
-                        <i class="bx bxl-github px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                    </a>
-                    <a href="mailto:guilangmarkarjay@gmail.com" class="google-plus">
-                        <i class="bx bxs-envelope px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/mark-arjay-guilang/" target="_blank" rel="noopener noreferrer" class="linkedin">
-                        <i class="bx bxl-linkedin-square px-2 py-2 rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </footer> -->
-
 
     <script defer src="script/app.js"></script>
     <script defer src="script/anav.js"></script>
