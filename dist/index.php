@@ -412,10 +412,10 @@ if (session_id() == '') {
             <div id="project2" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[150rem]">
                 <div id="omniImages" class="relative h-full w-full col-start-1 col-span-12 bg-slate-200 lg:col-span-5 flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[1vw] overflow-hidden" data-aos="fade-right">
                     <img src="images/omnibus/screensold.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg1" alt="">
-                    <div id="omniImage1" class=" w-52 lg:w-72 h-[30rem] absolute top-[26rem] -left-[5rem] xl:-left-20 bg-red-300 hidden sm:block"></div>
-                    <div id="omniImage2" class=" w-52 lg:w-72 h-[30rem] absolute top-[30rem] -right-[5rem] xl:-right-20 bg-red-300 hidden sm:block"></div>
-                    <div id="omniImage3" class=" w-52 lg:w-72 h-[30rem] absolute bottom-[32rem] -left-[5rem] xl:-left-20 bg-red-300 hidden sm:block"></div>
-                    <div id="omniImage4" class=" w-52 lg:w-72 h-[30rem] absolute bottom-[28rem] -right-[5rem] xl:-right-20 bg-red-300 hidden sm:block"></div>
+                    <div id="omniImage1" class=" w-52 lg:w-96 h-[36rem] absolute top-[26rem] -left-[5rem] xl:-left-36 bg-red-300 hidden sm:block"></div>
+                    <div id="omniImage2" class=" w-52 lg:w-96 h-[36rem] absolute top-[30rem] -right-[5rem] xl:-right-36 bg-red-300 hidden sm:block"></div>
+                    <div id="omniImage3" class=" w-52 lg:w-96 h-[36rem] absolute bottom-[22rem] -left-[5rem] xl:-left-36 bg-red-300 hidden sm:block"></div>
+                    <div id="omniImage4" class=" w-52 lg:w-96 h-[36rem] absolute bottom-[19rem] -right-[5rem] xl:-right-36 bg-red-300 hidden sm:block"></div>
                 </div>
                 <div class=" pt-4 sm:pt-[1vw] h-full text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up">
                     <div id="omniDetails" class="sticky h-fit sm:w-[50vw] bg-white py-2 px-3 inset-20 transition-all duration-700">
@@ -570,20 +570,20 @@ if (session_id() == '') {
                 </div>
                 <div id="quizImages" class="relative h-full w-full col-start-1 col-span-12 bg-slate-200 lg:col-span-5 order-first sm:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[1vw] overflow-hidden" data-aos="fade-right">
                     <img src="images/quizam/screens.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
-                    <div id="quizImage1" class=" w-52 lg:w-72 h-[30rem] absolute top-[26rem] -left-[5rem] xl:-left-20 bg-red-300 hidden sm:block"></div>
-                    <div id="quizImage2" class=" w-52 lg:w-72 h-[30rem] absolute top-[30rem] -right-[5rem] xl:-right-20 bg-red-300 hidden sm:block"></div>
-                    <div id="quizImage3" class=" w-52 lg:w-72 h-[30rem] absolute bottom-[34rem] -left-[5rem] xl:-left-20 bg-red-300 hidden sm:block"></div>
-                    <div id="quizImage4" class=" w-52 lg:w-72 h-[30rem] absolute bottom-[30rem] -right-[5rem] xl:-right-20 bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage1" class=" w-52 lg:w-96 h-[36rem] absolute top-[26rem] -left-[5rem] xl:-left-36 bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage2" class=" w-52 lg:w-96 h-[36rem] absolute top-[30rem] -right-[5rem] xl:-right-36 bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage3" class=" w-52 lg:w-96 h-[36rem] absolute bottom-[22rem] -left-[5rem] xl:-left-36 bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage4" class=" w-52 lg:w-96 h-[36rem] absolute bottom-[19rem] -right-[5rem] xl:-right-36 bg-red-300 hidden sm:block"></div>
                 </div>
             </div>
             
             <div id="project4" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[150rem]">
                 <div id="aniImages" class="relative h-full w-full col-start-1 col-span-12 bg-slate-200 lg:col-span-5 flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[1vw] overflow-hidden" data-aos="fade-right">
                     <img src="images/anishop/anishop.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg3" alt="">
-                    <div id="aniImage1" class=" w-52 lg:w-72 h-[30rem] absolute top-[26rem] -left-[5rem] xl:-left-20 bg-red-300 hidden sm:block"></div>
-                    <div id="aniImage2" class=" w-52 lg:w-72 h-[30rem] absolute top-[30rem] -right-[5rem] xl:-right-20 bg-red-300 hidden sm:block"></div>
-                    <div id="aniImage3" class=" w-52 lg:w-72 h-[30rem] absolute bottom-[32rem] -left-[5rem] xl:-left-20 bg-red-300 hidden sm:block"></div>
-                    <div id="aniImage4" class=" w-52 lg:w-72 h-[30rem] absolute bottom-[28rem] -right-[5rem] xl:-right-20 bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage1" class=" w-52 lg:w-96 h-[36rem] absolute top-[26rem] -left-[5rem] xl:-left-36 bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage2" class=" w-52 lg:w-96 h-[36rem] absolute top-[30rem] -right-[5rem] xl:-right-36 bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage3" class=" w-52 lg:w-96 h-[36rem] absolute bottom-[22rem] -left-[5rem] xl:-left-36 bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage4" class=" w-52 lg:w-96 h-[36rem] absolute bottom-[19rem] -right-[5rem] xl:-right-36 bg-red-300 hidden sm:block"></div>
                 </div>
                 <div class=" pt-4 sm:pt-[1vw] h-full text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up">
                     <div id="aniDetails" class="sticky h-fit sm:w-[50vw] bg-white py-2 px-3 inset-20 transition-all duration-700">

@@ -303,7 +303,6 @@ gsap.to('#projImage2', {
         start: "-500px 80%",
         end: "80% 20%",
         scrub: 1,
-        markers: true,
         toggleActions: 'restart pause continue none',
     },
     x: () => ((document.querySelector('#projectImages').offsetWidth / 50) * 2) + "%",
