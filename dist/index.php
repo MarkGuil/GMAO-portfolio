@@ -186,8 +186,8 @@ if (session_id() == '') {
                     md:before:-translate-y-3 before:transition-all before:duration-500 transition-opacity duration-500 opacity-0">
                     About
                 </h3>
-                <h3 id="about-me-desc" class="relative translate-x-[90%] sm:translate-x-3/4 text-zinc-700 text-3xl md:text-[2.50vw]  
-                    tracking-wider font-black z-10 leading-loose md:leading-loose lg:leading-relaxed 3xl:leading-relaxed 
+                <h3 id="about-me-desc" class="relative px-1 translate-x-[90%] sm:translate-x-3/4 text-zinc-700 text-3xl sm:text-4xl md:text-[2.50vw]  
+                    tracking-wider font-black z-10 leading-loose sm:leading-relaxed lg:leading-relaxed 3xl:leading-relaxed 
                     text-justify transition-opacity duration-500 opacity-0">
                     I am a web developer that is passionate in developing robust and responsive
                     web applications and is excited to bring my skills and experience to new challenges.
@@ -291,8 +291,8 @@ if (session_id() == '') {
 
                     </div>
                 </div>
-                <img src="images/skills-bg/torn-1-mins-min.png" class="absolute z-30 -top-2 left-0 sm:w-full h-44 sm:h-[11vw]" alt="">
-                <img src="images/skills-bg/torn-2-mins-min.png" class="absolute z-30 -bottom-2 left-0 sm:w-full h-56 sm:h-[14vw]" alt="">
+                <img src="images/skills-bg/torn-1-mins-min.png" class="absolute z-40 -top-2 left-0 sm:w-full h-44 sm:h-[11vw]" alt="">
+                <img src="images/skills-bg/torn-2-mins-min.png" class="absolute z-40 -bottom-2 left-0 sm:w-full h-56 sm:h-[14vw]" alt="">
             </div>
         </div>
     </section>
@@ -309,22 +309,22 @@ if (session_id() == '') {
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-0 w-full">
                 <div class="col-auto h-60 w-60 lg:h-[23.5vw] lg:w-[23.5vw] flex justify-self-center">
                     <div class="relative h-full w-full">
-                        <img src="images/pos/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-y-[8deg] skew-x-6 transition-all duration-500 delay-75 ease-in-out" id="" alt="">
+                        <img src="images/pos/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-y-[8deg] skew-x-6 transition-all duration-500 delay-100 ease-in-out" id="" alt="">
                     </div>
                 </div>
                 <div class="col-auto h-60 w-60 lg:h-[23.5vw] lg:w-[23.5vw] flex justify-self-center">
                     <div class="relative h-full w-full">
-                        <img src="images/omnibus/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-x-3 skew-y-3 transition-all duration-500 delay-100 ease-in-out" id="" alt="">
+                        <img src="images/omnibus/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-x-3 skew-y-3 transition-all duration-500 delay-200 ease-in-out" id="" alt="">
                     </div>
                 </div>
                 <div class="col-auto h-60 w-60 lg:h-[23.5vw] lg:w-[23.5vw] flex justify-self-center">
                     <div class="relative h-full w-full">
-                        <img src="images/anishop/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 skew-y-6 transition-all duration-500 delay-150 ease-in-out" id="" alt="">
+                        <img src="images/anishop/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 skew-y-6 transition-all duration-500 delay-300 ease-in-out" id="" alt="">
                     </div>
                 </div>
                 <div class="col-auto h-60 w-60 lg:h-[23.5vw] lg:w-[23.5vw] flex justify-self-center">
                     <div class="relative h-full w-full">
-                        <img src="images/quizam/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-y-[10deg] skew-x-6 transition-all duration-500 delay-200 ease-in-out" id="" alt="">
+                        <img src="images/quizam/1.png" class="project-image absolute w-full drop-shadow-2xl opacity-0 rotate-6 -skew-y-[10deg] skew-x-6 transition-all duration-500 delay-500 ease-in-out" id="" alt="">
                     </div>
                 </div>
             </div>
@@ -334,9 +334,9 @@ if (session_id() == '') {
     <section id="project" class="sect project relative bg-white h-fit z-30">
         <div class="px-5 sm:px-[2vw] py-10 md:py-14 lg:py-[6vw] relative h-full">
 
-            <div class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[100rem]">
+            <div id="project1" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[170rem]">
                 <div class=" pt-4 sm:pt-[1vw] h-full text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up">
-                    <div class="sticky h-fit w-[30rem] bg-white py-2 px-3 inset-20">
+                    <div id="posDetails" class="sticky h-fit sm:w-[50vw] bg-white py-2 px-3 top-28 transition-all duration-700">
                         <h3 class=" text-5xl sm:text-[3vw]  font-bold text-emerald-600 my-4 sm:my-[1vw]">Pos System</h3>
                         <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
                             (Programmer, Developer, Designer)
@@ -402,22 +402,264 @@ if (session_id() == '') {
                         </div>
                     </div>
                 </div>
-                <div class="relative h-full w-full col-start-1 col-span-12 bg-slate-200 lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[1vw] " data-aos="fade-right">
-                    <div class=" w-80 h-[28rem] absolute top-64 left-0 bg-red-300"></div>
-                    <div class=" w-80 h-[28rem] absolute top-96 right-0 bg-red-300"></div>
-                    <div class=" w-80 h-[28rem] absolute bottom-20 left-0 bg-red-300"></div>
-                    <div class=" w-80 h-[28rem] absolute bottom-0 right-0 bg-red-300"></div>
+                <div id="projectImages" class="relative h-full w-full col-start-1 col-span-12 lg:col-span-5 bg-slate-400 order-first sm:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[1vw] overflow-hidden" data-aos="fade-right">
+                    <div id="projImage1" class=" w-[54rem] xl:w-[72rem] h-[32rem] xl:h-[39rem] absolute top-[25rem] -right-[24rem] xl:-right-[28rem] bg-red-300 -z-50"></div>
+                    <div id="projImage3" class=" w-[54rem] xl:w-[72rem] h-[32rem] xl:h-[39rem] absolute bottom-[28rem] -right-[31rem] xl:-right-[35rem] bg-blue-300"></div>
+                    <div id="projImage2" class=" w-[54rem] xl:w-[72rem] h-[32rem] xl:h-[39rem] absolute bottom-[31rem] -left-[24rem] xl:-left-[28rem] bg-red-300"></div>
+                </div>
+            </div>
+            
+            <div id="project2" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[150rem]">
+                <div id="omniImages" class="relative h-full w-full col-start-1 col-span-12 bg-slate-200 lg:col-span-5 flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[1vw] overflow-hidden" data-aos="fade-right">
+                    <img src="images/omnibus/screensold.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg1" alt="">
+                    <div id="omniImage1" class=" w-52 lg:w-72 h-[30rem] absolute top-[26rem] -left-[5rem] xl:-left-20 bg-red-300 hidden sm:block"></div>
+                    <div id="omniImage2" class=" w-52 lg:w-72 h-[30rem] absolute top-[30rem] -right-[5rem] xl:-right-20 bg-red-300 hidden sm:block"></div>
+                    <div id="omniImage3" class=" w-52 lg:w-72 h-[30rem] absolute bottom-[32rem] -left-[5rem] xl:-left-20 bg-red-300 hidden sm:block"></div>
+                    <div id="omniImage4" class=" w-52 lg:w-72 h-[30rem] absolute bottom-[28rem] -right-[5rem] xl:-right-20 bg-red-300 hidden sm:block"></div>
+                </div>
+                <div class=" pt-4 sm:pt-[1vw] h-full text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up">
+                    <div id="omniDetails" class="sticky h-fit sm:w-[50vw] bg-white py-2 px-3 inset-20 transition-all duration-700">
+                     <h3 class="text-5xl sm:text-[3vw]  font-bold text-emerald-600 my-4 sm:my-[1vw]">Omnibus</h3>
+                        <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
+                            (Programmer, Developer, Designer)
+                        </p>
+                        <p class="pb-5 sm:pb-[1.25vw]  text-justify">
+                            An online bus seat booking platform for point-to-point (P2P) buses.
+                            This helps passengers to book bus tickets, and upholding health safety protocols
+                            that spaced out the passengers to maintain social distancing.
+                            The application envisioned to help improve the operations of P2P bus companies in terms of seat booking and e-ticket generation.
+                            This application has 4 users:
+                        </p>
+                        <ul>
+                            <li class=" pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
+                            <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal.</li>
+                            <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Conductor - manages booked seats.</li>
+                            <li class="pb-5 sm:pb-[1.25vw]"><i class="bi bi-check text-emerald-400"></i> Passenger - search trips, book and generate e-tickets.</li>
+                        </ul>
+                        <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
+                            <div class="md:mr-2">
+                                <a href="https://omnibus.markguilang.com/dist/" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full ">
+                                    Open Live
+                                </a>
+                            </div>
+                            <div class="mt-6 sm:mt-[2.5vw] md:mt-0">
+                                <a href="https://github.com/MarkGuil/Omnibus-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full">
+                                    Github
+                                </a>
+                            </div>
+                        </div>
+                        <p class="mt-5 sm:mt-[1.25vw]">
+                            Technologies:
+                        </p>
+                        <div class="mt-2 sm:mt-[.5vw] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-1 text-5xl sm:text-[3vw]">
+                            <div class="col-auto ">
+                                <div class=" flex justify-center  ">
+                                    <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-css3-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-php-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-tailwindcss-original-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center">
+                                    <i class="devicon-java-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
+            <div id="project3" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[150rem]">
+                <div class=" pt-4 sm:pt-[1vw] h-full text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up">
+                    <div id="quizDetails" class="sticky h-fit sm:w-[50vw] bg-white py-2 px-3 inset-20 transition-all duration-700">
+                        <h3 class=" text-5xl sm:text-[3vw]  font-bold text-emerald-600 my-4 sm:my-[1vw]">Quizam</h3>
+                        <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
+                            (Programmer, Developer, Designer)
+                        </p>
+                        <p class="pb-5 sm:pb-[1.25vw] text-justify">
+                            An online based quiz/ exam system that is designed and built with anti cheating functions.
+                            This web application allows users to manage and conduct online assessments.
+                        </p>
+                        <ul>
+                            <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
+                            <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Prohibiting users to backtrack while taking the test.</li>
+                            <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Prohibit users to take the test multiple times.</li>
+                            <li class="pb-5 sm:pb-[1.25vw]"><i class="bi bi-check text-emerald-400"></i> Delay score availability.</li>
+                        </ul>
+                        <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
+                            <div class="md:mr-2">
+                                <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full ">
+                                    Open Live
+                                </a>
+                            </div>
+                            <div class="mt-6 sm:mt-[2.5vw] md:mt-0">
+                                <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full">
+                                    Github
+                                </a>
+                            </div>
+                        </div>
+                        <p class="mt-5 sm:mt-[1.25vw]">
+                            Technologies:
+                        </p>
+                        <div class="mt-[.5vw] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-1 sm:gap-[.25vw] text-5xl sm:text-[3vw]">
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-css3-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-php-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center">
+                                    <i class="devicon-jquery-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center">
+                                    <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center">
+                                    <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="quizImages" class="relative h-full w-full col-start-1 col-span-12 bg-slate-200 lg:col-span-5 order-first sm:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[1vw] overflow-hidden" data-aos="fade-right">
+                    <img src="images/quizam/screens.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
+                    <div id="quizImage1" class=" w-52 lg:w-72 h-[30rem] absolute top-[26rem] -left-[5rem] xl:-left-20 bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage2" class=" w-52 lg:w-72 h-[30rem] absolute top-[30rem] -right-[5rem] xl:-right-20 bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage3" class=" w-52 lg:w-72 h-[30rem] absolute bottom-[34rem] -left-[5rem] xl:-left-20 bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage4" class=" w-52 lg:w-72 h-[30rem] absolute bottom-[30rem] -right-[5rem] xl:-right-20 bg-red-300 hidden sm:block"></div>
+                </div>
+            </div>
+            
+            <div id="project4" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[150rem]">
+                <div id="aniImages" class="relative h-full w-full col-start-1 col-span-12 bg-slate-200 lg:col-span-5 flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[1vw] overflow-hidden" data-aos="fade-right">
+                    <img src="images/anishop/anishop.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg3" alt="">
+                    <div id="aniImage1" class=" w-52 lg:w-72 h-[30rem] absolute top-[26rem] -left-[5rem] xl:-left-20 bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage2" class=" w-52 lg:w-72 h-[30rem] absolute top-[30rem] -right-[5rem] xl:-right-20 bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage3" class=" w-52 lg:w-72 h-[30rem] absolute bottom-[32rem] -left-[5rem] xl:-left-20 bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage4" class=" w-52 lg:w-72 h-[30rem] absolute bottom-[28rem] -right-[5rem] xl:-right-20 bg-red-300 hidden sm:block"></div>
+                </div>
+                <div class=" pt-4 sm:pt-[1vw] h-full text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up">
+                    <div id="aniDetails" class="sticky h-fit sm:w-[50vw] bg-white py-2 px-3 inset-20 transition-all duration-700">
+                        <h3 class="text-5xl sm:text-[3vw] font-bold text-emerald-600 my-4 sm:my-[1vw]">Anishop </h3>
+                        <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
+                            (Programmer, Developer)
+                        </p>
+                        <p class="pb-5 sm:pb-[1.25vw]  text-justify">
+                            An e-commerce website, where anime fans can find all the products they need to show their love for their
+                            favorite anime! Providing a vast selection of high-quality anime-related products,
+                            from clothing to accessories and much more. Our website features a design that reflects the anime aesthetic
+                            and style, while still being easy to navigate.
+                        </p>
+                        <ul>
+                            <li class="pb-4 sm:pb-[1vw] "><i class="bi bi-check text-emerald-400"></i> Vast selection of high-quality anime-related products, including clothing, accessories, and more.</li>
+                            <li class="pb-4 sm:pb-[1vw] "><i class="bi bi-check text-emerald-400"></i> Design that reflects the anime aesthetic and style, while being easy to navigate.</li>
+                            <li class="pb-4 sm:pb-[1vw] "><i class="bi bi-check text-emerald-400"></i> Engaging and informative product descriptions.</li>
+                            <li class="pb-4 sm:pb-[1.25vw] "><i class="bi bi-check text-emerald-400"></i> Management of products.</li>
+                        </ul>
+                        <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
+                            <div class="md:mr-2">
+                                <a href="https://anishop.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full ">
+                                    Open Live
+                                </a>
+                            </div>
+                            <div class="mt-6 sm:mt-[2.5vw] md:mt-0">
+                                <a href="https://github.com/MarkGuil/e-commerce-shop" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full">
+                                    Github
+                                </a>
+                            </div>
+                        </div>
+                        <p class="mt-5 sm:mt-[1.25vw]">
+                            Technologies:
+                        </p>
+                        <div class="mt-2 sm:mt-[.5vw] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-1 sm:gap-[.25vw] text-5xl sm:text-[3vw]">
+                            <div class="col-auto">
+                                <div class=" flex justify-center  ">
+                                    <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center  ">
+                                    <i class="devicon-css3-plain drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-php-plain drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                            <div class="col-auto ">
+                                <div class=" flex justify-center ">
+                                    <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
 
                 <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-2 md:px-28 lg:px-[3vw]" data-aos="fade-left">
                     <img src="images/omnibus/screensold.png" class="w-full drop-shadow-xl" id="myImg1" alt="">
                 </div>
                 <div class="relative col-start-1 col-span-12  lg:col-span-7 pt-[1vw] px-[1vw] text-zinc-600 text-lg sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up">
-
-                    <!-- <div class="sticky inset-y-[12%]"> -->
                     <div class="inset-y-[12%]">
                         <h3 class="text-5xl sm:text-[3vw]  font-bold text-emerald-600 my-4 sm:my-[1vw]">Omnibus</h3>
                         <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
@@ -496,11 +738,10 @@ if (session_id() == '') {
                     </div>
                 </div>
 
-            </div>
+            </div> -->
 
-            <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
+            <!-- <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
                 <div class="col-start-1 col-span-12  lg:col-span-7 pt-4 sm:pt-[1vw] px-4 sm:px-[1vw] text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up">
-                    <!-- <div class="sticky inset-y-[18%]"> -->
                     <div class=" inset-y-[18%]">
                         <h3 class=" text-5xl sm:text-[3vw]  font-bold text-emerald-600 my-4 sm:my-[1vw]">Quizam</h3>
                         <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
@@ -573,15 +814,14 @@ if (session_id() == '') {
                 <div class="relative col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[1vw] " data-aos="fade-right">
                     <img src="images/quizam/screens.png" class="w-full drop-shadow-xl" id="myImg2" alt="">
                 </div>
-            </div>
+            </div> -->
 
-            <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
+            <!-- <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
 
                 <div class="relative col-start-1 col-span-12 lg:col-span-5 flex justify-center lg:justify-start items-center px-2 md:px-28 lg:px-[1vw]" data-aos="fade-left">
                     <img src="images/anishop/anishop.png" class="w-full drop-shadow-xl" id="myImg3" alt="">
                 </div>
                 <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw]" data-aos="fade-up">
-                    <!-- <div class="sticky inset-y-[18%]"> -->
                     <div class=" inset-y-[18%]">
                         <h3 class="text-5xl sm:text-[3vw] font-bold text-emerald-600 my-4 sm:my-[1vw]">Anishop </h3>
                         <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
@@ -649,11 +889,10 @@ if (session_id() == '') {
                     </div>
 
                 </div>
-            </div>
+            </div> -->
 
-            <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
+            <!-- <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
                 <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 sm:pt-[1vw] px-4 sm:px-[1vw] text-zinc-600 text-xl sm:text-[1.25vw] sm:leading-[1.75vw]" data-aos="fade-up">
-                    <!-- <div class="sticky inset-y-[19%]"> -->
                     <div class=" inset-y-[19%]">
                         <h3 class="text-5xl sm:text-[3vw] font-bold text-emerald-600 my-4 sm:my-[1vw]">PSU Main Supply Office Inventory System</h3>
                         <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
@@ -717,7 +956,7 @@ if (session_id() == '') {
                 <div class="relative col-start-1 col-span-12 lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[.875vw]" data-aos="fade-right">
                     <img src="images/psu/screens.png" class="w-full drop-shadow-xl" id="myImg4" alt="">
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </section>
@@ -726,7 +965,7 @@ if (session_id() == '') {
         <div class="px-7 md:px-20 lg:px-[10vw] pb-10 md:pb-14 lg:pb-[7vw] pt-10 sm:pt-[2.5vw] relative h-full">
 
             <div class="sm:pb-10" data-aos="fade-up">
-                <h3 id="about-me" class="z-0 text-7xl md:text-[6vw] font-bold text-zinc-500 transition-all
+                <h3 class="z-0 text-7xl md:text-[6vw] font-bold text-zinc-500 transition-all
                     before:content-['Contact'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 
                     after:content-[''] after:absolute after:left-32 lg:after:left-40 after:bottom-1 sm:after:bottom-12 after:w-36 md:after:w-[18vw] after:h-px after:bg-emerald-400 after:inline-block after:mt-1 after:mr-2">
