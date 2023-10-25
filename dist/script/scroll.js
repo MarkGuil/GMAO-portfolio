@@ -37,7 +37,7 @@ const projectObserver = new IntersectionObserver(
     }, {
         threshold: .35,
     }
-)
+);
 
 projectObserver.observe(projectSection);
 
@@ -53,20 +53,23 @@ const lenis = new Lenis({
     infinite: false,
 });
 
+lenis.on('scroll', ScrollTrigger.update);
+
 gsap.ticker.add((time)=>{
     lenis.raf(time * 1000)
 });
   
 gsap.ticker.lagSmoothing(0);
 
-lenis.on('scroll', ScrollTrigger.update, ({
-    scroll,
-}) => {
-    if (window.innerWidth <= 640) {
-        aboutMePerc = '60%';
-        aboutMeDescPerc = '-10%';
-    }
-});
+lenis.on('scroll', (e) => {
+    setTimeout(() => {
+        if(e.direction == 1) {
+            navbar.classList.toggle('-translate-y-20')
+        } else {
+            navbar.classList.toggle('-translate-y-20')
+        }
+    }, 500);
+})
 
 ScrollTrigger.create({
     trigger: ".about-section",
@@ -90,33 +93,43 @@ ScrollTrigger.create({
         aboutMeDesc.classList.toggle('opacity-0')
     },
 });
-
-ScrollTrigger.create({
-    trigger: "#posDetails",
-    start: "top 25%",
-    endTrigger: "#project1",
-    end: "bottom 40%+=100px",
-    onEnter: (self) => {
-        posDetails.classList.toggle('sm:w-[35vw]')
-        posDetails.classList.toggle('sm:w-[50vw]')
+// ScrollTrigger.create({
+//     trigger: "#posDetails",
+//     start: "top center",
+//     endTrigger: "#project1",
+//     end: "bottom 40%+=100px",
+//     markers: true,
+//     onEnter: (self) => {
+//         posDetails.classList.toggle('sm:fixed')
+//     },
+//     onEnterBack: (self) => {
+//         posDetails.classList.toggle('sm:fixed')
+//     },
+//     onLeave: (self) => {
+//         posDetails.classList.toggle('sm:fixed')
+//     },
+//     onLeaveBack: (self) => {
+//         posDetails.classList.toggle('sm:fixed')
+//     },
+// });
+console.log(gsap.getProperty("#posDetails", "height"));
+gsap.to('#posDetails', {
+    scrollTrigger: {
+        trigger: "#posDetails",
+        start: "top "+ (window.innerHeight - gsap.getProperty("#posDetails", "height")),
+        endTrigger: "#project1",
+        end: "bottom bottom",
+        pin: true,
+        markers: true,
+        toggleActions: 'restart pause continue none',
     },
-    onEnterBack: (self) => {
-        posDetails.classList.toggle('sm:w-[35vw]')
-        posDetails.classList.toggle('sm:w-[50vw]')
-    },
-    onLeave: (self) => {
-        posDetails.classList.toggle('sm:w-[35vw]')
-        posDetails.classList.toggle('sm:w-[50vw]')
-    },
-    onLeaveBack: (self) => {
-        posDetails.classList.toggle('sm:w-[35vw]')
-        posDetails.classList.toggle('sm:w-[50vw]')
-    },
+    duration:1.5,
+    ease: "slow(0.7,0.7,false)",
 });
 
 ScrollTrigger.create({
     trigger: "#omniDetails",
-    start: "top 25%",
+    start: "10% 25%",
     endTrigger: "#project2",
     end: "bottom 40%+=100px",
     onEnter: (self) => {
@@ -139,7 +152,7 @@ ScrollTrigger.create({
 
 ScrollTrigger.create({
     trigger: "#quizDetails",
-    start: "top 25%",
+    start: "10% 25%",
     endTrigger: "#project3",
     end: "bottom 40%+=100px",
     onEnter: (self) => {
@@ -162,7 +175,7 @@ ScrollTrigger.create({
 
 ScrollTrigger.create({
     trigger: "#aniDetails",
-    start: "top 25%",
+    start: "10% 25%",
     endTrigger: "#project4",
     end: "bottom 40%+=100px",
     onEnter: (self) => {
