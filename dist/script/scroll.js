@@ -64,11 +64,11 @@ gsap.ticker.lagSmoothing(0);
 lenis.on('scroll', (e) => {
     setTimeout(() => {
         if(e.direction == 1) {
-            navbar.classList.toggle('-translate-y-20')
+            navbar.classList.add('-translate-y-24')
         } else {
-            navbar.classList.toggle('-translate-y-20')
+            navbar.classList.remove('-translate-y-24')
         }
-    }, 500);
+    }, 1500);
 })
 
 ScrollTrigger.create({
@@ -93,25 +93,7 @@ ScrollTrigger.create({
         aboutMeDesc.classList.toggle('opacity-0')
     },
 });
-// ScrollTrigger.create({
-//     trigger: "#posDetails",
-//     start: "top center",
-//     endTrigger: "#project1",
-//     end: "bottom 40%+=100px",
-//     markers: true,
-//     onEnter: (self) => {
-//         posDetails.classList.toggle('sm:fixed')
-//     },
-//     onEnterBack: (self) => {
-//         posDetails.classList.toggle('sm:fixed')
-//     },
-//     onLeave: (self) => {
-//         posDetails.classList.toggle('sm:fixed')
-//     },
-//     onLeaveBack: (self) => {
-//         posDetails.classList.toggle('sm:fixed')
-//     },
-// });
+
 console.log(gsap.getProperty("#posDetails", "height"));
 gsap.to('#posDetails', {
     scrollTrigger: {
@@ -304,8 +286,8 @@ gsap.to('#projImage1', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => "-" + ((document.querySelector('#projectImages').offsetWidth / 50) * 2) + "%",
-    y: '300',
+    x: () => "-" + (window.innerWidth - gsap.getProperty("#projImage1", "width")),
+    y: "300",
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -318,8 +300,8 @@ gsap.to('#projImage2', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => ((document.querySelector('#projectImages').offsetWidth / 50) * 2) + "%",
-    y: '-400',
+    x: () => (window.innerWidth - gsap.getProperty("#projImage2", "width")),
+    y: '-500',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -332,8 +314,8 @@ gsap.to('#projImage3', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => "-" + ((document.querySelector('#projectImages').offsetWidth / 40) * 2) + "%",
-    y: '300',
+    x: () => "-" + (window.innerWidth - gsap.getProperty("#projImage3", "width")),
+    y: '250',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -346,8 +328,8 @@ gsap.to('#omniImage1', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => ((document.querySelector('#omniImages').offsetWidth / 20) * 2) + "%",
-    y: '300',
+    x:  () => ((window.innerWidth / 2) - gsap.getProperty("#omniImage1", "width")),
+    y: '350',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -360,8 +342,8 @@ gsap.to('#omniImage2', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => "-" + ((document.querySelector('#omniImages').offsetWidth / 20) * 2) + "%",
-    y: '180',
+    x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#omniImage1", "width")),
+    y: '230',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -374,8 +356,8 @@ gsap.to('#omniImage3', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => ((document.querySelector('#omniImages').offsetWidth / 20) * 2) + "%",
-    y: '-150',
+    x:  () => ((window.innerWidth / 2) - gsap.getProperty("#omniImage3", "width")),
+    y: '-100',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -388,8 +370,8 @@ gsap.to('#omniImage4', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => "-" + ((document.querySelector('#omniImages').offsetWidth / 20) * 2) + "%",
-    y: '-170',
+    x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#omniImage1", "width")),
+    y: '-120',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
