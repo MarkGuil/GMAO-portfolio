@@ -95,88 +95,6 @@ ScrollTrigger.create({
 });
 
 console.log(gsap.getProperty("#posDetails", "height"));
-gsap.to('#posDetails', {
-    scrollTrigger: {
-        trigger: "#posDetails",
-        start: "top "+ (window.innerHeight - gsap.getProperty("#posDetails", "height")),
-        endTrigger: "#project1",
-        end: "bottom bottom",
-        pin: true,
-        markers: true,
-        toggleActions: 'restart pause continue none',
-    },
-    duration:1.5,
-    ease: "slow(0.7,0.7,false)",
-});
-
-ScrollTrigger.create({
-    trigger: "#omniDetails",
-    start: "10% 25%",
-    endTrigger: "#project2",
-    end: "bottom 40%+=100px",
-    onEnter: (self) => {
-        omniDetails.classList.toggle('sm:w-[35vw]')
-        omniDetails.classList.toggle('sm:w-[50vw]')
-    },
-    onEnterBack: (self) => {
-        omniDetails.classList.toggle('sm:w-[35vw]')
-        omniDetails.classList.toggle('sm:w-[50vw]')
-    },
-    onLeave: (self) => {
-        omniDetails.classList.toggle('sm:w-[35vw]')
-        omniDetails.classList.toggle('sm:w-[50vw]')
-    },
-    onLeaveBack: (self) => {
-        omniDetails.classList.toggle('sm:w-[35vw]')
-        omniDetails.classList.toggle('sm:w-[50vw]')
-    },
-});
-
-ScrollTrigger.create({
-    trigger: "#quizDetails",
-    start: "10% 25%",
-    endTrigger: "#project3",
-    end: "bottom 40%+=100px",
-    onEnter: (self) => {
-        quizDetails.classList.toggle('sm:w-[35vw]')
-        quizDetails.classList.toggle('sm:w-[50vw]')
-    },
-    onEnterBack: (self) => {
-        quizDetails.classList.toggle('sm:w-[35vw]')
-        quizDetails.classList.toggle('sm:w-[50vw]')
-    },
-    onLeave: (self) => {
-        quizDetails.classList.toggle('sm:w-[35vw]')
-        quizDetails.classList.toggle('sm:w-[50vw]')
-    },
-    onLeaveBack: (self) => {
-        quizDetails.classList.toggle('sm:w-[35vw]')
-        quizDetails.classList.toggle('sm:w-[50vw]')
-    },
-});
-
-ScrollTrigger.create({
-    trigger: "#aniDetails",
-    start: "10% 25%",
-    endTrigger: "#project4",
-    end: "bottom 40%+=100px",
-    onEnter: (self) => {
-        aniDetails.classList.toggle('sm:w-[35vw]')
-        aniDetails.classList.toggle('sm:w-[50vw]')
-    },
-    onEnterBack: (self) => {
-        aniDetails.classList.toggle('sm:w-[35vw]')
-        aniDetails.classList.toggle('sm:w-[50vw]')
-    },
-    onLeave: (self) => {
-        aniDetails.classList.toggle('sm:w-[35vw]')
-        aniDetails.classList.toggle('sm:w-[50vw]')
-    },
-    onLeaveBack: (self) => {
-        aniDetails.classList.toggle('sm:w-[35vw]')
-        aniDetails.classList.toggle('sm:w-[50vw]')
-    },
-});
 
 gsap.to('#about-me', {
     scrollTrigger: {
@@ -324,12 +242,11 @@ gsap.to('#omniImage1', {
     scrollTrigger: {
         trigger: '#omniImage1',
         start: "top center",
-        end: "80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
     x:  () => ((window.innerWidth / 2) - gsap.getProperty("#omniImage1", "width")),
-    y: '350',
+    y: '320',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -343,7 +260,7 @@ gsap.to('#omniImage2', {
         toggleActions: 'restart pause continue none',
     },
     x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#omniImage1", "width")),
-    y: '230',
+    y: '220',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -351,13 +268,14 @@ gsap.to('#omniImage2', {
 gsap.to('#omniImage3', {
     scrollTrigger: {
         trigger: '#omniImage3',
-        start: "-600px center",
-        end: "80% 20%",
+        start: "-750px center",
+        end: "-80% 20%",
         scrub: 1,
+        markers: true,
         toggleActions: 'restart pause continue none',
     },
     x:  () => ((window.innerWidth / 2) - gsap.getProperty("#omniImage3", "width")),
-    y: '-100',
+    y: '-200',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -365,13 +283,13 @@ gsap.to('#omniImage3', {
 gsap.to('#omniImage4', {
     scrollTrigger: {
         trigger: '#omniImage4',
-        start: "-700px center",
-        end: "80% 20%",
+        start: "-850px center",
+        end: "-80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
     x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#omniImage1", "width")),
-    y: '-120',
+    y: '-300',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -384,8 +302,8 @@ gsap.to('#quizImage1', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => ((document.querySelector('#quizImages').offsetWidth / 20) * 2) + "%",
-    y: '300',
+    x:  () => ((window.innerWidth / 2) - gsap.getProperty("#quizImage1", "width")),
+    y: '320',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -398,8 +316,8 @@ gsap.to('#quizImage2', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => "-" + ((document.querySelector('#quizImages').offsetWidth / 20) * 2) + "%",
-    y: '180',
+    x:  () => "-" +((window.innerWidth / 2) - gsap.getProperty("#quizImage2", "width")),
+    y: '220',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -407,13 +325,13 @@ gsap.to('#quizImage2', {
 gsap.to('#quizImage3', {
     scrollTrigger: {
         trigger: '#quizImage3',
-        start: "-600px center",
-        end: "80% 20%",
+        start: "-750px center",
+        end: "-80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => ((document.querySelector('#quizImages').offsetWidth / 20) * 2) + "%",
-    y: '-150',
+    x:  () => ((window.innerWidth / 2) - gsap.getProperty("#quizImage3", "width")),
+    y: '-200',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -421,13 +339,13 @@ gsap.to('#quizImage3', {
 gsap.to('#quizImage4', {
     scrollTrigger: {
         trigger: '#quizImage4',
-        start: "-700px center",
-        end: "80% 20%",
+        start: "-850px center",
+        end: "-80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => "-" + ((document.querySelector('#quizImages').offsetWidth / 20) * 2) + "%",
-    y: '-170',
+    x:  () => "-" +((window.innerWidth / 2) - gsap.getProperty("#quizImage4", "width")),
+    y: '-300',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -440,8 +358,8 @@ gsap.to('#aniImage1', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => ((document.querySelector('#aniImages').offsetWidth / 20) * 2) + "%",
-    y: '300',
+    x:  () => ((window.innerWidth / 2) - gsap.getProperty("#aniImage1", "width")),
+    y: '320',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -454,8 +372,8 @@ gsap.to('#aniImage2', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => "-" + ((document.querySelector('#aniImages').offsetWidth / 20) * 2) + "%",
-    y: '180',
+    x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#aniImage2", "width")),
+    y: '220',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -463,13 +381,13 @@ gsap.to('#aniImage2', {
 gsap.to('#aniImage3', {
     scrollTrigger: {
         trigger: '#aniImage3',
-        start: "-600px center",
-        end: "80% 20%",
+        start: "-750px center",
+        end: "-80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => ((document.querySelector('#aniImages').offsetWidth / 20) * 2) + "%",
-    y: '-150',
+    x:  () => ((window.innerWidth / 2) - gsap.getProperty("#aniImage3", "width")),
+    y: '-200',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -477,13 +395,13 @@ gsap.to('#aniImage3', {
 gsap.to('#aniImage4', {
     scrollTrigger: {
         trigger: '#aniImage4',
-        start: "-700px center",
-        end: "80% 20%",
+        start: "-850px center",
+        end: "-80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => "-" + ((document.querySelector('#aniImages').offsetWidth / 20) * 2) + "%",
-    y: '-170',
+    x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#aniImage4", "width")),
+    y: '-300',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });

@@ -20,13 +20,13 @@ window.onscroll = function(){
         navbar.classList.add("py-5");
         mobileNav.classList.add("top-20");
         hamburger.classList.add("top-9");
-        navbar.classList.remove("bg-white/[.95]");
+        navbar.classList.remove("bg-white/[.85]");
         navbar.classList.remove("shadow");
         navbar.classList.remove("py-3");
         mobileNav.classList.remove("top-[3.75rem]");
         hamburger.classList.remove("top-7");
     } else {
-        navbar.classList.add("bg-white/[.95]");
+        navbar.classList.add("bg-white/[.85]");
         navbar.classList.add("shadow");
         navbar.classList.add("py-3");
         mobileNav.classList.add("top-[3.75rem]");
