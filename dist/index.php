@@ -21,9 +21,6 @@ if (session_id() == '') {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="vendor/aos/dist/aos.css" rel="stylesheet">
-    <link href="vendor/remixIcon/fonts/remixicon.css" rel="stylesheet">
-    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="vendor/locomotive-scroll/locomotive-scroll.min.css" rel="stylesheet">
 	<link rel="icon" type="jpg/png" href="images/logo1111.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
@@ -334,13 +331,11 @@ if (session_id() == '') {
     <section id="project" class="sect project relative bg-white h-fit z-30">
         <div class="px-5 sm:px-[2vw] py-10 md:py-14 lg:py-[6vw] relative h-full">
 
-            <div id="project1" class="relative flex flex-col lg:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[170rem]">
-                <!-- <div class=" pt-4 sm:pt-[1vw] h-full text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up"> -->
-                <!-- </div> -->
+            <div id="project1" class="relative flex flex-col lg:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[150rem] lg:h-[180vw]">
                 <div id="projectImages" class="relative h-full w-full overflow-clip">
                     
-                    <div id="posDetails" class="h-fit w-full flex gap-4 bg-white z-40 text-zinc-600 text-xl sm:text-base 2xl:text-[1.125vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw]">
-                        <div class="flex-1 py-3 px-3">
+                    <div id="posDetails" class="sticky flex items-center h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
+                        <div class="">
                             <h3 class=" text-5xl 2xl:text-[2.85vw]  font-bold text-emerald-600 my-4 lg:my-[1vw]">Pos System</h3>
                             <p class="pb-5 2xl:pb-[1.15vw] font-bold italic">
                                 (Programmer, Developer, Designer)
@@ -350,7 +345,7 @@ if (session_id() == '') {
                                 This web application allows users to manage and conduct online assessments.
                             </p>
                             <ul>
-                                <li class="pb-4 2xl:pb-[1.15vw]"><i class="bi bi-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
+                                <li class="pb-4 2xl:pb-[1.15vw]"><i class="bx bx-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
                             </ul>
                             <div class="text-lg 2xl:text-[1.15vw] mt-5 2xl:mt-[1.05vw] mb-10 2xl:mb-[1.35vw] md:inline-flex">
                                 <div class="md:mr-2">
@@ -364,9 +359,7 @@ if (session_id() == '') {
                                     </a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="flex-1 text-white bg-emerald-300 py-3 px-3">
-                            <p class="mt-5 2xl:mt-[1.25vw] text-center">
+                            <p class="mt-5 2xl:mt-[1.25vw]">
                                 Technologies:
                             </p>
                             <div class="mt-[.5vw] grid grid-cols-3  gap-1 sm:gap-[.25vw] text-5xl 2xl:text-[2.5vw]">
@@ -400,7 +393,7 @@ if (session_id() == '') {
                                         <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                     </div>
                                 </div>
-                                <div class="col-span-full ">
+                                <div class="col-auto ">
                                     <div class=" flex justify-center">
                                         <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                     </div>
@@ -408,14 +401,13 @@ if (session_id() == '') {
                             </div>
                         </div>
                     </div>
-
-                    <div id="projImage1" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41rem] absolute top-[10rem] -right-[24rem] xl:-right-[28rem] bg-red-300"></div>
-                    <div id="projImage3" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41rem] absolute bottom-[32rem] -right-[31rem] xl:-right-[35rem] bg-blue-300"></div>
-                    <div id="projImage2" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41rem] absolute bottom-[38rem] -left-[24rem] xl:-left-[28rem] bg-red-300"></div>
+                    <div id="projImage1" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute top-[10rem] lg:top-[15vw] -right-[56rem] lg:-right-[60vw] bg-red-300"></div>
+                    <div id="projImage3" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute bottom-[38rem] lg:bottom-[38vw] -right-[44rem] lg:-right-[65vw] bg-blue-300"></div>
+                    <div id="projImage2" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute bottom-[39rem] lg:bottom-[39vw] -left-[30rem] lg:-left-[15vw] bg-red-300"></div>
                 </div>
             </div>
             
-            <div id="project2" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[110rem] lg:h-[140vw]">
+            <div id="project2" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[130rem] lg:h-[210vw]">
                 <div id="omniImages" class="relative h-full w-full bg-slate-200 flex justify-end overflow-clip">
                     <div id="omniDetails" class="sticky flex items-center h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
                         <div>
@@ -431,10 +423,10 @@ if (session_id() == '') {
                                 This application has 4 users:
                             </p>
                             <ul>
-                                <li class=" pb-4 2xl:pb-[.50vw]"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
-                                <li class="pb-4 2xl:pb-[.50vw]"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal.</li>
-                                <li class="pb-4 2xl:pb-[.50vw]"><i class="bi bi-check text-emerald-400"></i> Conductor - manages booked seats.</li>
-                                <li class="pb-5 2xl:pb-[1.125vw]"><i class="bi bi-check text-emerald-400"></i> Passenger - search trips, book and generate e-tickets.</li>
+                                <li class=" pb-4 2xl:pb-[.50vw]"><i class="bx bx-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
+                                <li class="pb-4 2xl:pb-[.50vw]"><i class="bx bx-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal.</li>
+                                <li class="pb-4 2xl:pb-[.50vw]"><i class="bx bx-check text-emerald-400"></i> Conductor - manages booked seats.</li>
+                                <li class="pb-5 2xl:pb-[1.125vw]"><i class="bx bx-check text-emerald-400"></i> Passenger - search trips, book and generate e-tickets.</li>
                             </ul>
                             <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1vw] mb-5 2xl:mb-[1.125vw] md:inline-flex">
                                 <div class="md:mr-2">
@@ -496,14 +488,15 @@ if (session_id() == '') {
                         </div>
                     </div>
                     <img src="images/omnibus/screensold.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg1" alt="">
-                    <div id="omniImage1" class=" w-52 lg:w-[23vw] h-[40vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] -left-[5rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
-                    <div id="omniImage2" class=" w-52 lg:w-[23vw] h-[40vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] right-[5rem] md:right-[15vw] bg-red-300 hidden sm:block"></div>
-                    <div id="omniImage3" class=" w-52 lg:w-[23vw] h-[40vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] -left-[5rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
-                    <div id="omniImage4" class=" w-52 lg:w-[23vw] h-[40vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] right-[5rem] md:right-[15vw] bg-red-300 hidden sm:block"></div>
+                    <div id="omniImage1" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute top-[10rem] lg:top-[17vw] -left-[54rem] lg:-left-[75vw] bg-blue-300"></div>
+                    <div id="omniImage2" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:top-[24rem] lg:top-[49vw] -left-[9rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
+                    <div id="omniImage3" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:top-[24rem] lg:top-[49vw] right-[6rem] md:right-[15vw] bg-red-300 hidden sm:block"></div>
+                    <div id="omniImage5" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute bottom-[47rem] lg:bottom-[77vw] -right-[40rem] lg:-right-[64vw] bg-blue-300"></div>
+                    <div id="omniImage4" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:bottom-[22rem] lg:bottom-[25vw] -left-[8rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
                 </div>
             </div>
 
-            <div id="project3" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[110rem] lg:h-[140vw]">
+            <div id="project3" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[110rem] lg:h-[150vw]">
                 <div id="quizImages" class="relative h-full w-full bg-slate-200 flex justify-start overflow-clip">
                     <div id="quizDetails" class="sticky flex items-center h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
                         <div>
@@ -516,10 +509,10 @@ if (session_id() == '') {
                                 This web application allows users to manage and conduct online assessments.
                             </p>
                             <ul>
-                                <li class="pb-4 2xl:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
-                                <li class="pb-4 2xl:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Prohibiting users to backtrack while taking the test.</li>
-                                <li class="pb-4 2xl:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Prohibit users to take the test multiple times.</li>
-                                <li class="pb-5 2xl:pb-[1.125vw]"><i class="bi bi-check text-emerald-400"></i> Delay score availability.</li>
+                                <li class="pb-4 2xl:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
+                                <li class="pb-4 2xl:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Prohibiting users to backtrack while taking the test.</li>
+                                <li class="pb-4 2xl:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Prohibit users to take the test multiple times.</li>
+                                <li class="pb-5 2xl:pb-[1.125vw]"><i class="bx bx-check text-emerald-400"></i> Delay score availability.</li>
                             </ul>
                             <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1.05vw] mb-5 2xl:mb-[1.35vw] md:inline-flex">
                                 <div class="md:mr-2">
@@ -576,14 +569,14 @@ if (session_id() == '') {
                         </div>
                     </div>
                     <img src="images/quizam/screens.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
-                    <div id="quizImage1" class=" w-52 lg:w-[23vw] h-[40vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] left-[5rem] md:left-[15vw] bg-red-300 hidden sm:block"></div>
-                    <div id="quizImage2" class=" w-52 lg:w-[23vw] h-[40vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] -right-[5rem] md:-right-[23vw] bg-red-300 hidden sm:block"></div>
-                    <div id="quizImage3" class=" w-52 lg:w-[23vw] h-[40vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] left-[5rem] md:left-[15vw] bg-red-300 hidden sm:block"></div>
-                    <div id="quizImage4" class=" w-52 lg:w-[23vw] h-[40vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] -right-[5rem] md:-right-[23vw] bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage1" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] left-[6rem] md:left-[15vw] bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage2" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] -right-[9rem] md:-right-[23vw] bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage3" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] left-[6rem] md:left-[15vw] bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage4" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] -right-[9rem] md:-right-[23vw] bg-red-300 hidden sm:block"></div>
                 </div>
             </div>
             
-            <div id="project4" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[110rem] lg:h-[140vw]">
+            <div id="project4" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[110rem] lg:h-[150vw]">
                 <div id="aniImages" class="relative h-full w-full bg-slate-200 flex justify-end overflow-clip">
                     <div id="aniDetails" class="sticky flex items-center h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
                         <div>
@@ -598,8 +591,8 @@ if (session_id() == '') {
                                 and style, while still being easy to navigate.
                             </p>
                             <ul>
-                                <li class="pb-4 2xl:pb-[1vw] "><i class="bi bi-check text-emerald-400"></i> Design that reflects the anime aesthetic and style, while being easy to navigate.</li>
-                                <li class="pb-4 2xl:pb-[1.125vw] "><i class="bi bi-check text-emerald-400"></i> Management of products.</li>
+                                <li class="pb-4 2xl:pb-[1vw] "><i class="bx bx-check text-emerald-400"></i> Design that reflects the anime aesthetic and style, while being easy to navigate.</li>
+                                <li class="pb-4 2xl:pb-[1.125vw] "><i class="bx bx-check text-emerald-400"></i> Management of products.</li>
                             </ul>
                             <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1.05vw] mb-5 2xl:mb-[1.35vw] md:inline-flex">
                                 <div class="md:mr-2">
@@ -651,10 +644,10 @@ if (session_id() == '') {
                         </div>
                     </div>
                     <img src="images/anishop/anishop.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg3" alt="">
-                    <div id="aniImage1" class=" w-52 lg:w-[23vw] h-[40vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] -left-[5rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
-                    <div id="aniImage2" class=" w-52 lg:w-[23vw] h-[40vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] right-[5rem] md:right-[15vw] bg-red-300 hidden sm:block"></div>
-                    <div id="aniImage3" class=" w-52 lg:w-[23vw] h-[40vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] -left-[5rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
-                    <div id="aniImage4" class=" w-52 lg:w-[23vw] h-[40vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] right-[5rem] md:right-[15vw] bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage1" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] -left-[9rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage2" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] right-[6rem] md:right-[15vw] bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage3" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] -left-[9rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage4" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] right-[6rem] md:right-[15vw] bg-red-300 hidden sm:block"></div>
                 </div>
             </div>
 
@@ -677,10 +670,10 @@ if (session_id() == '') {
                             This application has 4 users:
                         </p>
                         <ul>
-                            <li class=" pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal.</li>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Conductor - manages booked seats.</li>
-                            <li class="pb-5 sm:pb-[1.25vw]"><i class="bi bi-check text-emerald-400"></i> Passenger - search trips, book and generate e-tickets.</li>
+                            <li class=" pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
+                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal.</li>
+                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Conductor - manages booked seats.</li>
+                            <li class="pb-5 sm:pb-[1.25vw]"><i class="bx bx-check text-emerald-400"></i> Passenger - search trips, book and generate e-tickets.</li>
                         </ul>
                         <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
                             <div class="md:mr-2">
@@ -756,10 +749,10 @@ if (session_id() == '') {
                             This web application allows users to manage and conduct online assessments.
                         </p>
                         <ul>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Prohibiting users to backtrack while taking the test.</li>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Prohibit users to take the test multiple times.</li>
-                            <li class="pb-5 sm:pb-[1.25vw]"><i class="bi bi-check text-emerald-400"></i> Delay score availability.</li>
+                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
+                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Prohibiting users to backtrack while taking the test.</li>
+                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Prohibit users to take the test multiple times.</li>
+                            <li class="pb-5 sm:pb-[1.25vw]"><i class="bx bx-check text-emerald-400"></i> Delay score availability.</li>
                         </ul>
                         <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
                             <div class="md:mr-2">
@@ -838,10 +831,10 @@ if (session_id() == '') {
                             and style, while still being easy to navigate.
                         </p>
                         <ul>
-                            <li class="pb-4 sm:pb-[1vw] "><i class="bi bi-check text-emerald-400"></i> Vast selection of high-quality anime-related products, including clothing, accessories, and more.</li>
-                            <li class="pb-4 sm:pb-[1vw] "><i class="bi bi-check text-emerald-400"></i> Design that reflects the anime aesthetic and style, while being easy to navigate.</li>
-                            <li class="pb-4 sm:pb-[1vw] "><i class="bi bi-check text-emerald-400"></i> Engaging and informative product descriptions.</li>
-                            <li class="pb-4 sm:pb-[1.25vw] "><i class="bi bi-check text-emerald-400"></i> Management of products.</li>
+                            <li class="pb-4 sm:pb-[1vw] "><i class="bx bx-check text-emerald-400"></i> Vast selection of high-quality anime-related products, including clothing, accessories, and more.</li>
+                            <li class="pb-4 sm:pb-[1vw] "><i class="bx bx-check text-emerald-400"></i> Design that reflects the anime aesthetic and style, while being easy to navigate.</li>
+                            <li class="pb-4 sm:pb-[1vw] "><i class="bx bx-check text-emerald-400"></i> Engaging and informative product descriptions.</li>
+                            <li class="pb-4 sm:pb-[1.25vw] "><i class="bx bx-check text-emerald-400"></i> Management of products.</li>
                         </ul>
                         <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
                             <div class="md:mr-2">
@@ -908,8 +901,8 @@ if (session_id() == '') {
                             procurement plan for budget utilization.
                         </p>
                         <ul>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Main Admin - managing and monitoring inventory of campuses</li>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bi bi-check text-emerald-400"></i> Campus Admin - manages offices and creates their procurement plan for their campus</li>
+                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Main Admin - managing and monitoring inventory of campuses</li>
+                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Campus Admin - manages offices and creates their procurement plan for their campus</li>
                         </ul>
                         <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
                             <div class="">
@@ -985,7 +978,7 @@ if (session_id() == '') {
                         <div class="">
                             <div class="float-left w-16 sm:w-[3.5vw] h-16 sm:h-[3.5vw] text">
                                 <div class="flex justify-center items-center w-16 sm:w-[3.5vw] h-full rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
-                                    <i class="bi bi-geo-alt text-2xl sm:text-[1.5vw]"></i>
+                                    <i class="bx bx-map text-2xl sm:text-[2vw]"></i>
                                 </div>
                             </div>
                             <h4 class="ml-0 lg:ml-[5vw] mb-2 sm:mb-[.5vw] mt-3 md:mt-0 lg:mt-0 font-bold text-2xl lg:text-[1.875vw] lg:leading-[2.25vw]"><a href="" class="transition duration-75 ease-in-out hover:text-emerald-300">Location:</a></h4>
@@ -995,7 +988,7 @@ if (session_id() == '') {
                         <div class="mt-10 sm:mt-[2.5vw]">
                             <div class="float-left w-16 sm:w-[3.5vw] h-16 sm:h-[3.5vw] text">
                                 <div class="flex justify-center items-center w-16 sm:w-[3.5vw] h-full rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
-                                    <i class="bi bi-envelope text-2xl sm:text-[1.5vw]"></i>
+                                    <i class="bx bx-envelope text-2xl sm:text-[2vw]"></i>
                                 </div>
                             </div>
                             <h4 class="ml-0 lg:ml-[5vw] mb-2 sm:mb-[.5vw] mt-3 md:mt-0 lg:mt-0 font-bold text-2xl lg:text-[1.875vw] lg:leading-[2.25vw]"><a href="" class="transition duration-75 ease-in-out hover:text-emerald-300">Email:</a></h4>
@@ -1005,7 +998,7 @@ if (session_id() == '') {
                         <div class="mt-10 sm:mt-[2.5vw]">
                             <div class="float-left w-16 sm:w-[3.5vw] h-16 sm:h-[3.5vw] text">
                                 <div class="flex justify-center items-center w-16 sm:w-[3.5vw] h-full rounded-full transition-all duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white">
-                                    <i class="bi bi-phone text-2xl sm:text-[1.5vw]"></i>
+                                    <i class="bx bx-phone text-2xl sm:text-[2vw]"></i>
                                 </div>
                             </div>
                             <div>
@@ -1051,8 +1044,8 @@ if (session_id() == '') {
     <script defer src="script/anav.js"></script>
     <script defer src="script/observer.js"></script>
     <script src="vendor/aos/dist/aos.js"></script>
-    <script src="vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
     <script src="vendor/sweetalert/sweetalert2.all.min.js"></script>
+    <script src="vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
     <script src="vendor/lenis/lenis.js"></script>
     <script defer src="script/scroll.js"></script>
     <script>

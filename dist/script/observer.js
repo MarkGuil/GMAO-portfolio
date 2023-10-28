@@ -1,15 +1,38 @@
 
-gsap.to('#posDetails', {
-    scrollTrigger: {
-        trigger: "#posDetails",
-        start: "top "+ (window.innerHeight - gsap.getProperty("#posDetails", "height")),
-        endTrigger: "#project1",
-        end: "bottom bottom",
-        pin: true,
-        toggleActions: 'restart pause continue none',
+// gsap.to('#posDetails', {
+//     scrollTrigger: {
+//         trigger: "#posDetails",
+//         start: "top "+ (window.innerHeight - gsap.getProperty("#posDetails", "height")),
+//         endTrigger: "#project1",
+//         end: "bottom bottom",
+//         pin: true,
+//         toggleActions: 'restart pause continue none',
+//     },
+//     duration:1.5,
+//     ease: "slow(0.7,0.7,false)",
+// });
+
+ScrollTrigger.create({
+    trigger: "#posDetails",
+    start: "10% 25%",
+    endTrigger: "#project1",
+    end: "bottom 40%+=100px",
+    onEnter: (self) => {
+        posDetails.classList.toggle('sm:w-[38vw]')
+        posDetails.classList.toggle('sm:w-[50vw]')
     },
-    duration:1.5,
-    ease: "slow(0.7,0.7,false)",
+    onEnterBack: (self) => {
+        posDetails.classList.toggle('sm:w-[38vw]')
+        posDetails.classList.toggle('sm:w-[50vw]')
+    },
+    onLeave: (self) => {
+        posDetails.classList.toggle('sm:w-[38vw]')
+        posDetails.classList.toggle('sm:w-[50vw]')
+    },
+    onLeaveBack: (self) => {
+        posDetails.classList.toggle('sm:w-[38vw]')
+        posDetails.classList.toggle('sm:w-[50vw]')
+    },
 });
 
 ScrollTrigger.create({

@@ -200,11 +200,11 @@ gsap.to('#projImage1', {
     scrollTrigger: {
         trigger: '#projImage1',
         start: "top center",
-        end: "80% 20%",
+        end: "150% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => "-" + (window.innerWidth - gsap.getProperty("#projImage1", "width")),
+    x: () => "-" + (gsap.getProperty("#projImage1", "width")),
     y: "300",
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
@@ -218,7 +218,7 @@ gsap.to('#projImage2', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => (window.innerWidth - gsap.getProperty("#projImage2", "width")),
+    x: () => (gsap.getProperty("#projImage2", "width")),
     y: '-500',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
@@ -232,7 +232,7 @@ gsap.to('#projImage3', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => "-" + (window.innerWidth - gsap.getProperty("#projImage3", "width")),
+    x: () => "-" + (gsap.getProperty("#projImage3", "width")),
     y: '250',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
@@ -245,8 +245,8 @@ gsap.to('#omniImage1', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x:  () => ((window.innerWidth / 2) - gsap.getProperty("#omniImage1", "width")),
-    y: '320',
+    x:  () => ((window.innerWidth) - gsap.getProperty("#omniImage2", "width")),
+    y: '125',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -255,12 +255,11 @@ gsap.to('#omniImage2', {
     scrollTrigger: {
         trigger: '#omniImage2',
         start: "top center",
-        end: "80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#omniImage1", "width")),
-    y: '220',
+    x:  () => ((window.innerWidth / 2) - gsap.getProperty("#omniImage2", "width")),
+    y: () => ((gsap.getProperty("#omniImages", "height") / 3) - gsap.getProperty("#omniImage2", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -268,14 +267,13 @@ gsap.to('#omniImage2', {
 gsap.to('#omniImage3', {
     scrollTrigger: {
         trigger: '#omniImage3',
-        start: "-750px center",
-        end: "-80% 20%",
+        start: "top center",
+        end: "80% 20%",
         scrub: 1,
-        markers: true,
         toggleActions: 'restart pause continue none',
     },
-    x:  () => ((window.innerWidth / 2) - gsap.getProperty("#omniImage3", "width")),
-    y: '-200',
+    x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#omniImage3", "width")),
+    y: () => ((gsap.getProperty("#omniImages", "height") / 3.5) - gsap.getProperty("#omniImage3", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -288,8 +286,22 @@ gsap.to('#omniImage4', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#omniImage1", "width")),
-    y: '-300',
+    x:  () => ((window.innerWidth / 1.32) - gsap.getProperty("#omniImage4", "width")),
+    y: () => '-' + ((gsap.getProperty("#omniImages", "height") / 3) - gsap.getProperty("#omniImage4", "height")),
+    duration:2.5,
+    ease: "slow(0.7,0.7,false)",
+});
+
+gsap.to('#omniImage5', {
+    scrollTrigger: {
+        trigger: '#omniImage5',
+        start: "top center",
+        end: "1200px 20%",
+        scrub: 1,
+        toggleActions: 'restart pause continue none',
+    },
+    x:  () => "-" + ((window.innerWidth) - gsap.getProperty("#omniImage2", "width")),
+    y: () => ((gsap.getProperty("#omniImages", "height") / 2.1) - gsap.getProperty("#omniImage5", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -303,7 +315,7 @@ gsap.to('#quizImage1', {
         toggleActions: 'restart pause continue none',
     },
     x:  () => ((window.innerWidth / 2) - gsap.getProperty("#quizImage1", "width")),
-    y: '320',
+    y: () => ((gsap.getProperty("#quizImages", "height") / 2.6) - gsap.getProperty("#quizImage1", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -317,7 +329,7 @@ gsap.to('#quizImage2', {
         toggleActions: 'restart pause continue none',
     },
     x:  () => "-" +((window.innerWidth / 2) - gsap.getProperty("#quizImage2", "width")),
-    y: '220',
+    y: () => ((gsap.getProperty("#quizImages", "height") / 2.8) - gsap.getProperty("#quizImage2", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -331,7 +343,7 @@ gsap.to('#quizImage3', {
         toggleActions: 'restart pause continue none',
     },
     x:  () => ((window.innerWidth / 2) - gsap.getProperty("#quizImage3", "width")),
-    y: '-200',
+    y: () => '-' + ((gsap.getProperty("#quizImages", "height") / 2.9) - gsap.getProperty("#quizImage3", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -345,7 +357,7 @@ gsap.to('#quizImage4', {
         toggleActions: 'restart pause continue none',
     },
     x:  () => "-" +((window.innerWidth / 2) - gsap.getProperty("#quizImage4", "width")),
-    y: '-300',
+    y: () => '-' + ((gsap.getProperty("#quizImages", "height") / 2.7) - gsap.getProperty("#quizImage4", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -359,7 +371,7 @@ gsap.to('#aniImage1', {
         toggleActions: 'restart pause continue none',
     },
     x:  () => ((window.innerWidth / 2) - gsap.getProperty("#aniImage1", "width")),
-    y: '320',
+    y: () => ((gsap.getProperty("#aniImages", "height") / 2.6) - gsap.getProperty("#aniImage2", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -373,7 +385,7 @@ gsap.to('#aniImage2', {
         toggleActions: 'restart pause continue none',
     },
     x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#aniImage2", "width")),
-    y: '220',
+    y: () => ((gsap.getProperty("#aniImages", "height") / 2.8) - gsap.getProperty("#aniImage2", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -387,7 +399,7 @@ gsap.to('#aniImage3', {
         toggleActions: 'restart pause continue none',
     },
     x:  () => ((window.innerWidth / 2) - gsap.getProperty("#aniImage3", "width")),
-    y: '-200',
+    y: () => '-' + ((gsap.getProperty("#aniImages", "height") / 2.9) - gsap.getProperty("#aniImage3", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -401,7 +413,7 @@ gsap.to('#aniImage4', {
         toggleActions: 'restart pause continue none',
     },
     x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#aniImage4", "width")),
-    y: '-300',
+    y: () => '-' + ((gsap.getProperty("#aniImages", "height") / 2.7) - gsap.getProperty("#aniImage4", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
