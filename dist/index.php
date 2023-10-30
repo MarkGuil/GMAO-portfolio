@@ -329,13 +329,13 @@ if (session_id() == '') {
     </section>
 
     <section id="project" class="sect project relative bg-white h-fit z-30">
-        <div class="px-5 sm:px-[2vw] py-10 md:py-14 lg:py-[6vw] relative h-full">
+        <div class="py-10 md:py-14 lg:py-[6vw] relative h-full">
 
             <div id="project1" class="relative flex flex-col lg:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[150rem] lg:h-[180vw]">
                 <div id="projectImages" class="relative h-full w-full overflow-clip">
                     
                     <div id="posDetails" class="sticky flex items-center h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
-                        <div class="">
+                        <div class="px-5 sm:px-[1.5vw] ">
                             <h3 class=" text-5xl 2xl:text-[2.85vw]  font-bold text-emerald-600 my-4 lg:my-[1vw]">Pos System</h3>
                             <p class="pb-5 2xl:pb-[1.15vw] font-bold italic">
                                 (Programmer, Developer, Designer)
@@ -347,13 +347,13 @@ if (session_id() == '') {
                             <ul>
                                 <li class="pb-4 2xl:pb-[1.15vw]"><i class="bx bx-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
                             </ul>
-                            <div class="text-lg 2xl:text-[1.15vw] mt-5 2xl:mt-[1.05vw] mb-10 2xl:mb-[1.35vw] md:inline-flex">
+                            <div class="text-lg 2xl:text-[1.15vw] mt-5 2xl:mt-[1.05vw] mb-10 2xl:mb-[1.35vw] lg:inline-flex">
                                 <div class="md:mr-2">
                                     <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.35vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full ">
                                         Open Live
                                     </a>
                                 </div>
-                                <div class="mt-6 sm:mt-[2.5vw] md:mt-0">
+                                <div class="mt-6 sm:mt-[2.5vw] lg:mt-0">
                                     <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.35vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full">
                                         Github
                                     </a>
@@ -410,31 +410,24 @@ if (session_id() == '') {
             <div id="project2" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[130rem] lg:h-[210vw]">
                 <div id="omniImages" class="relative h-full w-full bg-slate-200 flex justify-end overflow-clip">
                     <div id="omniDetails" class="sticky flex items-center h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
-                        <div>
+                        <div class="px-5 sm:px-[1.5vw] ">
                             <h3 class="text-5xl 2xl:text-[2.85vw] font-bold text-emerald-600 my-4 2xl:my-[1vw]">Omnibus</h3>
                             <p class="pb-5 2xl:pb-[1.125vw] font-bold italic">
                                 (Programmer, Developer, Designer)
                             </p>
                             <p class="pb-5 2xl:pb-[1.125vw]  text-justify">
                                 An online bus seat booking platform for point-to-point (P2P) buses.
-                                This helps passengers to book bus tickets, and upholding health safety protocols
-                                that spaced out the passengers to maintain social distancing.
-                                The application envisioned to help improve the operations of P2P bus companies in terms of seat booking and e-ticket generation.
-                                This application has 4 users:
+                                This helps passengers to book bus tickets, upholding health safety protocols
+                                that spaced out passengers to maintain social distancing.
+                                The application envisioned to help improve the operations of P2P bus companies in terms of seat booking, e-ticket generation, management of terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings.
                             </p>
-                            <ul>
-                                <li class=" pb-4 2xl:pb-[.50vw]"><i class="bx bx-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
-                                <li class="pb-4 2xl:pb-[.50vw]"><i class="bx bx-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal.</li>
-                                <li class="pb-4 2xl:pb-[.50vw]"><i class="bx bx-check text-emerald-400"></i> Conductor - manages booked seats.</li>
-                                <li class="pb-5 2xl:pb-[1.125vw]"><i class="bx bx-check text-emerald-400"></i> Passenger - search trips, book and generate e-tickets.</li>
-                            </ul>
-                            <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1vw] mb-5 2xl:mb-[1.125vw] md:inline-flex">
+                            <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1vw] mb-5 2xl:mb-[1.125vw] lg:inline-flex">
                                 <div class="md:mr-2">
                                     <a href="https://omnibus.markguilang.com/dist/" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full ">
                                         Open Live
                                     </a>
                                 </div>
-                                <div class="mt-6 sm:mt-[2.5vw] md:mt-0">
+                                <div class="mt-6 sm:mt-[2.5vw] lg:mt-0">
                                     <a href="https://github.com/MarkGuil/Omnibus-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full">
                                         Github
                                     </a>
@@ -499,7 +492,7 @@ if (session_id() == '') {
             <div id="project3" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[110rem] lg:h-[150vw]">
                 <div id="quizImages" class="relative h-full w-full bg-slate-200 flex justify-start overflow-clip">
                     <div id="quizDetails" class="sticky flex items-center h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
-                        <div>
+                        <div class="px-5 sm:px-[1.5vw] ">
                             <h3 class=" text-5xl 2xl:text-[3vw]  font-bold text-emerald-600 my-4 2xl:my-[1vw]">Quizam</h3>
                             <p class="pb-5 2xl:pb-[1.125vw] font-bold italic">
                                 (Programmer, Developer, Designer)
@@ -514,13 +507,13 @@ if (session_id() == '') {
                                 <li class="pb-4 2xl:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Prohibit users to take the test multiple times.</li>
                                 <li class="pb-5 2xl:pb-[1.125vw]"><i class="bx bx-check text-emerald-400"></i> Delay score availability.</li>
                             </ul>
-                            <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1.05vw] mb-5 2xl:mb-[1.35vw] md:inline-flex">
+                            <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1.05vw] mb-5 2xl:mb-[1.35vw] lg:inline-flex">
                                 <div class="md:mr-2">
                                     <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full ">
                                         Open Live
                                     </a>
                                 </div>
-                                <div class="mt-6 sm:mt-[2.5vw] md:mt-0">
+                                <div class="mt-6 sm:mt-[2.5vw] lg:mt-0">
                                     <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full">
                                         Github
                                     </a>
@@ -579,7 +572,7 @@ if (session_id() == '') {
             <div id="project4" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[110rem] lg:h-[150vw]">
                 <div id="aniImages" class="relative h-full w-full bg-slate-200 flex justify-end overflow-clip">
                     <div id="aniDetails" class="sticky flex items-center h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
-                        <div>
+                        <div class="px-5 sm:px-[1.5vw] ">
                             <h3 class="text-5xl 2xl:text-[3vw] font-bold text-emerald-600 my-4 2xl:my-[1vw]">Anishop </h3>
                             <p class="pb-5 2xl:pb-[1.125vw] font-bold italic">
                                 (Programmer, Developer)
@@ -594,13 +587,13 @@ if (session_id() == '') {
                                 <li class="pb-4 2xl:pb-[1vw] "><i class="bx bx-check text-emerald-400"></i> Design that reflects the anime aesthetic and style, while being easy to navigate.</li>
                                 <li class="pb-4 2xl:pb-[1.125vw] "><i class="bx bx-check text-emerald-400"></i> Management of products.</li>
                             </ul>
-                            <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1.05vw] mb-5 2xl:mb-[1.35vw] md:inline-flex">
+                            <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1.05vw] mb-5 2xl:mb-[1.35vw] lg:inline-flex">
                                 <div class="md:mr-2">
                                     <a href="https://anishop.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full ">
                                         Open Live
                                     </a>
                                 </div>
-                                <div class="mt-6 sm:mt-[2.5vw] md:mt-0">
+                                <div class="mt-6 sm:mt-[2.5vw] lg:mt-0">
                                     <a href="https://github.com/MarkGuil/e-commerce-shop" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full">
                                         Github
                                     </a>

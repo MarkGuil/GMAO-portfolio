@@ -94,8 +94,6 @@ ScrollTrigger.create({
     },
 });
 
-console.log(gsap.getProperty("#posDetails", "height"));
-
 gsap.to('#about-me', {
     scrollTrigger: {
         trigger: '#about-me',
