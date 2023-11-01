@@ -550,21 +550,6 @@ html {
   right: 0px;
 }
 
-.inset-y-\[12\%\] {
-  top: 12%;
-  bottom: 12%;
-}
-
-.inset-y-\[18\%\] {
-  top: 18%;
-  bottom: 18%;
-}
-
-.inset-y-\[19\%\] {
-  top: 19%;
-  bottom: 19%;
-}
-
 .top-9 {
   top: 2.25rem;
 }
@@ -701,6 +686,30 @@ html {
   top: 2rem;
 }
 
+.-left-\[10rem\] {
+  left: -10rem;
+}
+
+.bottom-\[53rem\] {
+  bottom: 53rem;
+}
+
+.-right-\[30rem\] {
+  right: -30rem;
+}
+
+.-right-\[25rem\] {
+  right: -25rem;
+}
+
+.-right-\[20rem\] {
+  right: -20rem;
+}
+
+.bottom-\[52rem\] {
+  bottom: 52rem;
+}
+
 .z-\[60\] {
   z-index: 60;
 }
@@ -725,10 +734,6 @@ html {
   z-index: 30;
 }
 
-.order-first {
-  order: -9999;
-}
-
 .col-auto {
   grid-column: auto;
 }
@@ -741,12 +746,12 @@ html {
   grid-column: span 7 / span 7;
 }
 
-.col-span-12 {
-  grid-column: span 12 / span 12;
-}
-
 .col-span-4 {
   grid-column: span 4 / span 4;
+}
+
+.col-span-12 {
+  grid-column: span 12 / span 12;
 }
 
 .col-start-2 {
@@ -825,10 +830,6 @@ html {
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mt-32 {
-  margin-top: 8rem;
 }
 
 .ml-0 {
@@ -1580,11 +1581,6 @@ html {
   padding-right: 2.5rem;
 }
 
-.px-\[1vw\] {
-  padding-left: 1vw;
-  padding-right: 1vw;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1614,14 +1610,6 @@ html {
   padding-bottom: 1rem;
 }
 
-.pt-\[1vw\] {
-  padding-top: 1vw;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -1632,10 +1620,6 @@ html {
 
 .pb-2 {
   padding-bottom: 0.5rem;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
 }
 
 .text-center {
@@ -2312,9 +2296,20 @@ html {
     bottom: 8rem;
   }
 
-  .sm\:my-\[1vw\] {
-    margin-top: 1vw;
-    margin-bottom: 1vw;
+  .sm\:top-\[28rem\] {
+    top: 28rem;
+  }
+
+  .sm\:bottom-\[2rem\] {
+    bottom: 2rem;
+  }
+
+  .sm\:bottom-\[27rem\] {
+    bottom: 27rem;
+  }
+
+  .sm\:bottom-\[28rem\] {
+    bottom: 28rem;
   }
 
   .sm\:mt-4 {
@@ -2327,22 +2322,6 @@ html {
 
   .sm\:mt-\[2\.5vw\] {
     margin-top: 2.5vw;
-  }
-
-  .sm\:mt-\[8vw\] {
-    margin-top: 8vw;
-  }
-
-  .sm\:mt-\[1\.25vw\] {
-    margin-top: 1.25vw;
-  }
-
-  .sm\:mb-\[2\.5vw\] {
-    margin-bottom: 2.5vw;
-  }
-
-  .sm\:mt-\[\.5vw\] {
-    margin-top: .5vw;
   }
 
   .sm\:mb-\[\.5vw\] {
@@ -2391,6 +2370,14 @@ html {
 
   .sm\:h-\[3\.5vw\] {
     height: 3.5vw;
+  }
+
+  .sm\:h-\[130vw\] {
+    height: 130vw;
+  }
+
+  .sm\:h-\[140rem\] {
+    height: 140rem;
   }
 
   .sm\:w-full {
@@ -2469,10 +2456,6 @@ html {
     padding: .5vw;
   }
 
-  .sm\:p-\[1vw\] {
-    padding: 1vw;
-  }
-
   .sm\:py-\[1\.25vw\] {
     padding-top: 1.25vw;
     padding-bottom: 1.25vw;
@@ -2483,24 +2466,9 @@ html {
     padding-bottom: 10vw;
   }
 
-  .sm\:px-\[2vw\] {
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
-
-  .sm\:py-\[\.5vw\] {
-    padding-top: .5vw;
-    padding-bottom: .5vw;
-  }
-
-  .sm\:px-\[2\.5vw\] {
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-  }
-
-  .sm\:px-\[1vw\] {
-    padding-left: 1vw;
-    padding-right: 1vw;
+  .sm\:px-\[1\.5vw\] {
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
   }
 
   .sm\:px-\[\.5vw\] {
@@ -2523,25 +2491,12 @@ html {
     padding-right: 1.75vw;
   }
 
-  .sm\:px-\[1\.5vw\] {
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-  }
-
   .sm\:pb-\[4vw\] {
     padding-bottom: 4vw;
   }
 
   .sm\:pb-\[1vw\] {
     padding-bottom: 1vw;
-  }
-
-  .sm\:pb-\[1\.25vw\] {
-    padding-bottom: 1.25vw;
-  }
-
-  .sm\:pt-\[1vw\] {
-    padding-top: 1vw;
   }
 
   .sm\:pt-\[2\.5vw\] {
@@ -2558,14 +2513,6 @@ html {
 
   .sm\:pb-\[\.5vw\] {
     padding-bottom: .5vw;
-  }
-
-  .sm\:pl-\[2vw\] {
-    padding-left: 2vw;
-  }
-
-  .sm\:pl-\[1\.5vw\] {
-    padding-left: 1.5vw;
   }
 
   .sm\:text-left {
@@ -2586,22 +2533,6 @@ html {
     line-height: 1.5rem;
   }
 
-  .sm\:text-\[1\.2vw\] {
-    font-size: 1.2vw;
-  }
-
-  .sm\:text-\[3vw\] {
-    font-size: 3vw;
-  }
-
-  .sm\:text-\[1\.125vw\] {
-    font-size: 1.125vw;
-  }
-
-  .sm\:text-\[1\.25vw\] {
-    font-size: 1.25vw;
-  }
-
   .sm\:text-\[2vw\] {
     font-size: 2vw;
   }
@@ -2616,10 +2547,6 @@ html {
 
   .sm\:leading-\[2\.5vw\] {
     line-height: 2.5vw;
-  }
-
-  .sm\:leading-\[1\.75vw\] {
-    line-height: 1.75vw;
   }
 
   .sm\:after\:bottom-12::after {
@@ -2647,6 +2574,14 @@ html {
 
   .md\:-right-\[23vw\] {
     right: -23vw;
+  }
+
+  .md\:-left-\[20vw\] {
+    left: -20vw;
+  }
+
+  .md\:right-\[14vw\] {
+    right: 14vw;
   }
 
   .md\:col-span-6 {
@@ -2679,10 +2614,6 @@ html {
 
   .md\:mt-0 {
     margin-top: 0px;
-  }
-
-  .md\:inline-flex {
-    display: inline-flex;
   }
 
   .md\:h-72 {
@@ -2731,11 +2662,6 @@ html {
   .md\:py-14 {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
-  }
-
-  .md\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
   }
 
   .md\:py-\[\.75vw\] {
@@ -2855,20 +2781,12 @@ html {
     bottom: 14vw;
   }
 
-  .lg\:order-last {
-    order: 9999;
+  .lg\:bottom-\[80vw\] {
+    bottom: 80vw;
   }
 
   .lg\:col-span-4 {
     grid-column: span 4 / span 4;
-  }
-
-  .lg\:col-span-5 {
-    grid-column: span 5 / span 5;
-  }
-
-  .lg\:col-span-7 {
-    grid-column: span 7 / span 7;
   }
 
   .lg\:col-start-3 {
@@ -2940,12 +2858,28 @@ html {
     height: 150vw;
   }
 
+  .lg\:h-\[34vw\] {
+    height: 34vw;
+  }
+
   .lg\:w-\[23\.5vw\] {
     width: 23.5vw;
   }
 
   .lg\:w-\[23vw\] {
     width: 23vw;
+  }
+
+  .lg\:w-\[20vw\] {
+    width: 20vw;
+  }
+
+  .lg\:w-\[18\.5vw\] {
+    width: 18.5vw;
+  }
+
+  .lg\:w-\[18vw\] {
+    width: 18vw;
   }
 
   .lg\:scale-100 {
@@ -2962,24 +2896,8 @@ html {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-6 {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-
   .lg\:flex-row {
     flex-direction: row;
-  }
-
-  .lg\:justify-start {
-    justify-content: flex-start;
-  }
-
-  .lg\:justify-end {
-    justify-content: flex-end;
   }
 
   .lg\:justify-center {
@@ -3018,21 +2936,6 @@ html {
   .lg\:py-\[6vw\] {
     padding-top: 6vw;
     padding-bottom: 6vw;
-  }
-
-  .lg\:px-\[3vw\] {
-    padding-left: 3vw;
-    padding-right: 3vw;
-  }
-
-  .lg\:px-\[1vw\] {
-    padding-left: 1vw;
-    padding-right: 1vw;
-  }
-
-  .lg\:px-\[\.875vw\] {
-    padding-left: .875vw;
-    padding-right: .875vw;
   }
 
   .lg\:px-\[10vw\] {
@@ -3166,10 +3069,6 @@ html {
 
   .\32xl\:pb-\[1\.125vw\] {
     padding-bottom: 1.125vw;
-  }
-
-  .\32xl\:pb-\[\.50vw\] {
-    padding-bottom: .50vw;
   }
 
   .\32xl\:pb-\[1vw\] {

@@ -335,7 +335,7 @@ if (session_id() == '') {
                 <div id="projectImages" class="relative h-full w-full overflow-clip">
                     
                     <div id="posDetails" class="sticky flex items-center h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
-                        <div class="px-5 sm:px-[1.5vw] ">
+                        <div class="px-5 sm:px-[1.5vw]">
                             <h3 class=" text-5xl 2xl:text-[2.85vw]  font-bold text-emerald-600 my-4 lg:my-[1vw]">Pos System</h3>
                             <p class="pb-5 2xl:pb-[1.15vw] font-bold italic">
                                 (Programmer, Developer, Designer)
@@ -362,7 +362,7 @@ if (session_id() == '') {
                             <p class="mt-5 2xl:mt-[1.25vw]">
                                 Technologies:
                             </p>
-                            <div class="mt-[.5vw] grid grid-cols-3  gap-1 sm:gap-[.25vw] text-5xl 2xl:text-[2.5vw]">
+                            <div class="mt-[.5vw] grid grid-cols-3 md:grid-cols-4 gap-1 sm:gap-[.25vw] text-5xl 2xl:text-[2.5vw]">
                                 <div class="col-auto ">
                                     <div class=" flex justify-center ">
                                         <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -407,10 +407,10 @@ if (session_id() == '') {
                 </div>
             </div>
             
-            <div id="project2" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[130rem] lg:h-[210vw]">
-                <div id="omniImages" class="relative h-full w-full bg-slate-200 flex justify-end overflow-clip">
+            <div id="project2" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[150rem]  lg:h-[210vw]">
+                <div id="omniImages" class="relative h-full w-full flex justify-end overflow-clip">
                     <div id="omniDetails" class="sticky flex items-center h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
-                        <div class="px-5 sm:px-[1.5vw] ">
+                        <div class="px-5 sm:px-[1.5vw]">
                             <h3 class="text-5xl 2xl:text-[2.85vw] font-bold text-emerald-600 my-4 2xl:my-[1vw]">Omnibus</h3>
                             <p class="pb-5 2xl:pb-[1.125vw] font-bold italic">
                                 (Programmer, Developer, Designer)
@@ -436,7 +436,7 @@ if (session_id() == '') {
                             <p class="mt-5 2xl:mt-[1.125vw]">
                                 Technologies:
                             </p>
-                            <div class="mt-2 2xl:mt-[.5vw] grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-1 text-[2.50rem] leading-4 2xl:text-[3vw]">
+                            <div class="mt-2 2xl:mt-[.5vw] grid grid-cols-3 md:grid-cols-4 gap-1 text-[2.50rem] leading-4 2xl:text-[3vw]">
                                 <div class="col-auto ">
                                     <div class=" flex justify-center  ">
                                         <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -481,18 +481,24 @@ if (session_id() == '') {
                         </div>
                     </div>
                     <img src="images/omnibus/screensold.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg1" alt="">
-                    <div id="omniImage1" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute top-[10rem] lg:top-[17vw] -left-[54rem] lg:-left-[75vw] bg-blue-300"></div>
-                    <div id="omniImage2" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:top-[24rem] lg:top-[49vw] -left-[9rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
-                    <div id="omniImage3" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:top-[24rem] lg:top-[49vw] right-[6rem] md:right-[15vw] bg-red-300 hidden sm:block"></div>
-                    <div id="omniImage5" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute bottom-[47rem] lg:bottom-[77vw] -right-[40rem] lg:-right-[64vw] bg-blue-300"></div>
-                    <div id="omniImage4" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:bottom-[22rem] lg:bottom-[25vw] -left-[8rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
+                    <!-- <div id="omniImage1" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute top-[10rem] lg:top-[17vw] -left-[54rem] lg:-left-[75vw] bg-blue-300"></div> -->
+                    <!-- <div id="omniImage2" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:top-[24rem] lg:top-[49vw] -left-[9rem] md:-left-[23vw] hidden sm:block"></div> -->
+                    <!-- <div id="omniImage3" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[24rem] lg:top-[49vw] right-[6rem] md:right-[15vw] bg-red-300 hidden sm:block"></div> -->
+                    <!-- <div id="omniImage4" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[22rem] lg:bottom-[25vw] -left-[8rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div> -->
+                    <!-- <div id="omniImage5" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute bottom-[47rem] lg:bottom-[77vw] -right-[40rem] lg:-right-[64vw] bg-blue-300"></div> -->
+                    
+                        <img src="images/omnibus/monitor1@4x.png" id="omniImage1" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute top-[10rem] lg:top-[17vw] -left-[54rem] lg:-left-[75vw]" alt="">
+                        <img src="images/omnibus/phone1@4x.png" id="omniImage2" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[33vw] absolute sm:top-[28rem] lg:top-[49vw] -left-[10rem] md:-left-[20vw] hidden sm:block" alt="">
+                        <img src="images/omnibus/phone2@4x.png" id="omniImage3" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[28rem] lg:top-[49vw] right-[6rem] md:right-[14vw] hidden sm:block" alt="">
+                        <img src="images/omnibus/monitor2@4x.png" id="omniImage5" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute bottom-[52rem] lg:bottom-[80vw] -right-[20rem] lg:-right-[64vw]" alt="">
+                        <img src="images/omnibus/phone3@4x.png" id="omniImage4" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[28rem] lg:bottom-[25vw] -left-[8rem] md:-left-[23vw] hidden sm:block" alt="">
                 </div>
             </div>
 
             <div id="project3" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[110rem] lg:h-[150vw]">
                 <div id="quizImages" class="relative h-full w-full bg-slate-200 flex justify-start overflow-clip">
                     <div id="quizDetails" class="sticky flex items-center h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
-                        <div class="px-5 sm:px-[1.5vw] ">
+                        <div class="px-5 sm:px-[1.5vw]">
                             <h3 class=" text-5xl 2xl:text-[3vw]  font-bold text-emerald-600 my-4 2xl:my-[1vw]">Quizam</h3>
                             <p class="pb-5 2xl:pb-[1.125vw] font-bold italic">
                                 (Programmer, Developer, Designer)
@@ -522,7 +528,7 @@ if (session_id() == '') {
                             <p class="mt-5 2xl:mt-[1.25vw]">
                                 Technologies:
                             </p>
-                            <div class="2xl-[.5vw] grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-1 2xl:gap-[.25vw] text-[2.50rem] leading-4 2xl:text-[3vw]">
+                            <div class="2xl-[.5vw] grid grid-cols-3 md:grid-cols-4 gap-1 2xl:gap-[.25vw] text-[2.50rem] leading-4 2xl:text-[3vw]">
                                 <div class="col-auto ">
                                     <div class=" flex justify-center ">
                                         <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -562,17 +568,17 @@ if (session_id() == '') {
                         </div>
                     </div>
                     <img src="images/quizam/screens.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
-                    <div id="quizImage1" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] left-[6rem] md:left-[15vw] bg-red-300 hidden sm:block"></div>
-                    <div id="quizImage2" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] -right-[9rem] md:-right-[23vw] bg-red-300 hidden sm:block"></div>
-                    <div id="quizImage3" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] left-[6rem] md:left-[15vw] bg-red-300 hidden sm:block"></div>
-                    <div id="quizImage4" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] -right-[9rem] md:-right-[23vw] bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage1" class=" w-52 lg:w-[20vw] h-[43vw] lg:h-[34vw] absolute sm:top-[15rem] lg:top-[19vw] left-[6rem] md:left-[15vw] bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage2" class=" w-52 lg:w-[20vw] h-[43vw] lg:h-[34vw] absolute sm:top-[15rem] lg:top-[19vw] -right-[9rem] md:-right-[23vw] bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage3" class=" w-52 lg:w-[20vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] left-[6rem] md:left-[15vw] bg-red-300 hidden sm:block"></div>
+                    <div id="quizImage4" class=" w-52 lg:w-[20vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] -right-[9rem] md:-right-[23vw] bg-red-300 hidden sm:block"></div>
                 </div>
             </div>
             
             <div id="project4" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[110rem] lg:h-[150vw]">
                 <div id="aniImages" class="relative h-full w-full bg-slate-200 flex justify-end overflow-clip">
                     <div id="aniDetails" class="sticky flex items-center h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
-                        <div class="px-5 sm:px-[1.5vw] ">
+                        <div class="px-5 sm:px-[1.5vw]">
                             <h3 class="text-5xl 2xl:text-[3vw] font-bold text-emerald-600 my-4 2xl:my-[1vw]">Anishop </h3>
                             <p class="pb-5 2xl:pb-[1.125vw] font-bold italic">
                                 (Programmer, Developer)
@@ -602,7 +608,7 @@ if (session_id() == '') {
                             <p class="mt-5 2xl:mt-[1.125vw]">
                                 Technologies:
                             </p>
-                            <div class="mt-2 2xl:mt-[.5vw] grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-1 2xl:gap-[.25vw] text-[2.50rem] leading-4 2xl:text-[3vw]">
+                            <div class="mt-2 2xl:mt-[.5vw] grid grid-cols-3 md:grid-cols-4 gap-1 2xl:gap-[.25vw] text-[2.50rem] leading-4 2xl:text-[3vw]">
                                 <div class="col-auto">
                                     <div class=" flex justify-center  ">
                                         <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -637,317 +643,12 @@ if (session_id() == '') {
                         </div>
                     </div>
                     <img src="images/anishop/anishop.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg3" alt="">
-                    <div id="aniImage1" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] -left-[9rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
-                    <div id="aniImage2" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:top-[15rem] lg:top-[19vw] right-[6rem] md:right-[15vw] bg-red-300 hidden sm:block"></div>
-                    <div id="aniImage3" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] -left-[9rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
-                    <div id="aniImage4" class=" w-52 lg:w-[23vw] h-[43vw] lg:h-[33vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] right-[6rem] md:right-[15vw] bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage1" class=" w-52 lg:w-[20vw] h-[43vw] lg:h-[34vw] absolute sm:top-[15rem] lg:top-[19vw] -left-[9rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage2" class=" w-52 lg:w-[20vw] h-[43vw] lg:h-[34vw] absolute sm:top-[15rem] lg:top-[19vw] right-[6rem] md:right-[15vw] bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage3" class=" w-52 lg:w-[20vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] -left-[9rem] md:-left-[23vw] bg-red-300 hidden sm:block"></div>
+                    <div id="aniImage4" class=" w-52 lg:w-[20vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] right-[6rem] md:right-[15vw] bg-red-300 hidden sm:block"></div>
                 </div>
             </div>
-
-            <!-- <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
-
-                <div class="relative col-start-1 col-span-12  lg:col-span-5 flex justify-center lg:justify-start items-center px-2 md:px-28 lg:px-[3vw]" data-aos="fade-left">
-                    <img src="images/omnibus/screensold.png" class="w-full drop-shadow-xl" id="myImg1" alt="">
-                </div>
-                <div class="relative col-start-1 col-span-12  lg:col-span-7 pt-[1vw] px-[1vw] text-zinc-600 text-lg sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up">
-                    <div class="inset-y-[12%]">
-                        <h3 class="text-5xl sm:text-[3vw]  font-bold text-emerald-600 my-4 sm:my-[1vw]">Omnibus</h3>
-                        <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
-                            (Programmer, Developer, Designer)
-                        </p>
-                        <p class="pb-5 sm:pb-[1.25vw]  text-justify">
-                            An online bus seat booking platform for point-to-point (P2P) buses.
-                            This helps passengers to book bus tickets, and upholding health safety protocols
-                            that spaced out the passengers to maintain social distancing.
-                            The application envisioned to help improve the operations of P2P bus companies in terms of seat booking and e-ticket generation.
-                            This application has 4 users:
-                        </p>
-                        <ul>
-                            <li class=" pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Company Admin - manages terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings. </li>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Terminal Master - can manage own trips and bookings for their terminal.</li>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Conductor - manages booked seats.</li>
-                            <li class="pb-5 sm:pb-[1.25vw]"><i class="bx bx-check text-emerald-400"></i> Passenger - search trips, book and generate e-tickets.</li>
-                        </ul>
-                        <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
-                            <div class="md:mr-2">
-                                <a href="https://omnibus.markguilang.com/dist/" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full ">
-                                    Open Live
-                                </a>
-                            </div>
-                            <div class="mt-6 sm:mt-[2.5vw] md:mt-0">
-                                <a href="https://github.com/MarkGuil/Omnibus-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full">
-                                    Github
-                                </a>
-                            </div>
-                        </div>
-                        <p class="mt-5 sm:mt-[1.25vw]">
-                            Technologies:
-                        </p>
-                        <div class="mt-2 sm:mt-[.5vw] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-1 text-5xl sm:text-[3vw]">
-                            <div class="col-auto ">
-                                <div class=" flex justify-center  ">
-                                    <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-css3-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-php-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-tailwindcss-original-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center">
-                                    <i class="devicon-java-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div> -->
-
-            <!-- <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
-                <div class="col-start-1 col-span-12  lg:col-span-7 pt-4 sm:pt-[1vw] px-4 sm:px-[1vw] text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw] " data-aos="fade-up">
-                    <div class=" inset-y-[18%]">
-                        <h3 class=" text-5xl sm:text-[3vw]  font-bold text-emerald-600 my-4 sm:my-[1vw]">Quizam</h3>
-                        <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
-                            (Programmer, Developer, Designer)
-                        </p>
-                        <p class="pb-5 sm:pb-[1.25vw] text-justify">
-                            An online based quiz/ exam system that is designed and built with anti cheating functions.
-                            This web application allows users to manage and conduct online assessments.
-                        </p>
-                        <ul>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Prohibiting users to backtrack while taking the test.</li>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Prohibit users to take the test multiple times.</li>
-                            <li class="pb-5 sm:pb-[1.25vw]"><i class="bx bx-check text-emerald-400"></i> Delay score availability.</li>
-                        </ul>
-                        <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
-                            <div class="md:mr-2">
-                                <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full ">
-                                    Open Live
-                                </a>
-                            </div>
-                            <div class="mt-6 sm:mt-[2.5vw] md:mt-0">
-                                <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full">
-                                    Github
-                                </a>
-                            </div>
-                        </div>
-                        <p class="mt-5 sm:mt-[1.25vw]">
-                            Technologies:
-                        </p>
-                        <div class="mt-[.5vw] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-1 sm:gap-[.25vw] text-5xl sm:text-[3vw]">
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-css3-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-php-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center">
-                                    <i class="devicon-jquery-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center">
-                                    <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center">
-                                    <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="relative col-start-1 col-span-12  lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[1vw] " data-aos="fade-right">
-                    <img src="images/quizam/screens.png" class="w-full drop-shadow-xl" id="myImg2" alt="">
-                </div>
-            </div> -->
-
-            <!-- <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
-
-                <div class="relative col-start-1 col-span-12 lg:col-span-5 flex justify-center lg:justify-start items-center px-2 md:px-28 lg:px-[1vw]" data-aos="fade-left">
-                    <img src="images/anishop/anishop.png" class="w-full drop-shadow-xl" id="myImg3" alt="">
-                </div>
-                <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 px-4 text-zinc-600 text-xl sm:text-[1.2vw] sm:leading-[1.75vw]" data-aos="fade-up">
-                    <div class=" inset-y-[18%]">
-                        <h3 class="text-5xl sm:text-[3vw] font-bold text-emerald-600 my-4 sm:my-[1vw]">Anishop </h3>
-                        <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
-                            (Programmer, Developer)
-                        </p>
-                        <p class="pb-5 sm:pb-[1.25vw]  text-justify">
-                            An e-commerce website, where anime fans can find all the products they need to show their love for their
-                            favorite anime! Providing a vast selection of high-quality anime-related products,
-                            from clothing to accessories and much more. Our website features a design that reflects the anime aesthetic
-                            and style, while still being easy to navigate.
-                        </p>
-                        <ul>
-                            <li class="pb-4 sm:pb-[1vw] "><i class="bx bx-check text-emerald-400"></i> Vast selection of high-quality anime-related products, including clothing, accessories, and more.</li>
-                            <li class="pb-4 sm:pb-[1vw] "><i class="bx bx-check text-emerald-400"></i> Design that reflects the anime aesthetic and style, while being easy to navigate.</li>
-                            <li class="pb-4 sm:pb-[1vw] "><i class="bx bx-check text-emerald-400"></i> Engaging and informative product descriptions.</li>
-                            <li class="pb-4 sm:pb-[1.25vw] "><i class="bx bx-check text-emerald-400"></i> Management of products.</li>
-                        </ul>
-                        <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
-                            <div class="md:mr-2">
-                                <a href="https://anishop.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full ">
-                                    Open Live
-                                </a>
-                            </div>
-                            <div class="mt-6 sm:mt-[2.5vw] md:mt-0">
-                                <a href="https://github.com/MarkGuil/e-commerce-shop" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full">
-                                    Github
-                                </a>
-                            </div>
-                        </div>
-                        <p class="mt-5 sm:mt-[1.25vw]">
-                            Technologies:
-                        </p>
-                        <div class="mt-2 sm:mt-[.5vw] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-1 sm:gap-[.25vw] text-5xl sm:text-[3vw]">
-                            <div class="col-auto">
-                                <div class=" flex justify-center  ">
-                                    <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center  ">
-                                    <i class="devicon-css3-plain drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-php-plain drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div> -->
-
-            <!-- <div class="relative grid grid-cols-12 gap-4 sm:gap-[1vw] mt-32 sm:mt-[8vw]">
-                <div class="col-start-1 col-span-12 lg:col-span-7 pt-4 sm:pt-[1vw] px-4 sm:px-[1vw] text-zinc-600 text-xl sm:text-[1.25vw] sm:leading-[1.75vw]" data-aos="fade-up">
-                    <div class=" inset-y-[19%]">
-                        <h3 class="text-5xl sm:text-[3vw] font-bold text-emerald-600 my-4 sm:my-[1vw]">PSU Main Supply Office Inventory System</h3>
-                        <p class="pb-5 sm:pb-[1.25vw] font-bold italic">
-                            (Developer, Designer)
-                        </p>
-                        <p class="pb-5 sm:pb-[1.25vw] italic text-justify">
-                            A web application that helps in the management and monitoring of supplies across many PSU campuses.
-                            It can track requested supplies, and create an annual
-                            procurement plan for budget utilization.
-                        </p>
-                        <ul>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Main Admin - managing and monitoring inventory of campuses</li>
-                            <li class="pb-4 sm:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Campus Admin - manages offices and creates their procurement plan for their campus</li>
-                        </ul>
-                        <div class="text-lg sm:text-[1.125vw] mt-5 sm:mt-[1.25vw] mb-10 sm:mb-[2.5vw] md:inline-flex">
-                            <div class="">
-                                <a href="" target="_blank" rel="noopener noreferrer" class="text-white py-2 sm:py-[.5vw] px-10 sm:px-[2.5vw] bg-emerald-400 rounded-full ">
-                                    Open Live
-                                </a>
-                            </div>
-                        </div>
-                        <p class="mt-5 sm:mt-[1.25vw]">
-                            Technologies:
-                        </p>
-                        <div class="mt-2 sm:mt-[.5vw] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-1 sm:gap-[.25vw] text-5xl sm:text-[3vw]">
-                            <div class="col-auto">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 sm:p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-css3-plain drop-shadow-xl rounded-full p-4 sm:p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-php-plain drop-shadow-xl rounded-full p-4 sm:p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-4 sm:p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-4 sm:p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                            <div class="col-auto ">
-                                <div class=" flex justify-center ">
-                                    <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-4 sm:p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="relative col-start-1 col-span-12 lg:col-span-5 order-first lg:order-last flex justify-center lg:justify-end items-center px-2 md:px-28 lg:px-[.875vw]" data-aos="fade-right">
-                    <img src="images/psu/screens.png" class="w-full drop-shadow-xl" id="myImg4" alt="">
-                </div>
-            </div> -->
-
         </div>
     </section>
 

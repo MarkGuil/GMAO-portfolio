@@ -244,7 +244,7 @@ gsap.to('#omniImage1', {
         toggleActions: 'restart pause continue none',
     },
     x:  () => ((window.innerWidth) - gsap.getProperty("#omniImage2", "width")),
-    y: '125',
+    y: '205',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -252,7 +252,7 @@ gsap.to('#omniImage1', {
 gsap.to('#omniImage2', {
     scrollTrigger: {
         trigger: '#omniImage2',
-        start: "top center",
+        start: "top 35%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
@@ -265,9 +265,10 @@ gsap.to('#omniImage2', {
 gsap.to('#omniImage3', {
     scrollTrigger: {
         trigger: '#omniImage3',
-        start: "top center",
+        start: "top 35%",
         end: "80% 20%",
         scrub: 1,
+        markers: true,
         toggleActions: 'restart pause continue none',
     },
     x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#omniImage3", "width")),
@@ -293,7 +294,7 @@ gsap.to('#omniImage4', {
 gsap.to('#omniImage5', {
     scrollTrigger: {
         trigger: '#omniImage5',
-        start: "top center",
+        start: "top 35%",
         end: "1200px 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
@@ -307,7 +308,7 @@ gsap.to('#omniImage5', {
 gsap.to('#quizImage1', {
     scrollTrigger: {
         trigger: '#quizImage1',
-        start: "top center",
+        start: "top 35%",
         end: "80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
@@ -321,7 +322,7 @@ gsap.to('#quizImage1', {
 gsap.to('#quizImage2', {
     scrollTrigger: {
         trigger: '#quizImage2',
-        start: "top center",
+        start: "top 35%",
         end: "80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
@@ -335,7 +336,7 @@ gsap.to('#quizImage2', {
 gsap.to('#quizImage3', {
     scrollTrigger: {
         trigger: '#quizImage3',
-        start: "-750px center",
+        start: "-750px 35%",
         end: "-80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
@@ -349,7 +350,7 @@ gsap.to('#quizImage3', {
 gsap.to('#quizImage4', {
     scrollTrigger: {
         trigger: '#quizImage4',
-        start: "-850px center",
+        start: "-850px 35%",
         end: "-80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
@@ -363,7 +364,7 @@ gsap.to('#quizImage4', {
 gsap.to('#aniImage1', {
     scrollTrigger: {
         trigger: '#aniImage1',
-        start: "top center",
+        start: "top 35%",
         end: "80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
@@ -377,7 +378,7 @@ gsap.to('#aniImage1', {
 gsap.to('#aniImage2', {
     scrollTrigger: {
         trigger: '#aniImage2',
-        start: "top center",
+        start: "top 35%",
         end: "80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
@@ -391,7 +392,7 @@ gsap.to('#aniImage2', {
 gsap.to('#aniImage3', {
     scrollTrigger: {
         trigger: '#aniImage3',
-        start: "-750px center",
+        start: "-750px 35%",
         end: "-80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
@@ -405,7 +406,7 @@ gsap.to('#aniImage3', {
 gsap.to('#aniImage4', {
     scrollTrigger: {
         trigger: '#aniImage4',
-        start: "-850px center",
+        start: "-850px 35%",
         end: "-80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
