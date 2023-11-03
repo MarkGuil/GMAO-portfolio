@@ -4,7 +4,7 @@ const aboutMe = document.getElementById('about-me');
 const aboutMeDesc = document.getElementById('about-me-desc');
 const aboutSection = document.querySelector(".about-section");
 const skillSection = document.querySelector(".skill-section");
-const projectSection = document.querySelector("#project-section");
+// const projectSection = document.querySelector("#project-section");
 const posDetails = document.querySelector("#posDetails");
 const omniDetails = document.querySelector("#omniDetails");
 const quizDetails = document.querySelector("#quizDetails");
@@ -39,7 +39,7 @@ const projectObserver = new IntersectionObserver(
     }
 );
 
-projectObserver.observe(projectSection);
+// projectObserver.observe(projectSection);
 
 const lenis = new Lenis({
     duration: 1.2,
@@ -127,7 +127,7 @@ gsap.to('#skill-1', {
         start: "500px 75%",
         endTrigger: ".skill-section",
         end: "70% 25%",
-        scrub: 1,
+        scrub: .5,
         pin: true,
         toggleActions: 'restart pause continue none',
     },
@@ -142,7 +142,7 @@ gsap.to('#skill-2', {
         start: "15% 40%",
         endTrigger: ".skill-section",
         end: "80% 20%",
-        scrub: 2,
+        scrub: .5,
         pin: true,
         toggleActions: 'restart pause continue none',
     },
@@ -157,7 +157,7 @@ gsap.to('#skill-3', {
         start: "-30% 45%",
         endTrigger: ".skill-section",
         end: "80% 20%",
-        scrub: 2,
+        scrub: .5,
         toggleActions: 'restart pause continue none',
     },
     x: '10%',
@@ -172,7 +172,7 @@ gsap.to('#skill-4', {
         start: "-40% 55%",
         endTrigger: ".skill-section",
         end: "80% 20%",
-        scrub: 2,
+        scrub: .5,
         toggleActions: 'restart pause continue none',
     },
     x: '40%',
@@ -186,7 +186,7 @@ gsap.to('#skill-5', {
         start: "120px 50%",
         endTrigger: ".skill-section",
         end: "80% 20%",
-        scrub: 2,
+        scrub: .5,
         toggleActions: 'restart pause continue none',
     },
     x: '-100%',
@@ -197,7 +197,7 @@ gsap.to('#skill-5', {
 gsap.to('#projImage1', {
     scrollTrigger: {
         trigger: '#projImage1',
-        start: "top center",
+        start: "-420 center",
         end: "150% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
@@ -216,7 +216,7 @@ gsap.to('#projImage2', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () => (gsap.getProperty("#projImage2", "width")),
+    x: () => "+="+(gsap.getProperty("#projImage2", "width")),
     y: '-500',
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
@@ -225,13 +225,13 @@ gsap.to('#projImage2', {
 gsap.to('#projImage3', {
     scrollTrigger: {
         trigger: '#projImage3',
-        start: "-600px center",
+        start: "-500px center",
         end: "80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
     x: () => "-" + (gsap.getProperty("#projImage3", "width")),
-    y: '250',
+    y: "+=250",
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -244,7 +244,7 @@ gsap.to('#omniImage1', {
         toggleActions: 'restart pause continue none',
     },
     x:  () => ((window.innerWidth) - gsap.getProperty("#omniImage2", "width")),
-    y: '205',
+    y: () => (gsap.getProperty("#omniImage1", "height") / 2),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -268,7 +268,6 @@ gsap.to('#omniImage3', {
         start: "top 35%",
         end: "80% 20%",
         scrub: 1,
-        markers: true,
         toggleActions: 'restart pause continue none',
     },
     x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#omniImage3", "width")),
@@ -285,8 +284,8 @@ gsap.to('#omniImage4', {
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x:  () => ((window.innerWidth / 1.32) - gsap.getProperty("#omniImage4", "width")),
-    y: () => '-' + ((gsap.getProperty("#omniImages", "height") / 3) - gsap.getProperty("#omniImage4", "height")),
+    x:  () => ((window.innerWidth / 1.39) - gsap.getProperty("#omniImage4", "width")),
+    y: () => '-' + ((gsap.getProperty("#omniImages", "height") / 3.2) - gsap.getProperty("#omniImage4", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -361,60 +360,155 @@ gsap.to('#quizImage4', {
     ease: "slow(0.7,0.7,false)",
 });
 
+// gsap.to('#aniImage1', {
+//     scrollTrigger: {
+//         trigger: '#aniImage1',
+//         start: "top 35%",
+//         end: "80% 20%",
+//         scrub: 1,
+//         toggleActions: 'restart pause continue none',
+//     },
+//     x:  () => ((window.innerWidth / 2) - gsap.getProperty("#aniImage1", "width")),
+//     y: () => ((gsap.getProperty("#aniImages", "height") / 2.6) - gsap.getProperty("#aniImage2", "height")),
+//     duration:2.5,
+//     ease: "slow(0.7,0.7,false)",
+// });
+
+// gsap.to('#aniImage2', {
+//     scrollTrigger: {
+//         trigger: '#aniImage2',
+//         start: "top 35%",
+//         end: "80% 20%",
+//         scrub: 1,
+//         toggleActions: 'restart pause continue none',
+//     },
+//     x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#aniImage2", "width")),
+//     y: () => ((gsap.getProperty("#aniImages", "height") / 2.8) - gsap.getProperty("#aniImage2", "height")),
+//     duration:2.5,
+//     ease: "slow(0.7,0.7,false)",
+// });
+
+// gsap.to('#aniImage3', {
+//     scrollTrigger: {
+//         trigger: '#aniImage3',
+//         start: "-750px 35%",
+//         end: "-80% 20%",
+//         scrub: 1,
+//         toggleActions: 'restart pause continue none',
+//     },
+//     x:  () => ((window.innerWidth / 2) - gsap.getProperty("#aniImage3", "width")),
+//     y: () => '-' + ((gsap.getProperty("#aniImages", "height") / 2.9) - gsap.getProperty("#aniImage3", "height")),
+//     duration:2.5,
+//     ease: "slow(0.7,0.7,false)",
+// });
+
+// gsap.to('#aniImage4', {
+//     scrollTrigger: {
+//         trigger: '#aniImage4',
+//         start: "-850px 35%",
+//         end: "-80% 20%",
+//         scrub: 1,
+//         toggleActions: 'restart pause continue none',
+//     },
+//     x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#aniImage4", "width")),
+//     y: () => '-' + ((gsap.getProperty("#aniImages", "height") / 2.7) - gsap.getProperty("#aniImage4", "height")),
+//     duration:2.5,
+//     ease: "slow(0.7,0.7,false)",
+// });
 gsap.to('#aniImage1', {
     scrollTrigger: {
         trigger: '#aniImage1',
-        start: "top 35%",
+        start: "top center",
+        scrub: 1,
+        toggleActions: 'restart pause continue none',
+    },
+    x:  () => ((window.innerWidth) - gsap.getProperty("#omniImage2", "width")),
+    y: () => (gsap.getProperty("#aniImage1", "height") / 1.8),
+    duration:2.5,
+    ease: "slow(0.7,0.7,false)",
+});
+
+// gsap.to('#aniImage2', {
+//     scrollTrigger: {
+//         trigger: '#aniImage2',
+//         start: "top 35%",
+//         scrub: 1,
+//         toggleActions: 'restart pause continue none',
+//     },
+//     x:  () => ((window.innerWidth / 2) - gsap.getProperty("#aniImage2", "width")),
+//     y: () => ((gsap.getProperty("#aniImages", "height") / 3) - gsap.getProperty("#aniImage2", "height")),
+//     duration:2.5,
+//     ease: "slow(0.7,0.7,false)",
+// });
+
+// gsap.to('#aniImage3', {
+//     scrollTrigger: {
+//         trigger: '#aniImage3',
+//         start: "top 35%",
+//         end: "80% 20%",
+//         scrub: 1,
+//         toggleActions: 'restart pause continue none',
+//     },
+//     x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#aniImage3", "width")),
+//     y: () => ((gsap.getProperty("#aniImages", "height") / 3.5) - gsap.getProperty("#aniImage3", "height")),
+//     duration:2.5,
+//     ease: "slow(0.7,0.7,false)",
+// });
+
+// gsap.to('#aniImage4', {
+//     scrollTrigger: {
+//         trigger: '#aniImage4',
+//         start: "-850px center",
+//         end: "-80% 20%",
+//         scrub: 1,
+//         toggleActions: 'restart pause continue none',
+//     },
+//     x:  () => ((window.innerWidth / 1.38) - gsap.getProperty("#aniImage4", "width")),
+//     y: () => '-' + ((gsap.getProperty("#aniImages", "height") / 3.2) - gsap.getProperty("#aniImage4", "height")),
+//     duration:2.5,
+//     ease: "slow(0.7,0.7,false)",
+// });
+
+gsap.to('#aniImage5', {
+    scrollTrigger: {
+        trigger: '#aniImage5',
+        start: "top center",
+        end: "1200px 20%",
+        scrub: 1,
+        toggleActions: 'restart pause continue none',
+    },
+    x:  () => "-" + ((window.innerWidth)),
+    y: () => ((gsap.getProperty("#aniImages", "height") / 2.8) - gsap.getProperty("#omniImage5", "height")),
+    duration:2.5,
+    ease: "slow(0.7,0.7,false)",
+});
+
+gsap.to('#aniImage6', {
+    scrollTrigger: {
+        trigger: '#aniImage6',
+        start: "-380 35%",
         end: "80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x:  () => ((window.innerWidth / 2) - gsap.getProperty("#aniImage1", "width")),
-    y: () => ((gsap.getProperty("#aniImages", "height") / 2.6) - gsap.getProperty("#aniImage2", "height")),
+    x:  () => "-" + ((window.innerWidth / 1.18) - gsap.getProperty("#aniImage6", "width")),
+    y: () => "-" + ((gsap.getProperty("#aniImages", "height") / 2.5) - gsap.getProperty("#aniImage6", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
 
-gsap.to('#aniImage2', {
+gsap.to('#aniImage7', {
     scrollTrigger: {
-        trigger: '#aniImage2',
-        start: "top 35%",
+        trigger: '#aniImage7',
+        start: "-320 35%",
         end: "80% 20%",
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#aniImage2", "width")),
-    y: () => ((gsap.getProperty("#aniImages", "height") / 2.8) - gsap.getProperty("#aniImage2", "height")),
+    x:  () => "-" + ((window.innerWidth / 1.1) - gsap.getProperty("#aniImage7", "width")),
+    y: () => "-" + ((gsap.getProperty("#aniImages", "height") / 2.4) - gsap.getProperty("#aniImage7", "height")),
     duration:2.5,
-    ease: "slow(0.7,0.7,false)",
-});
-
-gsap.to('#aniImage3', {
-    scrollTrigger: {
-        trigger: '#aniImage3',
-        start: "-750px 35%",
-        end: "-80% 20%",
-        scrub: 1,
-        toggleActions: 'restart pause continue none',
-    },
-    x:  () => ((window.innerWidth / 2) - gsap.getProperty("#aniImage3", "width")),
-    y: () => '-' + ((gsap.getProperty("#aniImages", "height") / 2.9) - gsap.getProperty("#aniImage3", "height")),
-    duration:2.5,
-    ease: "slow(0.7,0.7,false)",
-});
-
-gsap.to('#aniImage4', {
-    scrollTrigger: {
-        trigger: '#aniImage4',
-        start: "-850px 35%",
-        end: "-80% 20%",
-        scrub: 1,
-        toggleActions: 'restart pause continue none',
-    },
-    x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#aniImage4", "width")),
-    y: () => '-' + ((gsap.getProperty("#aniImages", "height") / 2.7) - gsap.getProperty("#aniImage4", "height")),
-    duration:2.5,
-    ease: "slow(0.7,0.7,false)",
+    ease: "slow(0.1,0.4,false)",
 });
 
 function raf(time) {
