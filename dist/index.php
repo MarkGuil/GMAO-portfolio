@@ -332,7 +332,7 @@ if (session_id() == '') {
         <div class="py-10 md:py-14 lg:py-[6vw] relative h-full">
 
             <div id="project1" class="relative flex flex-col lg:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[150rem] lg:h-[180vw]">
-                <div id="projectImages" class="relative h-full w-full overflow-clip">
+                <div id="projectImages" class="relative h-full w-full md:flex justify-start overflow-clip"">
                     
                     <div id="posDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
                         <img src="images/pos/pos-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
@@ -402,14 +402,15 @@ if (session_id() == '') {
                             </div>
                         </div>
                     </div>
-                    <img src="images/pos/pos1.png" id="projImage1" class=" w-[48rem] xl:w-[55vw] h-[27rem] xl:h-[29vw] absolute top-[15rem] lg:top-[11vw] 2xl:top-[25vw] -right-[56rem] lg:-right-[48rem] 2xl:-right-[48vw] hidden sm:block" alt=""> 
-                    <img src="images/pos/pos1.png" id="projImage3" class=" w-[48rem] xl:w-[55vw] h-[27rem] xl:h-[29vw] absolute bottom-[35rem] lg:bottom-[43vw] -right-[44rem] lg:-right-[59vw] hidden sm:block" alt=""> 
-                    <img src="images/pos/pos1.png" id="projImage2" class=" w-[48rem] xl:w-[55vw] h-[27rem] xl:h-[29vw] absolute bottom-[36rem] lg:bottom-[45vw] -left-[30rem] lg:-left-[11vw] hidden sm:block" alt=""> 
+                    <img src="images/pos/monitor1.png" id="projImage1" class=" w-[51rem] xl:w-[76vw] h-[29rem] xl:h-[38vw] absolute top-[15rem] lg:top-[15vw] 2xl:top-[10vw] -left-[10rem] lg:-left-[10vw] 2xl:-left-[18vw] hidden sm:block" alt=""> 
+                    <img src="images/pos/monitor3.png" id="projImage2" class=" w-[51rem] xl:w-[76vw] h-[29rem] xl:h-[38vw] absolute bottom-[36rem] lg:bottom-[47vw] -left-[30rem] lg:left-[5rem] 2xl:-left-[11vw] hidden sm:block" alt=""> 
+                    <img src="images/pos/monitor2.png" id="projImage3" class=" w-[51rem] xl:w-[76vw] h-[29rem] xl:h-[38vw] absolute bottom-[35rem] lg:bottom-[43vw] -right-[44rem] lg:-right-[40vw] 2xl:-right-[50vw] hidden sm:block" alt=""> 
                 </div>
             </div>
             
             <div id="project2" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[170rem]  lg:h-[210vw]">
-                <div id="omniImages" class="relative h-full w-full md:flex justify-end overflow-clip">
+                <div id="omniImages" class="relative h-full w-full md:flex justify-start overflow-clip">
+
                     <div id="omniDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
                         <img src="images/omnibus/screensold.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg1" alt="">
                         <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
@@ -482,16 +483,17 @@ if (session_id() == '') {
                             </div>
                         </div>
                     </div>
-                    <img src="images/omnibus/monitor1.png" id="omniImage1" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute top-[10rem] lg:top-[17vw] -left-[54rem] lg:-left-[75vw] hidden sm:block" alt="">
-                    <img src="images/omnibus/phone1@4x.png" id="omniImage2" class=" w-52 lg:w-[19vw] h-[43vw] lg:h-[35vw] absolute sm:top-[34rem] lg:top-[47vw] -left-[10rem] md:-left-[20vw] hidden sm:block" alt="">
-                    <img src="images/omnibus/phone2@4x.png" id="omniImage3" class=" w-52 lg:w-[19vw] h-[43vw] lg:h-[35vw] absolute sm:top-[34rem] lg:top-[47vw] right-[6rem] md:right-[14vw] hidden sm:block" alt="">
-                    <img src="images/omnibus/monitor2.png" id="omniImage5" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute bottom-[50rem] lg:bottom-[65vw] 2xl:bottom-[82vw] -right-[20rem] lg:-right-[40vw] hidden sm:block" alt="">
-                    <img src="images/omnibus/phone3@4x.png" id="omniImage4" class=" w-52 lg:w-[19vw] h-[43vw] lg:h-[35vw] absolute sm:bottom-[30rem] lg:bottom-[35vw] -left-[8rem] md:-left-[19vw] hidden sm:block" alt="">
+                    <img src="images/omnibus/monitor1.png" id="omniImage1" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute top-[10rem] lg:top-[17vw] -right-[54rem] lg:-right-[75vw] hidden sm:block" alt="">
+                    <img src="images/omnibus/monitor2.png" id="omniImage5" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute bottom-[50rem] lg:bottom-[65vw] 2xl:bottom-[82vw] -left-[20rem] lg:-left-[30vw] 2xl:-left-[40vw] hidden sm:block" alt="">
+                    <img src="images/omnibus/phone1@4x.png" id="omniImage2" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[34rem] lg:top-[47vw] -right-[10rem] md:-right-[20vw] hidden sm:block" alt="">
+                    <img src="images/omnibus/phone2@4x.png" id="omniImage3" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[34rem] lg:top-[47vw] left-[6rem] md:left-[14vw] hidden sm:block" alt="">
+                    <img src="images/omnibus/phone3@4x.png" id="omniImage4" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[30rem] lg:bottom-[35vw] -right-[8rem] md:-right-[20vw] hidden sm:block" alt="">
                 </div>
             </div>
 
             <div id="project3" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[110rem] lg:h-[150vw]">
-                <div id="quizImages" class="relative h-full w-full bg-slate-200 flex justify-start overflow-clip">
+                <div id="quizImages" class="relative h-full w-full bg-slate-200 md:flex justify-start overflow-clip">
+                    
                     <div id="quizDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
                         <img src="images/quizam/screens.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
                         <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
@@ -571,7 +573,7 @@ if (session_id() == '') {
             </div>
             
             <div id="project4" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[140rem] lg:h-[190vw]">
-                <div id="aniImages" class="relative h-full w-full flex justify-end overflow-clip">
+                <div id="aniImages" class="relative h-full w-full md:flex justify-start overflow-clip">
                     <div id="aniDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
                         <img src="images/anishop/anishop-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg3" alt="">
                         <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
@@ -638,12 +640,12 @@ if (session_id() == '') {
                             </div>
                         </div>
                     </div>
-                    <img src="images/anishop/monitor1.png" id="aniImage1" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute top-[10rem] lg:top-[15vw] -left-[54rem] lg:-left-[75vw] hidden sm:block" alt="">
-                    <div id="" class="absolute flex gap-16 lg:gap-28 sm:top-[74rem] lg:top-[68rem] xl:top-[95vw] right-[4rem] lg:right-[14vw]">
-                        <img src="images/anishop/phone12.png" id="aniImage6" class=" -rotate-[30deg] w-55 lg:w-[24vw] h-[40vw] lg:h-[34vw] hidden sm:block drop-shadow-xl" alt="">
-                        <img src="images/anishop/phone22.png" id="aniImage7" class=" -rotate-[30deg] w-55 lg:w-[24vw] h-[40vw] lg:h-[34vw] hidden sm:block drop-shadow-xl" alt="">
+                    <img src="images/anishop/monitor1.png" id="aniImage1" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute top-[10rem] lg:top-[15vw] -right-[54rem] lg:-right-[75vw] hidden sm:block" alt="">
+                    <img src="images/anishop/monitor2.png" id="aniImage4" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute bottom-[40rem] lg:bottom-[44vw] 2xl:bottom-[54vw] -right-[63rem] xl:-right-[63vw] hidden sm:block" alt="">
+                    <div id="" class="absolute flex gap-16 lg:gap-28 sm:top-[74rem] lg:top-[68rem] xl:top-[95vw] left-[4rem] lg:left-[14vw]">
+                        <img src="images/anishop/phone22.png" id="aniImage3" class=" rotate-[30deg] w-55 lg:w-[24vw] h-[40vw] lg:h-[34vw] hidden sm:block drop-shadow-xl" alt="">
+                        <img src="images/anishop/phone12.png" id="aniImage2" class=" rotate-[30deg] w-55 lg:w-[24vw] h-[40vw] lg:h-[34vw] hidden sm:block drop-shadow-xl" alt="">
                     </div>
-                    <img src="images/anishop/monitor2.png" id="aniImage5" class=" w-[54rem] xl:w-[80vw] h-[32rem] xl:h-[41vw] absolute bottom-[40rem] lg:bottom-[44vw] 2xl:bottom-[54vw] -right-[23rem] xl:-right-[23vw] hidden sm:block" alt="">
                 </div>
             </div>
         </div>
