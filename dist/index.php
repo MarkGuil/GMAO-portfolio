@@ -107,8 +107,8 @@ if (session_id() == '') {
                     </a>
                 </div>
             </div>
-            <div id="nav-menu" class="absolute z-[60] bg-white text-zinc-900 top-20 left-0 text-4xl w-full flex-col justify-center origin-top animate-nav-bounce hidden lg:hidden transition-all duration-500">
-                <div class="relative min-h-screen flex flex-col items-center py-7" aria-label="mobile">
+            <div id="nav-menu" class="absolute z-[60] bg-white text-zinc-900 top-16 left-0 text-4xl w-full flex-col justify-center origin-top animate-nav-bounce hidden lg:hidden transition-all duration-500">
+                <div class="relative min-h-screen h-fit flex flex-col items-center py-7" aria-label="mobile">
                     <a href="#home" onclick="lenis.scrollTo('#home')" class="w-full text-center py-5 hover:opacity-75">Home</a>
                     <a href="#about" onclick="lenis.scrollTo('#about')" class="w-full text-center py-5 hover:opacity-75">About</a>
                     <a href="#project" onclick="lenis.scrollTo('#project')" class="w-full text-center py-5 hover:opacity-75">Projects</a>
@@ -134,7 +134,7 @@ if (session_id() == '') {
 
     </nav>
 
-    <section id="home" class="sect home relative h-fit sm:h-screen bg-cover bg-home-large text-zinc-900 z-20">
+    <section id="home" class="sect home relative h-fit sm:min-h-screen sm:h-hit bg-cover bg-home-large text-zinc-900 z-20">
 
         <div class="grid grid-cols-8 gap-8 h-full py-56 sm:py-[10vw] px-[1.25vw] ">
 
@@ -342,12 +342,8 @@ if (session_id() == '') {
                                 (Programmer, Developer, Designer)
                             </p>
                             <p class="pb-5 2xl:pb-[1.15vw] text-justify">
-                                An online based quiz/ exam system that is designed and built with anti cheating functions.
-                                This web application allows users to manage and conduct online assessments.
+                                A cloud-based point of sale system for small businesses. The system creates the intersection between sales, inventory management, payment processing, and customer management. This application allows customers to choose an option to pay a partial amount or pay later for their order.
                             </p>
-                            <ul>
-                                <li class="pb-4 2xl:pb-[1.15vw]"><i class="bx bx-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
-                            </ul>
                             <div class="text-lg 2xl:text-[1.15vw] mt-5 2xl:mt-[1.05vw] mb-10 2xl:mb-[1.35vw] lg:inline-flex">
                                 <div class="md:mr-2">
                                     <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.35vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full ">
@@ -491,26 +487,20 @@ if (session_id() == '') {
                 </div>
             </div>
 
-            <div id="project3" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[110rem] lg:h-[150vw]">
-                <div id="quizImages" class="relative h-full w-full bg-slate-200 md:flex justify-start overflow-clip">
+            <div id="project3" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[170rem] lg:h-[210vw]">
+                <div id="quizImages" class="relative h-full w-full  md:flex justify-start overflow-clip">
                     
                     <div id="quizDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
-                        <img src="images/quizam/screens.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
+                        <img src="images/quizam/quizam-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
                         <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
                             <h3 class=" text-5xl 2xl:text-[3vw]  font-bold text-emerald-600 my-4 2xl:my-[1vw]">Quizam</h3>
                             <p class="pb-5 2xl:pb-[1.125vw] font-bold italic">
                                 (Programmer, Developer, Designer)
                             </p>
                             <p class="pb-5 2xl:pb-[1.125vw] text-justify">
-                                An online based quiz/ exam system that is designed and built with anti cheating functions.
-                                This web application allows users to manage and conduct online assessments.
+                                An online based quiz/ exam system that is designed and built with anti cheating functions. Set-up the assessment to show one question at a time, prohibiting users to backtrack while taking the test and prohibits them to take the test multiple times.
+                                This web application allows users to manage and conduct online assessments. 
                             </p>
-                            <ul>
-                                <li class="pb-4 2xl:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Set-up the exam to show one question at a time.</li>
-                                <li class="pb-4 2xl:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Prohibiting users to backtrack while taking the test.</li>
-                                <li class="pb-4 2xl:pb-[1vw]"><i class="bx bx-check text-emerald-400"></i> Prohibit users to take the test multiple times.</li>
-                                <li class="pb-5 2xl:pb-[1.125vw]"><i class="bx bx-check text-emerald-400"></i> Delay score availability.</li>
-                            </ul>
                             <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1.05vw] mb-5 2xl:mb-[1.35vw] lg:inline-flex">
                                 <div class="md:mr-2">
                                     <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full ">
@@ -565,10 +555,11 @@ if (session_id() == '') {
                             </div>
                         </div>
                     </div>
-                    <div id="quizImage1" class=" w-52 lg:w-[20vw] h-[43vw] lg:h-[34vw] absolute sm:top-[15rem] lg:top-[19vw] left-[6rem] md:left-[15vw] bg-red-300 hidden sm:block"></div>
-                    <div id="quizImage2" class=" w-52 lg:w-[20vw] h-[43vw] lg:h-[34vw] absolute sm:top-[15rem] lg:top-[19vw] -right-[9rem] md:-right-[23vw] bg-red-300 hidden sm:block"></div>
-                    <div id="quizImage3" class=" w-52 lg:w-[20vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] left-[6rem] md:left-[15vw] bg-red-300 hidden sm:block"></div>
-                    <div id="quizImage4" class=" w-52 lg:w-[20vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[8rem] lg:bottom-[14vw] -right-[9rem] md:-right-[23vw] bg-red-300 hidden sm:block"></div>
+                    <img src="images/quizam/monitor1.png" id="quizImage1" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute top-[10rem] lg:top-[17vw] -right-[54rem] lg:-right-[75vw] hidden sm:block" alt="">
+                    <img src="images/quizam/monitor2.png" id="quizImage5" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute bottom-[50rem] lg:bottom-[65vw] 2xl:bottom-[82vw] -left-[20rem] lg:-left-[30vw] 2xl:-left-[40vw] hidden sm:block" alt="">
+                    <img src="images/quizam/phone42.png" id="quizImage2" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[34rem] lg:top-[47vw] -right-[10rem] md:-right-[20vw] hidden sm:block" alt="">
+                    <img src="images/quizam/phone12.png" id="quizImage3" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[34rem] lg:top-[47vw] left-[6rem] md:left-[14vw] hidden sm:block" alt="">
+                    <img src="images/quizam/phone22.png" id="quizImage4" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[30rem] lg:bottom-[35vw] -right-[8rem] md:-right-[20vw] hidden sm:block" alt="">
                 </div>
             </div>
             
@@ -587,10 +578,6 @@ if (session_id() == '') {
                                 from clothing to accessories and much more. Our website features a design that reflects the anime aesthetic
                                 and style, while still being easy to navigate.
                             </p>
-                            <ul>
-                                <li class="pb-4 2xl:pb-[1vw] "><i class="bx bx-check text-emerald-400"></i> Design that reflects the anime aesthetic and style, while being easy to navigate.</li>
-                                <li class="pb-4 2xl:pb-[1.125vw] "><i class="bx bx-check text-emerald-400"></i> Management of products.</li>
-                            </ul>
                             <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1.05vw] mb-5 2xl:mb-[1.35vw] lg:inline-flex">
                                 <div class="md:mr-2">
                                     <a href="https://anishop.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full ">
@@ -641,7 +628,7 @@ if (session_id() == '') {
                         </div>
                     </div>
                     <img src="images/anishop/monitor1.png" id="aniImage1" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute top-[10rem] lg:top-[15vw] -right-[54rem] lg:-right-[75vw] hidden sm:block" alt="">
-                    <img src="images/anishop/monitor2.png" id="aniImage4" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute bottom-[40rem] lg:bottom-[44vw] 2xl:bottom-[54vw] -right-[63rem] xl:-right-[63vw] hidden sm:block" alt="">
+                    <img src="images/anishop/monitor2.png" id="aniImage4" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute bottom-[40rem] lg:bottom-[44vw] 2xl:bottom-[54vw] -right-[63rem] xl:-right-[60vw] hidden sm:block" alt="">
                     <div id="" class="absolute flex gap-16 lg:gap-28 sm:top-[74rem] lg:top-[68rem] xl:top-[95vw] left-[4rem] lg:left-[14vw]">
                         <img src="images/anishop/phone22.png" id="aniImage3" class=" rotate-[30deg] w-55 lg:w-[24vw] h-[40vw] lg:h-[34vw] hidden sm:block drop-shadow-xl" alt="">
                         <img src="images/anishop/phone12.png" id="aniImage2" class=" rotate-[30deg] w-55 lg:w-[24vw] h-[40vw] lg:h-[34vw] hidden sm:block drop-shadow-xl" alt="">

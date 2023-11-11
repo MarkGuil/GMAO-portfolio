@@ -1,4 +1,3 @@
-
 gsap.registerPlugin(ScrollTrigger);
 const aboutMe = document.getElementById('about-me');
 const aboutMeDesc = document.getElementById('about-me-desc');
@@ -63,11 +62,8 @@ gsap.ticker.lagSmoothing(0);
 
 lenis.on('scroll', (e) => {
     setTimeout(() => {
-        if(e.direction == 1) {
-            navbar.classList.add('-translate-y-24')
-        } else {
-            navbar.classList.remove('-translate-y-24')
-        }
+        if(!document.getElementById('nav-menu').classList.contains('open'))
+            e.direction == 1 ? navbar.classList.add('-translate-y-24') : navbar.classList.remove('-translate-y-24')
     }, 1500);
 })
 
@@ -200,7 +196,6 @@ gsap.to('#projImage1', {
         start: "30% center",
         end: "110% 20%",
         scrub: .5,
-        markers: true,
         toggleActions: 'restart pause continue none',
     },
     x: () => (gsap.getProperty("#projImage1", "width") / 1.7),
@@ -305,16 +300,17 @@ gsap.to('#omniImage5', {
     ease: "slow(0.7,0.7,false)",
 });
 
+
+
 gsap.to('#quizImage1', {
     scrollTrigger: {
         trigger: '#quizImage1',
-        start: "top 35%",
-        end: "80% 20%",
+        start: "top center",
         scrub: .5,
         toggleActions: 'restart pause continue none',
     },
-    x:  () => ((window.innerWidth / 2) - gsap.getProperty("#quizImage1", "width")),
-    y: () => ((gsap.getProperty("#quizImages", "height") / 2.6) - gsap.getProperty("#quizImage1", "height")),
+    x:  () => "-" + ((window.innerWidth) - gsap.getProperty("#quizImage2", "width")),
+    y: () => (gsap.getProperty("#quizImage1", "height") / 2),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -323,12 +319,11 @@ gsap.to('#quizImage2', {
     scrollTrigger: {
         trigger: '#quizImage2',
         start: "top 35%",
-        end: "80% 20%",
         scrub: .5,
         toggleActions: 'restart pause continue none',
     },
-    x:  () => "-" +((window.innerWidth / 2) - gsap.getProperty("#quizImage2", "width")),
-    y: () => ((gsap.getProperty("#quizImages", "height") / 2.8) - gsap.getProperty("#quizImage2", "height")),
+    x:  () => "-" + ((window.innerWidth / 2) - gsap.getProperty("#quizImage2", "width")),
+    y: () => ((gsap.getProperty("#quizImages", "height") / 3.5) - gsap.getProperty("#quizImage2", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -336,13 +331,13 @@ gsap.to('#quizImage2', {
 gsap.to('#quizImage3', {
     scrollTrigger: {
         trigger: '#quizImage3',
-        start: "-750px 35%",
-        end: "-80% 20%",
+        start: "top 35%",
+        end: "80% 20%",
         scrub: .5,
         toggleActions: 'restart pause continue none',
     },
     x:  () => ((window.innerWidth / 2) - gsap.getProperty("#quizImage3", "width")),
-    y: () => '-' + ((gsap.getProperty("#quizImages", "height") / 2.9) - gsap.getProperty("#quizImage3", "height")),
+    y: () => ((gsap.getProperty("#quizImages", "height") / 3) - gsap.getProperty("#quizImage3", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -350,16 +345,86 @@ gsap.to('#quizImage3', {
 gsap.to('#quizImage4', {
     scrollTrigger: {
         trigger: '#quizImage4',
-        start: "-850px 35%",
+        start: "-850px center",
         end: "-80% 20%",
         scrub: .5,
         toggleActions: 'restart pause continue none',
     },
-    x:  () => "-" +((window.innerWidth / 2) - gsap.getProperty("#quizImage4", "width")),
-    y: () => '-' + ((gsap.getProperty("#quizImages", "height") / 2.7) - gsap.getProperty("#quizImage4", "height")),
+    x:  () => '-' + ((window.innerWidth / 2) - gsap.getProperty("#quizImage4", "width")),
+    y: () => '-' + ((gsap.getProperty("#quizImages", "height") / 3.2) - gsap.getProperty("#quizImage4", "height")),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
+
+gsap.to('#quizImage5', {
+    scrollTrigger: {
+        trigger: '#quizImage5',
+        start: "top 35%",
+        end: "1200px 20%",
+        scrub: .5,
+        toggleActions: 'restart pause continue none',
+    },
+    x:  () => (((window.innerWidth) / 1.3) - gsap.getProperty("#quizImage2", "width")),
+    y: () => ((gsap.getProperty("#quizImages", "height") / 2.1) - gsap.getProperty("#quizImage5", "height")),
+    duration:2.5,
+    ease: "slow(0.7,0.7,false)",
+});
+
+// gsap.to('#quizImage1', {
+//     scrollTrigger: {
+//         trigger: '#quizImage1',
+//         start: "top 35%",
+//         end: "80% 20%",
+//         scrub: .5,
+//         toggleActions: 'restart pause continue none',
+//     },
+//     x:  () => ((window.innerWidth / 2) - gsap.getProperty("#quizImage1", "width")),
+//     y: () => ((gsap.getProperty("#quizImages", "height") / 2.6) - gsap.getProperty("#quizImage1", "height")),
+//     duration:2.5,
+//     ease: "slow(0.7,0.7,false)",
+// });
+
+// gsap.to('#quizImage2', {
+//     scrollTrigger: {
+//         trigger: '#quizImage2',
+//         start: "top 35%",
+//         end: "80% 20%",
+//         scrub: .5,
+//         toggleActions: 'restart pause continue none',
+//     },
+//     x:  () => "-" +((window.innerWidth / 2) - gsap.getProperty("#quizImage2", "width")),
+//     y: () => ((gsap.getProperty("#quizImages", "height") / 2.8) - gsap.getProperty("#quizImage2", "height")),
+//     duration:2.5,
+//     ease: "slow(0.7,0.7,false)",
+// });
+
+// gsap.to('#quizImage3', {
+//     scrollTrigger: {
+//         trigger: '#quizImage3',
+//         start: "-750px 35%",
+//         end: "-80% 20%",
+//         scrub: .5,
+//         toggleActions: 'restart pause continue none',
+//     },
+//     x:  () => ((window.innerWidth / 2) - gsap.getProperty("#quizImage3", "width")),
+//     y: () => '-' + ((gsap.getProperty("#quizImages", "height") / 2.9) - gsap.getProperty("#quizImage3", "height")),
+//     duration:2.5,
+//     ease: "slow(0.7,0.7,false)",
+// });
+
+// gsap.to('#quizImage4', {
+//     scrollTrigger: {
+//         trigger: '#quizImage4',
+//         start: "-850px 35%",
+//         end: "-80% 20%",
+//         scrub: .5,
+//         toggleActions: 'restart pause continue none',
+//     },
+//     x:  () => "-" +((window.innerWidth / 2) - gsap.getProperty("#quizImage4", "width")),
+//     y: () => '-' + ((gsap.getProperty("#quizImages", "height") / 2.7) - gsap.getProperty("#quizImage4", "height")),
+//     duration:2.5,
+//     ease: "slow(0.7,0.7,false)",
+// });
 
 gsap.to('#aniImage1', {
     scrollTrigger: {
