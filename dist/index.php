@@ -335,7 +335,7 @@ if (session_id() == '') {
             <div id="project1" class="relative flex flex-col lg:flex-row gap-4 sm:gap-[1vw] pt-20 sm:pt-[5vw] h-fit sm:h-[150rem] lg:h-[180vw]">
                 <div id="projectImages" class="relative h-full w-full md:flex justify-start overflow-clip"">
                     
-                    <div id="posDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 sm:py-0 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-300 delay-500">
+                    <div id="posDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 sm:py-0 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-300 delay-300">
                         <img src="images/pos/pos-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
                         <div id="posDesc" class="px-5 py-5 sm:py-0 sm:px-[1.5vw] transition-all duration-300 sm:opacity-0 sm:-translate-x-16">
                             <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
@@ -415,9 +415,9 @@ if (session_id() == '') {
             <div id="project2" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[165rem] xl:h-[210vw]">
                 <div id="omniImages" class="relative h-full w-full md:flex justify-start overflow-clip">
 
-                    <div id="omniDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 sm:py-0 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
+                    <div id="omniDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 sm:py-0 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-300 delay-300">
                         <img src="images/omnibus/screensold.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg1" alt="">
-                        <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
+                        <div id="omniDesc" class="px-5 py-5 sm:py-0 sm:px-[1.5vw] transition-all duration-300 sm:opacity-0 sm:-translate-x-16">
                             <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
                                 <h3 class=" text-5xl sm:text-4xl 2xl:text-[3vw] font-bold text-emerald-600">Omnibus</h3>
                                 <div class="flex gap-4">
@@ -500,9 +500,9 @@ if (session_id() == '') {
             <div id="project3" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[165rem] lg:h-[210vw]">
                 <div id="quizImages" class="relative h-full w-full  md:flex justify-start overflow-clip">
                     
-                    <div id="quizDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 sm:py-0 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
+                    <div id="quizDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 sm:py-0 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-300 delay-300">
                         <img src="images/quizam/quizam-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
-                        <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
+                        <div id="quizDesc" class="px-5 py-5 sm:py-0 sm:px-[1.5vw] transition-all duration-300 sm:opacity-0 sm:-translate-x-16">
                             <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
                                 <h3 class=" text-5xl sm:text-4xl 2xl:text-[3vw] font-bold text-emerald-600">Quizam</h3>
                                 <div class="flex gap-4">
@@ -577,9 +577,9 @@ if (session_id() == '') {
             
             <div id="project4" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[140rem] lg:h-[190vw]">
                 <div id="aniImages" class="relative h-full w-full md:flex justify-start overflow-clip">
-                    <div id="aniDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
+                    <div id="aniDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-300 delay-300">
                         <img src="images/anishop/anishop-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg3" alt="">
-                        <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
+                        <div id="aniDesc" class="px-5 py-5 sm:py-0 sm:px-[1.5vw] transition-all duration-300 sm:opacity-0 sm:-translate-x-16">
                             <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
                                 <h3 class=" text-5xl sm:text-4xl 2xl:text-[3vw] font-bold text-emerald-600">Anishop</h3>
                                 <div class="flex gap-4">
