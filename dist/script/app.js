@@ -18,6 +18,8 @@ window.onscroll = function(){
         navbar.classList.add("bg-transparent");
         navbar.classList.add("sm:py-[1.25vw]");
         navbar.classList.add("py-5");
+        navbar.classList.remove("opacity-20");
+        navbar.classList.remove("hover:opacity-100");
         mobileNav.classList.add("top-16");
         hamburger.classList.add("top-9");
         navbar.classList.remove("bg-white/[.85]");
@@ -29,6 +31,8 @@ window.onscroll = function(){
         navbar.classList.add("bg-white/[.85]");
         navbar.classList.add("shadow");
         navbar.classList.add("py-2");
+        navbar.classList.add("opacity-20");
+        navbar.classList.add("hover:opacity-100");
         mobileNav.classList.add("top-[3.20rem]");
         hamburger.classList.add("top-7");
         navbar.classList.remove("bg-transparent");

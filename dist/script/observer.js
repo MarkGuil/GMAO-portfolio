@@ -3,25 +3,41 @@ ScrollTrigger.create({
     start: "10% 25%",
     endTrigger: "#project1",
     end: "85% 40%+=100px",
-    onEnter: (self) => {
+    onEnter: (self) => { 
+        posDesc.classList.toggle('sm:opacity-0') 
+        posDesc.classList.toggle('sm:-translate-x-16')
+        posDesc.classList.toggle('delay-500')
         posDetails.classList.toggle('sm:w-[45vw]')
         posDetails.classList.toggle('2xl:w-[38vw]')
         posDetails.classList.toggle('sm:w-[50vw]')
+        posDetails.classList.toggle('delay-500')
     },
     onEnterBack: (self) => {
+        posDesc.classList.toggle('sm:opacity-0')
+        posDesc.classList.toggle('sm:-translate-x-16')
+        posDesc.classList.toggle('delay-500')
         posDetails.classList.toggle('sm:w-[45vw]')
         posDetails.classList.toggle('2xl:w-[38vw]')
         posDetails.classList.toggle('sm:w-[50vw]')
+        posDetails.classList.toggle('delay-500')
     },
     onLeave: (self) => {
+        posDesc.classList.toggle('sm:opacity-0')
+        posDesc.classList.toggle('sm:-translate-x-16')
+        posDesc.classList.toggle('delay-500')
         posDetails.classList.toggle('sm:w-[45vw]')
         posDetails.classList.toggle('2xl:w-[38vw]')
         posDetails.classList.toggle('sm:w-[50vw]')
+        posDetails.classList.toggle('delay-500')
     },
     onLeaveBack: (self) => {
+        posDesc.classList.toggle('sm:opacity-0')
+        posDesc.classList.toggle('sm:-translate-x-16')
+        posDesc.classList.toggle('delay-500')
         posDetails.classList.toggle('sm:w-[45vw]')
         posDetails.classList.toggle('2xl:w-[38vw]')
         posDetails.classList.toggle('sm:w-[50vw]')
+        posDetails.classList.toggle('delay-500')
     },
 });
 

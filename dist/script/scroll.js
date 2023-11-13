@@ -5,6 +5,7 @@ const aboutSection = document.querySelector(".about-section");
 const skillSection = document.querySelector(".skill-section");
 // const projectSection = document.querySelector("#project-section");
 const posDetails = document.querySelector("#posDetails");
+const posDesc = document.querySelector("#posDesc");
 const omniDetails = document.querySelector("#omniDetails");
 const quizDetails = document.querySelector("#quizDetails");
 const aniDetails = document.querySelector("#aniDetails");

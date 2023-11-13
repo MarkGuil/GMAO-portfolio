@@ -28,11 +28,11 @@ if (session_id() == '') {
 </head>
 
 <body class="relative m-0 p-0 font-crimson overflow-x-clip">
-    <nav class="navbar fixed w-screen py-5 sm:py-[1.25vw] px-7 lg:px-[1.75vw] z-[60] transition-all duration-500 ">
+    <nav class="navbar fixed w-screen py-5 sm:py-[1.25vw] px-7 lg:px-[1.75vw] z-[60] transition-all duration-500">
         <div class="grid grid-cols-2 lg:grid-cols-3 ">
-            <a class="col-auto lg:flex items-center" href="#">
-                <span class=" tracking-normal md:tracking-widest text-3xl lg:text-[2.25vw] text-zinc-600 font-black">GMAO</span>
-            </a>
+            <div class="col-auto lg:flex items-center">
+                <a href="#" class=" flex-shrink tracking-normal md:tracking-widest text-3xl lg:text-[2.25vw] text-zinc-600 font-black">GMAO</a>
+            </div>
             <div class="col-auto text-zinc-600 text-right lg:flex justify-center items-center">
                 <button id="nav-btn" class="text-3xl cursor-pointer lg:hidden w-7 h-7">
                     <div id="hamburger" class="bg-zinc-600 rounded absolute w-7 h-1 top-9 sm:top-7 -mt-0.5 transition-all duration-500
@@ -50,8 +50,8 @@ if (session_id() == '') {
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#home" onclick="lenis.scrollTo('#home')">
-                                <small><span class=" text-emerald-400">01</span> Home</small>
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out before:left-0" href="#home" onclick="lenis.scrollTo('#home')">
+                                <small class="flex gap-2"><span class=" text-emerald-400">01</span>Home</small>
                             </a>
                         </li>
                         <li class="mx-5 relative">
@@ -60,8 +60,8 @@ if (session_id() == '') {
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#about" onclick="lenis.scrollTo('#about')">
-                                <small><span class=" text-emerald-400">02</span> About</small>
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out before:left-0" href="#about" onclick="lenis.scrollTo('#about')">
+                                <small class="flex gap-2"><span class=" text-emerald-400">02</span>About</small>
                             </a>
                         </li>
                         <li class="mx-5 relative">
@@ -70,8 +70,8 @@ if (session_id() == '') {
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#project" onclick="lenis.scrollTo('#project')">
-                                <small><span class=" text-emerald-400">03</span> Projects</small>
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out before:left-0" href="#project" onclick="lenis.scrollTo('#project')">
+                                <small class="flex gap-2"><span class=" text-emerald-400">03</span>Projects</small>
                             </a>
                         </li>
                         <li class="mx-5 relative">
@@ -80,8 +80,8 @@ if (session_id() == '') {
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
-                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out" href="#contact" onclick="lenis.scrollTo('#contact')">
-                                <small><span class=" text-emerald-400">04</span> Contact</small>
+                          before:bg-emerald-400 before:transition-all before:duration-500 before:ease-in-out before:left-0" href="#contact" onclick="lenis.scrollTo('#contact')">
+                                <small class="flex gap-2"><span class=" text-emerald-400">04</span>Contact</small>
                             </a>
                         </li>
                     </ul>
@@ -184,7 +184,7 @@ if (session_id() == '') {
                     before:w-10 before:break-words before:sm:w-fit before:sm:break-normal">
                     About
                 </h3>
-                <h3 id="about-me-desc" class="relative px-2 sm:px-3 translate-x-[130%] sm:translate-x-full md:translate-x-3/4 lg:translate-x-1/4 text-zinc-700 text-3xl sm:text-2xl lg:text-[2.50vw]  
+                <h3 id="about-me-desc" class="relative px-2 sm:px-3 translate-x-[130%] sm:translate-x-full md:translate-x-1/4 lg:translate-x-1/4 text-zinc-700 text-3xl sm:text-2xl lg:text-[2.50vw]  
                     tracking-wider font-black z-10 leading-loose sm:leading-relaxed lg:leading-relaxed 3xl:leading-relaxed 
                     text-justify transition-opacity duration-300 opacity-0">
                     I am a web developer that is passionate in developing robust and responsive
@@ -297,7 +297,7 @@ if (session_id() == '') {
 
     <section id="project" class="sect project relative bg-white h-fit z-30">
         <div id="project-section" class="px-5 md:px-20 lg:px-[7vw] py-10 md:py-14 lg:py-[6vw] relative h-full ">
-            <div class="pb-10 sm:pb-[4vw] text-center" data-aos="fade-up">
+            <div class="pt-10 sm:pt-[4vw] text-center" data-aos="fade-up">
                 <h3 class="z-0 text-7xl md:text-[7vw] font-bold text-zinc-500 mb-4 transition-all
                     before:content-['Projects'] before:rounded before:absolute before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent
                     before:-translate-y-1 md:before:-translate-y-3 before:transition-all before:duration-500 ">
@@ -330,17 +330,17 @@ if (session_id() == '') {
     </section>
 
     <section id="project" class="sect project relative bg-white h-fit z-30">
-        <div class="py-10 md:py-14 lg:py-[6vw] relative h-full">
+        <div class="pb-10 md:pb-14 lg:pb-[6vw] relative h-full">
 
-            <div id="project1" class="relative flex flex-col lg:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[150rem] lg:h-[180vw]">
+            <div id="project1" class="relative flex flex-col lg:flex-row gap-4 sm:gap-[1vw] pt-20 sm:pt-[5vw] h-fit sm:h-[150rem] lg:h-[180vw]">
                 <div id="projectImages" class="relative h-full w-full md:flex justify-start overflow-clip"">
                     
-                    <div id="posDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 sm:py-0 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
+                    <div id="posDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 sm:py-0 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-300 delay-500">
                         <img src="images/pos/pos-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
-                        <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
+                        <div id="posDesc" class="px-5 py-5 sm:py-0 sm:px-[1.5vw] transition-all duration-300 sm:opacity-0 sm:-translate-x-16">
                             <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
-                                <h3 class=" text-5xl sm:text-4xl 2xl:text-[2.85vw] font-bold text-emerald-600">Pos System</h3>
-                                <div class="flex gap-2">
+                                <h3 class=" text-5xl sm:text-4xl 2xl:text-[3vw] font-bold text-emerald-600">Pos System</h3>
+                                <div class="flex gap-4">
                                     <div class="">
                                         <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full ">
                                             <i class='bx bx-link-external'></i>
@@ -419,8 +419,8 @@ if (session_id() == '') {
                         <img src="images/omnibus/screensold.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg1" alt="">
                         <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
                             <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
-                                <h3 class=" text-5xl sm:text-4xl 2xl:text-[2.85vw] font-bold text-emerald-600">Omnibus</h3>
-                                <div class="flex gap-2">
+                                <h3 class=" text-5xl sm:text-4xl 2xl:text-[3vw] font-bold text-emerald-600">Omnibus</h3>
+                                <div class="flex gap-4">
                                     <div class="">
                                         <a href="https://omnibus.markguilang.com/dist/" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full ">
                                             <i class='bx bx-link-external'></i>
@@ -504,8 +504,8 @@ if (session_id() == '') {
                         <img src="images/quizam/quizam-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
                         <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
                             <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
-                                <h3 class=" text-5xl sm:text-4xl 2xl:text-[2.85vw] font-bold text-emerald-600">Quizam</h3>
-                                <div class="flex gap-2">
+                                <h3 class=" text-5xl sm:text-4xl 2xl:text-[3vw] font-bold text-emerald-600">Quizam</h3>
+                                <div class="flex gap-4">
                                     <div class="">
                                         <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full ">
                                             <i class='bx bx-link-external'></i>
@@ -581,8 +581,8 @@ if (session_id() == '') {
                         <img src="images/anishop/anishop-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg3" alt="">
                         <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
                             <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
-                                <h3 class=" text-5xl sm:text-4xl 2xl:text-[2.85vw] font-bold text-emerald-600">Anishop</h3>
-                                <div class="flex gap-2">
+                                <h3 class=" text-5xl sm:text-4xl 2xl:text-[3vw] font-bold text-emerald-600">Anishop</h3>
+                                <div class="flex gap-4">
                                     <div class="">
                                         <a href="https://anishop.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full ">
                                             <i class='bx bx-link-external'></i>
@@ -601,7 +601,7 @@ if (session_id() == '') {
                             <p class="pb-5 sm:pb-3 2xl:pb-[1.125vw]  text-justify">
                                 An e-commerce website, where anime fans can find all the products they need to show their love for their
                                 favorite anime! Providing a vast selection of high-quality anime-related products,
-                                from clothing to accessories and much more. Our website features a design that reflects the anime aesthetic
+                                from clothing to accessories and much more. The website features a design that reflects the anime aesthetic
                                 and style, while still being easy to navigate.
                             </p>
                             <p class="pb-3 sm:pb-1 2xl:mt-[1.125vw]">
