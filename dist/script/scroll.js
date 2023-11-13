@@ -69,9 +69,9 @@ lenis.on('scroll', (e) => {
 
 ScrollTrigger.create({
     trigger: ".about-section",
-    start: "120px 70%",
+    start: "27% 60%-=20px",
     endTrigger: ".about-section",
-    end: "95% 60%+=100px",
+    end: "74% 50%+=80px",
     onEnter: (self) => {
         aboutMe.classList.toggle('opacity-0')
         aboutMeDesc.classList.toggle('opacity-0')
@@ -93,13 +93,13 @@ ScrollTrigger.create({
 gsap.to('#about-me', {
     scrollTrigger: {
         trigger: '#about-me',
-        start: "-180px 35%",
-        end: "300px top",
+        start: "top-=15% 30%",
+        end: "bottom+=30% top+=40%",
         scrub: 1,
         pin: true,
         toggleActions: 'restart pause continue none',
     },
-    x: () => "+=" + document.querySelector('#about-me-desc').offsetWidth ,
+    x:  () => "+" + ((window.innerWidth) - (gsap.getProperty("#about-me", "width")/1.5)),
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });
@@ -108,11 +108,12 @@ gsap.to('#about-me-desc', {
     scrollTrigger: {
         trigger: '#about-me-desc',
         start: "-300px 35%",
-        end: "top top",
+        end: "top-=10% top",
         scrub: 1,
         toggleActions: 'restart pause continue none',
     },
-    x: () =>  "-=" + document.querySelector('#about-me-desc').offsetWidth,
+    // x:  () => "-" + ((window.innerWidth) - gsap.getProperty("#about-me-desc", "width")),
+    x:  () => "-" + gsap.getProperty("#about-me-desc", "width") / 8,
     duration:2.5,
     ease: "slow(0.7,0.7,false)",
 });

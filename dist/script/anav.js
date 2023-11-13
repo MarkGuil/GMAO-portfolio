@@ -5,6 +5,7 @@ const initApp = () => {
     const toggleMenu = () => {
         menuList.classList.toggle("open");
         menuList.classList.toggle("flex");
+        menuList.classList.toggle("hidden");
         menuBtn.classList.toggle("toggle-btn");
     }
 

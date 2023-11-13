@@ -31,11 +31,11 @@ if (session_id() == '') {
     <nav class="navbar fixed w-screen py-5 sm:py-[1.25vw] px-7 lg:px-[1.75vw] z-[60] transition-all duration-500 ">
         <div class="grid grid-cols-2 lg:grid-cols-3 ">
             <a class="col-auto lg:flex items-center" href="#">
-                <span class=" tracking-normal md:tracking-widest text-3xl md:text-[2.25vw] text-zinc-600 font-black">GMAO</span>
+                <span class=" tracking-normal md:tracking-widest text-3xl lg:text-[2.25vw] text-zinc-600 font-black">GMAO</span>
             </a>
             <div class="col-auto text-zinc-600 text-right lg:flex justify-center items-center">
                 <button id="nav-btn" class="text-3xl cursor-pointer lg:hidden w-7 h-7">
-                    <div id="hamburger" class="bg-zinc-600 rounded absolute w-7 h-1 top-9 -mt-0.5 transition-all duration-500
+                    <div id="hamburger" class="bg-zinc-600 rounded absolute w-7 h-1 top-9 sm:top-7 -mt-0.5 transition-all duration-500
                             before:content-[''] before:bg-zinc-600 before:rounded before:absolute before:w-7 before:h-1 before:-translate-x-3.5 
                             before:-translate-y-2.5 before:transition-all before:duration-500 
                             after:content-[''] after:bg-zinc-600 after:rounded after:absolute after:w-7 after:h-1 after:-translate-x-3.5 
@@ -46,7 +46,7 @@ if (session_id() == '') {
                     <ul class="flex text-center">
                         <li class="mx-5 relative">
                             <a class="section-links home 
-                            font-extrabold text-lg lg:text-[1.125vw] text-zinc-400 transition-all duration-500 pb-1 
+                            font-extrabold text-lg 2xl:text-[1.125vw] text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
@@ -56,7 +56,7 @@ if (session_id() == '') {
                         </li>
                         <li class="mx-5 relative">
                             <a class="section-links about
-                            font-semibold text-lg lg:text-[1.125vw] text-zinc-400 transition-all duration-500 pb-1 
+                            font-semibold text-lg 2xl:text-[1.125vw] text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
@@ -66,7 +66,7 @@ if (session_id() == '') {
                         </li>
                         <li class="mx-5 relative">
                             <a class="section-links project
-                            font-semibold text-lg lg:text-[1.125vw] text-zinc-400 transition-all duration-500 pb-1 
+                            font-semibold text-lg 2xl:text-[1.125vw] text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
@@ -76,7 +76,7 @@ if (session_id() == '') {
                         </li>
                         <li class="mx-5 relative">
                             <a class="section-links contact
-                            font-semibold text-lg lg:text-[1.125vw] text-zinc-400 transition-all duration-500 pb-1 
+                            font-semibold text-lg 2xl:text-[1.125vw] text-zinc-400 transition-all duration-500 pb-1 
                           hover:text-zinc-600 hover:before:visible hover:before:w-6
                             active:before:visible active:before:w-6 active:before:text-zinc-400
                             before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0.5 before:invisible
@@ -89,7 +89,7 @@ if (session_id() == '') {
 
             </div>
             <div class="col-auto hidden lg:flex justify-end items-center">
-                <div class="social-links relative text-[1.875vw]">
+                <div class="social-links relative text-3xl 2xl:text-[1.875vw]">
                     <a href="resume/Mark Arjay O. Guilang.pdf" target="_blank" rel="noopener noreferrer" class="resume">
                         <div class="absolute text-[.85vw] top-[2.75vw] -left-[.75vw] bg-emerald-300 px-[.75vw] py-[.25vw] rounded animate-cv-shake opacity-0 pointer-events-none">
                             <span>Resume</span>
@@ -107,13 +107,13 @@ if (session_id() == '') {
                     </a>
                 </div>
             </div>
-            <div id="nav-menu" class="absolute z-[60] bg-white text-zinc-900 top-16 left-0 text-4xl w-full flex-col justify-center origin-top animate-nav-bounce hidden lg:hidden transition-all duration-500">
-                <div class="relative min-h-screen h-fit flex flex-col items-center py-7" aria-label="mobile">
-                    <a href="#home" onclick="lenis.scrollTo('#home')" class="w-full text-center py-5 hover:opacity-75">Home</a>
-                    <a href="#about" onclick="lenis.scrollTo('#about')" class="w-full text-center py-5 hover:opacity-75">About</a>
-                    <a href="#project" onclick="lenis.scrollTo('#project')" class="w-full text-center py-5 hover:opacity-75">Projects</a>
-                    <a href="#contact" onclick="lenis.scrollTo('#contact')" class="w-full text-center py-5 hover:opacity-75">Contact</a>
-                    <div class="social-links absolute bottom-32 text-4xl">
+            <div id="nav-menu" class="absolute z-[60] bg-white text-zinc-900 top-16 sm:top-12 left-0 text-4xl sm:text-3xl w-full flex-col justify-center origin-top animate-nav-bounce hidden lg:hidden transition-all duration-500">
+                <div class="relative min-h-screen h-fit flex flex-col items-center py-7 sm:py-3" aria-label="mobile">
+                    <a href="#home" onclick="lenis.scrollTo('#home')" class="w-full text-center py-5 sm:py-2 hover:opacity-75">Home</a>
+                    <a href="#about" onclick="lenis.scrollTo('#about')" class="w-full text-center py-5 sm:py-2 hover:opacity-75">About</a>
+                    <a href="#project" onclick="lenis.scrollTo('#project')" class="w-full text-center py-5 sm:py-2 hover:opacity-75">Projects</a>
+                    <a href="#contact" onclick="lenis.scrollTo('#contact')" class="w-full text-center py-5 sm:py-2 hover:opacity-75">Contact</a>
+                    <div class="social-links absolute bottom-32 sm:bottom-16 text-4xl sm:text-3xl">
                         <a href="resume/Mark Arjay O. Guilang.pdf" target="_blank" rel="noopener noreferrer" class="resume">
                             <i class="bx bxs-file-pdf text-zinc-600 px-2 py-2 rounded-full transition-color duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300 hover:text-white"></i>
                         </a>
@@ -134,13 +134,13 @@ if (session_id() == '') {
 
     </nav>
 
-    <section id="home" class="sect home relative h-fit sm:min-h-screen sm:h-hit bg-cover bg-home-large text-zinc-900 z-20">
+    <section id="home" class="sect home relative h-fit sm:min-h-screen sm:max-h-fit flex justify-center items-center bg-cover bg-home-large text-zinc-900 z-20">
 
         <div class="grid grid-cols-8 gap-8 h-full py-56 sm:py-[10vw] px-[1.25vw] ">
 
-            <div class="col-start-2 col-span-6 md:col-start-2 md:col-span-6 lg:col-start-3 lg:col-span-4 flex justify-center items-center ">
+            <div class="col-start-2 col-span-6 md:col-start-2 md:col-span-6 2xl:col-start-3 2xl:col-span-4 flex justify-center items-center ">
                 <div class="animate-zoom-in text-zinc-600 text-center">
-                    <h1 class="text-2xl lg:text-[1.875vw] font-semibold md:font-normal
+                    <h1 class="text-2xl sm:text-3xl 2xl:text-[1.875vw] font-semibold md:font-normal
                     before:content-[''] lg:before:w-[5vw] before:h-px before:bg-zinc-400 before:inline-block before:mt-1 before:ml-2
                     after:content-[''] lg:after:w-[5vw] after:h-px after:bg-zinc-400 after:inline-block after:mt-1 after:mr-2
                     ">
@@ -148,13 +148,13 @@ if (session_id() == '') {
                     </h1>
 
                     <div class="relative mt-1 sm:mt-4 md:mt-7 lg:mt-[2vw] ">
-                        <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-110 lg:scale-100 h-44 sm:h-52 md:h-72 lg:h-[19vw]" width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
+                        <svg class="block stroke-zinc-700 stroke-2 fill-transparent animate-stroke-dashoffset scale-120 sm:scale-110 md:scale-100 lg:scale-100 h-44 sm:h-52 md:h-72 2xl:h-[19vw]" width="100%" preserveAspectRatio="xMidYMid meet" x="0" y="0" viewBox="-13 38 630 10">
                             <text x="0" y="0" class="text-9xl font-allura">Mark Arjay</text>
                             <text x="100" y="120" class="text-9xl font-allura">Guilang</text>
                         </svg>
                     </div>
 
-                    <h2 class="text-2xl lg:text-[1.875vw] font-normal mt-1 sm:mt-4 md:mt-6 lg:mt-[2vw] ">I am a Web Developer</h2>
+                    <h2 class="text-2xl sm:text-3xl 2xl:text-[1.875vw] font-normal mt-1 sm:mt-4 md:mt-6 lg:mt-[2vw] ">I am a Web Developer</h2>
                 </div>
             </div>
 
@@ -175,17 +175,18 @@ if (session_id() == '') {
         </div>
     </section>
 
-    <section id="about" class="sect about about-section relative h-screen text-center sm:text-left bg-white lg:flex justify-center items-center z-20">
-        <div class="relative h-full py-12 md:py-16 lg:py-0 px-7 md:px-20 lg:px-[7vw] flex justify-start lg:justify-center items-center">
+    <section id="about" class="sect about about-section relative min-h-screen text-center sm:text-left bg-white flex justify-center items-center z-20">
+        <div class="relative h-full py-12 md:py-10 lg:py-0 px-7 md:px-20 lg:px-[7vw] flex justify-start lg:justify-center items-center">
             <div class="py-20 lg:py-0 px-2 ">
-                <h3 id="about-me" class="absolute -translate-x-2/4 sm:-translate-x-2/4 px-3 -translate-y-10 sm:-translate-y-36 pointer-events-none z-0 text-9xl md:text-[6rem] lg:text-[13vw] scale-125 font-bold text-zinc-400 before:content-['About'] before:rounded before:absolute 
+                <h3 id="about-me" class="absolute -left-0 sm:-left-32 lg:-left-32 -top-16 sm:-top-0 lg:-top-40  px-3 w-10 break-words4 md:translate-x-3/4 lg:translate-x-3/4 sm:w-fit sm:break-normal pointer-events-none z-0 text-[5rem] sm:text-[6rem] lg:text-[13vw] leading-none sm:leading-normal  scale-125 font-bold text-zinc-400 before:content-['About'] before:rounded before:absolute 
                     before:-translate-x-1 md:before:-translate-x-4 before:font-outline-2 before:text-transparent before:-translate-y-1 
-                    md:before:-translate-y-3 before:transition-all before:duration-500 transition-opacity duration-500 opacity-0">
+                    md:before:-translate-y-3 before:transition-all before:duration-500 transition-opacity duration-300 opacity-0
+                    before:w-10 before:break-words before:sm:w-fit before:sm:break-normal">
                     About
                 </h3>
-                <h3 id="about-me-desc" class="relative px-1 translate-x-[90%] sm:translate-x-3/4 text-zinc-700 text-3xl sm:text-4xl md:text-[2.50vw]  
+                <h3 id="about-me-desc" class="relative px-2 sm:px-3 translate-x-[130%] sm:translate-x-full md:translate-x-3/4 lg:translate-x-1/4 text-zinc-700 text-3xl sm:text-2xl lg:text-[2.50vw]  
                     tracking-wider font-black z-10 leading-loose sm:leading-relaxed lg:leading-relaxed 3xl:leading-relaxed 
-                    text-justify transition-opacity duration-500 opacity-0">
+                    text-justify transition-opacity duration-300 opacity-0">
                     I am a web developer that is passionate in developing robust and responsive
                     web applications and is excited to bring my skills and experience to new challenges.
                 </h3>
@@ -334,32 +335,39 @@ if (session_id() == '') {
             <div id="project1" class="relative flex flex-col lg:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[150rem] lg:h-[180vw]">
                 <div id="projectImages" class="relative h-full w-full md:flex justify-start overflow-clip"">
                     
-                    <div id="posDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
+                    <div id="posDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 sm:py-0 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
                         <img src="images/pos/pos-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
                         <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
-                            <h3 class=" text-5xl 2xl:text-[2.85vw]  font-bold text-emerald-600 my-4 lg:my-[1vw]">Pos System</h3>
-                            <p class="pb-5 2xl:pb-[1.15vw] font-bold italic">
-                                (Programmer, Developer, Designer)
-                            </p>
-                            <p class="pb-5 2xl:pb-[1.15vw] text-justify">
-                                A cloud-based point of sale system for small businesses. The system creates the intersection between sales, inventory management, payment processing, and customer management. This application allows customers to choose an option to pay a partial amount or pay later for their order.
-                            </p>
-                            <div class="text-lg 2xl:text-[1.15vw] mt-5 2xl:mt-[1.05vw] mb-10 2xl:mb-[1.35vw] lg:inline-flex">
-                                <div class="md:mr-2">
-                                    <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.35vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full ">
-                                        Open Live
-                                    </a>
-                                </div>
-                                <div class="mt-6 sm:mt-[2.5vw] lg:mt-0">
-                                    <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.35vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full">
-                                        Github
-                                    </a>
+                            <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
+                                <h3 class=" text-5xl sm:text-4xl 2xl:text-[2.85vw] font-bold text-emerald-600">Pos System</h3>
+                                <div class="flex gap-2">
+                                    <div class="">
+                                        <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full ">
+                                            <i class='bx bx-link-external'></i>
+                                        </a>
+                                    </div>
+                                    <div class="">
+                                        <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full">
+                                            <i class="devicon-github-original"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <p class="mt-5 2xl:mt-[1.25vw]">
+                            <p class="pb-5 sm:pb-3 2xl:pb-[1.15vw] font-bold italic">
+                                (Programmer, Developer, Designer)
+                            </p>
+                            <p class="pb-5 sm:pb-3 2xl:pb-[1.15vw] text-justify">
+                                A cloud-based point of sale system for small businesses. The system creates the intersection between sales, inventory management, payment processing, and customer management. This application allows customers to choose an option to pay a partial amount or pay later for their order.
+                            </p>
+                            <p class="pb-3 sm:pb-1 2xl:pb-[1.15vw]">
                                 Technologies:
                             </p>
-                            <div class="mt-[.5vw] grid grid-cols-3 md:grid-cols-4 gap-1 sm:gap-[.25vw] text-5xl 2xl:text-[2.5vw]">
+                            <div class="grid grid-cols-3 md:grid-cols-4 gap-1 2xl:gap-[.25vw] text-5xl sm:text-3xl 2xl:text-[2.5vw]">
+                                <div class="col-auto ">
+                                    <div class=" flex justify-center ">
+                                        <i class="devicon-laravel-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                    </div>
+                                </div>
                                 <div class="col-auto ">
                                     <div class=" flex justify-center ">
                                         <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -387,7 +395,7 @@ if (session_id() == '') {
                                 </div>
                                 <div class="col-auto ">
                                     <div class=" flex justify-center">
-                                        <i class="devicon-bootstrap-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                        <i class="devicon-tailwindcss-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
                                     </div>
                                 </div>
                                 <div class="col-auto ">
@@ -404,38 +412,40 @@ if (session_id() == '') {
                 </div>
             </div>
             
-            <div id="project2" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[170rem]  lg:h-[210vw]">
+            <div id="project2" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[165rem] xl:h-[210vw]">
                 <div id="omniImages" class="relative h-full w-full md:flex justify-start overflow-clip">
 
-                    <div id="omniDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
+                    <div id="omniDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 sm:py-0 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
                         <img src="images/omnibus/screensold.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg1" alt="">
                         <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
-                            <h3 class="text-5xl 2xl:text-[2.85vw] font-bold text-emerald-600 my-4 2xl:my-[1vw]">Omnibus</h3>
-                            <p class="pb-5 2xl:pb-[1.125vw] font-bold italic">
+                            <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
+                                <h3 class=" text-5xl sm:text-4xl 2xl:text-[2.85vw] font-bold text-emerald-600">Omnibus</h3>
+                                <div class="flex gap-2">
+                                    <div class="">
+                                        <a href="https://omnibus.markguilang.com/dist/" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full ">
+                                            <i class='bx bx-link-external'></i>
+                                        </a>
+                                    </div>
+                                    <div class="">
+                                        <a href="https://github.com/MarkGuil/Omnibus-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full">
+                                            <i class="devicon-github-original"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="pb-5 sm:pb-3 2xl:pb-[1.125vw] font-bold italic">
                                 (Programmer, Developer, Designer)
                             </p>
-                            <p class="pb-5 2xl:pb-[1.125vw]  text-justify">
+                            <p class="pb-5 sm:pb-3 2xl:pb-[1.125vw]  text-justify">
                                 An online bus seat booking platform for point-to-point (P2P) buses.
                                 This helps passengers to book bus tickets, upholding health safety protocols
                                 that spaced out passengers to maintain social distancing.
                                 The application envisioned to help improve the operations of P2P bus companies in terms of seat booking, e-ticket generation, management of terminals, terminal masters, conductors, drivers, buses, routes, trips, and bookings.
                             </p>
-                            <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1vw] mb-5 2xl:mb-[1.125vw] lg:inline-flex">
-                                <div class="md:mr-2">
-                                    <a href="https://omnibus.markguilang.com/dist/" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full ">
-                                        Open Live
-                                    </a>
-                                </div>
-                                <div class="mt-6 sm:mt-[2.5vw] lg:mt-0">
-                                    <a href="https://github.com/MarkGuil/Omnibus-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full">
-                                        Github
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="mt-5 2xl:mt-[1.125vw]">
+                            <p class="pb-3 sm:pb-1 2xl:pb-[1.15vw]">
                                 Technologies:
                             </p>
-                            <div class="mt-2 2xl:mt-[.5vw] grid grid-cols-3 md:grid-cols-4 gap-1 text-[2.50rem] leading-4 2xl:text-[3vw]">
+                            <div class="grid grid-cols-3 md:grid-cols-4 gap-1 2xl:gap-[.25vw] text-5xl sm:text-3xl 2xl:text-[2.5vw]">
                                 <div class="col-auto ">
                                     <div class=" flex justify-center  ">
                                         <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -481,42 +491,44 @@ if (session_id() == '') {
                     </div>
                     <img src="images/omnibus/monitor1.png" id="omniImage1" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute top-[10rem] lg:top-[17vw] -right-[54rem] lg:-right-[75vw] hidden sm:block" alt="">
                     <img src="images/omnibus/monitor2.png" id="omniImage5" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute bottom-[50rem] lg:bottom-[65vw] 2xl:bottom-[82vw] -left-[20rem] lg:-left-[30vw] 2xl:-left-[40vw] hidden sm:block" alt="">
-                    <img src="images/omnibus/phone1@4x.png" id="omniImage2" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[34rem] lg:top-[47vw] -right-[10rem] md:-right-[20vw] hidden sm:block" alt="">
-                    <img src="images/omnibus/phone2@4x.png" id="omniImage3" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[34rem] lg:top-[47vw] left-[6rem] md:left-[14vw] hidden sm:block" alt="">
-                    <img src="images/omnibus/phone3@4x.png" id="omniImage4" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[30rem] lg:bottom-[35vw] -right-[8rem] md:-right-[20vw] hidden sm:block" alt="">
+                    <img src="images/omnibus/phone1@4x.png" id="omniImage2" class="  w-[12rem] lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[34rem] xl:top-[47vw] -right-[25vw] xl:-right-[21vw] hidden sm:block" alt="">
+                    <img src="images/omnibus/phone2@4x.png" id="omniImage3" class=" w-[12rem] lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[34rem] xl:top-[47vw] left-[22vw] xl:left-[18vw] hidden sm:block" alt="">
+                    <img src="images/omnibus/phone3@4x.png" id="omniImage4" class=" w-[12rem] lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[32rem] xl:bottom-[35vw] -right-[25vw] xl:-right-[21vw] hidden sm:block" alt="">
                 </div>
             </div>
 
-            <div id="project3" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[170rem] lg:h-[210vw]">
+            <div id="project3" class="relative flex flex-col sm:flex-row gap-4 sm:gap-[1vw] mt-20 sm:mt-[5vw] h-fit sm:h-[165rem] lg:h-[210vw]">
                 <div id="quizImages" class="relative h-full w-full  md:flex justify-start overflow-clip">
                     
-                    <div id="quizDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
+                    <div id="quizDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 sm:py-0 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
                         <img src="images/quizam/quizam-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
                         <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
-                            <h3 class=" text-5xl 2xl:text-[3vw]  font-bold text-emerald-600 my-4 2xl:my-[1vw]">Quizam</h3>
-                            <p class="pb-5 2xl:pb-[1.125vw] font-bold italic">
+                            <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
+                                <h3 class=" text-5xl sm:text-4xl 2xl:text-[2.85vw] font-bold text-emerald-600">Quizam</h3>
+                                <div class="flex gap-2">
+                                    <div class="">
+                                        <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full ">
+                                            <i class='bx bx-link-external'></i>
+                                        </a>
+                                    </div>
+                                    <div class="">
+                                        <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full">
+                                            <i class="devicon-github-original"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="pb-5 sm:pb-3 2xl:pb-[1.125vw] font-bold italic">
                                 (Programmer, Developer, Designer)
                             </p>
-                            <p class="pb-5 2xl:pb-[1.125vw] text-justify">
+                            <p class="pb-5 sm:pb-3 2xl:pb-[1.125vw] text-justify">
                                 An online based quiz/ exam system that is designed and built with anti cheating functions. Set-up the assessment to show one question at a time, prohibiting users to backtrack while taking the test and prohibits them to take the test multiple times.
                                 This web application allows users to manage and conduct online assessments. 
                             </p>
-                            <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1.05vw] mb-5 2xl:mb-[1.35vw] lg:inline-flex">
-                                <div class="md:mr-2">
-                                    <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full ">
-                                        Open Live
-                                    </a>
-                                </div>
-                                <div class="mt-6 sm:mt-[2.5vw] lg:mt-0">
-                                    <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full">
-                                        Github
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="mt-5 2xl:mt-[1.25vw]">
+                            <p class="pb-5 sm:pb-1 2xl:mt-[1.25vw]">
                                 Technologies:
                             </p>
-                            <div class="2xl-[.5vw] grid grid-cols-3 md:grid-cols-4 gap-1 2xl:gap-[.25vw] text-[2.50rem] leading-4 2xl:text-[3vw]">
+                            <div class="grid grid-cols-3 md:grid-cols-4 gap-1 2xl:gap-[.25vw] text-5xl sm:text-3xl 2xl:text-[2.5vw]">
                                 <div class="col-auto ">
                                     <div class=" flex justify-center ">
                                         <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -557,9 +569,9 @@ if (session_id() == '') {
                     </div>
                     <img src="images/quizam/monitor1.png" id="quizImage1" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute top-[10rem] lg:top-[17vw] -right-[54rem] lg:-right-[75vw] hidden sm:block" alt="">
                     <img src="images/quizam/monitor2.png" id="quizImage5" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute bottom-[50rem] lg:bottom-[65vw] 2xl:bottom-[82vw] -left-[20rem] lg:-left-[30vw] 2xl:-left-[40vw] hidden sm:block" alt="">
-                    <img src="images/quizam/phone42.png" id="quizImage2" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[34rem] lg:top-[47vw] -right-[10rem] md:-right-[20vw] hidden sm:block" alt="">
-                    <img src="images/quizam/phone12.png" id="quizImage3" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[34rem] lg:top-[47vw] left-[6rem] md:left-[14vw] hidden sm:block" alt="">
-                    <img src="images/quizam/phone22.png" id="quizImage4" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[30rem] lg:bottom-[35vw] -right-[8rem] md:-right-[20vw] hidden sm:block" alt="">
+                    <img src="images/quizam/phone42.png" id="quizImage2" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[34rem] xl:top-[47vw] -right-[25vw] xl:-right-[21vw] hidden sm:block" alt="">
+                    <img src="images/quizam/phone12.png" id="quizImage3" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:top-[34rem] xl:top-[47vw] left-[22vw] xl:left-[18vw] hidden sm:block" alt="">
+                    <img src="images/quizam/phone22.png" id="quizImage4" class=" w-52 lg:w-[18vw] h-[43vw] lg:h-[34vw] absolute sm:bottom-[32rem] xl:bottom-[35vw] -right-[25vw] xl:-right-[21vw] hidden sm:block" alt="">
                 </div>
             </div>
             
@@ -568,32 +580,34 @@ if (session_id() == '') {
                     <div id="aniDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-700">
                         <img src="images/anishop/anishop-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg3" alt="">
                         <div class="px-5 py-5 sm:py-0 sm:px-[1.5vw]">
-                            <h3 class="text-5xl 2xl:text-[3vw] font-bold text-emerald-600 my-4 2xl:my-[1vw]">Anishop </h3>
-                            <p class="pb-5 2xl:pb-[1.125vw] font-bold italic">
+                            <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
+                                <h3 class=" text-5xl sm:text-4xl 2xl:text-[2.85vw] font-bold text-emerald-600">Anishop</h3>
+                                <div class="flex gap-2">
+                                    <div class="">
+                                        <a href="https://anishop.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full ">
+                                            <i class='bx bx-link-external'></i>
+                                        </a>
+                                    </div>
+                                    <div class="">
+                                        <a href="https://github.com/MarkGuil/e-commerce-shop" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full">
+                                            <i class="devicon-github-original"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="pb-5 sm:pb-3 2xl:pb-[1.125vw] font-bold italic">
                                 (Programmer, Developer)
                             </p>
-                            <p class="pb-5 2xl:pb-[1.125vw]  text-justify">
+                            <p class="pb-5 sm:pb-3 2xl:pb-[1.125vw]  text-justify">
                                 An e-commerce website, where anime fans can find all the products they need to show their love for their
                                 favorite anime! Providing a vast selection of high-quality anime-related products,
                                 from clothing to accessories and much more. Our website features a design that reflects the anime aesthetic
                                 and style, while still being easy to navigate.
                             </p>
-                            <div class="text-lg 2xl:text-[1.125vw] mt-5 2xl:mt-[1.05vw] mb-5 2xl:mb-[1.35vw] lg:inline-flex">
-                                <div class="md:mr-2">
-                                    <a href="https://anishop.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full ">
-                                        Open Live
-                                    </a>
-                                </div>
-                                <div class="mt-6 sm:mt-[2.5vw] lg:mt-0">
-                                    <a href="https://github.com/MarkGuil/e-commerce-shop" target="_blank" rel="noopener noreferrer" class="text-white py-2 2xl:py-[.5vw] px-10 2xl:px-[2.5vw] bg-emerald-400 rounded-full">
-                                        Github
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="mt-5 2xl:mt-[1.125vw]">
+                            <p class="pb-3 sm:pb-1 2xl:mt-[1.125vw]">
                                 Technologies:
                             </p>
-                            <div class="mt-2 2xl:mt-[.5vw] grid grid-cols-3 md:grid-cols-4 gap-1 2xl:gap-[.25vw] text-[2.50rem] leading-4 2xl:text-[3vw]">
+                            <div class="grid grid-cols-3 md:grid-cols-4 gap-1 2xl:gap-[.25vw] text-5xl sm:text-3xl 2xl:text-[2.5vw]">
                                 <div class="col-auto">
                                     <div class=" flex justify-center  ">
                                         <i class="devicon-html5-plain drop-shadow-xl rounded-full p-4 sm:pb-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
@@ -628,7 +642,7 @@ if (session_id() == '') {
                         </div>
                     </div>
                     <img src="images/anishop/monitor1.png" id="aniImage1" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute top-[10rem] lg:top-[15vw] -right-[54rem] lg:-right-[75vw] hidden sm:block" alt="">
-                    <img src="images/anishop/monitor2.png" id="aniImage4" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute bottom-[40rem] lg:bottom-[44vw] 2xl:bottom-[54vw] -right-[63rem] xl:-right-[60vw] hidden sm:block" alt="">
+                    <img src="images/anishop/monitor2.png" id="aniImage4" class=" w-[54rem] xl:w-[79vw] h-[32rem] xl:h-[38vw] absolute bottom-[40rem] lg:bottom-[44vw] 2xl:bottom-[54vw] -right-[40rem] xl:-right-[60vw] hidden sm:block" alt="">
                     <div id="" class="absolute flex gap-16 lg:gap-28 sm:top-[74rem] lg:top-[68rem] xl:top-[95vw] left-[4rem] lg:left-[14vw]">
                         <img src="images/anishop/phone22.png" id="aniImage3" class=" rotate-[30deg] w-55 lg:w-[24vw] h-[40vw] lg:h-[34vw] hidden sm:block drop-shadow-xl" alt="">
                         <img src="images/anishop/phone12.png" id="aniImage2" class=" rotate-[30deg] w-55 lg:w-[24vw] h-[40vw] lg:h-[34vw] hidden sm:block drop-shadow-xl" alt="">
