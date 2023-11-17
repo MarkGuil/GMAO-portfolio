@@ -337,77 +337,81 @@ if (session_id() == '') {
                     
                     <div id="posDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 sm:py-0 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-300 delay-300">
                         <img src="images/pos/pos-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg2" alt="">
-                        <div id="posDesc" class="px-5 py-5 sm:py-0 sm:px-[1.5vw] transition-all duration-300 sm:opacity-0 sm:-translate-x-16">
-                            <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
-                                <h3 class=" text-5xl sm:text-4xl 2xl:text-[3vw] font-bold text-emerald-600">Pos System</h3>
-                                <div class="flex gap-4">
-                                    <div class="">
-                                        <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full ">
-                                            <i class='bx bx-link-external'></i>
-                                        </a>
-                                    </div>
-                                    <div class="">
-                                        <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full">
-                                            <i class="devicon-github-original"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="pb-5 sm:pb-3 2xl:pb-[1.15vw] font-bold italic">
-                                (Programmer, Developer, Designer)
-                            </p>
-                            <p class="pb-5 sm:pb-3 2xl:pb-[1.15vw] text-justify">
-                                A cloud-based point of sale system for small businesses. The system creates the intersection between sales, inventory management, payment processing, and customer management. This application allows customers to choose an option to pay a partial amount or pay later for their order.
-                            </p>
-                            <p class="pb-3 sm:pb-1 2xl:pb-[1.15vw]">
-                                Technologies:
-                            </p>
-                            <div class="grid grid-cols-3 md:grid-cols-4 gap-1 2xl:gap-[.25vw] text-5xl sm:text-3xl 2xl:text-[2.5vw]">
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center ">
-                                        <i class="devicon-laravel-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                        <div id="posDesc" class=" px-5 py-5 sm:py-0 sm:px-[1.5vw] transition-all duration-300 sm:opacity-0 sm:-translate-x-16">
+                            <!-- <div class="flex-auto items-end"> -->
+                                <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
+                                    <h3 class=" text-5xl sm:text-4xl 2xl:text-[3vw] font-bold text-emerald-600">Pos System</h3>
+                                    <div class="flex gap-4">
+                                        <div class="">
+                                            <a href="https://quizam.markguilang.com/" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full ">
+                                                <i class='bx bx-link-external'></i>
+                                            </a>
+                                        </div>
+                                        <div class="">
+                                            <a href="https://github.com/MarkGuil/Quizam-PUBLIC" target="_blank" rel="noopener noreferrer" class="text-white flex items-center py-2 sm:py-2 2xl:py-[.35vw] px-2 2xl:px-[.35vw] bg-emerald-400 rounded-full">
+                                                <i class="devicon-github-original"></i>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center ">
-                                        <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                <p class="pb-5 sm:pb-3 2xl:pb-[1.15vw] font-bold italic">
+                                    (Programmer, Developer, Designer)
+                                </p>
+                                <p class="pb-5 sm:pb-3 2xl:pb-[1.15vw] text-justify">
+                                    A cloud-based point of sale system for small businesses. The system creates the intersection between sales, inventory management, payment processing, and customer management. This application allows customers to choose an option to pay a partial amount or pay later for their order.
+                                </p>
+                            <!-- </div> -->
+                            <!-- <div class="flex-auto"> -->
+                                <p class="pb-3 sm:pb-1 2xl:pb-[1.15vw]">
+                                    Technologies:
+                                </p>
+                                <div class="grid grid-cols-3 md:grid-cols-4 gap-1 2xl:gap-[.25vw] text-5xl sm:text-3xl 2xl:text-[2.5vw]">
+                                    <div class="col-auto ">
+                                        <div class=" flex justify-center ">
+                                            <i class="devicon-laravel-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto ">
+                                        <div class=" flex justify-center ">
+                                            <i class="devicon-html5-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto ">
+                                        <div class=" flex justify-center ">
+                                            <i class="devicon-css3-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto ">
+                                        <div class=" flex justify-center ">
+                                            <i class="devicon-php-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto ">
+                                        <div class=" flex justify-center">
+                                            <i class="devicon-jquery-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto ">
+                                        <div class=" flex justify-center ">
+                                            <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto ">
+                                        <div class=" flex justify-center">
+                                            <i class="devicon-tailwindcss-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto ">
+                                        <div class=" flex justify-center">
+                                            <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center ">
-                                        <i class="devicon-css3-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                    </div>
-                                </div>
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center ">
-                                        <i class="devicon-php-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                    </div>
-                                </div>
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center">
-                                        <i class="devicon-jquery-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                    </div>
-                                </div>
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center ">
-                                        <i class="devicon-javascript-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                    </div>
-                                </div>
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center">
-                                        <i class="devicon-tailwindcss-plain drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                    </div>
-                                </div>
-                                <div class="col-auto ">
-                                    <div class=" flex justify-center">
-                                        <i class="devicon-mysql-plain-wordmark drop-shadow-xl rounded-full p-[1vw] duration-500 ease-in-out hover:border-emerald-300 hover:bg-emerald-300"></i>
-                                    </div>
-                                </div>
-                            </div>
+                            <!-- </div> -->
                         </div>
                     </div>
                     <img src="images/pos/monitor1.png" id="projImage1" class=" w-[51rem] xl:w-[76vw] h-[29rem] xl:h-[38vw] absolute top-[15rem] lg:top-[15vw] 2xl:top-[10vw] -left-[10rem] lg:-left-[10vw] 2xl:-left-[18vw] hidden sm:block" alt=""> 
-                    <img src="images/pos/monitor3.png" id="projImage2" class=" w-[51rem] xl:w-[76vw] h-[29rem] xl:h-[38vw] absolute bottom-[36rem] lg:bottom-[47vw] -left-[30rem] lg:left-[5rem] 2xl:-left-[11vw] hidden sm:block" alt=""> 
+                    <img src="images/pos/monitor3.png" id="projImage2" class=" w-[51rem] xl:w-[76vw] h-[29rem] xl:h-[38vw] absolute bottom-[40rem] lg:bottom-[47vw] -left-[10rem] lg:left-[5rem] 2xl:-left-[11vw] hidden sm:block" alt=""> 
                     <img src="images/pos/monitor2.png" id="projImage3" class=" w-[51rem] xl:w-[76vw] h-[29rem] xl:h-[38vw] absolute bottom-[35rem] lg:bottom-[43vw] -right-[44rem] lg:-right-[40vw] 2xl:-right-[50vw] hidden sm:block" alt=""> 
                 </div>
             </div>
@@ -416,7 +420,7 @@ if (session_id() == '') {
                 <div id="omniImages" class="relative h-full w-full md:flex justify-start overflow-clip">
 
                     <div id="omniDetails" class="sm:sticky sm:flex items-center sm:h-screen sm:w-[50vw] bg-white z-40 py-2 sm:py-0 px-4 top-0 text-zinc-600 text-xl sm:text-base 2xl:text-[1.2vw] sm:leading-[2.5vw] 2xl:leading-[1.85vw] transition-all duration-300 delay-300">
-                        <img src="images/omnibus/screensold.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg1" alt="">
+                        <img src="images/omnibus/omnibus-sm.png" class="w-full drop-shadow-xl block sm:hidden" id="myImg1" alt="">
                         <div id="omniDesc" class="px-5 py-5 sm:py-0 sm:px-[1.5vw] transition-all duration-300 sm:opacity-0 sm:-translate-x-16">
                             <div class="flex justify-between items-center py-4 sm:py-3 2xl:py-[1vw]">
                                 <h3 class=" text-5xl sm:text-4xl 2xl:text-[3vw] font-bold text-emerald-600">Omnibus</h3>

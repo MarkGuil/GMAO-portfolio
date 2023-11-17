@@ -2,7 +2,7 @@ ScrollTrigger.create({
     trigger: "#posDetails",
     start: "10% 25%",
     endTrigger: "#project1",
-    end: "85% 40%+=100px",
+    end: "90% 40%+=100px",
     onEnter: (self) => { 
         posDesc.classList.toggle('sm:opacity-0') 
         posDesc.classList.toggle('sm:-translate-x-16')
@@ -45,7 +45,7 @@ ScrollTrigger.create({
     trigger: "#omniDetails",
     start: "10% 25%",
     endTrigger: "#project2",
-    end: "85% 40%+=100px",
+    end: "90% 40%+=100px",
     onEnter: (self) => {
         omniDesc.classList.toggle('sm:opacity-0') 
         omniDesc.classList.toggle('sm:-translate-x-16')
@@ -88,7 +88,7 @@ ScrollTrigger.create({
     trigger: "#quizDetails",
     start: "10% 25%",
     endTrigger: "#project3",
-    end: "85% 40%+=100px",
+    end: "90% 40%+=100px",
     onEnter: (self) => {
         quizDesc.classList.toggle('sm:opacity-0') 
         quizDesc.classList.toggle('sm:-translate-x-16')
@@ -131,7 +131,7 @@ ScrollTrigger.create({
     trigger: "#aniDetails",
     start: "10% 25%",
     endTrigger: "#project4",
-    end: "85% 40%+=100px",
+    end: "90% 40%+=100px",
     onEnter: (self) => {
         aniDesc.classList.toggle('sm:opacity-0') 
         aniDesc.classList.toggle('sm:-translate-x-16')
