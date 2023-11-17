@@ -3,6 +3,7 @@ const initApp = () => {
     const menuList = document.getElementById('nav-menu');
 
     const toggleMenu = () => {
+        menuList.classList.toggle("open");
         menuList.classList.toggle("flex");
         menuList.classList.toggle("hidden");
         menuBtn.classList.toggle("toggle-btn");

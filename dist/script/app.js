@@ -6,34 +6,40 @@ const footer = document.querySelector(".page-footer");
 const mobileNav = document.getElementById("nav-menu");
 const hamburger = document.getElementById("hamburger");
 
-if (window.innerWidth <= 640) {
-    document.getElementById("myImg1").src = "images/omnibus/screens(mobile).png";
-    document.getElementById("myImg2").src = "images/quizam/screens(mobile).png";
-    document.getElementById("myImg3").src = "images/anishop/screens(mobile).png";
-    document.getElementById("myImg4").src = "images/psu/screens(mobile).png";
-}
+// if (window.innerWidth <= 640) {
+//     document.getElementById("myImg1").src = "images/omnibus/screens(mobile).png";
+//     document.getElementById("myImg2").src = "images/quizam/screens(mobile).png";
+//     document.getElementById("myImg3").src = "images/anishop/screens(mobile).png";
+//     document.getElementById("myImg4").src = "images/psu/screens(mobile).png";
+// }
 
 window.onscroll = function(){
     if(window.pageYOffset <= 70){
         navbar.classList.add("bg-transparent");
+        navbar.classList.add("sm:py-[1.25vw]");
         navbar.classList.add("py-5");
-        mobileNav.classList.add("top-20");
-        hamburger.classList.add("top-10");
-        navbar.classList.remove("bg-white/[.95]");
+        navbar.classList.remove("opacity-20");
+        navbar.classList.remove("hover:opacity-100");
+        mobileNav.classList.add("top-16");
+        hamburger.classList.add("top-9");
+        navbar.classList.remove("bg-white/[.85]");
         navbar.classList.remove("shadow");
-        navbar.classList.remove("py-3");
-        mobileNav.classList.remove("top-[3.75rem]");
-        hamburger.classList.remove("top-8");
+        navbar.classList.remove("py-2");
+        mobileNav.classList.remove("top-[3.20rem]");
+        hamburger.classList.remove("top-7");
     } else {
-        navbar.classList.add("bg-white/[.95]");
+        navbar.classList.add("bg-white/[.85]");
         navbar.classList.add("shadow");
-        navbar.classList.add("py-3");
-        mobileNav.classList.add("top-[3.75rem]");
-        hamburger.classList.add("top-8");
+        navbar.classList.add("py-2");
+        navbar.classList.add("opacity-20");
+        navbar.classList.add("hover:opacity-100");
+        mobileNav.classList.add("top-[3.20rem]");
+        hamburger.classList.add("top-7");
         navbar.classList.remove("bg-transparent");
+        navbar.classList.remove("sm:py-[1.25vw]");
         navbar.classList.remove("py-5");
-        mobileNav.classList.remove("top-20");
-        hamburger.classList.remove("top-10");
+        mobileNav.classList.remove("top-16");
+        hamburger.classList.remove("top-9");
     }
 }
 
@@ -47,7 +53,7 @@ const observer = new IntersectionObserver(
             }
         })
     }, {
-        threshold: .5,
+        threshold: .15,
     }
 )
 
